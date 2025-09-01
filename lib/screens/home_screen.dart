@@ -6,7 +6,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 182, 181, 178),
       appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 182, 181, 178),
+        centerTitle: true,
         title: const Text(
           'عمدة الحديث',
           style: TextStyle(fontFamily: 'Reem Kufi'),
