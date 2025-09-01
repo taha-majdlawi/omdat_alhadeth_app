@@ -5,6 +5,9 @@ class ShowBookDoorsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: const Text('Show Book Doors')),
+      body: const Center(child: Text('Show Book Doors Content')),
+    );
   }
 }

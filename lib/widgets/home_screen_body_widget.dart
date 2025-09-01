@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
+import 'package:omdat_alhadeth/widgets/books_list_view_widget.dart';
 
 class HomeScreenBodyWidget extends StatelessWidget {
   const HomeScreenBodyWidget({
@@ -38,33 +39,7 @@ class HomeScreenBodyWidget extends StatelessWidget {
             ),
           ),
     
-          Expanded(
-            child: ListView.builder(
-              itemCount: books.length,
-              itemBuilder: (context, index) {
-                return Card(
-                  borderOnForeground: true,
-                  color: themeProvider.getIsDarkTheme
-                      ? AppColors.lightCardColor
-                      : AppColors.darkScaffoldColor,
-                  child: Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: Text(
-                      textAlign: TextAlign.right,
-                      books[index],
-                      style: TextStyle(
-                        fontSize: 22,
-                        fontFamily: "Reem Kufi",
-                        color: themeProvider.getIsDarkTheme
-                            ? Colors.black
-                            : Colors.white,
-                      ),
-                    ),
-                  ),
-                );
-              },
-            ),
-          ),
+          BooksListViewWidget(books: books, themeProvider: themeProvider),
         ],
       ),
     );
