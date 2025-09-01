@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ShowBookDoors extends StatelessWidget {
-  const ShowBookDoors({super.key});
+class ShowBookDoorsScreen extends StatelessWidget {
+  const ShowBookDoorsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
