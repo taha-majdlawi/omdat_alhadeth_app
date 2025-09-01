@@ -1,26 +1,27 @@
-
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 
 class HomeDrawerWidget extends StatelessWidget {
-  const HomeDrawerWidget({
-    super.key,
-    required this.themeProvider,
-  });
+  const HomeDrawerWidget({super.key, required this.themeProvider});
 
   final ThemeProvider themeProvider;
 
   @override
   Widget build(BuildContext context) {
     return Drawer(
+      backgroundColor: themeProvider.getIsDarkTheme
+          ? AppColors.darkScaffoldColor
+          : AppColors.lightCardColor,
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
           // Drawer Header
           DrawerHeader(
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 182, 181, 178),
+              color: themeProvider.getIsDarkTheme
+                  ? AppColors.lightCardColor
+                  : AppColors.darkScaffoldColor,
             ),
             child: Text(
               "اهلا وسهلا بكم في تطبيق عمدة الكتاب",
@@ -61,7 +62,7 @@ class HomeDrawerWidget extends StatelessWidget {
             activeTrackColor: themeProvider.getIsDarkTheme
                 ? const Color.fromARGB(255, 76, 80, 84)
                 : AppColors.lightCardColor,
-    
+
             value: themeProvider.getIsDarkTheme,
             onChanged: (value) {
               themeProvider.setDarkTheme(themeValue: value);

@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
     return Scaffold(
+      drawer: HomeDrawerWidget(themeProvider: themeProvider),
       appBar: AppBar(
         backgroundColor: themeProvider.getIsDarkTheme
             ? AppColors.darkScaffoldColor
@@ -22,7 +23,6 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: Center(child: Text("")),
-      drawer: HomeDrawerWidget(themeProvider: themeProvider),
     );
   }
 }
