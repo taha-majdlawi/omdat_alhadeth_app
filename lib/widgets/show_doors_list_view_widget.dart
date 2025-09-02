@@ -20,7 +20,7 @@ class ShowDoorsListView extends StatelessWidget {
         itemBuilder: (context, index) {
           return DoorsItemCardWidget(
             themeProvider: themeProvider,
-            bookName: doors[index],
+            doorName: doors[index],
           );
         },
       ),

@@ -1,30 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
-import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
+import 'package:omdat_alhadeth/screens/hadeth_screen.dart';
 
 class DoorsItemCardWidget extends StatelessWidget {
   const DoorsItemCardWidget({
     super.key,
     required this.themeProvider,
-    required this.bookName,
+    required this.doorName,
   });
 
   final ThemeProvider themeProvider;
-  final String bookName;
+  final String doorName;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.of(context).push(
-        //   MaterialPageRoute(
-        //     builder: (context) => ShowBookDoorsScreen(
-        //       themeProvider: themeProvider,
-        //       bookName: bookName,
-        //     ),
-        //   ),
-        // );
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => HadethsScreen(themeProvider: themeProvider, doorName: doorName),
+          ),
+        );
       },
       child: Card(
         borderOnForeground: true,
@@ -40,7 +37,7 @@ class DoorsItemCardWidget extends StatelessWidget {
           ),
           child: Text(
             textAlign: TextAlign.right,
-            bookName,
+            doorName,
             style: TextStyle(
               fontSize: 22,
               fontFamily: "Reem Kufi",
