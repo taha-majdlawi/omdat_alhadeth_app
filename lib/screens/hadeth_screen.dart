@@ -36,9 +36,6 @@ class HadethsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: themeProvider.getIsDarkTheme
-          ? AppColors.darkScaffoldColor
-          : AppColors.lightCardColor,
       appBar: AppBar(
         backgroundColor: themeProvider.getIsDarkTheme
             ? AppColors.darkScaffoldColor
@@ -70,7 +67,10 @@ class HadethsScreen extends StatelessWidget {
                 ),
               ),
             ),
-            HadethesListView(hadethText: hadethText, themeProvider: themeProvider),
+            HadethesListView(
+              hadethText: hadethText,
+              themeProvider: themeProvider,
+            ),
           ],
         ),
       ),
