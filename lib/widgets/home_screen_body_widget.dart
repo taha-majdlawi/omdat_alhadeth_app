@@ -1,7 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
+import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
 import 'package:omdat_alhadeth/widgets/books_list_view_widget.dart';
 
 class HomeScreenBodyWidget extends StatelessWidget {
@@ -27,7 +27,7 @@ class HomeScreenBodyWidget extends StatelessWidget {
             child: Text(
               "تصنيفات الكتب",
               textAlign: TextAlign.right,
-    
+
               style: TextStyle(
                 fontSize: 18,
                 fontFamily: "Amiri",
@@ -38,7 +38,7 @@ class HomeScreenBodyWidget extends StatelessWidget {
               ),
             ),
           ),
-    
+
           BooksListViewWidget(books: books, themeProvider: themeProvider),
         ],
       ),

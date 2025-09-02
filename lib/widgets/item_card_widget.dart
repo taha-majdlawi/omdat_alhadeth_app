@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
+import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
 
 class ItemCard extends StatelessWidget {
   const ItemCard({
@@ -14,20 +15,28 @@ class ItemCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      borderOnForeground: true,
-      color: themeProvider.getIsDarkTheme
-          ? AppColors.lightCardColor
-          : AppColors.darkScaffoldColor,
-      child: Padding(
-        padding: const EdgeInsets.all(15.0),
-        child: Text(
-          textAlign: TextAlign.right,
-          bookName,
-          style: TextStyle(
-            fontSize: 22,
-            fontFamily: "Reem Kufi",
-            color: themeProvider.getIsDarkTheme ? Colors.black : Colors.white,
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(
+          context,
+        ).push(MaterialPageRoute(builder: (context) => ShowBookDoorsScreen()));
+        print("تم الضغط");
+      },
+      child: Card(
+        borderOnForeground: true,
+        color: themeProvider.getIsDarkTheme
+            ? AppColors.lightCardColor
+            : AppColors.darkScaffoldColor,
+        child: Padding(
+          padding: const EdgeInsets.all(15.0),
+          child: Text(
+            textAlign: TextAlign.right,
+            bookName,
+            style: TextStyle(
+              fontSize: 22,
+              fontFamily: "Reem Kufi",
+              color: themeProvider.getIsDarkTheme ? Colors.black : Colors.white,
+            ),
           ),
         ),
       ),

@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
+import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
 import 'package:omdat_alhadeth/widgets/item_card_widget.dart';
 
 class BooksListViewWidget extends StatelessWidget {
@@ -21,7 +22,10 @@ class BooksListViewWidget extends StatelessWidget {
       child: ListView.builder(
         itemCount: books.length,
         itemBuilder: (context, index) {
-          return ItemCard(themeProvider: themeProvider, bookName: books[index]);
+          return ItemCard(
+            themeProvider: themeProvider,
+            bookName: books[index],
+          );
         },
       ),
     );
