@@ -3,8 +3,8 @@ import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
 
-class BookItemCard extends StatelessWidget {
-  const BookItemCard({
+class DoorsItemCardWidget extends StatelessWidget {
+  const DoorsItemCardWidget({
     super.key,
     required this.themeProvider,
     required this.bookName,
@@ -17,14 +17,14 @@ class BookItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => ShowBookDoorsScreen(
-              themeProvider: themeProvider,
-              bookName: bookName,
-            ),
-          ),
-        );
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => ShowBookDoorsScreen(
+        //       themeProvider: themeProvider,
+        //       bookName: bookName,
+        //     ),
+        //   ),
+        // );
       },
       child: Card(
         borderOnForeground: true,
@@ -32,7 +32,12 @@ class BookItemCard extends StatelessWidget {
             ? AppColors.lightCardColor
             : AppColors.darkScaffoldColor,
         child: Padding(
-          padding: const EdgeInsets.all(15.0),
+          padding: const EdgeInsets.only(
+            left: 15.0,
+            right: 15.0,
+            top: 15.0,
+            bottom: 15.0,
+          ),
           child: Text(
             textAlign: TextAlign.right,
             bookName,

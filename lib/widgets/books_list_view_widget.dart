@@ -22,7 +22,7 @@ class BooksListViewWidget extends StatelessWidget {
       child: ListView.builder(
         itemCount: books.length,
         itemBuilder: (context, index) {
-          return ItemCard(
+          return BookItemCard(
             themeProvider: themeProvider,
             bookName: books[index],
           );
