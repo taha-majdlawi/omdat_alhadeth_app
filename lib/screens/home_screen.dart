@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(fontFamily: 'Reem Kufi'),
         ),
       ),
-      body: HomeScreenBodyWidget(themeProvider: themeProvider, books: books),
+      body: HomeScreenBodyWidget(themeProvider: themeProvider, ),
     );
   }
 }

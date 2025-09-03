@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
+import 'package:omdat_alhadeth/models/hadeth_model.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 import 'package:omdat_alhadeth/widgets/doors_item_card_widget.dart';
 import 'package:omdat_alhadeth/widgets/item_card_widget.dart';
@@ -22,6 +23,7 @@ class ShowBookDoorsScreen extends StatelessWidget {
     "باب التيمم",
     "باب الحيض",
   ];
+   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,7 +58,7 @@ class ShowBookDoorsScreen extends StatelessWidget {
                 ),
               ),
             ),
-            ShowDoorsListView(doors: doors, themeProvider: themeProvider),
+            ShowDoorsListView(bookNumber:1 , themeProvider: themeProvider),
           ],
         ),
       ),
