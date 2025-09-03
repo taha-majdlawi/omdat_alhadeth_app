@@ -11,3 +11,16 @@ class Hadeth {
     required this.explainUrl,
   });
 }
+
+
+class Door {
+  final List<Hadeth> hadeths;
+
+  Door({required this.hadeths});
+}
+
+class Book {
+  final List<Door> doors;
+
+  Book({required this.doors});
+}
