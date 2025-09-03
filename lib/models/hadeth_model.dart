@@ -12,15 +12,14 @@ class Hadeth {
   });
 }
 
-
 class Door {
   final List<Hadeth> hadeths;
-
-  Door({required this.hadeths});
+  final String doorName;
+  Door(this.doorName, {required this.hadeths});
 }
 
 class Book {
   final List<Door> doors;
-
-  Book({required this.doors});
+  final String bookName;
+  Book({required this.doors, required this.bookName});
 }
