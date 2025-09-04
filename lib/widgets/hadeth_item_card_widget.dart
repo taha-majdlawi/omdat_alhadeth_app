@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/models/hadeth_model.dart';
@@ -9,20 +8,25 @@ class HadethItemCardWidget extends StatelessWidget {
   const HadethItemCardWidget({
     super.key,
     required this.themeProvider,
-   required this.hadeth,
+    required this.hadeth,
+    required this.hadethNumber,
   });
 
   final ThemeProvider themeProvider;
 
   final Hadeth hadeth;
+  final int hadethNumber;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         Navigator.of(context).push(
-  
           MaterialPageRoute(
-            builder: (context) => ShowHadethScreen(themeProvider: themeProvider, hadeth: hadeth),
+            builder: (context) => ShowHadethScreen(
+              themeProvider: themeProvider,
+              hadeth: hadeth,
+              hadethNumber: hadethNumber,
+            ),
           ),
         );
       },
@@ -40,7 +44,7 @@ class HadethItemCardWidget extends StatelessWidget {
           ),
           child: Text(
             textAlign: TextAlign.right,
-           hadeth.hadethText,
+            "$hadethNumber+${hadeth.hadethText}",
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
