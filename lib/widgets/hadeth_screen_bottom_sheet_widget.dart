@@ -1,31 +1,26 @@
 import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
-
-// If you defined your own colors, replace with your class or use Theme.of(context)
 
 class HadethScreenBottomSheet extends StatefulWidget {
   const HadethScreenBottomSheet({
     super.key,
     required this.screenWidth,
     required this.screenHeight,
-    required this.soundPathOrUrl, // Accepts assets or URL
+    required this.soundPathOrUrl, // accepts asset path or URL
     this.autoPlay = false,
     this.title = 'تشغيل الصوت',
   });
 
   final double screenWidth;
   final double screenHeight;
-  final String
-  soundPathOrUrl; // e.g. 'assets/sounds/1.opus' OR 'https://.../file.mp3'
+  final String soundPathOrUrl; // e.g. 'assets/sounds/1.ogg' or 'https://.../file.mp3'
   final bool autoPlay;
   final String title;
 
   @override
-  State<HadethScreenBottomSheet> createState() =>
-      _HadethScreenBottomSheetState();
+  State<HadethScreenBottomSheet> createState() => _HadethScreenBottomSheetState();
 }
 
 class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
@@ -40,23 +35,35 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     super.initState();
     _player = AudioPlayer();
 
-    // Listen for updates
+    // Duration / position
     _player.durationStream.listen((d) {
-      if (d != null && mounted) setState(() => _duration = d);
+      if (!mounted) return;
+      if (d != null) setState(() => _duration = d);
     });
     _player.positionStream.listen((p) {
-      if (mounted) setState(() => _position = p);
+      if (!mounted) return;
+      setState(() => _position = p);
     });
-    _player.playbackEventStream.listen(
-      (_) {},
-      onError: (e, s) {
-        if (mounted) {
-          setState(() {
-            _error = 'تعذّر تشغيل الملف الصوتي. تحقق من الصيغة أو المسار.';
-          });
+
+    // Handle errors
+    _player.playbackEventStream.listen((_) {}, onError: (e, s) {
+      if (!mounted) return;
+      setState(() {
+        _error = 'Failed to play audio. Check format or path.';
+      });
+    });
+
+    // Reset to start when finished (unless repeat-one is ON)
+    _player.playerStateStream.listen((state) async {
+      if (!mounted) return;
+      if (state.processingState == ProcessingState.completed) {
+        if (!_isRepeating) {
+          await _player.seek(Duration.zero);
+          await _player.pause();
+          if (mounted) setState(() {}); // refresh UI to show Play icon
         }
-      },
-    );
+      }
+    });
 
     _init();
   }
@@ -67,23 +74,21 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
       setState(() {});
 
       final src = widget.soundPathOrUrl.trim();
-      final bool isAsset = !src.contains('://'); // no scheme → treat as asset
+      final bool isAsset = !src.contains('://'); // no scheme → asset
 
       if (isAsset) {
-        // ASSET
-        log('asset1');
+        log('Loading asset: $src');
         await _player.setAudioSource(AudioSource.asset(src));
-        log('asset2');
       } else {
-        // URL
+        log('Loading URL: $src');
         await _player.setAudioSource(AudioSource.uri(Uri.parse(src)));
-        log('NOT asset');
       }
 
       if (widget.autoPlay) {
         await _player.play();
       }
     } catch (_) {
+      if (!mounted) return;
       setState(() {
         _error =
             'تعذّر تحميل الصوت. إن كان من الأصول فتأكّد من pubspec.yaml والمسار (استخدم / وليس \\). وإن كان رابطًا فتأكّد من الاتصال.';
@@ -111,18 +116,14 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final max = _duration.inMilliseconds > 0
-        ? _duration.inMilliseconds.toDouble()
-        : 1.0;
-    final value = _position.inMilliseconds
-        .clamp(0, _duration.inMilliseconds)
-        .toDouble();
+    final max = _duration.inMilliseconds > 0 ? _duration.inMilliseconds.toDouble() : 1.0;
+    final value =
+        _position.inMilliseconds.clamp(0, _duration.inMilliseconds).toDouble();
 
     return SafeArea(
       top: false,
       child: Container(
         width: widget.screenWidth,
-        // Let height grow with content; the sheet itself will control overall size
         decoration: BoxDecoration(
           color: Theme.of(context).colorScheme.surface,
           borderRadius: const BorderRadius.vertical(top: Radius.circular(25)),
@@ -174,7 +175,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                 ),
               ),
 
-              // Time labels
+              // Time
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -191,9 +192,11 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   final state = snap.data;
                   final playing = state?.playing ?? false;
                   final processing = state?.processingState;
-                  final isLoading =
-                      processing == ProcessingState.loading ||
+
+                  final isLoading = processing == ProcessingState.loading ||
                       processing == ProcessingState.buffering;
+
+                  final isCompleted = processing == ProcessingState.completed;
 
                   return Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -219,7 +222,10 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                               )
                             : IconButton(
                                 icon: Icon(
-                                  playing ? Icons.pause : Icons.play_arrow,
+                                  // When completed (and not repeating), show Play icon.
+                                  (playing && !isCompleted)
+                                      ? Icons.pause
+                                      : Icons.play_arrow,
                                 ),
                                 color: Colors.white,
                                 iconSize: 40,
@@ -228,6 +234,14 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                                     await _init();
                                     return;
                                   }
+
+                                  if (isCompleted) {
+                                    // Restart from the beginning after completion
+                                    await _player.seek(Duration.zero);
+                                    await _player.play();
+                                    return;
+                                  }
+
                                   if (playing) {
                                     await _player.pause();
                                   } else {
@@ -246,9 +260,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                       ),
                       const SizedBox(width: 8),
                       IconButton(
-                        icon: Icon(
-                          _isRepeating ? Icons.repeat_one : Icons.repeat,
-                        ),
+                        icon: Icon(_isRepeating ? Icons.repeat_one : Icons.repeat),
                         iconSize: 28,
                         color: _isRepeating ? AppColors.darkPrimary : null,
                         onPressed: () async {
