@@ -7,12 +7,12 @@ class HadethScreenBottomSheet extends StatelessWidget {
   const HadethScreenBottomSheet({
     super.key,
     required this.screenWidth,
-    required this.screenHeight,
+    required this.screenHeight, required this.soundUrl,
   });
 
   final double screenWidth;
   final double screenHeight;
-
+  final String soundUrl ;
   @override
   Widget build(BuildContext context) {
     return Container(

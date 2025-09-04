@@ -43,6 +43,7 @@ class ShowHadethScreen extends StatelessWidget {
         ),
       ),
       bottomSheet: HadethScreenBottomSheet(
+        soundUrl: hadeth.soundUrl,
         screenWidth: screenWidth,
         screenHeight: screenHeight,
       ),
