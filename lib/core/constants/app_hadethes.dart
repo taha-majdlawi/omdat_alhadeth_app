@@ -168,6 +168,23 @@ class Constants {
               soundUrl: 'assets/sounds/18.ogg',
               explainUrl: 'https://youtu.be/8xcsnqDjDDU?si=J13Ghzvd4j735PFh',
             ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها قالت: «دخل عبد الرحمن بن أبي بكر على النبي ﷺ وأنا مسندته إلى صدري، ومع عبد الرحمن سواك رطب يستن به، فأبصره رسول الله ﷺ ببصره، فأخذت السواك فقطعته فمضغته، ثم دفعته إلى النبي ﷺ فاستن به.\n\n"
+                  "فما رأيت رسول الله ﷺ استن استناناً أحسن منه، فما عدا أن فرغ رسول الله ﷺ رفع يده – أو إصبعه – ثم قال: «في الرفيق الأعلى» ثلاثاً – ثم قضى. وكانت تقول: مات بين حاقنتي وذاقنتي».\n\n"
+                  "وفي لفظ: «رأيته ينظر إليه» – وعرفت أنه يحب السواك – فقلت: آخذه لك؟ فأشار برأسه أن نعم».\n\n"
+                  "لفظ البخاري، ولمسلم: نحوه.\u202C",
+              hadethNumber: 19,
+              soundUrl: 'assets/sounds/19.ogg',
+              explainUrl: 'https://youtu.be/yBGPSqmCQlg?si=gPIh-qvysI67-bes',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي موسى رضي الله عنه قال: أتيت النبي ﷺ وهو يستاك بسواك، قال: وطرف السواك على لسانه، يقول: أع أع والسواك في فيه، كأنه يتهوع.\u202C",
+              hadethNumber: 20,
+              soundUrl: 'assets/sounds/20.ogg',
+              explainUrl: 'https://youtu.be/5PmcD-4tcfc?si=TIwXUdsKVHGFoP4a',
+            ),
           ],
         ),
       ],
