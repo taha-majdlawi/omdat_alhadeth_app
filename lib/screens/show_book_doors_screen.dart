@@ -10,19 +10,11 @@ class ShowBookDoorsScreen extends StatelessWidget {
   const ShowBookDoorsScreen({
     super.key,
     required this.themeProvider,
-    required this.bookName,
+    required this.bookName, required this.bookNumber,
   });
   final ThemeProvider themeProvider;
   final String bookName;
-  final List<String> doors = const [
-    'باب الاستطابة',
-    'باب السواك',
-    "باب المسح على الخفين",
-    "باب في المذي وغيره",
-    "باب الجنابة",
-    "باب التيمم",
-    "باب الحيض",
-  ];
+ final int bookNumber;
    
   @override
   Widget build(BuildContext context) {
@@ -58,7 +50,7 @@ class ShowBookDoorsScreen extends StatelessWidget {
                 ),
               ),
             ),
-            ShowDoorsListView(bookNumber:1 , themeProvider: themeProvider),
+            ShowDoorsListView(bookNumber:bookNumber , themeProvider: themeProvider),
           ],
         ),
       ),

@@ -8,12 +8,12 @@ class BookItemCard extends StatelessWidget {
   const BookItemCard({
     super.key,
     required this.themeProvider,
-    required this.bookName, 
+    required this.bookName, required this.bookNumber, 
   });
 
   final ThemeProvider themeProvider;
   final String bookName;
-
+  final int bookNumber ;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -21,7 +21,7 @@ class BookItemCard extends StatelessWidget {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) => ShowBookDoorsScreen(
-              
+              bookNumber: bookNumber,
               themeProvider: themeProvider,
               bookName: bookName,
             ),

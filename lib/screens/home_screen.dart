@@ -7,12 +7,7 @@ import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-  final List<String> books = const [
-    'كتاب الصلاة',
-    'كتاب الزكاة',
-    'كتاب الصيام',
-    'كتاب الحج',
-  ];
+
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);

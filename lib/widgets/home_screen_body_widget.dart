@@ -6,14 +6,14 @@ import 'package:omdat_alhadeth/screens/show_book_doors_screen.dart';
 import 'package:omdat_alhadeth/widgets/books_list_view_widget.dart';
 
 class HomeScreenBodyWidget extends StatelessWidget {
-  const  HomeScreenBodyWidget({
+  const HomeScreenBodyWidget({
     super.key,
-    required this.themeProvider, 
-    
+    required this.themeProvider,
+ 
   });
 
   final ThemeProvider themeProvider;
- 
+
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +40,10 @@ class HomeScreenBodyWidget extends StatelessWidget {
             ),
           ),
 
-          BooksListViewWidget(themeProvider: themeProvider),
+          BooksListViewWidget(
+            themeProvider: themeProvider,
+         
+          ),
         ],
       ),
     );
