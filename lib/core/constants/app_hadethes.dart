@@ -955,6 +955,40 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب المررو بين يدين المصلي',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي جهيم بن الحارث بن الصمة الأنصاري رضي الله عنه قال: قال رسول الله ﷺ: «لو يعلم المار بين يدي المصلي ماذا عليه من الإثم، لكان أن يقف أربعين خيرًا له من أن يمر بين يديه». قال أبو النضر: لا أدري، قال: أربعين يومًا، أو شهرًا، أو سنةً.",
+              hadethNumber: 103,
+              soundUrl: 'assets/sounds/103.ogg',
+              explainUrl: 'https://youtu.be/mHydE5kx1h8?si=VoAhiVfJFgdUUyrU',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي سعيد الخدري رضي الله عنه قال: سمعت النبي ﷺ يقول: «إذا صلى أحدكم إلى شيء يستره من الناس، فأراد أحد أن يجتاز بين يديه فليدفعه، فإن أبى فليقاتله، فإنما هو شيطان».",
+              hadethNumber: 104,
+              soundUrl: 'assets/sounds/104.ogg',
+              explainUrl: 'https://youtu.be/vBe2j0jD0LM?si=g_dx_1rosISBXD9J',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: أقبلتُ راكبًا على حمار أتان، وأنا يومئذ قد ناهزتُ الاحتلام، ورسول الله ﷺ يصلي بالناس بمنى إلى غير جدار، فمررت بين يدي بعض الصف، فنزلت، فأرسلت الأتان ترتع، فدخلت في الصف، فلم ينكر ذلك علي أحد.",
+              hadethNumber: 105,
+              soundUrl: 'assets/sounds/105.ogg',
+              explainUrl: 'https://youtu.be/t2ch2Q1AvnM?si=nAt7d2B1JnOoy8gm',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: «كنت أنام بين يدي رسول الله ﷺ ورجلاي في قبلته، فإذا سجد غمزني فقَبَضتُ رجلي، وإذا قام بسطتُهما، والبيوت يومئذ ليس فيها مصابيح».",
+              hadethNumber: 106,
+              soundUrl: 'assets/sounds/106.ogg',
+              explainUrl: 'https://youtu.be/PHptyzLTUsY?si=ir4M2LT8xPfhH3Qd',
+            ),
+          ],
+        ),
       ],
     ),
   ];
