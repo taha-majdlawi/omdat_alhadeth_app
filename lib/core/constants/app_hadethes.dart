@@ -1113,6 +1113,35 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الوتر',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: (سأل رجلٌ النبي ﷺ وهو على المنبر: ما ترى في صلاة الليل؟ قال: مثنى مثنى، فإذا خشي أحدكم الصبح صلى واحدةً، فأوترت له ما صلى).\n"
+                  "وإنه كان يقول: «اجعلوا آخر صلاتكم بالليل وترًا».",
+              hadethNumber: 121,
+              soundUrl: 'assets/sounds/121.ogg',
+              explainUrl: 'https://youtu.be/TD4VMO6nauA?si=-madTBDlg86Lv0KK',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: (من كل الليل قد أوتر رسول الله ﷺ، من أوله وأوسطه وآخره، فانتهى وتره إلى السحر).",
+              hadethNumber: 122,
+              soundUrl: 'assets/sounds/122.ogg',
+              explainUrl: 'https://youtu.be/vDj1bCOyJb8?si=Ra9mhilJeySl3bsg',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: (كان رسول الله ﷺ يصلي من الليل ثلاث عشرة ركعة، يوتر من ذلك بخمس، لا يجلس في شيء إلا في آخرها).",
+              hadethNumber: 123,
+              soundUrl: 'assets/sounds/123.ogg',
+              explainUrl: 'https://youtu.be/DoNFM0I-YQM?si=vQcaoiWxFrnr59ra',
+            ),
+          ],
+        ),
       ],
     ),
   ];
