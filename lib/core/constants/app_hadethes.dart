@@ -866,6 +866,59 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب القرأة في الصلاة ',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبادة بن الصامت رضي الله عنه: أن رسول الله ﷺ قال: «لا صلاة لمن لم يقرأ بفاتحة الكتاب».",
+              hadethNumber: 94,
+              soundUrl: 'assets/sounds/94.ogg',
+              explainUrl: 'https://youtu.be/7htSF7iEUvE?si=MO-AHBxarH6lyoir',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي قتادة الأنصاري رضي الله عنه قال: (كان النبي ﷺ يقرأ في الركعتين الأوليين من صلاة الظهر بفاتحة الكتاب وسورتين، يطوِّل في الأولى ويقصِّر في الثانية، ويسمع الآية أحيانًا.\n"
+                  "وكان يقرأ في العصر بفاتحة الكتاب وسورتين، يطوِّل في الأولى ويقصِّر في الثانية.\n"
+                  "وكان يطوِّل في الركعة الأولى من صلاة الصبح ويقصِّر في الثانية).\n"
+                  "وفي الركعتين الأخيرتين بأم الكتاب.",
+              hadethNumber: 95,
+              soundUrl: 'assets/sounds/95.ogg',
+              explainUrl: 'https://youtu.be/YxPwG9LyTw8?si=d8SwzFtWDzsQ9G58',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن جبير بن مطعم رضي الله عنه قال: (سمعت النبي ﷺ يقرأ في المغرب بالطور).",
+              hadethNumber: 96,
+              soundUrl: 'assets/sounds/96.ogg',
+              explainUrl: 'https://youtu.be/TpKnA9uNoMI?si=Vgz3WiuzRkq_MrCW',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن البراء بن عازب رضي الله عنه: أن النبي ﷺ كان في سفر، فصلى العشاء الآخرة، فقرأ في إحدى الركعتين بالتين والزيتون، فما سمعت أحدًا أحسن صوتًا أو قراءة منه.",
+              hadethNumber: 97,
+              soundUrl: 'assets/sounds/97.ogg',
+              explainUrl: 'https://youtu.be/F_VzMyoXzVI?si=SB5GlMZtddx0L-5F',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها: أن رسول الله ﷺ بعث رجلًا على سرية، فكان يقرأ لأصحابه في صلاتهم فيختم بـ (قل هو الله أحد). فلما رجعوا ذكروا ذلك لرسول الله ﷺ فقال: سلوه لأي شيء يصنع ذلك؟ فسألوه فقال: لأنها صفة الرحمن، فأنا أحب أن أقرأ بها. فقال رسول الله ﷺ: أخبروه أن الله تعالى يحبه.",
+              hadethNumber: 98,
+              soundUrl: 'assets/sounds/98.ogg',
+              explainUrl: 'https://youtu.be/lDWbpHc391o?si=btih2UZAMSDXwNNt',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما: أن النبي ﷺ قال لمعاذ: (أفتان أنت يا معاذ؟) – حين قرأ بسورة طويلة في صلاة العشاء – وقال: (فلولا صليت بـ سبح اسم ربك الأعلى، والشمس وضحاها، والليل إذا يغشى، فإنه يصلي وراءك الكبير والضعيف وذو الحاجة).",
+              hadethNumber: 99,
+              soundUrl: 'assets/sounds/99.ogg',
+              explainUrl: 'https://youtu.be/r7K4g4sHFn0?si=fdN7kqW5F4fxTqIj',
+            ),
+          ],
+        ),
       ],
     ),
   ];
