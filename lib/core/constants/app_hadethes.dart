@@ -187,6 +187,18 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب المسح على الخفين',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن المغيرة بن شعبة رضي الله عنه قال: كنت مع النبي ﷺ في سفر، فأهويت لأنزع خفيه، فقال: دعهما، فإني أدخلتهما طاهرتين، فمسح عليهما.\u202C",
+              hadethNumber: 21,
+              soundUrl: 'assets/sounds/21.ogg',
+              explainUrl: 'https://youtu.be/NEwkpHznEog?si=CLpJqUA3ZmFMAZj4',
+            ),
+          ],
+        ),
       ],
     ),
   ];
