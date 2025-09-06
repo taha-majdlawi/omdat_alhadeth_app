@@ -1015,6 +1015,53 @@ class Constants {
               soundUrl: 'assets/sounds/109.ogg',
               explainUrl: 'https://youtu.be/BgYC9xkWox8?si=LoIlG5qkFZSabmum',
             ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه، عن النبي ﷺ قال: «من نسي صلاة فليصلها إذا ذكرها، لا كفارة لها إلا ذلك: ﴿أقم الصلاة لذكري﴾».\n"
+                  "ولمسلم: «من نسي صلاة أو نام عنها، فكفارتها أن يصليها إذا ذكرها».",
+              hadethNumber: 110,
+              soundUrl: 'assets/sounds/110.ogg',
+              explainUrl: 'https://youtu.be/T5p2p6d6foc?si=q-gS-ObNWUe70jd5',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما: أن معاذ بن جبل رضي الله عنه كان يصلي مع رسول الله ﷺ عشاء الآخرة، ثم يرجع إلى قومه فيصلي بهم تلك الصلاة.",
+              hadethNumber: 111,
+              soundUrl: 'assets/sounds/111.ogg',
+              explainUrl: 'https://youtu.be/AebbQgGxMNI?si=RxfsYIEP8v4oRVBk',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: (كنا نصلي مع رسول الله ﷺ في شدة الحر، فإذا لم يستطع أحدنا أن يمكن جبهته من الأرض بسط ثوبه فسجد عليه).",
+              hadethNumber: 112,
+              soundUrl: 'assets/sounds/112.ogg',
+              explainUrl: 'https://youtu.be/V63TZEA-8wQ?si=G3-JZV-CT-hVcs-e',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «لا يصلي أحدكم في الثوب الواحد ليس على عاتقه منه شيء».",
+              hadethNumber: 113,
+              soundUrl: 'assets/sounds/113.ogg',
+              explainUrl: 'https://youtu.be/BkcNwn0sEPU?si=_-cZlkOg6b4u-Uav',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما، عن النبي ﷺ قال: «من أكل ثومًا أو بصلاً فليعتزلنا – أو قال: فليعتزل مسجدنا – وليقعد في بيته».\n"
+                  "وأُتي بقدر فيه خضرات من بقول، فوجد لها ريحًا، فسأل فأُخبر بما فيها من البقول، فقال: قربوها – إلى بعض أصحابه – فقال: كل، فإني أناجي من لا تناجي.",
+              hadethNumber: 114,
+              soundUrl: 'assets/sounds/114.ogg',
+              explainUrl: 'https://youtu.be/Tl1DIfgQXX8?si=h4O-ulnDX3TEZPpi',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما أن النبي ﷺ قال: «من أكل البصل والثوم والكراث فلا يقربن مسجدنا؛ فإن الملائكة تتأذى مما يتأذى منه بنو آدم».",
+              hadethNumber: 115,
+              soundUrl: 'assets/sounds/115.ogg',
+              explainUrl: 'https://youtu.be/q2dcszr85LY?si=w2fjCJoQkuFlXitu',
+            ),
           ],
         ),
       ],
