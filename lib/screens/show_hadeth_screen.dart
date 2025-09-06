@@ -49,7 +49,8 @@ class ShowHadethScreen extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           ElevatedButton(
-            onPressed: () => Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
+            onPressed: () =>
+                Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
             child: const Text(
               'مشاهدة شرح الحديث للشيخ بن عثيمين',
               style: TextStyle(fontFamily: 'Amiri', fontSize: 18),

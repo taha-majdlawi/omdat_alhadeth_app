@@ -1,6 +1,6 @@
-import 'dart:developer';
+import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:just_audio/just_audio.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 
 class HadethScreenBottomSheet extends StatefulWidget {
@@ -8,26 +8,31 @@ class HadethScreenBottomSheet extends StatefulWidget {
     super.key,
     required this.screenWidth,
     required this.screenHeight,
-    required this.soundPathOrUrl, // accepts asset path or URL
+    required this.soundPathOrUrl, // 'assets/sounds/1.ogg' أو رابط https
     this.autoPlay = false,
     this.title = 'تشغيل الصوت',
   });
 
   final double screenWidth;
   final double screenHeight;
-  final String soundPathOrUrl; // e.g. 'assets/sounds/1.ogg' or 'https://.../file.mp3'
+  final String soundPathOrUrl;
   final bool autoPlay;
   final String title;
 
   @override
-  State<HadethScreenBottomSheet> createState() => _HadethScreenBottomSheetState();
+  State<HadethScreenBottomSheet> createState() =>
+      _HadethScreenBottomSheetState();
 }
 
 class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
   late final AudioPlayer _player;
+
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
+  PlayerState _playerState = PlayerState.stopped;
+
   bool _isRepeating = false;
+  bool _isLoading = true;
   String? _error;
 
   @override
@@ -35,64 +40,67 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     super.initState();
     _player = AudioPlayer();
 
-    // Duration / position
-    _player.durationStream.listen((d) {
+    _player.onDurationChanged.listen((d) {
       if (!mounted) return;
-      if (d != null) setState(() => _duration = d);
+      setState(() => _duration = d);
     });
-    _player.positionStream.listen((p) {
+
+    _player.onPositionChanged.listen((p) {
       if (!mounted) return;
       setState(() => _position = p);
     });
 
-    // Handle errors
-    _player.playbackEventStream.listen((_) {}, onError: (e, s) {
+    _player.onPlayerStateChanged.listen((s) {
       if (!mounted) return;
       setState(() {
-        _error = 'Failed to play audio. Check format or path.';
+        _playerState = s;
+        _isLoading = false;
       });
     });
 
-    // Reset to start when finished (unless repeat-one is ON)
-    _player.playerStateStream.listen((state) async {
-      if (!mounted) return;
-      if (state.processingState == ProcessingState.completed) {
-        if (!_isRepeating) {
-          await _player.seek(Duration.zero);
-          await _player.pause();
-          if (mounted) setState(() {}); // refresh UI to show Play icon
-        }
+    _player.onPlayerComplete.listen((_) async {
+      if (!_isRepeating) {
+        await _player.seek(Duration.zero);
+        await _player.pause();
+        if (mounted) setState(() {});
       }
     });
 
+    _player.setReleaseMode(ReleaseMode.stop); // لا تكرار افتراضيًا
     _init();
   }
 
   Future<void> _init() async {
     try {
-      _error = null;
-      setState(() {});
+      setState(() {
+        _error = null;
+        _isLoading = true;
+      });
 
       final src = widget.soundPathOrUrl.trim();
-      final bool isAsset = !src.contains('://'); // no scheme → asset
+      final isAsset = !src.contains('://');
 
       if (isAsset) {
-        log('Loading asset: $src');
-        await _player.setAudioSource(AudioSource.asset(src));
+        // audioplayers يتوقع المسار داخل مجلد assets بدون "assets/"
+        final assetPath =
+            src.startsWith('assets/') ? src.substring('assets/'.length) : src;
+        await _player.setSource(AssetSource(assetPath));
       } else {
-        log('Loading URL: $src');
-        await _player.setAudioSource(AudioSource.uri(Uri.parse(src)));
+        await _player.setSourceUrl(src);
       }
 
       if (widget.autoPlay) {
-        await _player.play();
+        await _player.resume();
+      } else {
+        await _player.pause();
       }
-    } catch (_) {
+    } catch (e) {
       if (!mounted) return;
       setState(() {
-        _error =
-            'تعذّر تحميل الصوت. إن كان من الأصول فتأكّد من pubspec.yaml والمسار (استخدم / وليس \\). وإن كان رابطًا فتأكّد من الاتصال.';
+        _error = 'تعذّر تحميل الصوت. تحقق من المسار أو الاتصال أو الصيغة.';
       });
+    } finally {
+      if (mounted) setState(() => _isLoading = false);
     }
   }
 
@@ -116,9 +124,13 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final max = _duration.inMilliseconds > 0 ? _duration.inMilliseconds.toDouble() : 1.0;
-    final value =
-        _position.inMilliseconds.clamp(0, _duration.inMilliseconds).toDouble();
+    final maxValue = max<double>(_duration.inMilliseconds.toDouble(), 1.0);
+    final value = _position.inMilliseconds
+        .clamp(0, _duration.inMilliseconds)
+        .toDouble();
+
+    final isPlaying = _playerState == PlayerState.playing;
+    final isCompleted = _position >= _duration && _duration > Duration.zero;
 
     return SafeArea(
       top: false,
@@ -134,7 +146,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              // Handle bar
+              // مقبض
               Container(
                 width: widget.screenWidth * 0.15,
                 height: 5,
@@ -145,7 +157,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
               ),
               const SizedBox(height: 20),
 
-              // Title / Error
+              // العنوان/الخطأ
               Text(
                 _error ?? widget.title,
                 textAlign: TextAlign.center,
@@ -157,7 +169,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
               ),
               const SizedBox(height: 12),
 
-              // Slider
+              // الشريط
               SliderTheme(
                 data: SliderTheme.of(context).copyWith(
                   trackHeight: 4,
@@ -165,7 +177,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                 ),
                 child: Slider(
                   value: value.isFinite ? value : 0,
-                  max: max,
+                  max: maxValue,
                   onChanged: (v) async {
                     if (_duration == Duration.zero) return;
                     await _player.seek(Duration(milliseconds: v.round()));
@@ -175,7 +187,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                 ),
               ),
 
-              // Time
+              // الوقت
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -185,95 +197,84 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
               ),
               const SizedBox(height: 16),
 
-              // Controls
-              StreamBuilder<PlayerState>(
-                stream: _player.playerStateStream,
-                builder: (context, snap) {
-                  final state = snap.data;
-                  final playing = state?.playing ?? false;
-                  final processing = state?.processingState;
+              // الأزرار
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  IconButton(
+                    icon: const Icon(Icons.replay_10),
+                    iconSize: 34,
+                    onPressed: _duration == Duration.zero
+                        ? null
+                        : () => _seekRelative(-10000),
+                  ),
+                  const SizedBox(width: 8),
 
-                  final isLoading = processing == ProcessingState.loading ||
-                      processing == ProcessingState.buffering;
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: AppColors.darkPrimary,
+                    child: _isLoading
+                        ? const Padding(
+                            padding: EdgeInsets.all(12.0),
+                            child: CircularProgressIndicator(
+                              strokeWidth: 3,
+                              color: Colors.white,
+                            ),
+                          )
+                        : IconButton(
+                            icon: Icon(
+                              (isPlaying && !isCompleted)
+                                  ? Icons.pause
+                                  : Icons.play_arrow,
+                            ),
+                            color: Colors.white,
+                            iconSize: 40,
+                            onPressed: () async {
+                              if (_error != null) {
+                                await _init();
+                                return;
+                              }
+                              if (isCompleted) {
+                                await _player.seek(Duration.zero);
+                                await _player.resume();
+                                return;
+                              }
+                              if (isPlaying) {
+                                await _player.pause();
+                              } else {
+                                if (_duration == Duration.zero && !_isLoading) {
+                                  await _init();
+                                }
+                                await _player.resume();
+                              }
+                            },
+                          ),
+                  ),
+                  const SizedBox(width: 8),
 
-                  final isCompleted = processing == ProcessingState.completed;
+                  IconButton(
+                    icon: const Icon(Icons.forward_10),
+                    iconSize: 34,
+                    onPressed: _duration == Duration.zero
+                        ? null
+                        : () => _seekRelative(10000),
+                  ),
+                  const SizedBox(width: 8),
 
-                  return Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      IconButton(
-                        icon: const Icon(Icons.replay_10),
-                        iconSize: 34,
-                        onPressed: _duration == Duration.zero
-                            ? null
-                            : () => _seekRelative(-10000),
-                      ),
-                      const SizedBox(width: 8),
-                      CircleAvatar(
-                        radius: 30,
-                        backgroundColor: AppColors.darkPrimary,
-                        child: isLoading
-                            ? const Padding(
-                                padding: EdgeInsets.all(12.0),
-                                child: CircularProgressIndicator(
-                                  strokeWidth: 3,
-                                  color: Colors.white,
-                                ),
-                              )
-                            : IconButton(
-                                icon: Icon(
-                                  // When completed (and not repeating), show Play icon.
-                                  (playing && !isCompleted)
-                                      ? Icons.pause
-                                      : Icons.play_arrow,
-                                ),
-                                color: Colors.white,
-                                iconSize: 40,
-                                onPressed: () async {
-                                  if (_error != null) {
-                                    await _init();
-                                    return;
-                                  }
-
-                                  if (isCompleted) {
-                                    // Restart from the beginning after completion
-                                    await _player.seek(Duration.zero);
-                                    await _player.play();
-                                    return;
-                                  }
-
-                                  if (playing) {
-                                    await _player.pause();
-                                  } else {
-                                    await _player.play();
-                                  }
-                                },
-                              ),
-                      ),
-                      const SizedBox(width: 8),
-                      IconButton(
-                        icon: const Icon(Icons.forward_10),
-                        iconSize: 34,
-                        onPressed: _duration == Duration.zero
-                            ? null
-                            : () => _seekRelative(10000),
-                      ),
-                      const SizedBox(width: 8),
-                      IconButton(
-                        icon: Icon(_isRepeating ? Icons.repeat_one : Icons.repeat),
-                        iconSize: 28,
-                        color: _isRepeating ? AppColors.darkPrimary : null,
-                        onPressed: () async {
-                          _isRepeating = !_isRepeating;
-                          await _player.setLoopMode(
-                            _isRepeating ? LoopMode.one : LoopMode.off,
-                          );
-                          setState(() {});
-                        },
-                      ),
-                    ],
-                  );
-                },
+                  IconButton(
+                    icon: Icon(
+                        _isRepeating ? Icons.repeat_one : Icons.repeat),
+                    iconSize: 28,
+                    color: _isRepeating ? AppColors.darkPrimary : null,
+                    onPressed: () async {
+                      _isRepeating = !_isRepeating;
+                      await _player.setReleaseMode(
+                        _isRepeating ? ReleaseMode.loop : ReleaseMode.stop,
+                      );
+                      if (mounted) setState(() {});
+                    },
+                  ),
+                ],
               ),
             ],
           ),
