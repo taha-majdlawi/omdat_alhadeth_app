@@ -356,6 +356,50 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الحيض',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها: أن فاطمة بنت أبي حبيش سألت النبي ﷺ فقالت: إني أستحاض فلا أطهر، أفأدع الصلاة؟ فقال: لا، إن ذلك عرق، ولكن دعي الصلاة قدر الأيام التي كنت تحيضين فيها، ثم اغتسلي وصلي.\n\n"
+                  "وفي رواية: وليست بالحيضة، فإذا أقبلت الحيضة فدعي الصلاة، فإذا ذهب قدرها فاغسلي عنك الدم وصلي.\u202C",
+              hadethNumber: 40,
+              soundUrl: 'assets/sounds/40.ogg',
+              explainUrl: 'https://youtu.be/QMiyLJxsDpo?si=p15SD-0gt07ofSSX',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها: أن أم حبيبة رضي الله عنها استحيضت سبع سنين، فسألت رسول الله ﷺ عن ذلك، فأمرها أن تغتسل، فكانت تغتسل لكل صلاة.\u202C",
+              hadethNumber: 41,
+              soundUrl: 'assets/sounds/41.ogg',
+              explainUrl: 'https://youtu.be/UQTtQ1Xv4GU?si=_gHIAWrogbSaiNlK',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها قالت: كنت أغتسل أنا والنبي ﷺ من إناء واحد، كلانا جنب، وكان يأمرني فأتزر، فيباشرني وأنا حائض. وكان يخرج رأسه إلي وهو معتكف فأغسله وأنا حائض.\u202C",
+              hadethNumber: 42,
+              soundUrl: 'assets/sounds/42.ogg',
+              explainUrl: 'https://youtu.be/lI33LKb2Pbo?si=hjUEBXHDodopUuLO',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها قالت: كان رسول الله ﷺ يتكئ في حجري وأنا حائض، ثم يقرأ القرآن.\u202C",
+              hadethNumber: 43,
+              soundUrl: 'assets/sounds/43.ogg',
+              explainUrl: 'https://youtu.be/tfk1i_QSC6s?si=8zjHIWODQYWPc9bO',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن معاذة قالت: سألت عائشة رضي الله عنها فقلت: ما بال الحائض تقضي الصوم ولا تقضي الصلاة؟ فقالت: أحرورية أنت؟ فقلت: لست بحرورية، ولكني أسأل. قالت: كان يصيبنا ذلك، فنؤمر بقضاء الصوم، ولا نؤمر بقضاء الصلاة.\u202C",
+              hadethNumber: 44,
+              soundUrl: 'assets/sounds/44.ogg',
+              explainUrl: 'https://youtu.be/mBNEkDF6KTM?si=tsIG4gwY6VO2oEdH',
+            ),
+          ],
+        ),
       ],
     ),
   ];
