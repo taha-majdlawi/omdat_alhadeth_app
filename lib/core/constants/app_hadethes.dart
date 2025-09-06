@@ -1211,6 +1211,74 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الجمعة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن سهل بن سعد الساعدي رضي الله عنه قال: (رأيت رسول الله ﷺ قام عليه، فكبر وكبر الناس وراءه، وهو على المنبر، ثم رفع، فنزل القهقري حتى سجد في أصل المنبر، ثم عاد حتى فرغ من آخر صلاته، ثم أقبل على الناس فقال: أيها الناس، إنما صنعت هذا لتأتموا بي، ولتتعلموا صلاتي).\n\n"
+                  "وفي لفظ: (صلى عليها، ثم كبر عليها، ثم ركع وهو عليها، ثم نزل القهقري).",
+              hadethNumber: 130,
+              soundUrl: 'assets/sounds/130.ogg',
+              explainUrl: 'https://youtu.be/4gQMT5Ouq50?si=Yq3RHYYI9oZIPItl',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: أن رسول الله ﷺ قال: «من جاء منكم الجمعة فليغتسل».",
+              hadethNumber: 131,
+              soundUrl: 'assets/sounds/131.ogg',
+              explainUrl: 'https://youtu.be/dpa8y0p1kYA?si=V0xif1NxQZOEVab4',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "وعنه رضي الله عنه قال: (كان النبي ﷺ يخطب خطبتين، وهو قائم، يفصل بينهما بجلوس).",
+              hadethNumber: 132,
+              soundUrl: 'assets/sounds/132.ogg',
+              explainUrl: 'https://youtu.be/4xFnNuMmrtk?si=6OhLlDXwKNJecbZK',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنه قال: (جاء رجل والنبي ﷺ يخطب الناس يوم الجمعة، فقال: صليت يا فلان؟ قال: لا. قال: قم فاركع ركعتين). وفي رواية: (فصل ركعتين).",
+              hadethNumber: 133,
+              soundUrl: 'assets/sounds/133.ogg',
+              explainUrl: 'https://youtu.be/oYdMHkq2nCA?si=csxOyvWRhajzyjVT',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «إذا قلتَ لصاحبك: أنصت يوم الجمعة والإمام يخطب، فقد لغوت».",
+              hadethNumber: 134,
+              soundUrl: 'assets/sounds/134.ogg',
+              explainUrl: 'https://youtu.be/2MQ5NfMZVwI?si=qx_Su0Py_H8FbhQT',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "وعنه رضي الله عنه أن رسول الله ﷺ قال: «من اغتسل يوم الجمعة ثم راح، فكأنما قرب بدنة، ومن راح في الساعة الثانية فكأنما قرب بقرة، ومن راح في الساعة الثالثة فكأنما قرب كبشًا أقرن، ومن راح في الساعة الرابعة فكأنما قرب دجاجة، ومن راح في الساعة الخامسة فكأنما قرب بيضة، فإذا خرج الإمام حضرت الملائكة يستمعون الذكر».",
+              hadethNumber: 135,
+              soundUrl: 'assets/sounds/135.ogg',
+              explainUrl: 'https://youtu.be/0-NPgyM7_yU?si=3iB2OrFHP6pGfXR2',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن سلمة بن الأكوع رضي الله عنه – وكان من أصحاب الشجرة – قال: (كنا نصلي مع النبي ﷺ الجمعة، ثم ننصرف وليس للحيطان ظل نستظل به).\n"
+                  "وفي لفظ: (كنا نجمع مع رسول الله ﷺ إذا زالت الشمس، ثم نرجع نتتبع الفيء).",
+              hadethNumber: 136,
+              soundUrl: 'assets/sounds/136.ogg',
+              explainUrl: 'https://youtu.be/PbOMg8QEmyo?si=mGB0qf9mS7elrRcD',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: (كان النبي ﷺ يقرأ في صلاة الفجر يوم الجمعة: ﴿الم تنزيل﴾ السجدة، و ﴿هل أتى على الإنسان﴾).",
+              hadethNumber: 137,
+              soundUrl: 'assets/sounds/137.ogg',
+              explainUrl: 'https://youtu.be/JAb8vwAwPm4?si=twgE0TzjOcQGPi58',
+            ),
+          ],
+        ),
       ],
     ),
   ];
