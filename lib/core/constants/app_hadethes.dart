@@ -1197,7 +1197,20 @@ class Constants {
             ),
           ],
         ),
-        
+        Door(
+          doorName: 'باب قصر الصلاة في السفر',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: «صحبت رسول الله ﷺ، فكان لا يزيد في السفر على ركعتين، وأبا بكر وعمر وعثمان كذلك».\n\n"
+                  "هذا هو لفظ رواية البخاري في الحديث.\n"
+                  "وفي لفظ رواية مسلم: «أكثر وأزيد». ",
+              hadethNumber: 129,
+              soundUrl: 'assets/sounds/129.ogg',
+              explainUrl: 'https://youtu.be/jjH39RYRptw?si=EChVgFkJeWLbk9_C',
+            ),
+          ],
+        ),
       ],
     ),
   ];
