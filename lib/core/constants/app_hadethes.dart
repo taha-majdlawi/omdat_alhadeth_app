@@ -558,6 +558,43 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الاذان',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أنسِ بنِ مالكٍ رضي الله عنه قال: «أُمر بلالٌ أن يشفعَ الأذانَ، ويُوترَ الإقامةَ».\u202C",
+              hadethNumber: 61,
+              soundUrl: 'assets/sounds/61.ogg',
+              explainUrl: 'https://youtu.be/5irgtO7kkCI?si=TjXUL52nxeoVznwG',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي جُحيفةَ وَهبِ بنِ عبدِ اللهِ السوائيِّ قال: أتيتُ النبي ﷺ وهو في قُبَّةٍ له حمراءَ من أَدَمٍ، فخرج بلالٌ بوَضوئِه، فمن ناضِحٍ ونائلٍ، فخرج النبي ﷺ وعليه حُلَّةٌ حمراءُ – كأني أنظرُ إلى بَياضِ ساقَيه –.\n"
+                  "قال: فتوضأ وأذَّن بلالٌ، قال: فجعلتُ أتتبَّعُ فاهُ هاهنا وهاهنا يقولُ: يمينًا وشِمالًا: حيَّ على الصلاة! حيَّ على الفلاح!\n"
+                  "ثم ركزتُ له عنزةً، فتقدَّم فصلَّى الظُّهرَ ركعتَين، ثم لم يزل يُصلِّي ركعتَين ركعتَين حتى رجع إلى المدينة».\u202C",
+              hadethNumber: 62,
+              soundUrl: 'assets/sounds/62.ogg',
+              explainUrl: 'https://youtu.be/lxxenUl1Nio?si=j1d3bXFG9ze3EoPn',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عبد الله بن عمر رضي الله عنهما عن رسول الله ﷺ أنه قال: «إنَّ بلالًا يُؤذِّنُ بليلٍ، فكلوا واشربوا حتى تسمعوا أذانَ ابنِ أُمِّ مكتومٍ».\u202C",
+              hadethNumber: 63,
+              soundUrl: 'assets/sounds/63.ogg',
+              explainUrl: 'https://youtu.be/NCrTOeXRzhw?si=-rEUYxqx82irhFwr',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي سعيدٍ الخدريِّ رضي الله عنه قال: قال رسول الله ﷺ: «إذا سمعتم المؤذِّنَ فقولوا مثلَ ما يقول».\u202C",
+              hadethNumber: 64,
+              soundUrl: 'assets/sounds/64.ogg',
+              explainUrl: 'https://youtu.be/d3U87j45Rog?si=wJf0M4DErS90f4o0',
+            ),
+          ],
+        ),
       ],
     ),
   ];
