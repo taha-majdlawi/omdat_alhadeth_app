@@ -285,6 +285,46 @@ class Constants {
               soundUrl: 'assets/sounds/31.ogg',
               explainUrl: 'https://youtu.be/GBAF0Cx1IRY?si=jwuoKztqx_T-hvv_',
             ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عبد الله بن عمر أن عمر بن الخطاب رضي الله عنه قال: يا رسول الله! أيرقد أحدنا وهو جنب؟ قال: نعم، إذا توضأ أحدكم فليرقد.\u202C",
+              hadethNumber: 32,
+              soundUrl: 'assets/sounds/32.ogg',
+              explainUrl: 'https://youtu.be/zgBmU4CPiG4?si=E6RxNZNNOfXGaaym',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أم سلمة رضي الله عنها – زوج النبي ﷺ – قالت: جاءت أم سليم – امرأة أبي طلحة – إلى رسول الله ﷺ فقالت: يا رسول الله! إن الله لا يستحيي من الحق، هل على المرأة من غسل إذا هي احتلمت؟ فقال رسول الله ﷺ: نعم، إذا رأت الماء.\u202C",
+              hadethNumber: 33,
+              soundUrl: 'assets/sounds/33.ogg',
+              explainUrl: 'https://youtu.be/ChaRwNp0qh0?si=C6wQx8qX7sgqtXh4',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها قالت: كنت أغسل الجنابة من ثوب رسول الله ﷺ، فيخرج إلى الصلاة وإن بقع الماء في ثوبه.\n\n"
+                  "وفي لفظ لمسلم: لقد كنت أفركه من ثوب رسول الله ﷺ يابساً فيصلي فيه.\u202C",
+              hadethNumber: 34,
+              soundUrl: 'assets/sounds/34.ogg',
+              explainUrl: 'https://youtu.be/qtyEtksfP_o?si=3ZOLIpSkne8ZG-Qj',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: إذا جلس بين شعبها الأربع، ثم جهدها، فقد وجب الغسل.\n\n"
+                  "وفي لفظ: وإن لم ينزل.\u202C",
+              hadethNumber: 35,
+              soundUrl: 'assets/sounds/35.ogg',
+              explainUrl: 'https://youtu.be/Rmhb2d4tLKY?si=nZxxdG0VAPaTuKZ-',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي جعفر محمد بن علي بن الحسين بن علي بن أبي طالب: أنه كان هو وأبوه عند جابر بن عبد الله، وعنده قوم، فسألوه عن الغسل؟ فقال: يكفيك صاع. فقال رجل: ما يكفيني. فقال جابر: كان يكفي من هو أوفى منك شعراً، وخير منك، يريد النبي ﷺ. ثم أمّ في ثوب.\n\n"
+                  "وفي لفظ: كان النبي ﷺ يفرغ على رأسه ثلاثاً.\n\n"
+                  "الرجل الذي قال: ما يكفيني: هو الحسن بن محمد بن علي بن أبي طالب، أبوه: ابن الحنفية.\u202C",
+              hadethNumber: 36,
+              soundUrl: 'assets/sounds/36.ogg',
+              explainUrl: 'https://youtu.be/j3sjvd7Vse8?si=efGlJJzruTYQLOXJ',
+            ),
           ],
         ),
       ],
