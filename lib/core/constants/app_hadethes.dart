@@ -645,7 +645,7 @@ class Constants {
                   "ثم خرج يومًا فقام حتى كاد يكبِّر، فرأى رجلًا بادِيًا صدرُه، فقال: «عبادَ الله! لتُسوُّنَّ صفوفَكم، أو ليُخالِفنَّ اللهُ بين وجوهِكم».\u202C",
               hadethNumber: 69,
               soundUrl: 'assets/sounds/69.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/xFX-3KVjmfY?si=3QWDZuhMhbuj3FJl',
             ),
 
             Hadeth(
@@ -656,7 +656,7 @@ class Constants {
                   "واليتيم: قيل هو: ضُميرةُ، جدُّ حُسَينِ بنِ عبدِ اللهِ بنِ ضُميرة».\u202C",
               hadethNumber: 70,
               soundUrl: 'assets/sounds/70.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/oqJgPzhkNMY?si=em9cdKrFme3v-Mpi',
             ),
 
             Hadeth(
@@ -668,6 +668,7 @@ class Constants {
             ),
           ],
         ),
+        Door(doorName: 'باب الامامة',hadeths: [], )
       ],
     ),
   ];
