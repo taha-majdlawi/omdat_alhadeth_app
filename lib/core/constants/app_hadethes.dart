@@ -668,7 +668,69 @@ class Constants {
             ),
           ],
         ),
-        Door(doorName: 'باب الامامة',hadeths: [], )
+        Door(
+          doorName: 'باب الامامة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرةَ رضي الله عنه عن النبي ﷺ قال: «أما يخشى الذي يرفع رأسَه قبلَ الإمامِ أن يُحوِّلَ اللهُ رأسَه رأسَ حمارٍ! أو يجعلَ صورتَه صورةَ حمارٍ!».\u202C",
+              hadethNumber: 72,
+              soundUrl: 'assets/sounds/72.ogg',
+              explainUrl: 'https://youtu.be/PgfyaynECbE?si=CC9vaWp1-BiTgpBP',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرةَ رضي الله عنه عن النبي ﷺ قال: «إنما جُعِلَ الإمامُ ليُؤتَمَّ به، فلا تختلفوا عليه.\n"
+                  "فإذا كبَّر فكبِّروا، وإذا ركع فاركعوا، وإذا قال: سمع اللهُ لمن حمده، فقولوا: ربَّنا ولك الحمد.\n"
+                  "وإذا سجد فاسجدوا، وإذا صلَّى جالسًا فصلُّوا جلوسًا أجمعون».\u202C",
+              hadethNumber: 73,
+              soundUrl: 'assets/sounds/73.ogg',
+              explainUrl: 'https://youtu.be/LAWr3dycJA0?si=jKu2Yn7ez-VT5yVj',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشةَ رضي الله عنها قالت: «صلَّى رسولُ الله ﷺ في بيتِه وهو شاكٍ، فصلَّى جالسًا، وصلَّى وراءَه قومٌ قيامًا، فأشارَ إليهم أنِ اجلسوا. فلمَّا انصرفَ قال: إنما جُعِلَ الإمامُ ليُؤتَمَّ به.\n"
+                  "فإذا ركع فاركعوا، وإذا رفع فارفعوا، وإذا قال: سمع اللهُ لمن حمده، فقولوا: ربَّنا ولك الحمد.\n"
+                  "وإذا سجد فاسجدوا، وإذا صلَّى جالسًا فصلُّوا جلوسًا أجمعون».\u202C",
+              hadethNumber: 74,
+              soundUrl: 'assets/sounds/74.ogg',
+              explainUrl: 'https://youtu.be/kCE_mo2z55M?si=njsrXWVTwdkBROH2',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عبدِ اللهِ بنِ يزيدَ الخطميِّ الأنصاريِّ قال: «حدَّثني البراءُ بنُ عازبٍ رضي الله عنهما – وهو غيرُ كذوبٍ – قال: كانوا إذا قال رسولُ الله ﷺ: سمع اللهُ لمن حمده، لم يحنِ أحدٌ منا ظهرَه حتى يقعَ رسولُ الله ﷺ ساجدًا، ثم نقعُ سجودًا بعده».\u202C",
+              hadethNumber: 75,
+              soundUrl: 'assets/sounds/75.ogg',
+              explainUrl: 'https://youtu.be/kCE_mo2z55M?si=njsrXWVTwdkBROH2',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرةَ رضي الله عنه أن رسولَ الله ﷺ قال: «إذا أمَّنَ الإمامُ فأمِّنوا، فإنه مَن وافق تأمينُه تأمينَ الملائكةِ غُفِر له ما تقدَّم من ذنبِه».\u202C",
+              hadethNumber: 76,
+              soundUrl: 'assets/sounds/76.ogg',
+              explainUrl: 'https://youtu.be/ojmsG0ps7qM?si=ZAds6lfnWgdbRvQv',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرةَ رضي الله عنه أن رسولَ الله ﷺ قال: «إذا صلَّى أحدُكم للناسِ فليُخفِّفْ، فإنَّ فيهم الضَّعيفَ والسقيمَ وذا الحاجة، وإذا صلَّى أحدُكم لنفسِه فليُطوِّلْ ما شاء».\u202C",
+              hadethNumber: 77,
+              soundUrl: 'assets/sounds/77.ogg',
+              explainUrl: 'https://youtu.be/1mrGgjtZoew?si=o7kRiZ2yWMHLcniN',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي مسعودٍ الأنصاريِّ رضي الله عنه قال: «جاء رجلٌ إلى رسولِ الله ﷺ فقال: يا رسولَ الله، إني لأتأخَّرُ عن صلاةِ الصبحِ من أجلِ فلانٍ مما يُطيلُ بنا.\n"
+                  "فما رأيتُ النبي ﷺ غضب في موعظةٍ قطُّ أشدَّ مما غضب يومئذٍ، فقال: يا أيها الناسُ! إنَّ منكم منفِّرين.\n"
+                  "فأيُّكم أمَّ الناسَ فليُوجِزْ، فإنَّ فيهم الكبيرَ والضعيفَ وذا الحاجة».\u202C",
+              hadethNumber: 78,
+              soundUrl: 'assets/sounds/78.ogg',
+              explainUrl: 'https://youtu.be/l99WEAYioBE?si=PjAYbmW86jnc5yHz',
+            ),
+          ],
+        ),
       ],
     ),
   ];
