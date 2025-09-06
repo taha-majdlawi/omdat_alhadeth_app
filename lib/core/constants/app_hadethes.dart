@@ -197,6 +197,94 @@ class Constants {
               soundUrl: 'assets/sounds/21.ogg',
               explainUrl: 'https://youtu.be/NEwkpHznEog?si=CLpJqUA3ZmFMAZj4',
             ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن حذيفة بن اليمان رضي الله عنه قال: كنت مع النبي ﷺ، فبال، وتوضأ، ومسح على خفيه. مختصر.\u202C",
+              hadethNumber: 22,
+              soundUrl: 'assets/sounds/22.ogg',
+              explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=GLXLyGdOiijJVemp',
+            ),
+          ],
+        ),
+        Door(
+          doorName: "باب في المذي وغيره",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن علي بن أبي طالب رضي الله عنه قال: كنت رجلاً مذاءً، فاستحييت أن أسأل رسول الله ﷺ لمكان ابنته، فأمرت المقداد بن الأسود فسأله، فقال: يغسل ذكره ويتوضأ.\n\n"
+                  "وللبخاري: اغسل ذكرك وتوضأ.\n\n"
+                  "ولمسلم: توضأ وانضح فرجك.\u202C",
+              hadethNumber: 23,
+              soundUrl: 'assets/sounds/23.ogg',
+              explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=_XqVxfLQWrHwFvCU',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عباد بن تميم، عن عبد الله بن زيد بن عاصم المازني رضي الله عنه قال: شكي إلى النبي ﷺ الرجل يخيل إليه أنه يجد الشيء في الصلاة، قال: لا ينصرف حتى يسمع صوتاً، أو يجد ريحاً.\u202C",
+              hadethNumber: 24,
+              soundUrl: 'assets/sounds/24.ogg',
+              explainUrl: 'https://youtu.be/hZux9eUg9QY?si=3VEQCuIJtB_tpLK9',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أم قيس بنت محصن الأسدية رضي الله عنها: أنها أتت بابن لها صغير لم يأكل الطعام إلى رسول الله ﷺ فأجلسه رسول الله ﷺ في حجره، فبال على ثوبه، فدعا بماء فنضحه ولم يغسله.\u202C",
+              hadethNumber: 25,
+              soundUrl: 'assets/sounds/25.ogg',
+              explainUrl: 'https://youtu.be/B-CVsCgxWws?si=4P9y9t7JAr3tVzis',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة – أم المؤمنين – رضي الله عنها قالت: أن النبي ﷺ بصبي فبال على ثوبه، فدعا بماء فأتبعه إياه.\n\n"
+                  "ولمسلم: فأتبعه بوله ولم يغسله.\u202C",
+              hadethNumber: 26,
+              soundUrl: 'assets/sounds/26.ogg',
+              explainUrl: 'https://youtu.be/KCea7UVzM8s?si=9P44PyrzzcXrpFSQ',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أنس بن مالك رضي الله عنه قال: جاء أعرابي فبال في طائفة المسجد، فزجره الناس، فنهاهم النبي ﷺ، فلما قضى بوله أمر النبي ﷺ بذنوب من ماء فأهريق عليه.\u202C",
+              hadethNumber: 27,
+              soundUrl: 'assets/sounds/27.ogg',
+              explainUrl: 'https://youtu.be/1h-wltVNivs?si=kfCmuKOY1B3qf8WT',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرة رضي الله عنه قال: سمعت النبي ﷺ يقول: الفطرة خمس: الختان، والاستحداد، وقص الشارب، وتقليم الأظفار، ونتف الإبط.\u202C",
+              hadethNumber: 28,
+              soundUrl: 'assets/sounds/28.ogg',
+              explainUrl: 'https://youtu.be/ysPNgP1cqFU?si=pDZdeRbiKYCCyQm8',
+            ),
+          ],
+        ),
+        Door(
+          doorName: 'باب الجنابة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "\u202Bعن أبي هريرة رضي الله عنه: أن النبي ﷺ لقيه في بعض طرق المدينة وهو جنب، فانخنست منه، فذهبت فاغتسلت، ثم جئت، فقال: أين كنت يا أبا هريرة؟ قال: كنت جنباً فكرهت أن أجالسك وأنا على غير طهارة، فقال: سبحان الله! إن المؤمن لا ينجس.\n\n"
+                  "انخنست: انسلكت.\u202C",
+              hadethNumber: 29,
+              soundUrl: 'assets/sounds/29.ogg',
+              explainUrl: 'https://youtu.be/ZnIUe8-1k8o?si=9lmEirFU4dqNwG4C',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن عائشة رضي الله عنها قالت: كان رسول الله ﷺ إذا اغتسل من الجنابة غسل يديه، وتوضأ وضوءه للصلاة، ثم اغتسل.\n\n"
+                  "ثم يخلل بيديه شعره، حتى إذا ظن أنه قد أروى بشرته، أفاض عليه الماء ثلاث مرات.\n\n"
+                  "ثم غسل سائر جسده.\n\n"
+                  "وكانت تقول: كنت أغتسل أنا ورسول الله ﷺ من إناء واحد، نغترف منه جميعاً.\u202C",
+              hadethNumber: 30,
+              soundUrl: 'assets/sounds/30.ogg',
+              explainUrl: 'https://youtu.be/1mNTudMqK_Q?si=OZBtSNo4HRtBFJa1',
+            ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن ميمونة بنت الحارث رضي الله عنها – زوج النبي ﷺ – قالت: توضأ رسول الله ﷺ وضوء الجنابة، فأكفأ بيمينه على يساره مرتين – أو ثلاثاً – ثم غسل فرجه، ثم ضرب يده بالأرض – أو الحائط – مرتين – أو ثلاثاً – ثم تمضمض واستنشق، وغسل وجهه وذراعيه، ثم أفاض على رأسه الماء، ثم غسل جسده.\n\n"
+                  "ثم تنحى فغسل رجليه، فأتيته بخِرقة فلم يردها، فجعل ينفض الماء بيده.\u202C",
+              hadethNumber: 31,
+              soundUrl: 'assets/sounds/31.ogg',
+              explainUrl: 'https://youtu.be/GBAF0Cx1IRY?si=jwuoKztqx_T-hvv_',
+            ),
           ],
         ),
       ],
