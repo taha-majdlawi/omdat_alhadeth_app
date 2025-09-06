@@ -731,7 +731,129 @@ class Constants {
             ),
           ],
         ),
-     
+        Door(
+          doorName: 'باب صفة صلاة النبي',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: (كان رسول الله ﷺ إذا كبَّر في الصلاة سكت هُنيَّةً قبل أن يقرأ، فقلتُ: يا رسول الله، بأبي أنت وأمي، أرأيتَ سكوتك بين التكبير والقراءة ما تقول؟\n"
+                  "قال: أقول: اللهم باعِد بيني وبين خطاياي كما باعدتَ بين المشرق والمغرب، اللهم نقِّني من خطاياي كما يُنقَّى الثوبُ الأبيض من الدنس، اللهم اغسِلني من خطاياي بالثلج والماء والبَرَد).",
+              hadethNumber: 79,
+              soundUrl: 'assets/sounds/79.ogg',
+              explainUrl: 'https://youtu.be/d0f1OX2aTws?si=_b3jPElXnor9iAqC',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: «كان رسول الله ﷺ يفتتح الصلاة بالتكبير، والقراءة بـ ﴿الحمد لله رب العالمين﴾، وكان إذا ركع لم يُشخص رأسه ولم يُصوِّبه، ولكن بين ذلك.\n"
+                  "وكان إذا رفع رأسه من الركوع لم يسجد حتى يستوي قائمًا.\n"
+                  "وكان إذا رفع رأسه من السجدة لم يسجد حتى يستوي قاعدًا.\n"
+                  "وكان يقول في كل ركعتين: التحية.\n"
+                  "وكان يفرش رجله اليسرى وينصب رجله اليمنى.\n"
+                  "وكان ينهى عن عقبة الشيطان، وينهى أن يفترش الرجل ذراعيه افتراش السبع.\n"
+                  "وكان يختم الصلاة بالتسليم». ",
+              hadethNumber: 80,
+              soundUrl: 'assets/sounds/80.ogg',
+              explainUrl: 'https://youtu.be/KKRiXcGNfsQ?si=XfOFWW6SR941R0Cd',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: أن النبي ﷺ كان يرفع يديه حذو منكبيه إذا افتتح الصلاة، وإذا كبَّر للركوع.\n"
+                  "وإذا رفع رأسه من الركوع رفعهما كذلك، وقال: سمع الله لمن حمده، ربنا ولك الحمد.\n"
+                  "وكان لا يفعل ذلك في السجود.",
+              hadethNumber: 81,
+              soundUrl: 'assets/sounds/81.ogg',
+              explainUrl: 'https://youtu.be/q-WjFV2JSCs?si=HQeqDclUaxHCDZtl',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله ﷺ: أُمرت أن أسجد على سبعة أعظم: على الجبهة – وأشار بيده إلى أنفه – واليدين، والركبتين، وأطراف القدمين.",
+              hadethNumber: 82,
+              soundUrl: 'assets/sounds/82.ogg',
+              explainUrl: 'https://youtu.be/qRQ_41-aX4M?si=quIO3otxqfu6n1sB',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: (كان رسول الله ﷺ إذا قام إلى الصلاة كبَّر حين يقوم، ثم يكبر حين يركع، ثم يقول: سمع الله لمن حمده، حين يرفع صُلبه من الركوع، ثم يقول وهو قائم: ربنا ولك الحمد.\n"
+                  "ثم يكبر حين يهوي، ثم يكبر حين يرفع رأسه، ثم يكبر حين يسجد، ثم يكبر حين يرفع رأسه، ثم يفعل ذلك في صلاته كلها حتى يقضيها، ويكبر حين يقوم من الثنتين بعد الجلوس).",
+              hadethNumber: 83,
+              soundUrl: 'assets/sounds/83.ogg',
+              explainUrl: 'https://youtu.be/cmexuz851Ug?si=4zkAkx5DHWyCAsHJ',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن مطرف بن عبد الله قال: صليتُ أنا وعمران بن حصين خلف علي بن أبي طالب رضي الله عنه، فكان إذا سجد كبَّر، وإذا رفع رأسه كبَّر، وإذا نهض من الركعتين كبَّر.\n"
+                  "فلما قضى الصلاة أخذ بيدي عمران بن حصين فقال: قد ذكَّرني هذا صلاة محمد ﷺ، أو قال: صلى بنا صلاة محمد ﷺ.",
+              hadethNumber: 84,
+              soundUrl: 'assets/sounds/84.ogg',
+              explainUrl: 'https://youtu.be/KCQ6ph4eCKs?si=Q8SOHxx8faRhodJH',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن البراء بن عازب رضي الله عنه قال: (رمقتُ الصلاة مع محمد ﷺ فوجدت قيامه، فركعته، فاعتداله بعد ركوعه، فسجدته، فجلس بين السجدتين، فسجدته، فجلسة ما بين التسليم والانصراف، قريبًا من السواء).\n"
+                  "وفي رواية البخاري: (ما خلا القيام والقعود قريبًا من السواء).",
+              hadethNumber: 85,
+              soundUrl: 'assets/sounds/85.ogg',
+              explainUrl: 'https://youtu.be/vih3AH6QQ3w?si=Z7c1cKdWqiKMd4Ax',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن ثابت البناني، عن أنس بن مالك رضي الله عنه قال: (إني لا آلُو أن أُصلي بكم كما رأيت رسول الله ﷺ يصلي بنا).\n"
+                  "قال ثابت: فكان أنس يصنع شيئًا لا أراكم تصنعونه: كان إذا رفع رأسه من الركوع انتصب قائمًا حتى يقول القائل: قد نسي، وإذا رفع من السجدة مكث حتى يقول القائل: قد نسي).",
+              hadethNumber: 86,
+              soundUrl: 'assets/sounds/86.ogg',
+              explainUrl: 'https://youtu.be/mU1eVBPjED8?si=mIkVTIh6csnQLpRY',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: (ما صليت وراء إمامٍ قط أخفَّ صلاة، ولا أتمَّ صلاةً من النبي ﷺ).",
+              hadethNumber: 87,
+              soundUrl: 'assets/sounds/87.ogg',
+              explainUrl: 'https://youtu.be/fwN-JEK0MJc?si=WvnUSlrw4Afu4FU7',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي قلابة، عبد الله بن زيد الجرمي البصري قال: «جاءنا مالك بن الحويرث رضي الله عنه في مسجدنا هذا، فقال: إني لأصلي بكم وما أريد الصلاة، أصلي كيف رأيت رسول الله ﷺ يصلي».\n"
+                  "فقلت لأبي قلابة: كيف كان يصلي؟\n"
+                  "قال: مثل صلاة شيخنا هذا – وكان يجلس إذا رفع رأسه من السجود قبل أن ينهض –.\n"
+                  "أراد شيبهم: أبا بريد عمرو بن سلمة الجرمي.",
+              hadethNumber: 88,
+              soundUrl: 'assets/sounds/88.ogg',
+              explainUrl: 'https://youtu.be/cKDGDC5vVi8?si=tDLGmKd8tKPpNnEO',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن مالك بن بحينة رضي الله عنه: أن النبي ﷺ كان إذا صلى فرج بين يديه حتى يبدو بياض إبطيه.",
+              hadethNumber: 89,
+              soundUrl: 'assets/sounds/89.ogg',
+              explainUrl: 'https://youtu.be/rQeFdzL1sDE?si=ghQ1CAcbFircyBbX',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي سلمة سعيد بن يزيد قال: (سألت أنس بن مالك رضي الله عنه: أكان النبي ﷺ يصلي في نعليه؟ قال: نعم).",
+              hadethNumber: 90,
+              soundUrl: 'assets/sounds/90.ogg',
+              explainUrl: 'https://youtu.be/TVupLoBYV4w?si=TKQblML1FwKfp5-d',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي قتادة الأنصاري رضي الله عنه: أن رسول الله ﷺ كان يصلي وهو حامل أمامة بنت زينب بنت رسول الله ﷺ، ولأبي العاص بن الربيع بن عبد شمس، فإذا سجد وضعها، وإذا قام حملها.",
+              hadethNumber: 91,
+              soundUrl: 'assets/sounds/91.ogg',
+              explainUrl: 'https://youtu.be/Yor6TFLTkUg?si=nOZNcfX8HjkbjlGA',
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه، عن النبي ﷺ قال: «اعْتَدِلوا في السجود، ولا يَبْسُط أحدكم ذراعيه انبساط الكلب».",
+              hadethNumber: 92,
+              soundUrl: 'assets/sounds/92.ogg',
+              explainUrl: 'https://youtu.be/TjFditwM2-U?si=aOqJOoqnFjVYDt0z',
+            ),
+          ],
+        ),
       ],
     ),
   ];
