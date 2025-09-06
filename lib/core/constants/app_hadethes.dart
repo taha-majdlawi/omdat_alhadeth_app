@@ -989,6 +989,34 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب جامع',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي قتادة بن رِبعِي الأنصاري رضي الله عنه قال: قال النبي ﷺ: «إذا دخل أحدكم المسجد، فلا يجلس حتى يصلي ركعتين».",
+              hadethNumber: 107,
+              soundUrl: 'assets/sounds/107.ogg',
+              explainUrl: 'https://youtu.be/SDWQyATGlQM?si=fNlNbmPwJZ-wr4E_',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن زيد بن أرقم رضي الله عنه قال: كنا نتكلم في الصلاة، يكلم الرجل صاحبه وهو إلى جنبه في الصلاة، حتى نزلت ﴿وَقُومُوا لِلَّهِ قَانِتِينَ﴾، فأُمرنا بالسكوت ونهينا عن الكلام.",
+              hadethNumber: 108,
+              soundUrl: 'assets/sounds/108.ogg',
+              explainUrl: 'https://youtu.be/LErkCj_ofCE?si=MKSB4PWYQNZU3go5',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما، عن رسول الله ﷺ أنه قال: «إذا اشتد الحر فأبردوا عن الصلاة؛ فإن شدة الحر من فيح جهنم».",
+              hadethNumber: 109,
+              soundUrl: 'assets/sounds/109.ogg',
+              explainUrl: 'https://youtu.be/BgYC9xkWox8?si=LoIlG5qkFZSabmum',
+            ),
+          ],
+        ),
       ],
     ),
   ];
