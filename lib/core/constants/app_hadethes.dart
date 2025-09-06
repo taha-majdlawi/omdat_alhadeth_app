@@ -159,6 +159,15 @@ class Constants {
               soundUrl: 'assets/sounds/17.ogg',
               explainUrl: 'https://youtu.be/bdKl1D0qACY?si=I5dbOWDTA52Q4l-R',
             ),
+            Hadeth(
+              hadethText:
+                  "\u202Bعن حُذَيفةَ بنِ اليَمان رضي الله عنه قال:\n"
+                  "«كانَ النبي ﷺ إذا قامَ منَ الليلِ يَشوصُ فاهُ بالسِّواكِ».\n\n"
+                  "يَشوص: معناه: يَغسِل؛ يُقال: شاصه يشوصه، ومَاصه يَموصه: إذا غسله.\u202C",
+              hadethNumber: 18,
+              soundUrl: 'assets/sounds/18.ogg',
+              explainUrl: 'https://youtu.be/8xcsnqDjDDU?si=J13Ghzvd4j735PFh',
+            ),
           ],
         ),
       ],
