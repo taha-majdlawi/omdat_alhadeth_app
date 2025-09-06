@@ -1185,6 +1185,19 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الجمع بين الصلاتين في السفر',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: «كان رسول الله ﷺ يجمع بين صلاة الظهر والعصر إذا كان على ظهر سير، ويجمع بين المغرب والعشاء».",
+              hadethNumber: 128,
+              soundUrl: 'assets/sounds/128.ogg',
+              explainUrl: 'https://youtu.be/aQosvM04_xs?si=ozL3utO8ZPy4Qhnz',
+            ),
+          ],
+        ),
+        
       ],
     ),
   ];
