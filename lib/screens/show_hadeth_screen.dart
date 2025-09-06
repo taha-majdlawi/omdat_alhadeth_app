@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 import 'package:omdat_alhadeth/core/utils/helpers.dart';
 import 'package:omdat_alhadeth/models/hadeth_model.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
