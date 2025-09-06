@@ -52,8 +52,7 @@ class ShowHadethScreen extends StatelessWidget {
     return BackgroundWrapper(
       themeProvider: themeProvider,
       child: Scaffold(
-        backgroundColor:
-Colors.transparent,
+        backgroundColor: Colors.transparent,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
