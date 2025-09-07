@@ -1409,7 +1409,7 @@ class Constants {
         ),
       ],
     ),
-  
+
     // book 3 كتاب الجنائز
     Book(
       bookName: 'كتاب الجنائز',
@@ -1522,7 +1522,8 @@ class Constants {
                   "وعنها رضي الله عنها قالت: قال رسول الله ﷺ في مرضه الذي لم يقم منه: لعن الله اليهود والنصارى اتخذوا قبور أنبيائهم مساجد. قالت: ولولا ذلك أُبرِز قبره غير أنه خشي أن يُتخذ مسجدًا.",
               hadethNumber: 163,
               soundUrl: 'assets/sounds/163.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
+              isOthimieen: false,
             ),
 
             Hadeth(
@@ -1530,7 +1531,8 @@ class Constants {
                   "عن عبد الله بن مسعود رضي الله عنه، عن النبي ﷺ قال: ليس منا من ضرب الخدود، وشق الجيوب، ودعا بدعوى الجاهلية.",
               hadethNumber: 164,
               soundUrl: 'assets/sounds/164.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
+              isOthimieen: false,
             ),
           ],
         ),
@@ -1543,12 +1545,32 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: من شهد الجنازة حتى يُصلَّى عليها فله قيراط، ومن شهدها حتى تُدفن فله قيراطان. قيل: وما القيراطان؟ قال: مثل الجبلين العظيمين. ولِمسلم: أصغرهما مثل أُحُد.",
               hadethNumber: 165,
               soundUrl: 'assets/sounds/165.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
+              isOthimieen: false,
             ),
           ],
         ),
       ],
     ),
-  
+
+    // كتاب الزكاة 4
+    Book(
+      bookName: 'كتاب الزكاة',
+      doors: [
+        Door(
+          doorName: 'باب وجوب الزكاة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله ﷺ لمعاذ بن جبل رضي الله عنه حين بعثه إلى اليمن: «إنك ستأتي قوماً أهل كتاب، فإذا جئتهم فادعهم إلى أن يشهدوا أن لا إله إلا الله، وأن محمداً رسول الله. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم خمس صلوات في كل يوم وليلة. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم صدقة تؤخذ من أغنيائهم فترد على فقرائهم. فإن هم أطاعوك لذلك، فإياك وكرائم أموالهم، واتق دعوة المظلوم؛ فإنها ليس بينها وبين الله حجاب».",
+              hadethNumber: 166,
+              soundUrl: 'assets/sounds/166.ogg',
+              explainUrl: '',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+      ],
+    ),
   ];
 }

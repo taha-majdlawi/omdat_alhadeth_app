@@ -3,12 +3,13 @@ class Hadeth {
   final int hadethNumber;
   final String soundUrl;
   final String explainUrl;
-
+   bool isOthimieen;
   Hadeth({
     required this.hadethText,
     required this.hadethNumber,
     required this.soundUrl,
     required this.explainUrl,
+    this.isOthimieen = false,
   });
 }
 
