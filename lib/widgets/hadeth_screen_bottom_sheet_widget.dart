@@ -82,8 +82,9 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
       if (isAsset) {
         // audioplayers يتوقع المسار داخل مجلد assets بدون "assets/"
-        final assetPath =
-            src.startsWith('assets/') ? src.substring('assets/'.length) : src;
+        final assetPath = src.startsWith('assets/')
+            ? src.substring('assets/'.length)
+            : src;
         await _player.setSource(AssetSource(assetPath));
       } else {
         await _player.setSourceUrl(src);
@@ -135,13 +136,11 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     return SafeArea(
       top: false,
       child: Container(
-        
         width: widget.screenWidth,
         decoration: BoxDecoration(
-
           color: Colors.transparent,
           borderRadius: const BorderRadius.vertical(top: Radius.circular(25)),
-        //  boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 10)],
+          //  boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 10)],
         ),
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20),
@@ -264,8 +263,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   const SizedBox(width: 8),
 
                   IconButton(
-                    icon: Icon(
-                        _isRepeating ? Icons.repeat_one : Icons.repeat),
+                    icon: Icon(_isRepeating ? Icons.repeat_one : Icons.repeat),
                     iconSize: 28,
                     color: _isRepeating ? AppColors.darkPrimary : null,
                     onPressed: () async {
