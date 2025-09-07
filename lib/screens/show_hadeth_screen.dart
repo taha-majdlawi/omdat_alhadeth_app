@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/utils/helpers.dart';
 import 'package:omdat_alhadeth/core/utils/widgets/background_wrapper.dart';
+import 'package:omdat_alhadeth/core/utils/widgets/hadeth_bottom_sheet.dart';
 import 'package:omdat_alhadeth/models/hadeth_model.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
-import 'package:omdat_alhadeth/widgets/hadeth_screen_bottom_sheet_widget.dart';
 
 
 
