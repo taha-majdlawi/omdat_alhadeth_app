@@ -1651,7 +1651,208 @@ class Constants {
             ),
           ],
         ),
-        
+      ],
+    ),
+
+    // كتاب الصيام 5
+    // كتاب الصيام 5
+    Book(
+      bookName: 'كتاب الصيام',
+      doors: [
+        Door(
+          doorName: 'باب النهي عن تقدم رمضان بصوم',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «لا تقدموا رمضان بصوم يوم ولا يومين، إلا رجلاً كان يصوم صوماً فليصمه».",
+              hadethNumber: 174,
+              soundUrl: 'assets/sounds/174.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب وجوب صوم رمضان بالرؤية والفطر بها',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: سمعت رسول الله ﷺ يقول: «إذا رأيتموه فصوموا، وإذا رأيتموه فأفطروا، فإن غمّ عليكم فاقدروا له».",
+              hadethNumber: 175,
+              soundUrl: 'assets/sounds/175.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب السحور واستحبابه',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ: «تسحروا فإن في السحور بركة».",
+              hadethNumber: 176,
+              soundUrl: 'assets/sounds/176.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك، عن زيد بن ثابت رضي الله عنه قال: «تسحرنا مع رسول الله ﷺ، ثم قام إلى الصلاة». قال أنس: قلت: كم كان بين الأذان والسحور؟ قال: «قدر خمسين آية».",
+              hadethNumber: 177,
+              soundUrl: 'assets/sounds/177.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب ما جاء في الجنب يصبح صائماً',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عائشة، وأم سلمة رضي الله عنهما: أن رسول الله ﷺ كان يدركه الفجر وهو جنب من أهله، ثم يغتسل ويصوم.",
+              hadethNumber: 178,
+              soundUrl: 'assets/sounds/178.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب من أكل أو شرب ناسياً',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «من نسي وهو صائم فأكل أو شرب، فليتم صومه، فإنما أطعمه الله وسقاه».",
+              hadethNumber: 179,
+              soundUrl: 'assets/sounds/179.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب كفارة من جامع في رمضان',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: «بينما نحن جلوس عند النبي ﷺ إذ جاءه رجل، فقال: يا رسول الله، هلكت! قال: ما لك؟ قال: وقعت على امرأتي وأنا صائم – وفي رواية: أصبت أهلي في رمضان – فقال رسول الله ﷺ: هل تجد رقبة تعتقها؟ قال: لا. قال: فهل تستطيع أن تصوم شهرين متتابعين؟ قال: لا. قال: فهل تجد إطعام ستين مسكيناً؟ قال: لا. قال: فمكث النبي ﷺ، فبينما نحن على ذلك أُتي النبي ﷺ بعرق فيه تمر – والعرق: المكتل – قال: أين السائل؟ قال: أنا. قال: خذ هذا فتصدق به. فقال الرجل: على أفقر مني يا رسول الله؟ فوالله ما بين لابتيها أهل بيت أفقر من أهلي! فضحك النبي ﷺ حتى بدت أنيابه، ثم قال: أطعمه أهلك».",
+              hadethNumber: 180,
+              soundUrl: 'assets/sounds/180.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+        Door(
+          doorName: 'باب الصوم في السفر وغيره',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها: أن حمزة بن عمرو الأسلمي رضي الله عنه قال للنبي ﷺ: أصوم في السفر؟ وكان كثير الصيام، فقال: «إن شئتَ فصُم، وإن شئتَ فأفطر».",
+              hadethNumber: 181,
+              soundUrl: 'assets/sounds/181.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: «كنا نسافر مع النبي ﷺ فلم يعب الصائم على المفطر، ولا المفطر على الصائم».",
+              hadethNumber: 182,
+              soundUrl: 'assets/sounds/182.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي الدرداء رضي الله عنه قال: «خرجنا مع رسول الله ﷺ في شهر رمضان في حر شديد، حتى إن كان أحدنا ليضع يده على رأسه من شدة الحر، وما فينا صائم إلا رسول الله ﷺ وعبد الله بن رواحة».",
+              hadethNumber: 183,
+              soundUrl: 'assets/sounds/183.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما قال: «كان رسول الله ﷺ في سفر فرأى زحاماً ورجلاً قد ظلَّل عليه، فقال: ما هذا؟ قالوا: صائم. فقال: ليس من البر الصوم في السفر».",
+              hadethNumber: 184,
+              soundUrl: 'assets/sounds/184.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: «كنا مع النبي ﷺ في السفر فينا الصائم، وفينا المفطر، قال: فنزلنا منزلاً في يوم حار، وأكثرنا ظلاً صاحب الكساء، ومنا من يتقي الشمس بيده. قال: فسقط الصوم، وقام المفطرون فضربوا الأبنية وسقوا الركاب، فقال رسول الله ﷺ: «ذهب المفطرون اليوم بالأجر».",
+              hadethNumber: 185,
+              soundUrl: 'assets/sounds/185.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: «كان يكون عليَّ الصوم من رمضان، فما أستطيع أن أقضيه إلا في شعبان».",
+              hadethNumber: 186,
+              soundUrl: 'assets/sounds/186.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها أن رسول الله ﷺ قال: «من مات وعليه صيام، صام عنه وليه». وأخرجه أبو داود وقال: «هذا في النذر»، وهو قول أحمد بن حنبل.",
+              hadethNumber: 187,
+              soundUrl: 'assets/sounds/187.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: «جاء رجل إلى النبي ﷺ فقال: يا رسول الله! إن أمي ماتت وعليها صوم شهر، أفأقضيه عنها؟ فقال: لو كان على أمك دين أكنت قاضيه عنها؟ قال: نعم. قال: فدين الله أحق أن يُقضى». \nوفي رواية: «جاءت امرأة إلى رسول الله ﷺ فقالت: يا رسول الله! إن أمي ماتت وعليها صوم نذر، أفأصوم عنها؟ فقال: أرأيت لو كان على أمك دين فقضيتيه، أكان ذلك يؤدي عنها؟ قالت: نعم. قال: فصومي عن أمك».",
+              hadethNumber: 188,
+              soundUrl: 'assets/sounds/188.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن سهل بن سعد الساعدي رضي الله عنه: قال رسول الله ﷺ: «لا يزال الناس بخير ما عَجّلوا الفطر».",
+              hadethNumber: 189,
+              soundUrl: 'assets/sounds/189.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه: قال رسول الله ﷺ: «إذا أقبل الليل من هاهنا، وأدبر النهار من هاهنا، فقد أفطر الصائم».",
+              hadethNumber: 190,
+              soundUrl: 'assets/sounds/190.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: قال رسول الله ﷺ: «نَهَى رسول الله ﷺ عن الوصال: أن يتواصل فيه الإنسان طعامه وشرابه». رواه أبو هريرة، وعائشة، وأنس بن مالك، ولمسلم عن أبي سعيد الخدري: «فَإِن كتمتم أُرديتم إلى السَحَر».",
+              hadethNumber: 191,
+              soundUrl: 'assets/sounds/191.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
