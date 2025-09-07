@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
+import 'package:omdat_alhadeth/core/utils/widgets/background_wrapper.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 import 'package:omdat_alhadeth/widgets/home_drawer_widget.dart';
 import 'package:omdat_alhadeth/widgets/home_screen_body_widget.dart';
@@ -11,19 +12,21 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
-    return Scaffold(
-      drawer: HomeDrawerWidget(themeProvider: themeProvider),
-      appBar: AppBar(
-        backgroundColor: themeProvider.getIsDarkTheme
-            ? AppColors.darkScaffoldColor
-            : AppColors.lightCardColor,
-        centerTitle: true,
-        title: const Text(
-          'عمدة الحديث',
-          style: TextStyle(fontFamily: 'Reem Kufi'),
+    return BackgroundWrapper(
+      themeProvider: themeProvider,
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        drawer: HomeDrawerWidget(themeProvider: themeProvider),
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+          centerTitle: true,
+          title: const Text(
+            'عمدة الحديث',
+            style: TextStyle(fontFamily: 'Reem Kufi'),
+          ),
         ),
+        body: HomeScreenBodyWidget(themeProvider: themeProvider),
       ),
-      body: HomeScreenBodyWidget(themeProvider: themeProvider, ),
     );
   }
 }

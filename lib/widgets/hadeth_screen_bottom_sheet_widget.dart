@@ -135,11 +135,13 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     return SafeArea(
       top: false,
       child: Container(
+        
         width: widget.screenWidth,
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.surface,
+
+          color: Colors.transparent,
           borderRadius: const BorderRadius.vertical(top: Radius.circular(25)),
-          boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 10)],
+        //  boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 10)],
         ),
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20),
