@@ -1420,31 +1420,128 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: نعى النبي ﷺ النجاشي في اليوم الذي مات فيه، وخرج بهم إلى المصلى، فصف بهم، وكبر أربعًا.",
               hadethNumber: 152,
               soundUrl: 'assets/sounds/152.ogg',
-              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+              explainUrl: 'https://youtu.be/PaXnEjXEpZ8?si=s4_TUyCSnTJqSVCu',
             ),
-
             Hadeth(
               hadethText:
                   "عن جابر رضي الله عنه: أن النبي ﷺ صلى على النجاشي، فكنت في الصف الثاني أو الثالث.",
               hadethNumber: 153,
               soundUrl: 'assets/sounds/153.ogg',
-              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+              explainUrl: 'https://youtu.be/D1lb7MoCDW0?si=-akFaZ9P8JjFSulm',
             ),
-
             Hadeth(
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما: أن رسول الله ﷺ صلى على قبر بعدما دُفن، فكبر عليه أربعًا.",
               hadethNumber: 154,
               soundUrl: 'assets/sounds/154.ogg',
-              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+              explainUrl: 'https://youtu.be/EgSbBjfgxWM?si=85HbTEb6fSyGVlIK',
             ),
-
             Hadeth(
               hadethText:
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ كُفّن في ثلاثة أثواب بيض يمانية، ليس فيها قميص ولا عمامة.",
               hadethNumber: 155,
               soundUrl: 'assets/sounds/155.ogg',
-              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+              explainUrl: 'https://youtu.be/k3ZzrnYWc8I?si=xCycCZb5LS1iNY7g',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب غسل الميت وتكفينه',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أم عطية الأنصارية رضي الله عنها قالت: دخل علينا رسول الله ﷺ حين تُوفيت ابنته، فقال: «اغسِلْنَها ثلاثًا أو خمسًا أو أكثر من ذلك إن رأيتن ذلك، بماءٍ وسِدر، واجعلن في الآخرة كافورًا أو شيئًا من كافور، فإذا فرغتن فآذنَّني». فلما فرغنا ألقى إلينا حِقوه فقال: «أشْعِرْنَها إياه». وفي رواية: «أو سبعًا». قالت: وقال: «ابدأنَ بميامنها ومواضع الوضوء منها». قالت أم عطية: (وجعلنا رأسها ثلاثة قرون) أو قالت: (ضفائر).",
+              hadethNumber: 156,
+              soundUrl: 'assets/sounds/156.ogg',
+              explainUrl: 'https://youtu.be/TeUrMNrNiA0?si=XtM8mJsiLiSKsVuz',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: بينما رجل واقف بعرفة إذ وقع عن راحلته فوقصته – أو قال: فأوقصته – فقال رسول الله ﷺ: «اغسلوه بماءٍ وسِدر، وكفِّنوه في ثوبَيه، ولا تُحنِّطوه، ولا تُخمِّروا رأسه، فإنه يُبعث يوم القيامة مُلبِّيًا». وفي رواية: «ولا تُخمِّروا وجهه ولا رأسه».",
+              hadethNumber: 157,
+              soundUrl: 'assets/sounds/157.ogg',
+              explainUrl: 'https://youtu.be/G8RbCV6ZYVQ?si=Tet30hFMEkF0GHV1',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب اتباع الجنائز',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أم عطية الأنصارية رضي الله عنها قالت: «نُهِينا عن اتباع الجنائز، ولم يُعزم علينا».",
+              hadethNumber: 158,
+              soundUrl: 'assets/sounds/158.ogg',
+              explainUrl: 'https://youtu.be/aOs9XXWalY0?si=93sz3gwf6ROtG806',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «أَسْرِعوا بالجِنازة؛ فإن تَكُ صالحةً فخيرٌ تُقدَّمونها إليه، وإن تَكُ سوى ذلك فشرٌّ تضعونه عن رقابكم».",
+              hadethNumber: 159,
+              soundUrl: 'assets/sounds/159.ogg',
+              explainUrl: 'https://youtu.be/6LaRMv7HW_U?si=1JHQjG-1gbka49YD',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن سَمُرَة بن جندب رضي الله عنه قال: «صليتُ وراء النبي ﷺ على امرأة ماتت في نِفاسها، فقام وسطها».",
+              hadethNumber: 160,
+              soundUrl: 'assets/sounds/160.ogg',
+              explainUrl: 'https://youtu.be/pwkLzoIQSbs?si=N4oZi8PfKt7WIGUb',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب ما يقال عند المصيبة وما ينهى عنه',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي موسى عبد الله بن قيس رضي الله عنه: أن رسول الله ﷺ بَرِئ من الصالِقَة والحالِقَة والشاقَّة. الصالِقَة: التي ترفع صوتها عند المصيبة.",
+              hadethNumber: 161,
+              soundUrl: 'assets/sounds/161.ogg',
+              explainUrl: 'https://youtu.be/7qbcCrKUHTs?si=j7we_1HZiPmjUqds',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: لما شُكِي النبي ﷺ ذكر بعض نسائه كنيسة رأينها بأرض الحبشة يُقال لها: مارية، وكانت أم سلمة وأم حبيبة قد أتتا أرض الحبشة، فذكرتا من حسنها وتصاوير فيها. فرفع رأسه فقال: أولئك إذا مات فيهم الرجل الصالح بنوا على قبره مسجدًا، ثم صوروا فيه تلك الصور، أولئك شرار الخلق عند الله.",
+              hadethNumber: 162,
+              soundUrl: 'assets/sounds/162.ogg',
+              explainUrl: 'https://youtu.be/pAsyV0vAbWc?si=LHAAufHpMGykcYF9',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "وعنها رضي الله عنها قالت: قال رسول الله ﷺ في مرضه الذي لم يقم منه: لعن الله اليهود والنصارى اتخذوا قبور أنبيائهم مساجد. قالت: ولولا ذلك أُبرِز قبره غير أنه خشي أن يُتخذ مسجدًا.",
+              hadethNumber: 163,
+              soundUrl: 'assets/sounds/163.ogg',
+              explainUrl: '',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن مسعود رضي الله عنه، عن النبي ﷺ قال: ليس منا من ضرب الخدود، وشق الجيوب، ودعا بدعوى الجاهلية.",
+              hadethNumber: 164,
+              soundUrl: 'assets/sounds/164.ogg',
+              explainUrl: '',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب شهود الجنائز',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: من شهد الجنازة حتى يُصلَّى عليها فله قيراط، ومن شهدها حتى تُدفن فله قيراطان. قيل: وما القيراطان؟ قال: مثل الجبلين العظيمين. ولِمسلم: أصغرهما مثل أُحُد.",
+              hadethNumber: 165,
+              soundUrl: 'assets/sounds/165.ogg',
+              explainUrl: '',
             ),
           ],
         ),
