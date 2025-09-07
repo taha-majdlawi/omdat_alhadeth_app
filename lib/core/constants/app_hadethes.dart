@@ -1591,6 +1591,19 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب زكاة الخارج من الأرض',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «العجماء جُبار، والبئر جُبار، والمعدن جُبار، وفي الركاز الخمس». \n\nالجُبار: الهدر الذي لا شيء فيه. \nوالعجماء: الدابة.",
+              hadethNumber: 169,
+              soundUrl: 'assets/sounds/169.ogg',
+              explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
