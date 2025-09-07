@@ -1565,7 +1565,28 @@ class Constants {
                   "عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله ﷺ لمعاذ بن جبل رضي الله عنه حين بعثه إلى اليمن: «إنك ستأتي قوماً أهل كتاب، فإذا جئتهم فادعهم إلى أن يشهدوا أن لا إله إلا الله، وأن محمداً رسول الله. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم خمس صلوات في كل يوم وليلة. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم صدقة تؤخذ من أغنيائهم فترد على فقرائهم. فإن هم أطاعوك لذلك، فإياك وكرائم أموالهم، واتق دعوة المظلوم؛ فإنها ليس بينها وبين الله حجاب».",
               hadethNumber: 166,
               soundUrl: 'assets/sounds/166.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+        Door(
+          doorName: 'باب زكاة الذهب والفضة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي سعيد الخدري رضي الله عنه قال: قال رسول الله ﷺ: «ليس فيما دون خمس أواق صدقة، وليس فيما دون خمس ذود صدقة، وليس فيما دون خمسة أوسق صدقة».",
+              hadethNumber: 167,
+              soundUrl: 'assets/sounds/167.ogg',
+              explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «ليس على المسلم في عبده ولا فرسه صدقة». وفي لفظ: «إلا زكاة الفطر في الرقيق».",
+              hadethNumber: 168,
+              soundUrl: 'assets/sounds/168.ogg',
+              explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
           ],
