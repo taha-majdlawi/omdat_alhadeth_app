@@ -1383,7 +1383,7 @@ class Constants {
         ),
         Door(
           doorName: 'باب صلاة الخوف',
-          hadeths: [ 
+          hadeths: [
             Hadeth(
               hadethText:
                   "عن عبد الله بن عمر بن الخطاب رضي الله عنهما قال: «صلى رسول الله ﷺ صلاة الخوف في بعض أيامه، فقامت طائفة معه، وطائفة بإزاء العدو، فصلى بالذين معه ركعة، ثم ذهبوا، وجاء الآخرون فصلى بهم ركعة، وقضت الطائفتان ركعة ركعة».",
@@ -1404,6 +1404,47 @@ class Constants {
               hadethNumber: 151,
               soundUrl: 'assets/sounds/151.ogg',
               explainUrl: 'https://youtu.be/v6lCrmaTtzo?si=JP27h8JljFRYTTmx',
+            ),
+          ],
+        ),
+      ],
+    ),
+    Book(
+      bookName: 'كتاب الجنائز',
+      doors: [
+        Door(
+          doorName: 'باب الصلاة على الجنازة والتكبير عليها',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: نعى النبي ﷺ النجاشي في اليوم الذي مات فيه، وخرج بهم إلى المصلى، فصف بهم، وكبر أربعًا.",
+              hadethNumber: 152,
+              soundUrl: 'assets/sounds/152.ogg',
+              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابر رضي الله عنه: أن النبي ﷺ صلى على النجاشي، فكنت في الصف الثاني أو الثالث.",
+              hadethNumber: 153,
+              soundUrl: 'assets/sounds/153.ogg',
+              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما: أن رسول الله ﷺ صلى على قبر بعدما دُفن، فكبر عليه أربعًا.",
+              hadethNumber: 154,
+              soundUrl: 'assets/sounds/154.ogg',
+              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها: أن رسول الله ﷺ كُفّن في ثلاثة أثواب بيض يمانية، ليس فيها قميص ولا عمامة.",
+              hadethNumber: 155,
+              soundUrl: 'assets/sounds/155.ogg',
+              explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
             ),
           ],
         ),
