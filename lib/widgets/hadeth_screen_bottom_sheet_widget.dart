@@ -1,6 +1,10 @@
+import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:path_provider/path_provider.dart';
 import 'package:audioplayers/audioplayers.dart';
+// إن لم تكن تملك هذا الثابت، استبدله في الكود بـ Theme.of(context).colorScheme.primary
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
 
 class HadethScreenBottomSheet extends StatefulWidget {
@@ -33,16 +37,21 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
   bool _isRepeating = false;
   bool _isLoading = true;
+  bool _isReady = false; // أصبح لدينا مدة معروفة
   String? _error;
 
   @override
   void initState() {
     super.initState();
     _player = AudioPlayer();
+    _configureAudioContext();
 
     _player.onDurationChanged.listen((d) {
       if (!mounted) return;
-      setState(() => _duration = d);
+      setState(() {
+        _duration = d;
+        _isReady = d > Duration.zero;
+      });
     });
 
     _player.onPositionChanged.listen((p) {
@@ -61,13 +70,76 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     _player.onPlayerComplete.listen((_) async {
       if (!_isRepeating) {
         await _player.seek(Duration.zero);
-        await _player.pause();
+        await _player.stop(); // أفضل من pause بعد الاكتمال لملفات Ogg/Opus
         if (mounted) setState(() {});
       }
     });
 
-    _player.setReleaseMode(ReleaseMode.stop); // لا تكرار افتراضيًا
+    _player.setReleaseMode(ReleaseMode.stop);
     _init();
+  }
+
+  Future<void> _configureAudioContext() async {
+    try {
+      await _player.setAudioContext(
+        AudioContext(
+          android: AudioContextAndroid(
+            isSpeakerphoneOn: false,
+            stayAwake: false,
+            contentType: AndroidContentType.music,
+            usageType: AndroidUsageType.media,
+            audioFocus: AndroidAudioFocus.gain,
+          ),
+          iOS: AudioContextIOS(
+            category: AVAudioSessionCategory.playback,
+            options: {
+              AVAudioSessionOptions.defaultToSpeaker,
+              // إن أردت: AVAudioSessionOptions.mixWithOthers,
+            },
+          ),
+        ),
+      );
+    } catch (_) {
+      // ليس خطأً قاسيًا
+    }
+  }
+
+  // يفحص إن كان الأصل مُدرجًا في الحزمة (AssetManifest)
+  Future<bool> _assetExists(String assetPathWithPrefix) async {
+    try {
+      final manifestJson = await rootBundle.loadString('AssetManifest.json');
+      return manifestJson.contains('"$assetPathWithPrefix"');
+    } catch (_) {
+      return false;
+    }
+  }
+
+  // يتحقق من الإدراج والحجم ثم ينسخ الأصل إلى ملف مؤقت ويعيد مساره
+  Future<String> _assertAndCopyAssetToTemp(
+    String assetPathWithoutPrefix,
+  ) async {
+    final full = 'assets/$assetPathWithoutPrefix';
+
+    final listed = await _assetExists(full);
+    if (!listed) {
+      throw Exception(
+        'الأصل غير مُدرج في الحزمة: $full\n'
+        'تأكد من pubspec.yaml (assets:) والإملاء الدقيق، ثم flutter clean && flutter run.',
+      );
+    }
+
+    final data = await rootBundle.load(full);
+    if (data.lengthInBytes == 0) {
+      throw Exception('الملف فارغ (0 بايت): $full — أعد إنتاجه عبر ffmpeg.');
+    }
+
+    final dir = await getTemporaryDirectory();
+    final file = File(
+      '${dir.path}/$assetPathWithoutPrefix',
+    ); // يحافظ على البنية
+    await file.create(recursive: true);
+    await file.writeAsBytes(data.buffer.asUint8List());
+    return file.path;
   }
 
   Future<void> _init() async {
@@ -75,17 +147,23 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
       setState(() {
         _error = null;
         _isLoading = true;
+        _isReady = false;
+        _duration = Duration.zero;
+        _position = Duration.zero;
       });
 
       final src = widget.soundPathOrUrl.trim();
       final isAsset = !src.contains('://');
 
       if (isAsset) {
-        // audioplayers يتوقع المسار داخل مجلد assets بدون "assets/"
+        // audioplayers يتوقع داخل الأصول بدون "assets/"
         final assetPath = src.startsWith('assets/')
             ? src.substring('assets/'.length)
             : src;
-        await _player.setSource(AssetSource(assetPath));
+
+        // فحص + نسخ إلى ملف مؤقّت (أكثر ثباتًا مع Ogg/Opus)
+        final localPath = await _assertAndCopyAssetToTemp(assetPath);
+        await _player.setSource(DeviceFileSource(localPath));
       } else {
         await _player.setSourceUrl(src);
       }
@@ -98,7 +176,8 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
     } catch (e) {
       if (!mounted) return;
       setState(() {
-        _error = 'تعذّر تحميل الصوت. تحقق من المسار أو الاتصال أو الصيغة.';
+        _error =
+            'تعذّر تحميل الصوت. تحقق من المسار/الاتصال/الصيغة.\nالتفاصيل: $e';
       });
     } finally {
       if (mounted) setState(() => _isLoading = false);
@@ -119,19 +198,34 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
   }
 
   Future<void> _seekRelative(int ms) async {
+    if (!_isReady) return;
     final newPos = _position + Duration(milliseconds: ms);
-    await _player.seek(newPos < Duration.zero ? Duration.zero : newPos);
+    final clamped = newPos < Duration.zero
+        ? Duration.zero
+        : (newPos > _duration ? _duration : newPos);
+    await _player.seek(clamped);
   }
 
   @override
   Widget build(BuildContext context) {
-    final maxValue = max<double>(_duration.inMilliseconds.toDouble(), 1.0);
-    final value = _position.inMilliseconds
-        .clamp(0, _duration.inMilliseconds)
-        .toDouble();
+    final primary =
+        AppColors.darkPrimary; // أو Theme.of(context).colorScheme.primary
+
+    final double maxValue = max<double>(
+      _duration.inMilliseconds.toDouble(),
+      1.0,
+    );
+
+    final int clampedMillis = _position.inMilliseconds.clamp(
+      0,
+      _duration.inMilliseconds,
+    );
+
+    final double sliderValue = _isReady ? clampedMillis.toDouble() : 0.0;
 
     final isPlaying = _playerState == PlayerState.playing;
-    final isCompleted = _position >= _duration && _duration > Duration.zero;
+    final isCompleted =
+        _isReady && _position >= _duration && _duration > Duration.zero;
 
     return SafeArea(
       top: false,
@@ -140,7 +234,6 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
         decoration: BoxDecoration(
           color: Colors.transparent,
           borderRadius: const BorderRadius.vertical(top: Radius.circular(25)),
-          //  boxShadow: const [BoxShadow(color: Colors.black26, blurRadius: 10)],
         ),
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20),
@@ -177,13 +270,14 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   overlayShape: SliderComponentShape.noOverlay,
                 ),
                 child: Slider(
-                  value: value.isFinite ? value : 0,
+                  value: sliderValue.isFinite ? sliderValue : 0,
                   max: maxValue,
-                  onChanged: (v) async {
-                    if (_duration == Duration.zero) return;
-                    await _player.seek(Duration(milliseconds: v.round()));
-                  },
-                  activeColor: AppColors.darkPrimary,
+                  onChanged: !_isReady
+                      ? null
+                      : (v) async {
+                          await _player.seek(Duration(milliseconds: v.round()));
+                        },
+                  activeColor: primary,
                   inactiveColor: Colors.black.withOpacity(0.2),
                 ),
               ),
@@ -193,7 +287,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(_fmt(_position)),
-                  Text(_duration == Duration.zero ? '—:—' : _fmt(_duration)),
+                  Text(_isReady ? _fmt(_duration) : '—:—'),
                 ],
               ),
               const SizedBox(height: 16),
@@ -205,7 +299,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   IconButton(
                     icon: const Icon(Icons.replay_10),
                     iconSize: 34,
-                    onPressed: _duration == Duration.zero
+                    onPressed: (!_isReady || _duration == Duration.zero)
                         ? null
                         : () => _seekRelative(-10000),
                   ),
@@ -213,7 +307,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
                   CircleAvatar(
                     radius: 30,
-                    backgroundColor: AppColors.darkPrimary,
+                    backgroundColor: primary,
                     child: _isLoading
                         ? const Padding(
                             padding: EdgeInsets.all(12.0),
@@ -243,7 +337,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                               if (isPlaying) {
                                 await _player.pause();
                               } else {
-                                if (_duration == Duration.zero && !_isLoading) {
+                                if (!_isReady && !_isLoading) {
                                   await _init();
                                 }
                                 await _player.resume();
@@ -256,7 +350,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   IconButton(
                     icon: const Icon(Icons.forward_10),
                     iconSize: 34,
-                    onPressed: _duration == Duration.zero
+                    onPressed: (!_isReady || _duration == Duration.zero)
                         ? null
                         : () => _seekRelative(10000),
                   ),
@@ -265,7 +359,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   IconButton(
                     icon: Icon(_isRepeating ? Icons.repeat_one : Icons.repeat),
                     iconSize: 28,
-                    color: _isRepeating ? AppColors.darkPrimary : null,
+                    color: _isRepeating ? primary : null,
                     onPressed: () async {
                       _isRepeating = !_isRepeating;
                       await _player.setReleaseMode(
@@ -276,6 +370,15 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                   ),
                 ],
               ),
+
+              if (_error != null) ...[
+                const SizedBox(height: 12),
+                ElevatedButton.icon(
+                  onPressed: _init,
+                  icon: const Icon(Icons.refresh),
+                  label: const Text('إعادة المحاولة'),
+                ),
+              ],
             ],
           ),
         ),
