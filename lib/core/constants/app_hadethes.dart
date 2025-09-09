@@ -2089,6 +2089,19 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب ما يجوز قتله",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عائشةَ رضي الله عنها أن رسولَ اللهِ ﷺ قال: «خَمسٌ من الدوابِّ كُلُّهُنَّ فَواسقُ، يُقتَلْنَ في الحرمِ: الغرابُ، والحدأةُ، والعقربُ، والفأرةُ، والكلبُ العقورُ». \nولمسلم: «تُقتَلُ خمسُ فواسقَ في الحلِّ والحرمِ». \nالحدأةُ: بكسرِ الحاءِ، وفتحِ الدالِ.",
+              hadethNumber: 216,
+              soundUrl: 'assets/sounds/216.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
