@@ -2102,6 +2102,75 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب دخول مكة وغيره',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أنسِ بنِ مالكٍ رضي الله عنه: «أنَّ رسولَ اللهِ ﷺ دخلَ مكةَ عامَ الفتحِ، وعلى رأسِه المغفرُ، فلمَّا نزعهُ جاءَه رجلٌ فقال: ابنُ خَطَلٍ مُتعلِّقٌ بأستارِ الكعبةِ، فقال: اقتلوهُ».",
+              hadethNumber: 217,
+              soundUrl: 'assets/sounds/217.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ رسولَ اللهِ ﷺ دخلَ مكةَ من كَداءَ، من الثنيةِ العُليا التي بالبَطحاء، وخرجَ من الثنيةِ السُّفلى».",
+              hadethNumber: 218,
+              soundUrl: 'assets/sounds/218.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «دخلَ رسولُ اللهِ ﷺ البيتَ، وأُسامةُ بنُ زيدٍ، وبلالٌ، وعثمانُ بنُ طلحةَ، فأغلقوا عليهمُ البابَ، فلمَّا فتحوا، كنتُ أوَّلَ من ولجَ، فلقيتُ بلالًا، فسألتُه: هل صلَّى فيهِ رسولُ اللهِ ﷺ؟ قال: نعم، بين العمودَينِ اليمانيَّينِ».",
+              hadethNumber: 219,
+              soundUrl: 'assets/sounds/219.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عمرَ رضي الله عنه: «أنه جاء إلى الحَجَرِ الأسودِ فقبَّله، وقال: إني لأعلمُ أنكَ حَجَرٌ لا تضرُّ ولا تنفعُ، ولولا أني رأيتُ النبيَّ ﷺ يُقبِّلُكَ ما قبَّلتُكَ».",
+              hadethNumber: 220,
+              soundUrl: 'assets/sounds/220.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «قَدِمَ رسولُ اللهِ ﷺ وأصحابُهُ، فقال المشركون: إنه يَقدُمُ عليكم وفدٌ وقد وَهَنَتْهُم حُمَّى يثربَ. فأمرَهمُ النبيُّ ﷺ أن يَرمُلُوا الأشواطَ الثلاثةَ، وأن يَمشُوا ما بينَ الرُّكنَينِ، ولم يمنعْهم أن يَرمُلُوا الأشواطَ كلَّها إلا الإبقاءَ عليهم».",
+              hadethNumber: 221,
+              soundUrl: 'assets/sounds/221.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «رأيتُ رسولَ اللهِ ﷺ حينَ يَقدُمُ مكةَ: إذا استَلَمَ الركنَ الأسودَ أولَ ما يَطوفُ، يَخبُّ ثلاثةَ أشواطٍ».",
+              hadethNumber: 222,
+              soundUrl: 'assets/sounds/222.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «طافَ النبيُّ ﷺ في حَجَّةِ الوداعِ على بعيرٍ، يَستَلِمُ الرُّكنَ بمحجَنٍ». \nالمِحْجَنُ: عصًا محنيَّةُ الرأسِ.",
+              hadethNumber: 223,
+              soundUrl: 'assets/sounds/223.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «ألمْ أرَ النبيَّ ﷺ يَستَلِمُ من البيتِ إلا الرُّكنَينِ اليمانيَّينِ؟».",
+              hadethNumber: 224,
+              soundUrl: 'assets/sounds/224.ogg',
+              explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
