@@ -1655,7 +1655,6 @@ class Constants {
     ),
 
     // كتاب الصيام 5
-    // كتاب الصيام 5
     Book(
       bookName: 'كتاب الصيام',
       doors: [
@@ -1987,6 +1986,34 @@ class Constants {
               hadethNumber: 206,
               soundUrl: 'assets/sounds/206.ogg',
               explainUrl: 'https://youtu.be/wmOmjK7269M?si=zhfZQ_9yHm56eHzJ',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+      ],
+    ),
+
+    // كتاب الحج book 6
+    Book(
+      bookName: 'كتاب الحج',
+      doors: [
+        Door(
+          doorName: 'باب المواقيت',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما: «أنَّ رسولَ اللهِ ﷺ وقَّتَ لأهلِ المدينةِ: ذا الحُليفةِ، ولأهلِ الشامِ: الجُحفةَ، ولأهلِ نجدٍ: قرنَ المنازلِ، ولأهلِ اليمنِ: يلملمَ. هنَّ لهنَّ، ولمن أتى عليهنَّ من غيرِهنَّ، ممن أراد الحجَّ والعمرةَ. ومن كان دونَ ذلكَ، فمن حيثُ أنشأَ، حتى أهلُ مكةَ من مكةَ».",
+              hadethNumber: 207,
+              soundUrl: 'assets/sounds/207.ogg',
+              explainUrl: 'https://youtu.be/qWUZZTMnrBM?si=zok8LtHlJR0h7juh',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أن رسولَ اللهِ ﷺ قال: يُهِلُّ أهلُ المدينةِ من ذي الحُليفةِ، وأهلُ الشامِ من الجُحفةِ، وأهلُ نجدٍ من قَرْنٍ. قال عبدُ اللهِ: وبلَّغني أن رسولَ اللهِ ﷺ قال: ويُهِلُّ أهلُ اليمنِ من يَلَمْلَمَ».",
+              hadethNumber: 208,
+              soundUrl: 'assets/sounds/208.ogg',
+              explainUrl: 'https://youtu.be/qWUZZTMnrBM?si=zok8LtHlJR0h7juh',
               isOthimieen: false,
             ),
           ],
