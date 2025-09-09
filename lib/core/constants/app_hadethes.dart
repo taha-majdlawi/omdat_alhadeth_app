@@ -2018,6 +2018,43 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب ما يلزم المحرم من ثياب',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ رجلًا قال: يا رسولَ اللهِ! ما يلبَسُ المُحرِمُ من الثيابِ؟ قال رسولُ اللهِ ﷺ: لا يَلبَسُ القُمصَ، ولا العمائمَ، ولا السراويلاتِ، ولا البُرنسَ، ولا الخِفافَ، إلا أحدٌ لا يجدُ نعلينِ، فليلبَسِ الخفَّينِ، وليقطَعْهما أسفلَ من الكعبينِ، ولا يَلبَسْ من الثيابِ شيئًا مَسَّه زعفرانٌ أو وَرسٌ». \nوللبخاري: «ولا تَنتقِبِ المرأةُ، ولا تَلبسِ القفازينِ».",
+              hadethNumber: 209,
+              soundUrl: 'assets/sounds/209.ogg',
+              explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «سمعتُ النبيَّ ﷺ يخطبُ بعرفاتٍ: مَن لم يجدْ نعلينِ فليلبَسِ الخُفَّينِ، ومن لم يجدْ إزارًا فليلبَسِ السراويلَ – للمحرِمِ –».",
+              hadethNumber: 210,
+              soundUrl: 'assets/sounds/210.ogg',
+              explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ تلبيةَ رسولِ اللهِ ﷺ: لبيك اللهم لبيك! لبيك لا شريكَ لك لبيك! إن الحمدَ والنعمةَ لكَ والملك، لا شريكَ لكَ». \nقال: وكان عبدُ اللهِ بنُ عمرَ رضي الله عنهما يزيدُ فيها: لبيك وسَعْديك، والخيرُ بيديك، والرغباءُ إليك والعملُ.",
+              hadethNumber: 211,
+              soundUrl: 'assets/sounds/211.ogg',
+              explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرةَ رضي الله عنه قال: قال النبيُّ ﷺ: «لا يَحلُّ لامرأةٍ تؤمنُ باللهِ واليومِ الآخرِ أن تُسافِرَ مسيرةَ يومٍ وليلةٍ، إلا ومعَها حرمةٌ». \nوفي لفظٍ للبخاري: «تُسافِرُ مسيرةَ يومٍ إلا مع ذي مَحرَمٍ».",
+              hadethNumber: 212,
+              soundUrl: 'assets/sounds/212.ogg',
+              explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
