@@ -2208,6 +2208,51 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب الهدي",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عائِشَةَ رضي اللهُ عنها قالتْ: اقْتَلْتُ قَلاَئِدَ هَدْيِ النبيِّ ﷺ، ثُمَّ أَشْعَرْنَاها وقَلَّدْنَاها – أو قَلَّدْتُها – ثُمَّ بَعَثَ بها إلى البَيْتِ وأقامَ بالمدينةِ، فما حَرُمَ عليه شيءٌ كانَ له حِلًّا.",
+              hadethNumber: 229,
+              soundUrl: 'assets/sounds/229.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عائِشَةَ رضي اللهُ عنها قالتْ: أَهْدَى النبيُّ ﷺ مرّةً غَنَمًا.",
+              hadethNumber: 230,
+              soundUrl: 'assets/sounds/230.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هُرَيْرَةَ رضي اللهُ عنه: أنَّ نَبِيَّ اللهِ ﷺ رَأى رَجُلًا يَسُوقُ بَدَنَةً، فقالَ: ارْكَبْها. قالَ: إنَّها بَدَنَةٌ. قالَ: ارْكَبْها. فرَأَيْتُه راكِبَها، يَسِيرُ مع النبيِّ ﷺ.\nوفي لَفْظٍ: (قالَ في الثَّانِيَةِ – أوِ الثَّالِثَةِ –: ارْكَبْها وَيْلَكَ! – أو وَيْحَكَ!).",
+              hadethNumber: 231,
+              soundUrl: 'assets/sounds/231.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عَلِيٍّ بنِ أبي طالبٍ رضي اللهُ عنه قالَ: أَمَرَني النبيُّ ﷺ أنْ أقُومَ على بُدْنِهِ، وأنْ أَتَصَدَّقَ بلُحومِها وجُلُودِها وأَجِلَّتِها، وأنْ لا أُعْطِيَ الجَزَّارَ منها شيئًا، وقالَ: نحنُ نُعْطِيهِ مِن عِندِنا.",
+              hadethNumber: 232,
+              soundUrl: 'assets/sounds/232.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن زيادِ بنِ جُبَيْرٍ قالَ: رَأَيْتُ ابنَ عُمَرَ رضي اللهُ عنه أتى على رَجُلٍ قد أناخَ بُدْنَتَه فنَحَرَها، فقالَ: ابْعَثْها قِيامًا مُقَيَّدَةً؛ سُنَّةَ مُحَمَّدٍ ﷺ.",
+              hadethNumber: 233,
+              soundUrl: 'assets/sounds/233.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
