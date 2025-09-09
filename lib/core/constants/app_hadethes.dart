@@ -1853,6 +1853,78 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب افضل الصيام وغيره",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمروِ بنِ العاصِ رضي الله عنهما قال: أُخبرَ رسولُ اللهِ ﷺ أني أقول: واللهِ لأصومنَّ النهارَ، ولأقومنَّ الليلَ ما عشتُ. فقلتُ له: قد قلتُهُ بأبي أنتَ وأمي. \nقال: فإنك لا تستطيعُ ذلك، فصمْ وأفطِر، وقمْ ونَمْ، وصمْ من الشهرِ ثلاثةَ أيامٍ، فإن الحسنةَ بعشرِ أمثالِها، وذلكَ مثلُ صيامِ الدهرِ.\nقلتُ: فإني أطيقُ أفضلَ من ذلك.\nقال: فصمْ يومًا وأفطِرْ يومين.\nقلتُ: إني أُطيقُ أفضلَ من ذلك.\nقال: فصمْ يومًا وأفطِرْ يومًا، فذلكَ صيامُ داودَ عليهِ السلامُ، وهوَ أفضلُ الصيامِ.\nوفي روايةٍ: «لا صومَ فوقَ صومِ داودَ؛ شطرُ الدهرِ؛ صمْ يومًا وأفطِرْ يومًا».",
+              hadethNumber: 192,
+              soundUrl: 'assets/sounds/192.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمرو رضي الله عنه قال: قال رسول الله ﷺ: «إن أحب الصيام إلى الله صيام داود، وأحب الصلاة إلى الله صلاة داود؛ كان ينام نصف الليل، ويقوم ثلثه، وينام سدسه. وكان يصوم يوماً ويفطر يوماً».",
+              hadethNumber: 193,
+              soundUrl: 'assets/sounds/193.ogg',
+              explainUrl:
+                  'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b', // You can update when ready
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «أوصاني خليلي بثلاث: صيام ثلاثة أيام من كل شهر، وركعتي الضحى، وأن أوتر قبل أن أنام».",
+              hadethNumber: 194,
+              soundUrl: 'assets/sounds/194.ogg',
+              explainUrl:
+                  'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b', // Use until you provide another
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن محمد بن عباد بن جعفر قال: سألت جابر بن عبد الله رضي الله عنهما: «أنهى النبي ﷺ عن صوم يوم الجمعة؟» قال: «نعم». زاد مسلم: «ورب الكعبة!».",
+              hadethNumber: 195,
+              soundUrl: 'assets/sounds/195.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه قال: سمعت النبي ﷺ يقول: «لا يصومن أحدكم يوم الجمعة؛ إلا أن يصوم يوماً قبله، أو يوماً بعده».",
+              hadethNumber: 196,
+              soundUrl: 'assets/sounds/196.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي عبيد مولى ابن أزهر – واسمه: سعد بن عبيد – قال: «شهدتُ العيد مع عمر بن الخطاب، فقال: هذان يومان نهى رسول الله ﷺ عن صيامهما: يوم فطركم من صيامكم، واليوم الآخر تأكلون فيه من نسككم».",
+              hadethNumber: 197,
+              soundUrl: 'assets/sounds/197.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي سعيدٍ الخُدريِّ رضي الله عنه قال: «نهى رسولُ الله ﷺ عن صومِ يومَينِ: الفِطرِ والنَّحرِ، وعنِ الصَّماءِ، وأنْ يَختَصَّ الرَّجلُ في ثَوبٍ واحدٍ، وعنِ الصَّلاةِ بعدَ الصُّبحِ والعَصرِ».",
+              hadethNumber: 198,
+              soundUrl: 'assets/sounds/198.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي سعيدٍ الخُدريِّ رضي الله عنه قال: قال رسولُ اللهِ ﷺ: «مَن صَامَ يَومًا في سَبيلِ اللهِ؛ بَعَّدَ اللهُ وَجْهَهُ عَنِ النَّارِ سَبعينَ خَريفًا».",
+              hadethNumber: 199,
+              soundUrl: 'assets/sounds/199.ogg',
+              explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
