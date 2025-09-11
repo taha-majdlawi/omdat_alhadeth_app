@@ -2512,7 +2512,8 @@ class Constants {
             ),
           ],
         ),
-        Door( doorName: 'باب العرايا وغير ذلك',
+        Door(
+          doorName: 'باب العرايا وغير ذلك',
           hadeths: [
             Hadeth(
               hadethText:
@@ -2559,7 +2560,19 @@ class Constants {
               isOthimieen: false,
             ),
           ],
-         
+        ),
+        Door(
+          doorName: 'باب السَّلَم',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: «قدم النبي ﷺ المدينة وهم يُسلفون في الثمار: السنة والسنتين والثلاث»، فقال: «من أسلف في شيء فليُسلف في كيلٍ معلوم، ووزنٍ معلوم، إلى أجلٍ معلوم».",
+              hadethNumber: 265,
+              soundUrl: 'assets/sounds/265.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+          ],
         ),
       ],
     ),
