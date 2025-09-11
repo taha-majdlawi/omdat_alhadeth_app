@@ -2410,7 +2410,7 @@ class Constants {
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهُما، عن رسولِ اللهِ ﷺ أنَّه قال: «إذا تبايَعَ الرَّجلانِ فكُلُّ واحدٍ منهُما بالخِيارِ ما لم يتفرَّقا، وكانا جميعًا، أو يُخيِّرُ أحدُهما الآخرَ، فتبايَعا على ذلك، فقد وجب البيعُ».",
               hadethNumber: 248,
               soundUrl: 'assets/sounds/248.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=_viEqQf7V4CdcdVI',
               isOthimieen: false,
             ),
             Hadeth(
@@ -2418,7 +2418,96 @@ class Constants {
                   "عن حَكيمِ بنِ حِزامٍ رضيَ اللهُ عنهُ قال: قال رسولُ اللهِ ﷺ: «البيعانِ بالخِيارِ ما لم يتفرَّقا - أو قال: حتى يتفرَّقا -، فإن صدَقا وبيَّنا بُورِكَ لهما في بيعهما، وإن كتما وكذَبا مُحِقَتْ برَكةُ بيعهما».",
               hadethNumber: 249,
               soundUrl: 'assets/sounds/249.ogg',
-              explainUrl: '',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=_viEqQf7V4CdcdVI',
+              isOthimieen: false,
+            ),
+          ],
+        ),
+        Door(
+          doorName: "باب م انهي عنه من البيوع",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أبي سعيدٍ الخُدْريِّ رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن المُنَابَذَةِ - وهي: طَرْحُ الرَّجُلِ ثَوْبَهُ بالبَيْعِ إلى الرَّجُلِ قبلَ أنْ يَقْلبَهُ، أوْ ينظرَ إليه -، ونهى عن المُلَامَسَةِ - والمُلامَسَةُ: لَمْسُ الثَّوْبِ لا يَنْظُرُ إليهِ».",
+              hadethNumber: 250,
+              soundUrl: 'assets/sounds/250.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرةَ رضيَ اللهُ عنهُ أنَّ رسولَ اللهِ ﷺ قال: «لا تَلَقَّوُا الرُّكبانَ، ولا يَبِعْ بعضُكم على بيعِ بعضٍ، ولا تَنَاجَشوا، ولا يَبِعْ حاضِرٌ لبادٍ، ولا تَصُرُّوا النِّعَمَ، ومَنِ ابتاعَها فهو بخيرِ النَّظَرَيْنِ بعدَ أن يَحْلِبَها: إنْ رَضِيَها أمْسَكَها، وإنْ سَخِطَها رَدَّها وصَاعًا مِن تَمْرٍ». \n\nوفي لفظٍ: «وهو بالخِيارِ ثلاثةَ».",
+              hadethNumber: 251,
+              soundUrl: 'assets/sounds/251.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهُ: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ حَبَلِ الحَبَلَةِ - وكان بيعًا يَتَبَايَعُهُ أهلُ الجاهليةِ، كان الرجلُ يبيعُ الجَزُورَ إلى أنْ تَنْتِجَ النَّاقةُ، ثم تَنْتِجَ التي في بَطنِها». \n\nقِيلَ: إنه كان يبيعُ الشَّارفَ - وهي الكبيرةُ المُسِنَّةُ - لِنِتَاجِ الجنينِ الذي في بَطنِ نَاقَتِهِ.",
+              hadethNumber: 252,
+              soundUrl: 'assets/sounds/252.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "وعنه رضيَ اللهُ عنهُ: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ الثَّمرِ حتَّى يَبْدُوَ صَلاحُهَا؛ نَهَى البائعَ والمُشتريَ».",
+              hadethNumber: 253,
+              soundUrl: 'assets/sounds/253.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ الثِّمارِ حتَّى تُزْهِىَ»، قيل: وما تُزْهِى؟ قال: «حتَّى تَحْمَرَّ»، قال: «أرأيتَ إذا مَنَعَ اللهُ الثَّمَرَةَ، بمَ يَسْتَحِلُّ أحدُكُم مالَ أخِيهِ؟».",
+              hadethNumber: 254,
+              soundUrl: 'assets/sounds/254.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنه قال: «نهى رسولُ اللهِ ﷺ أنْ تُلَقَّى الركبانُ، وأنْ يبيعَ حاضرٌ لبادٍ»، قال: فقلتُ لابنِ عباسٍ: ما قولُهُ: حاضرٌ لبادٍ؟ قال: «لا يكونُ لهُ سِمسارًا».",
+              hadethNumber: 255,
+              soundUrl: 'assets/sounds/255.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما قال: «نهى رسولُ اللهِ ﷺ عن المُزَابَنَةِ - أنْ يبيعَ ثمرَ حائطِهِ إنْ كانَ نخلًا بتمرٍ كيلًا، وإنْ كانَ كرمًا أنْ يبيعَهُ بزبيبٍ كيلًا، أوْ كانَ زَرْعًا أنْ يبيعَهُ بكيلِ طعامٍ، نهى عن ذلكَ كلِّهِ».",
+              hadethNumber: 256,
+              soundUrl: 'assets/sounds/256.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابرٍ بنِ عبدِ اللهِ رضيَ اللهُ عنه قال: «نهى النبيُّ ﷺ عن المُخَابَرَةِ والمُحَاقَلَةِ، وعن المُزَابَنَةِ، وعن بيعِ الثَّمَرِ حتى يَبدوَ صلاحُها، وأنْ لا تُباعَ إلا بالدنانيرِ والدراهمِ، إلا العَرَايَا». المحاقلة: بيع الحنطة في سُنبُلها بحنطة.",
+              hadethNumber: 257,
+              soundUrl: 'assets/sounds/257.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي مسعودٍ الأنصاريِّ رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن ثمنِ الكلبِ، ومَهْرِ البَغِيِّ، وحُلْوانِ الكاهنِ».",
+              hadethNumber: 258,
+              soundUrl: 'assets/sounds/258.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن رافعِ بنِ خديجٍ رضيَ اللهُ عنه: أنَّ رسولَ اللهِ ﷺ قال: «ثمنُ الكلبِ خَبِيثٌ، ومَهْرُ البَغِيِّ خَبِيثٌ، وكَسْبُ الحَجَّامِ خَبِيثٌ».",
+              hadethNumber: 259,
+              soundUrl: 'assets/sounds/259.ogg',
+              explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
           ],
