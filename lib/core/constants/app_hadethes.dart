@@ -2512,6 +2512,55 @@ class Constants {
             ),
           ],
         ),
+        Door( doorName: 'باب العرايا وغير ذلك',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن زيد بن ثابت رضي الله عنه: «أن رسولَ اللهِ ﷺ رخَّص لصاحبِ العَرِيَّةِ أن يبيعَها بخُرْصِها». ولمسلم: «يخرُصُها تمرًا، يأكلونها رُطَبًا».",
+              hadethNumber: 260,
+              soundUrl: 'assets/sounds/260.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه: «أن النبيَّ ﷺ رخَّص في بيعِ العَرَايَا في خمسةِ أوسُقٍ - أو دُون خمسةِ أوسقٍ».",
+              hadethNumber: 261,
+              soundUrl: 'assets/sounds/261.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: أن رسولَ اللهِ ﷺ قال: «من باعَ نخلًا قد أُبِّرت فثمرتُها للبائع، إلا أن يَشترطَ المُبتاع». ولمسلم: «ومن ابتاع عبدًا فماله للبائع، إلا أن يشترطَ المُبتاع».",
+              hadethNumber: 262,
+              soundUrl: 'assets/sounds/262.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "وعنه رضي الله عنه: أن رسولَ اللهِ ﷺ قال: «من ابتاع طعامًا فلا يَبِعْهُ حتى يَسْتَوفيه».",
+              hadethNumber: 263,
+              soundUrl: 'assets/sounds/263.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنه: أنه سمع رسولَ اللهِ ﷺ يقول عامَ الفتح: «إن اللهَ ورسولَه حرَّم بيعَ الخمرِ والميتةِ والخنزيرِ والأصنامِ». فقيل: يا رسولَ الله! أرأيتَ شُحومَ الميتةِ، فإنه يُطلى بها السفن، ويُدْهَن بها الجلود، ويستصبح بها الناسُ؟ فقال: «لا، هو حرام»، ثم قال رسولُ اللهِ ﷺ عند ذلك: «قاتلَ اللهُ اليهودَ؛ إن اللهَ لمَّا حرَّم شُحومَها جَمَّلُوه، ثم باعوه، فأكلوا ثمنَه».",
+              hadethNumber: 264,
+              soundUrl: 'assets/sounds/264.ogg',
+              explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
+              isOthimieen: false,
+            ),
+          ],
+         
+        ),
       ],
     ),
   ];
