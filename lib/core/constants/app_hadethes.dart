@@ -2397,5 +2397,11 @@ class Constants {
         ),
       ],
     ),
+    
+
+    //book 7 كتاب البيوع
+    Book(bookName: 'كتاب البيوع' ,doors: [], )
+  
+  
   ];
 }
