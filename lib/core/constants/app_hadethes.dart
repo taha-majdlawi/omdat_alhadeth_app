@@ -2802,6 +2802,43 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب الفرائض",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنهما، عنِ النبيِّ ﷺ قال: «ألحقوا الفَرائضَ بأهلِها، فما بَقِيَ فهو لأوْلى رجلٍ ذَكَرٍ».\n\nوفي روايةٍ: «اقسموا المالَ بينَ أهلِ الفَرائضِ على كتابِ اللهِ، فما تَرَكَتِ الفَرائضُ فلأوْلى رجلٍ ذَكَرٍ».",
+              hadethNumber: 291,
+              soundUrl: 'assets/sounds/291.ogg',
+              explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أُسامةَ بنِ زيدٍ رضيَ اللهُ عنهما قال: «قلتُ: يا رسولَ اللهِ! أتنزلُ غدًا في دارِك بمكَّةَ؟ قال: وهل تَرَكَ لنا عَقيلٌ من رِبَاعٍ؟ ثم قال: لا يَرِثُ الكافرُ المسلمَ، ولا المسلمُ الكافرَ».",
+              hadethNumber: 292,
+              soundUrl: 'assets/sounds/292.ogg',
+              explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما: «أنَّ النبيَّ ﷺ نهى عن بيعِ الولاءِ، وعن هِبَتِهِ».",
+              hadethNumber: 293,
+              soundUrl: 'assets/sounds/293.ogg',
+              explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عائشةَ رضيَ اللهُ عنها قالت: «كانت في بَرِيرَةَ ثلاثُ سُنَنٍ، خُيِّرَتْ على زوجِها حين أُعتِقَتْ، وأُهْدِيَ لها لحمٌ، فدَخَلَ عليَّ رسولُ اللهِ ﷺ والبُرْمَةُ على النارِ، فدعا بطعامٍ، فأُتِيَ بخُبزٍ وأُدْمٍ من أُدْمِ البيتِ، فقال: ألم أرَ البُرْمَةَ على النارِ فيها لحمٌ؟ فَقُلتُ: بلى يا رسولَ اللهِ، ذاك لحمٌ تُصُدِّقَ به على بَرِيرَةَ، فَكَرِهْنا أن نُطْعِمَكَ منه، فقال: هو عليها صدقةٌ، وهو منها لنا هديةٌ».\n\nوقال النبيُّ ﷺ فيها: «إنما الوَلاءُ لمن أعتقَ».",
+              hadethNumber: 294,
+              soundUrl: 'assets/sounds/294.ogg',
+              explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
