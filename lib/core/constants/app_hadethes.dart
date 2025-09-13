@@ -2649,6 +2649,117 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الرهن وغيره',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 274,
+              hadethText:
+                  "عن عائشة رضي الله عنها: أن رسول الله ﷺ اشترى طعامًا من يهودي، ورهنه درعًا من حديد.",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/274.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 275,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «مَطْلُ الغني ظلم، فإذا أُتْبِعَ أحدكم على مليء فليَتْبَعْ».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/275.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 276,
+              hadethText:
+                  "«من أدرك ماله بعينه عند رجل قد أفلس فهو أحق به من غيره».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/276.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 277,
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنه قال: «جعل – وفي لفظ: قضى – النبي ﷺ بالشُّفْعَةِ في كل مال لم يُقسم، فإذا وقعت الحدود، وصُرِّفت الطرق؛ فلا شُفعة».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/277.ogg',
+            ),
+
+            Hadeth(
+              hadethNumber: 278,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: «أصاب عمر أرضًا بخيبر، فأتى النبي ﷺ يستأمره فيها، فقال: يا رسول الله! إني أصبت أرضًا بخيبر لم أُصب مالًا قط هو أنفس عندي منه، فما تأمرني به؟ قال: إن شئت حبستَ أصلَها، وتصدّقت بها. قال: فتصدّق بها، غير أنه لا يُباع أصلها، ولا يُورث، ولا يُوهب. قال: فتصدّق عمر في الفقراء، وفي القُربى، وفي الرقاب، وفي سبيل الله، وابن السبيل، والضيف، لا جناح على من وليها أن يأكل منها بالمعروف، أو يُطعم صديقًا، غير مُتَأثِّل فيه». وفي لفظ: «غير مُتَماوِل فيه».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/278.ogg',
+            ),
+
+            Hadeth(
+              hadethNumber: 279,
+              hadethText:
+                  "عن عمر رضي الله عنه قال: «حملتُ على فرسٍ في سبيل الله، فأضاعه الذي كان عنده، فأردت أن أشتريه وظننتُ أنه يبيعه برخص، فسألت النبي ﷺ، فقال: لا تَشتره ولا تَعُدْ في صدقتك، وإن أعطاكه بدرهم، فإن العائد في هبته كالكلب يعود في قيئه». وفي لفظ: «إن الذي يعود في صدقته كالكلب يعود في قيئه».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/279.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 280,
+              hadethText:
+                  "وعن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «العائد في هبته كالكلب يعود في قيئه».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/280.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 281,
+              hadethText:
+                  "عن النعمان بن بشير رضي الله عنه قال: «تصدَّق عليَّ أبي ببعض ماله، فقالت أمي - عمرة بنت رواحة -: لا أرضى حتى تُشهد رسول الله ﷺ. فأتى أبي إلى رسول الله ﷺ ليشهده على صدقتي، فقال له رسول الله ﷺ: أكل ولدك نَحَلْتَ مثل هذا؟ قال: لا. قال: اتقوا الله، واعدلوا في أولادكم. فرجع أبي فردَّ تلك الصدقة». وفي لفظ: «فلا تُشهدني إذن، فإني لا أشهد على جور». وفي لفظ: «أَتشهد على هذا غيري».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/281.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 282,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: «أن النبي ﷺ عامل أهل خيبر بشطر ما يخرج منها من ثمر أو زرع».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/282.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 283,
+              hadethText:
+                  "عن رافع بن خديج رضي الله عنه قال: «كنا أكثر الأنصار حقلًا، فكنا نُكري الأرض على أن لنا هذه ولهم هذه، فربما أخرجت هذه ولم تخرج هذه، فنهينا عن ذلك. وأما الورِق فلم نُنهَ عنه». ولمسلم عن حنظلة بن قيس قال: «سألتُ رافع بن خديج عن كِراء الأرض بالذهب والورِق، فقال: لا بأس به، إنما كان الناس يؤاجرون على عهد النبي ﷺ بما على الماذيانات وأقبال الجداول وأشياء من الزرع، فيهلك هذا ويسلم هذا، ويهلك هذا ويسلم هذا، ولم يكن للناس كراء إلا هذا، فلذلك زُجر عنه. فأما شيء معلوم مضمون فلا بأس به».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/283.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 284,
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنه قال: «قضى النبي ﷺ بالعُمْرَى لمن وُهِبت له». وفي لفظ: «من أُعمر عُمرى له ولعقِبه فإنه لا ترجع إلى الذي أعطاها، لأنه أعطى عطاءً وقعت فيه المواريث». وقال جابر رضي الله عنه: «إنما العُمْرَى التي أجاز رسول الله ﷺ أن يقول: هي لك ولعقبك. فأما إذا قال: هي لك ما عشتَ، فإنها ترجع إلى صاحبها». وفي لفظ لمسلم: «أمسكوا عليكم أموالكم ولا تفسدوها، فإنه من أُعمر عُمرى فهي للذي أُعمرها حيًّا وميتًا ولعقِبه».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/284.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 285,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «لا يمنعن جارٌ جارَه أن يغرز خشبةً في جداره». ثم يقول أبو هريرة: ما لي أراكم عنها معرضين؟ والله! لأرمين بها بين أكتافكم.",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/285.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 286,
+              hadethText:
+                  "عن عائشة رضي الله عنها أن رسول الله ﷺ قال: «من ظلم قِيدَ شِبْرٍ من الأرض طوَّقه من سبع أرضين».",
+              explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/286.ogg',
+            ),
+          ],
+        ),
       ],
     ),
   ];
