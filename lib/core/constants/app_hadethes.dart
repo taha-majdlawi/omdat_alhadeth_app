@@ -2653,7 +2653,7 @@ class Constants {
           doorName: 'باب الرهن وغيره',
           hadeths: [
             Hadeth(
-              hadethNumber:  274,
+              hadethNumber: 274,
               hadethText:
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ اشترى طعامًا من يهودي، ورهنه درعًا من حديد.",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
@@ -2757,6 +2757,19 @@ class Constants {
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
               soundUrl: 'assets/sounds/286.ogg',
+            ),
+          ],
+        ),
+        Door(
+          doorName: "باب الللقطة",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن زيدِ بنِ خالدٍ الجُهَنِيِّ رضيَ اللهُ عنه قال: سُئِلَ رسولُ اللهِ ﷺ عن اللُّقَطَةِ، الذَّهَبِ أوِ الورِقِ، فقال: «اعرِفْ وِكَاءَها وعِفَاصَها، ثم عرِّفْها سَنَةً، فإنْ لم تُعْرَفْ فاستَنفِقْها، ولْتَكُنْ وِدِيعَةً عندَك، فإنْ جاءَ طالِبُها يومًا مِن الدَّهْرِ، فأدِّها إليه». وسأله عن ضالَّةِ الإبلِ، فقال: «ما لكَ ولَها؟ معها حِذَاؤُها وسِقَاؤُها، تَرِدُ الماءَ، وتَأْكُلُ الشَّجَرَ، حتَّى يَجِدَها ربُّها». وسأله عن الشَّاةِ، فقال: «خُذْها، فإنَّما هي لكَ، أو لأخِيكَ، أو للذِّئْبِ».",
+              hadethNumber: 287,
+              soundUrl: 'assets/sounds/287.ogg',
+              explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
+              isOthimieen: false,
             ),
           ],
         ),
