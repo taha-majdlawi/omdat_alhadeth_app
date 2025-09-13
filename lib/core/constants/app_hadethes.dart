@@ -2841,5 +2841,8 @@ class Constants {
         ),
       ],
     ),
+
+    // book 8 كتاب النكاح
+    Book(bookName: 'كتاب النكاح', doors: []),
   ];
 }
