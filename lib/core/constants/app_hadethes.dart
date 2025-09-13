@@ -2843,6 +2843,185 @@ class Constants {
     ),
 
     // book 8 كتاب النكاح
-    Book(bookName: 'كتاب النكاح', doors: []),
+    Book(
+      bookName: 'كتاب النكاح',
+      doors: [
+        Door(
+          doorName: 'باب استحباب النكاح وفضل الزواج',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 295,
+              hadethText:
+                  "عن عبد الله بن مسعود رضي الله عنه، قال: قال لنا رسول الله ﷺ: «يا معشرَ الشبابِ! من استطاعَ منكم الباءةَ فليتزوجْ، فإنه أغضُّ للبصرِ، وأحصنُ للفرجِ، ومن لم يستطعْ فعليه بالصومِ، فإنه له وجاءٌ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/295.ogg',
+            ),
+            Hadeth(
+              hadethNumber: 296,
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه: أن نفرًا من أصحاب النبي ﷺ سألوا أزواج النبي ﷺ عن عمله في السرِّ، فقال بعضهم: لا أتزوج النساءَ، وقال بعضهم: لا آكل اللحمَ، وقال بعضهم: لا أنام على فراشٍ. فبلغ ذلك النبي ﷺ، فحمد الله وأثنى عليه، ثم قال: «ما بال أقوام قالوا كذا وكذا؟ لكني أصلي وأنام، وأصوم وأفطر، وأتزوج النساء، فمن رغب عن سنتي فليس مني».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/296.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب عيوب النكاح',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 297,
+              hadethText:
+                  "عن سعد بن أبي وقاص رضي الله عنه قال: «رد رسولُ اللهِ ﷺ عثمانَ بنَ مظعونٍ عن التبتُّلِ، ولو أذِن له لاختصينا».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/297.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب تحريم نكاح المشركات والمشركين',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 298,
+              hadethText:
+                  "عن أم حبيبة بنت أبي سفيان رضي الله عنها قالت: قلتُ: يا رسول الله! انكحْ أختي بنتَ أبي سفيان... فلا تعرِضْنَ عليَّ بناتِكنَّ ولا أخواتِكن».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/298.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب لا يجمع بين المرأة وعمتها أو خالتها',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 299,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «لا يُجمَع بين المرأةِ وعمتِها، ولا بين المرأةِ وخالتِها».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/299.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب أوْلى الناس بتزويج اليتيمة',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 300,
+              hadethText:
+                  "عن عقبة بن عامر رضي الله عنه قال: قال رسول الله ﷺ: «إن أحقَّ الشروطِ أن توفوا به ما استحلَلْتُم به الفروجَ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/300.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب نكاح الشغار (النكاح بدون مهر)',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 301,
+              hadethText:
+                  "عن ابن عمر رضي الله عنهما: أن رسول الله ﷺ «نهى عن الشغارِ، والشغارُ أن يُزوِّجَ الرجلُ ابنتَه على أن يُزوِّجَه الآخرُ ابنتَه، وليس بينهما صداقٌ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/301.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب نكاح المتعة وتحريمه',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 302,
+              hadethText:
+                  "عن علي بن أبي طالب رضي الله عنه: أن رسول الله ﷺ «نهى عن نكاحِ المتعةِ يوم خيبرَ، وعن لحومِ الحمرِ الأهليَّةِ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/302.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب إذن المرأة في النكاح',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 303,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه: أن النبي ﷺ قال: «لا تُنكَحُ الأيِّمُ حتى تُستأمَرَ، ولا تُنكَحُ البكرُ حتى تُستأذَنَ». قالوا: يا رسولَ اللهِ! فكيف إذنُها؟ قال: «أن تَسكُتَ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/303.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب النكاح بشرط الوطء',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 304,
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: «جاءت امرأةُ رفاعةَ القرظيِّ إلى النبيِّ ﷺ، فقالت... حتى تذوقي عُسيلتَه، ويذوقَ عُسيلتَكِ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/304.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب العشرة بعد الزواج',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 305,
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: «من السنة: إذا تزوج البكرَ على الثيبِ، أقام عندها سبعًا، وإذا تزوج الثيبَ أقام عندها ثلاثًا...»",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/305.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب ما يقال عند الجماع',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 306,
+              hadethText:
+                  "عن ابن عباس رضي الله عنهما: أن رسول الله ﷺ قال: «لو أن أحدَكم إذا أراد أن يأتيَ أهلَه، قال: بسم الله، اللهم جنِّبْنا الشيطان، وجنِّبِ الشيطانَ ما رزقتنا...»",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/306.ogg',
+            ),
+          ],
+        ),
+
+        Door(
+          doorName: 'باب التحذير من الدخول على النساء الأجنبيات',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 307,
+              hadethText:
+                  "عن عقبة بن عامر رضي الله عنه، أن رسول الله ﷺ قال: «إياكم والدخولَ على النساء!» فقال رجلٌ من الأنصار: يا رسولَ الله! أفرأيت الحمو؟ قال: «الحموُ الموتُ».",
+              explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
+              isOthimieen: false,
+              soundUrl: 'assets/sounds/307.ogg',
+            ),
+          ],
+        ),
+      ],
+    ),
   ];
 }
