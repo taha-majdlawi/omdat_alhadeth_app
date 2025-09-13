@@ -2653,7 +2653,7 @@ class Constants {
           doorName: 'باب الرهن وغيره',
           hadeths: [
             Hadeth(
-              hadethNumber: 274,
+              hadethNumber:  274,
               hadethText:
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ اشترى طعامًا من يهودي، ورهنه درعًا من حديد.",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
