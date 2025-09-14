@@ -3,7 +3,7 @@ class Hadeth {
   final int hadethNumber;
   final String soundUrl;
   final String explainUrl;
-   bool isOthimieen;
+  bool isOthimieen;
   Hadeth({
     required this.hadethText,
     required this.hadethNumber,
@@ -22,5 +22,6 @@ class Door {
 class Book {
   final List<Door> doors;
   final String bookName;
-  Book({required this.doors, required this.bookName});
+   List<Hadeth>? hadeths;
+  Book({required this.doors, required this.bookName, this.hadeths});
 }
