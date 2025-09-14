@@ -22,6 +22,6 @@ class Door {
 class Book {
   final List<Door> doors;
   final String bookName;
-   List<Hadeth>? hadeths;
-  Book({required this.doors, required this.bookName, this.hadeths});
+
+  Book({required this.doors, required this.bookName});
 }
