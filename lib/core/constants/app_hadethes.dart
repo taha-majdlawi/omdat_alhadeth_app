@@ -3424,6 +3424,57 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب حد السرقة ",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 346,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: «أن النبي ﷺ قطع في مجنّ قيمته - وفي لفظ: ثمنه - ثلاثة دراهم».",
+              explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/346.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 347,
+              hadethText:
+                  "عن عائشة رضي الله عنها أنها سمعت رسول الله ﷺ يقول: «تُقطع اليد في ربع دينار فصاعدًا».",
+              explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/347.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 348,
+              hadethText:
+                  "عن عائشة رضي الله عنها: «أن قريشًا أهمّهم شأن المرأة المخزومية التي سرقت، فقالوا: من يكلم فيها رسول الله ﷺ؟ فقالوا: ومن يجترئ عليه إلا أسامة بن زيد، حب رسول الله ﷺ؟ فكلمه أسامة، فقال: أتشفع في حد من حدود الله؟ ثم قام فخطب فقال: إنما أهلك الذين من قبلكم: أنهم كانوا إذا سرق فيهم الشريف تركوه، وإذا سرق فيهم الضعيف أقاموا عليه الحد، وايم الله! لو أن فاطمة بنت محمد سرقت لقطعت يدها».\nوفي لفظ: «قالت: كانت امرأة تستعير المتاع وتجحده، فأمر النبي ﷺ بقطع يدها».",
+              explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/348.ogg",
+            ),
+          ],
+        ),
+        Door(
+          doorName: "باب حد الخمر",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 349,
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه: «أن النبي ﷺ أُتي برجل قد شرب الخمر، فجلده بجريد نحو أربعين». قال: «وفعله أبو بكر رضي الله عنه». «فلما كان عمر رضي الله عنه استشار الناس، فقال عبد الرحمن: أخفّ الحدود ثمانين، فأمر به عمر» رضي الله عنه.",
+              explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=iaxGHkrBQFrjXrFz",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/349.ogg",
+            ),
+
+            Hadeth(
+              hadethNumber: 350,
+              hadethText:
+                  "عن أبي بردة هانئ بن نيار البلوي رضي الله عنه: أنه سمع رسول الله ﷺ يقول: «لا يُجلَد فوق عشرة أسواط إلا في حد من حدود الله».",
+              explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=iaxGHkrBQFrjXrFz",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/350.ogg",
+            ),
+          ],
+        ),
       ],
     ),
   ];
