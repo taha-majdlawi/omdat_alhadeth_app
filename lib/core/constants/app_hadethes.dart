@@ -3220,5 +3220,25 @@ class Constants {
         ),
       ],
     ),
+
+    //book  11 كتاب الرضاع
+    Book(
+      bookName: "كتاب الرضاع",
+      doors: [
+        Door(
+          doorName: 'باب الرضاع',
+          hadeths: [
+            Hadeth(
+              hadethNumber: 325,
+              hadethText:
+                  "عن ابن عباس رضيَ اللهُ عنهما قال: قال رسولُ اللهِ ﷺ في بنتِ حمزةَ: «لا تَحِلُّ لي، يَحرُمُ من الرَّضاعَةِ ما يَحرُمُ من النَّسَبِ، وهيَ ابنةُ أخي من الرَّضاعَةِ».",
+              explainUrl: "https://youtu.be/5wgD_qBD_9k?si=0DQoOQvue29q302-",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/325.ogg",
+            ),
+          ],
+        ),
+      ],
+    ),
   ];
 }
