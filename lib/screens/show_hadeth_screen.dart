@@ -115,9 +115,9 @@ class ShowHadethExplainBotton extends StatelessWidget {
       onPressed: () => Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
       icon: const Icon(Icons.play_circle_fill, size: 24),
       label: Text(
-        (hadeth.isOthimieen ?? true)
-            ? 'مشاهدة شرح الحديث للشيخ بن عثيمين'
-            : 'مشاهدة شرح الحديث للشيخ اللحيدان',
+       
+           'مشاهدة شرح الحديث',
+           
         style: const TextStyle(
           fontFamily: 'Amiri',
           fontSize: 20,
