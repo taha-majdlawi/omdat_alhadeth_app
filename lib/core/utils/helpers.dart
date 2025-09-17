@@ -1,11 +1,10 @@
-
-  import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
- class Helpers {
-  
-/// Launches a YouTube link or raw video ID.
+
+class Helpers {
+  /// Launches a YouTube link or raw video ID.
   /// Uses in-app webview to avoid ACTIVITY_NOT_FOUND on emulators without a browser.
- static Future<void> openYoutube(BuildContext context, String urlOrId) async {
+  static Future<void> openYoutube(BuildContext context, String urlOrId) async {
     String u = (urlOrId).trim();
 
     if (u.isEmpty) {
@@ -13,13 +12,13 @@ import 'package:url_launcher/url_launcher.dart';
       return;
     }
 
-    // If it's just a YouTube video ID (11 chars), build a full URL
+    // If it's a YouTube video ID (11 chars), build full URL
     final isId = RegExp(r'^[A-Za-z0-9_-]{11}$').hasMatch(u);
     if (isId) {
       u = 'https://www.youtube.com/watch?v=$u';
     }
 
-    // Ensure http/https scheme
+    // Ensure valid scheme
     if (!u.startsWith('http://') && !u.startsWith('https://')) {
       u = 'https://$u';
     }
@@ -27,19 +26,17 @@ import 'package:url_launcher/url_launcher.dart';
     final uri = Uri.parse(u);
 
     try {
-      // Prefer in-app webview for reliability on emulators
       final ok = await launchUrl(
         uri,
-        mode: LaunchMode.inAppWebView,
-        webViewConfiguration: const WebViewConfiguration(enableJavaScript: true),
+        mode: LaunchMode.externalApplication, // ✅ حل موثوق لجميع الأجهزة
       );
       if (!ok) _snack(context, 'تعذر فتح الرابط');
-    } catch (_) {
-      _snack(context, 'تعذر فتح الرابط');
+    } catch (e) {
+      _snack(context, 'حدث خطأ أثناء فتح الرابط');
     }
   }
 
- static void _snack(BuildContext context, String msg) {
+  static void _snack(BuildContext context, String msg) {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
   }
- }
+}
