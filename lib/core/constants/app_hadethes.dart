@@ -15,6 +15,7 @@ class Constants {
               hadethNumber: 1,
               soundUrl: 'assets/sounds/1.ogg',
               explainUrl: 'https://youtu.be/UecgSkzVn-M?si=_gUV1i1o8N8LYP0V',
+            
             ),
             Hadeth(
               hadethText:

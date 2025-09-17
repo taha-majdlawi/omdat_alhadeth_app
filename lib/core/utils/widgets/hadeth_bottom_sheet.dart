@@ -54,8 +54,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final primary =
-        AppColors.darkPrimary; // أو Theme.of(context).colorScheme.primary
+    final primary = Colors.teal.shade700;
 
     return SafeArea(
       top: false,
@@ -128,7 +127,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                               );
                             },
                             icon: const Icon(Icons.arrow_back),
-                          //  label: const Text('الحديث السابق'),
+                            //  label: const Text('الحديث السابق'),
                           ),
                         if (widget.currentHadethIndex <
                             widget.hadethsInCurrentDoor.length - 1)
@@ -139,7 +138,7 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                               );
                             },
                             icon: const Icon(Icons.arrow_forward),
-                          //  label: const Text('الحديث التالي'),
+                            //  label: const Text('الحديث التالي'),
                           ),
                       ],
                     ),

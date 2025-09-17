@@ -11,7 +11,9 @@ class ShowHadethScreen extends StatelessWidget {
     super.key,
     required this.themeProvider,
     required this.hadeth,
-    required this.hadethNumber, required this.bookNumber, required this.doorNumber,
+    required this.hadethNumber,
+    required this.bookNumber,
+    required this.doorNumber,
   });
 
   final ThemeProvider themeProvider;
@@ -49,26 +51,22 @@ class ShowHadethScreen extends StatelessWidget {
               style: TextStyle(
                 fontSize: 24,
                 fontFamily: 'Amiri',
-                // لو تحب ثبات اللون بغض النظر عن الثيم، استخدم Colors.black87 أو Colors.white
+
                 color: themeProvider.getIsDarkTheme
                     ? Colors.white
                     : Colors.black,
               ),
             ),
             const SizedBox(height: 16),
-            ElevatedButton(
-              onPressed: () =>
-                  Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
-              child: const Text(
-                'مشاهدة شرح الحديث للشيخ بن عثيمين',
-                style: TextStyle(fontFamily: 'Amiri', fontSize: 18),
-              ),
+            ShowHadethExplainBotton(
+              hadeth: hadeth,
+              themeProvider: themeProvider,
             ),
+
             const SizedBox(height: 12),
           ],
         ),
 
-        // ⬇️ نخلي المشغّل بالأسفل بدون ما يغطي الـ body
         bottomNavigationBar: SafeArea(
           top: false,
           child: HadethScreenBottomSheet(
@@ -96,6 +94,45 @@ class ShowHadethScreen extends StatelessWidget {
             },
           ),
         ),
+      ),
+    );
+  }
+}
+
+class ShowHadethExplainBotton extends StatelessWidget {
+  const ShowHadethExplainBotton({
+    super.key,
+    required this.hadeth,
+    required this.themeProvider,
+  });
+
+  final Hadeth hadeth;
+  final ThemeProvider themeProvider;
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton.icon(
+      onPressed: () => Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
+      icon: const Icon(Icons.play_circle_fill, size: 24),
+      label: Text(
+        (hadeth.isOthimieen ?? true)
+            ? 'مشاهدة شرح الحديث للشيخ بن عثيمين'
+            : 'مشاهدة شرح الحديث للشيخ اللحيدان',
+        style: const TextStyle(
+          fontFamily: 'Amiri',
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: themeProvider.getIsDarkTheme
+            ? Colors.teal.shade700
+            : Colors.teal,
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+        elevation: 6,
+        shadowColor: Colors.black45,
       ),
     );
   }
