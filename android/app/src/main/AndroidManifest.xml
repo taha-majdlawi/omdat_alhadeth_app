@@ -1,10 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.omdat_alhadeth">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- ✅ Internet permission is required for opening YouTube links -->
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <!-- ✅ Optional: allow opening non-https links (if ever needed) -->
     <application
         android:label="عمدة الأحكام من كلام خير الأنام"
         android:name="${applicationName}"
@@ -21,25 +18,21 @@
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
 
-            <!-- Flutter splash theme while app loads -->
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
                 android:resource="@style/NormalTheme" />
 
-            <!-- Launcher intent -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
-        <!-- Required by Flutter plugins -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
 
-    <!-- Optional: for Flutter text processing plugins -->
     <queries>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
