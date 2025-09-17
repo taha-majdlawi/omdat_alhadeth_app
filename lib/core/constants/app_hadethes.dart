@@ -3374,7 +3374,7 @@ class Constants {
     ),
 
     //book 13 كتاب الحدود
-    Book( 
+    Book(
       bookName: "كتاب الحدود",
       doors: [
         Door(
@@ -3475,8 +3475,58 @@ class Constants {
             ),
           ],
         ),
-  
-  
+      ],
+    ),
+
+    //book 14 كتاب الايمان والنذور
+    Book(
+      bookName: "كتاب الأيمان والنذور",
+      doors: [
+        Door(
+          doorName: "باب الايمان والنذور",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 351,
+              hadethText:
+                  "عن عبد الرحمن بن سمرة رضي الله عنه، قال: قال رسول الله ﷺ: «يا عبد الرحمن بن سمرة! لا تسأل الإمارة؛ فإنك إن أُعطيتها عن مسألة وُكلت إليها، وإن أُعطيتها عن غير مسألة أُعنت عليها. وإذا حلفت على يمين فرأيت غيرها خيرًا منها، فكفِّر عن يمينك وأتِ الذي هو خير».",
+              explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/351.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 352,
+              hadethText:
+                  "عن أبي موسى رضي الله عنه، قال: قال رسول الله ﷺ: «إني والله – إن شاء الله – لا أحلف على يمين، فأرى غيرها خيرًا منها، إلا أتيت الذي هو خير، وتحللتها».",
+              explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/352.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 353,
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله ﷺ: «إن الله ينهاكم أن تحلفوا بآبائكم».\nولمسلم: «مَن كان حالفًا، فليحلف بالله، أو ليصمت».\nوفي رواية: (قال عمر رضي الله عنه: فوالله! ما حلفت بها منذ سمعت رسول الله ﷺ نهى عنها، ذاكِرًا ولا آثرًا).",
+              explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/353.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 354,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «قال سليمان بن داود: لأطوفن الليلة على سبعين امرأة، تلد كل امرأة منهن غلامًا يقاتل في سبيل الله. فقيل له: قل إن شاء الله، فلم يقل، فلم تلد منهن إلا امرأة واحدة نصف إنسان. فقال رسول الله ﷺ: لو قال إن شاء الله لم يَخْلُف، وكان دَرَكًا لحاجته».",
+              soundUrl: "assets/sounds/354.ogg",
+              explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethNumber: 355,
+              hadethText:
+                  "عن عبد الله بن مسعود رضي الله عنه قال: قال رسول الله ﷺ: «من حلف على يمين صبر يقتطع بها مال امرئ مسلم هو فيها فاجر، لقي الله وهو عليه غضبان»، ونزلت: ﴿إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا﴾ إلى آخر الآية.",
+              soundUrl: "assets/sounds/355.ogg",
+              explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];

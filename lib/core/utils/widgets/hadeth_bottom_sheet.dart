@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/audio/hadeth_audio_controller.dart';
 import 'package:omdat_alhadeth/core/constants/app_colors.dart';
+import 'package:omdat_alhadeth/models/hadeth_model.dart';
 import 'package:omdat_alhadeth/widgets/audio_controls.dart';
 import 'package:omdat_alhadeth/widgets/audio_progress_bar.dart';
-
 
 class HadethScreenBottomSheet extends StatefulWidget {
   const HadethScreenBottomSheet({
@@ -14,6 +14,9 @@ class HadethScreenBottomSheet extends StatefulWidget {
     required this.soundPathOrUrl, // 'assets/sounds/1.ogg' أو URL
     this.autoPlay = false,
     this.title = 'تشغيل الصوت',
+    required this.hadethsInCurrentDoor,
+    required this.currentHadethIndex,
+    required this.onNavigateToHadeth,
   });
 
   final double screenWidth;
@@ -21,6 +24,9 @@ class HadethScreenBottomSheet extends StatefulWidget {
   final String soundPathOrUrl;
   final bool autoPlay;
   final String title;
+  final List<Hadeth> hadethsInCurrentDoor;
+  final int currentHadethIndex;
+  final Function(int newIndex) onNavigateToHadeth;
 
   @override
   State<HadethScreenBottomSheet> createState() =>
@@ -48,7 +54,8 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
 
   @override
   Widget build(BuildContext context) {
-    final primary = AppColors.darkPrimary; // أو Theme.of(context).colorScheme.primary
+    final primary =
+        AppColors.darkPrimary; // أو Theme.of(context).colorScheme.primary
 
     return SafeArea(
       top: false,
@@ -110,6 +117,32 @@ class _HadethScreenBottomSheetState extends State<HadethScreenBottomSheet> {
                         label: const Text('إعادة المحاولة'),
                       ),
                     ],
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        if (widget.currentHadethIndex > 0)
+                          IconButton(
+                            onPressed: () {
+                              widget.onNavigateToHadeth(
+                                widget.currentHadethIndex - 1,
+                              );
+                            },
+                            icon: const Icon(Icons.arrow_back),
+                          //  label: const Text('الحديث السابق'),
+                          ),
+                        if (widget.currentHadethIndex <
+                            widget.hadethsInCurrentDoor.length - 1)
+                          IconButton(
+                            onPressed: () {
+                              widget.onNavigateToHadeth(
+                                widget.currentHadethIndex + 1,
+                              );
+                            },
+                            icon: const Icon(Icons.arrow_forward),
+                          //  label: const Text('الحديث التالي'),
+                          ),
+                      ],
+                    ),
                   ],
                 );
               },

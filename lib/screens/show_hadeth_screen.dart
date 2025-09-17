@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:omdat_alhadeth/core/constants/app_hadethes.dart';
 import 'package:omdat_alhadeth/core/utils/helpers.dart';
 import 'package:omdat_alhadeth/core/utils/widgets/background_wrapper.dart';
 import 'package:omdat_alhadeth/core/utils/widgets/hadeth_bottom_sheet.dart';
 import 'package:omdat_alhadeth/models/hadeth_model.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 
-
-
 class ShowHadethScreen extends StatelessWidget {
   const ShowHadethScreen({
     super.key,
     required this.themeProvider,
     required this.hadeth,
-    required this.hadethNumber,
+    required this.hadethNumber, required this.bookNumber, required this.doorNumber,
   });
 
   final ThemeProvider themeProvider;
   final Hadeth hadeth;
   final int hadethNumber;
+  final int bookNumber;
+  final int doorNumber;
 
   @override
   Widget build(BuildContext context) {
@@ -74,6 +75,25 @@ class ShowHadethScreen extends StatelessWidget {
             soundPathOrUrl: hadeth.soundUrl,
             screenWidth: screenWidth,
             screenHeight: screenHeight,
+            hadethsInCurrentDoor:
+                Constants.books[bookNumber - 1].doors[doorNumber].hadeths,
+            currentHadethIndex: hadethNumber - 1,
+            onNavigateToHadeth: (newIndex) {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (_) => ShowHadethScreen(
+                    themeProvider: themeProvider,
+                    hadeth: Constants
+                        .books[bookNumber - 1]
+                        .doors[doorNumber]
+                        .hadeths[newIndex],
+                    hadethNumber: newIndex + 1,
+                    bookNumber: bookNumber,
+                    doorNumber: doorNumber,
+                  ),
+                ),
+              );
+            },
           ),
         ),
       ),

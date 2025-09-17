@@ -9,10 +9,12 @@ class HadethItemCardWidget extends StatelessWidget {
     super.key,
     required this.themeProvider,
     required this.hadeth,
-    required this.hadethNumber,
+    required this.hadethNumber, required this.bookNumber, required this.doorNumber,
   });
 
   final ThemeProvider themeProvider;
+final int bookNumber;
+final int doorNumber;
 
   final Hadeth hadeth;
   final int hadethNumber;
@@ -23,6 +25,8 @@ class HadethItemCardWidget extends StatelessWidget {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (context) => ShowHadethScreen(
+              bookNumber: bookNumber,
+              doorNumber: doorNumber,
               themeProvider: themeProvider,
               hadeth: hadeth,
               hadethNumber: hadethNumber,

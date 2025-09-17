@@ -23,6 +23,8 @@ class HadethesListView extends StatelessWidget {
         itemCount: Constants.books[bookNumber-1].doors[doorNumber].hadeths.length,
         itemBuilder: (context, index) {
           return HadethItemCardWidget(
+            bookNumber: bookNumber,
+            doorNumber:doorNumber ,
             hadethNumber: index+1,
             themeProvider: themeProvider,
             hadeth: Constants.books[bookNumber-1].doors[doorNumber].hadeths[index],
