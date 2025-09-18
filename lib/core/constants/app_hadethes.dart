@@ -15,7 +15,6 @@ class Constants {
               hadethNumber: 1,
               soundUrl: 'assets/sounds/1.ogg',
               explainUrl: 'https://youtu.be/UecgSkzVn-M?si=_gUV1i1o8N8LYP0V',
-            
             ),
             Hadeth(
               hadethText:
@@ -3524,6 +3523,25 @@ class Constants {
                   "عن عبد الله بن مسعود رضي الله عنه قال: قال رسول الله ﷺ: «من حلف على يمين صبر يقتطع بها مال امرئ مسلم هو فيها فاجر، لقي الله وهو عليه غضبان»، ونزلت: ﴿إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا﴾ إلى آخر الآية.",
               soundUrl: "assets/sounds/355.ogg",
               explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن الأَشْعَثِ بنِ قَيْسٍ رضي الله عنه قال: «كان بيني وبين رجل خُصومةٌ في بئر، فاختصمنا إلى رسولِ الله ﷺ، فقال رسولُ الله ﷺ: شاهِدُكَ أو يَمينُه». قلت: إذاً يَحلِفُ ولا يُبالي!\n"
+                  "فقال رسولُ الله ﷺ: «مَن حَلَفَ على يَمينٍ صَبْرٍ يَقتَطِعُ بها مالَ امرِئٍ مُسلِمٍ، هو فيها فاجِرٌ، لَقيَ اللهَ وهو عليه غَضبان».\n",
+              hadethNumber: 356,
+              soundUrl: 'assets/sounds/356.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن ثابت بن الضحاك الأنصاري رضي الله عنه: «أنه بايع رسول الله ﷺ تحت الشجرة، وأن رسول الله ﷺ قال: من حلف على يمين بملة غير الإسلام كاذبًا متعمدًا؛ فهو كما قال. ومن قتل نفسه بشيء؛ عُذِّب به يوم القيامة. وليس على رجل نذر فيما لا يملك». \n"
+                  "وفي رواية: «ولعن المؤمن كقتله». \n"
+                  "وفي رواية: «من ادَّعى دعوى كاذبة ليتكثر بها؛ لم يزده الله إلا قلة».\n",
+              hadethNumber: 357,
+              soundUrl: 'assets/sounds/357.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
           ],
