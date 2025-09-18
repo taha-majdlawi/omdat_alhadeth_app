@@ -3591,6 +3591,61 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب القضاء",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عائشة رضي الله عنها قالت: قال رسول الله ﷺ: «من أحدث في أمرنا هذا ما ليس منه؛ فهو رد». \n"
+                  "وفي لفظ: «من عمل عملًا ليس عليه أمرنا؛ فهو رد».\n",
+              hadethNumber: 363,
+              soundUrl: 'assets/sounds/363.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "وعن عائشة رضي الله عنها قالت: «دخلت هند بنت عتبة - امرأة أبي سفيان - على رسول الله ﷺ فقالت: يا رسول الله! إن أبا سفيان رجل شحيح، لا يعطيني من النفقة ما يكفيني ويكفي بنيَّ، إلا ما أخذت من ماله بغير علمه؛ فهل عليَّ في ذلك من جناح؟ فقال رسول الله ﷺ: خذي من ماله بالمعروف ما يكفيك ويكفي بنيك».\n",
+              hadethNumber: 364,
+              soundUrl: 'assets/sounds/364.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أم سلمة رضي الله عنها: «أن رسول الله ﷺ سمع جَلَبَةَ خصمٍ بباب حجرته، فخرج إليهم فقال: ألا إنما أنا بشر، وإنما يأتيني الخصم، فلعل بعضكم أن يكون أبلغ من بعض، فأحسب أنه صادق، فأقضي له! فمن قضيت له بحق مسلم، فإنما هي قطعة من نار، فليحملها أو يذرها».\n",
+              hadethNumber: 365,
+              soundUrl: 'assets/sounds/365.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الرحمن بن أبي بكرة، عن أبيه رضي الله عنه قال: «كتب أبي – وكتبت له – إلى ابنه عبيد الله بن أبي بكرة – وهو قاضٍ بسجستان –: أن لا تحكم بين اثنين وأنت غضبان، فإني سمعت رسول الله ﷺ يقول: لا يحكم أحد بين اثنين وهو غضبان». \n"
+                  "وفي رواية: «لا يقضيَنَّ حكمٌ بين اثنين وهو غضبان».\n",
+              hadethNumber: 366,
+              soundUrl: 'assets/sounds/366.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي بكرة رضي الله عنه قال: قال رسول الله ﷺ: «ألا أنبئكم بأكبر الكبائر؟» ثلاثًا. قلنا: بلى يا رسول الله! قال: «الإشراك بالله، وعقوق الوالدين». وكان متكئًا فجلس، فقال: «ألا وقول الزور، وشهادة الزور». فما زال يكررها حتى قلنا: ليته سكت.\n",
+              hadethNumber: 367,
+              soundUrl: 'assets/sounds/367.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «لو يُعطى الناس بدعواهم؛ لادَّعى ناس دماء رجال وأموالهم، ولكن البينة على المدعي، واليمين على من أنكر».\n",
+              hadethNumber: 368,
+              soundUrl: 'assets/sounds/368.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
