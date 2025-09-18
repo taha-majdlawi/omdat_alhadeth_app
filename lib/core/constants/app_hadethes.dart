@@ -3546,6 +3546,51 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: "باب النذر",
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه قال: «قلت: يا رسول الله! إني كنت نذرت في الجاهلية أن أعتكف ليلة. وفي رواية: يومًا - في المسجد الحرام؟ قال: فأوفِ بنذرك».\n",
+              hadethNumber: 358,
+              soundUrl: 'assets/sounds/358.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما، عن النبي ﷺ: «أنه نهى عن النذر، وقال: إنه لا يأتي بخير، وإنما يُستخرج به من البخيل».\n",
+              hadethNumber: 359,
+              soundUrl: 'assets/sounds/359.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عُقبة بن عامر رضي الله عنه قال: «نذرت أختي أن تمشي إلى بيت الله الحرام حافية، فأمرتني أن أستفتيَ لها رسول الله ﷺ، فاستفتيتُه فقال: لتمشِ ولتركب».\n",
+              hadethNumber: 360,
+              soundUrl: 'assets/sounds/360.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما: «أن سعد بن عبادة استفتى رسول الله ﷺ في نذر كان على أمه، توفيت قبل أن تقضيه؛ قال رسول الله ﷺ: فاقضِه عنها».\n",
+              hadethNumber: 361,
+              soundUrl: 'assets/sounds/361.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن كعب بن مالك رضي الله عنه قال: «قلت: يا رسول الله! إن من توبتي أن أنخلع من مالي صدقة إلى الله ورسوله، فقال رسول الله ﷺ: أمسك عليك بعض مالك؛ فهو خير لك».\n",
+              hadethNumber: 362,
+              soundUrl: 'assets/sounds/362.ogg',
+              explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
