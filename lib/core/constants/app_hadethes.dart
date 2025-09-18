@@ -3790,6 +3790,20 @@ class Constants {
             ),
           ],
         ),
+        Door(
+          doorName: 'باب الاضاحي',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: «ضحى النبي ﷺ بكبشين أملحين أقرنين، ذبحهما بيده، وسمى وكبر، ووضع رجله على صفاحهما».\n"
+                  "الأملح: الأغبر، وهو الذي فيه سواد وبياض.\n",
+              hadethNumber: 383,
+              soundUrl: 'assets/sounds/383.ogg',
+              explainUrl: 'https://youtu.be/VaUSZD543GQ?si=dnXFg29azwfHtdAH',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
