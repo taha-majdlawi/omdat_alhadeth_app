@@ -3646,7 +3646,103 @@ class Constants {
             ),
           ],
         ),
-  
+      ],
+    ),
+
+    //book 15 كتاب الاطعمة
+    Book(
+      bookName: 'كتاب الأطعمة',
+      doors: [
+        Door(
+          doorName: 'باب الأطعمة',
+          hadeths: [
+            Hadeth(
+              hadethText:
+                  "عن النعمان بن بشير رضي الله عنهما قال: سمعت رسول الله ﷺ يقول – وأهوى النعمان بإصبعيه إلى أذنيه –: «إن الحلال بيِّن، وإن الحرام بيِّن، وبينهما مشتبهات لا يعلمهن كثير من الناس. فمن اتقى الشبهات استبرأ لدينه وعرضه، ومن وقع في الشبهات وقع في الحرام، كالراعي يرعى حول الحمى يوشك أن يرتع فيه. ألا وإن لكل ملك حمى، ألا وإن حمى الله محارمه. ألا وإن في الجسد مضغة، إذا صلحت صلح الجسد كله، وإذا فسدت فسد الجسد كله، ألا وهي القلب».\n",
+              hadethNumber: 369,
+              soundUrl: 'assets/sounds/369.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: «أنفجنا أرنبًا بمر الظهران، فسعى القوم فلغبوا، وأدركتها فأخذتها، فأتيت بها أبا طلحة، فذبحها، وبعث بها إلى رسول الله ﷺ بوركها وفخذيها، فقبله».\n"
+                  "لفظ: «فلغبوا: أعيا».\n",
+              hadethNumber: 370,
+              soundUrl: 'assets/sounds/370.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أسماء بنت أبي بكر رضي الله عنهما قالت: «نحرنا على عهد رسول الله ﷺ فرسًا فأكلناه». \n"
+                  "وفي رواية: «ونحن بالمدينة».\n",
+              hadethNumber: 371,
+              soundUrl: 'assets/sounds/371.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنهما: «أن رسول الله ﷺ نهى عن لحوم الحمر الأهلية، وأذن في لحوم الخيل». \n"
+                  "ولمسلم وحده قال: «أكلنا زمن خيبر الخيل وحمر الوحش، ونهى النبي ﷺ عن الحمار الأهلي».\n",
+              hadethNumber: 372,
+              soundUrl: 'assets/sounds/372.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن أبي أوفى رضي الله عنه قال: «أصبنا مجاعة ليالي خيبر، فلما كان يوم خيبر وقعنا في الحمر الأهلية فانتَحرناها، فلما غلت بها القدور نادى منادي رسول الله ﷺ: أن أكفئوا القدور، ولا تأكلوا من لحوم الحمر شيئًا».\n",
+              hadethNumber: 373,
+              soundUrl: 'assets/sounds/373.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن أبي ثعلبة رضي الله عنه قال: «حرَّم رسول الله ﷺ لحوم الحمر الأهلية».\n",
+              hadethNumber: 374,
+              soundUrl: 'assets/sounds/374.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن ابن عباس رضي الله عنهما قال: «دخلت أنا وخالد بن الوليد مع رسول الله ﷺ بيت ميمونة، فأتي بضبٍّ محنوذ، فأهوى إليه رسول الله ﷺ بيده، فقال بعض النسوة اللاتي في بيت ميمونة: أخبروا رسول الله ﷺ بما يريد أن يأكل. فرفع رسول الله ﷺ يده. فقلت: أحرام هو يا رسول الله؟ قال: لا، ولكنه لم يكن بأرض قومي، فأجدني أعافه». \n"
+                  "قال خالد: فاجتررته فأكلته والنبي ﷺ ينظر.\n"
+                  "المحنوذ: المشوي بالرصاف، وهي الحجارة المحماة.\n",
+              hadethNumber: 375,
+              soundUrl: 'assets/sounds/375.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن عبد الله بن أبي أوفى رضي الله عنهما قال: «غزونا مع رسول الله ﷺ سبع غزوات، نأكل الجراد».\n",
+              hadethNumber: 376,
+              soundUrl: 'assets/sounds/376.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن زُهدم بن مضرب الجرمي قال: «كنا عند أبي موسى رضي الله عنه، فدعا بمائدة، وعليها لحم دجاج، فدخل رجل من بني تيم الله أحمر شبيه بالمولى، فقال: هلم! فتنحى، فقال له: هلم! فإني قد رأيت رسول الله ﷺ يأكل منه».\n",
+              hadethNumber: 377,
+              soundUrl: 'assets/sounds/377.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+            Hadeth(
+              hadethText:
+                  "عن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «إذا أكل أحدكم طعامًا، فلا يمسح يده حتى يلعقها أو يلعقها».\n",
+              hadethNumber: 378,
+              soundUrl: 'assets/sounds/378.ogg',
+              explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
+              isOthimieen: false,
+            ),
+          ],
+        ),
       ],
     ),
   ];
