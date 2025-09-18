@@ -3806,5 +3806,46 @@ class Constants {
         ),
       ],
     ),
+
+    Book(
+      bookName: "كتاب الاشربة",
+      doors: [
+        Door(
+          doorName: "باب الاشربة",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 384,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: «أن عمر رضي الله عنه قال على منبر رسول الله ﷺ: أما بعد، أيها الناس! إنه نزل تحريم الخمر وهي من خمسة: من العنب، والتمر، والعسل، والحنطة، والشعير، والخمر: ما خامر العقل. ثلاث وددت أن رسول الله ﷺ كان عهد إلينا فيهن عهدًا ننتهي إليه: الجدّ، والكلالة، وأبواب من أبواب الربا».",
+              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/384.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 385,
+              hadethText:
+                  "عن عائشة رضي الله عنها، عن النبي ﷺ: «أنه سئل عن البتع؟ فقال: كل شراب أسكر فهو حرام». والبتع: نبيذ العسل.",
+              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/385.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 386,
+              hadethText:
+                  "عن عبد الله بن عباس رضي الله عنهما قال: «بلغ عمر رضي الله عنه أن فلاناً باع خمراً، فقال: قاتل الله فلاناً! ألم يعلم أن رسول الله ﷺ قال: قاتل الله اليهود؛ حُرِّمت عليهم الشحوم فجملوها فباعوها».",
+              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/386.ogg",
+            ),
+          ],
+        ),
+      ],
+    ),
+
+    //book 17 كتاب الجهاد
+    Book(
+      bookName: "كتاب الجهاد",
+      doors: [Door(doorName: "باب الجهاد", hadeths: [])],
+    ),
   ];
 }
