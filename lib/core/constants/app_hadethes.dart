@@ -3806,7 +3806,7 @@ class Constants {
         ),
       ],
     ),
-
+    //book 16 كتاب الاشربة
     Book(
       bookName: "كتاب الاشربة",
       doors: [
@@ -3817,7 +3817,7 @@ class Constants {
               hadethNumber: 384,
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما قال: «أن عمر رضي الله عنه قال على منبر رسول الله ﷺ: أما بعد، أيها الناس! إنه نزل تحريم الخمر وهي من خمسة: من العنب، والتمر، والعسل، والحنطة، والشعير، والخمر: ما خامر العقل. ثلاث وددت أن رسول الله ﷺ كان عهد إلينا فيهن عهدًا ننتهي إليه: الجدّ، والكلالة، وأبواب من أبواب الربا».",
-              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
               soundUrl: "assets/sounds/384.ogg",
             ),
@@ -3825,7 +3825,7 @@ class Constants {
               hadethNumber: 385,
               hadethText:
                   "عن عائشة رضي الله عنها، عن النبي ﷺ: «أنه سئل عن البتع؟ فقال: كل شراب أسكر فهو حرام». والبتع: نبيذ العسل.",
-              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
               soundUrl: "assets/sounds/385.ogg",
             ),
@@ -3833,9 +3833,69 @@ class Constants {
               hadethNumber: 386,
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: «بلغ عمر رضي الله عنه أن فلاناً باع خمراً، فقال: قاتل الله فلاناً! ألم يعلم أن رسول الله ﷺ قال: قاتل الله اليهود؛ حُرِّمت عليهم الشحوم فجملوها فباعوها».",
-              explainUrl: "https://youtu.be/E-JeSKk4aR8?si=FP-IgECarp0_f-Mu",
+              explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
               soundUrl: "assets/sounds/386.ogg",
+            ),
+          ],
+        ),
+      ],
+    ),
+
+    //book 17 كتاب اللباس
+    Book(
+      bookName: "كتاب اللباس",
+      doors: [
+        Door(
+          doorName: "باب اللباس",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 387,
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله ﷺ: «لا تلبسوا الحرير؛ فإنه من لبسه في الدنيا لم يلبسه في الآخرة».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/387.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 388,
+              hadethText:
+                  "عن حذيفة رضي الله عنه قال: سمعت رسول الله ﷺ يقول: «لا تلبسوا الحرير ولا الديباج، ولا تشربوا في آنية الذهب والفضة، ولا تأكلوا في صحافها؛ فإنها لهم في الدنيا، ولكم في الآخرة».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/388.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 389,
+              hadethText:
+                  "عن البراء بن عازب رضي الله عنه قال: «ما رأيت من ذي لِمَّةٍ في حُلَّةٍ حمراءَ أحسنَ من رسول الله ﷺ، له شعرٌ يضرب منكبيه، بعيد ما بين المنكبين، ليس بالقصير ولا بالطويل».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/389.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 390,
+              hadethText:
+                  "عن البراء بن عازب رضي الله عنه قال: «أمرنا رسول الله ﷺ بسبع، ونهانا عن سبع: أمرنا بعيادة المريض، واتباع الجنائز، وتشميت العاطس، وإبرار القسم، ونصر المظلوم، وإجابة الداعي، وإفشاء السلام. ونهانا عن خواتيم الذهب، وعن شرب الفضة، وعن المياثر، وعن القسي، وعن لبس الحرير والإستبرق والديباج».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/390.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 391,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما: «أن رسول الله ﷺ اصطنع خاتماً من ذهب، فكان يجعل فصه في باطن كفه إذا لبسه، فصنع الناس، ثم إنه جلس فنزعه، وقال: إني كنت ألبس هذا الخاتم، وأجعل فصه من داخل، فرمى به، ثم قال: والله لا ألبسه أبداً! فنبذ الناس خواتيمهم». وفي لفظ: «جعله في يده اليمنى».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/391.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 392,
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه: «أن رسول الله ﷺ نهى عن لبوس الحرير إلا هكذا؛ ورفع لنا رسول الله ﷺ إصبعيه السبابة والوسطى». ولـمسلم: «نهى نبي الله ﷺ عن لبس الحرير إلا موضع إصبعين، أو ثلاث، أو أربع».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/392.ogg",
             ),
           ],
         ),
