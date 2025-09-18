@@ -3905,7 +3905,165 @@ class Constants {
     //book 17 كتاب الجهاد
     Book(
       bookName: "كتاب الجهاد",
-      doors: [Door(doorName: "باب الجهاد", hadeths: [])],
+      doors: [
+        Door(
+          doorName: "باب الجهاد",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 393,
+              hadethText:
+                  "عن عبد الله بن أبي أوفى رضي الله عنه: «أن رسول الله ﷺ في بعض أيامه التي لقي فيها العدو انتظر حتى مالت الشمس قام فيهم فقال: يا أيها الناس! لا تتمنوا لقاء العدو، واسألوا الله العافية، فإذا لقيتموهم فاصبروا، واعلموا أن الجنة تحت ظلال السيوف. ثم قال النبي ﷺ: اللهم منزل الكتاب، ومجري السحاب، وهازم الأحزاب، اهزمهم وانصرنا عليهم».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/393.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 394,
+              hadethText:
+                  "عن سهل بن سعد الساعدي رضي الله عنه أن رسول الله ﷺ قال: «رباط يوم في سبيل الله، خير من الدنيا وما عليها. وموضع سوط أحدكم من الجنة خير من الدنيا وما عليها. والروحة يروحها العبد في سبيل الله، أو الغدوة، خير من الدنيا وما عليها».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/394.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 395,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «انتدب الله – وللمسلم: تضمن الله – لمن خرج في سبيله، لا يخرجه إلا جهاد في سبيلي، وإيمان بي، وتصديق برسلي، فهو علي ضامن: أن أدخله الجنة، أو أرجعه إلى مسكنه الذي خرج منه، نائلاً ما نال من أجر أو غنيمة». \nولمسلم: «مثل المجاهد في سبيل الله – والله أعلم بمن يجاهد في سبيله – كمثل الصائم القائم. وتوكل الله للمجاهد في سبيله بأن يتوفاه أن يدخله الجنة، أو يرجعه سالماً مع أجر أو غنيمة».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/395.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 396,
+              hadethText:
+                  "وعنه رضي الله عنه قال: قال رسول الله ﷺ: «ما من مكلوم يُكلم في سبيل الله، إلا جاء يوم القيامة وكَلْمُه يدمى؛ اللون لون الدم، والريح ريح المسك».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/396.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 397,
+              hadethText:
+                  "عن أبي أيوب الأنصاري رضي الله عنه قال: قال رسول الله ﷺ: «غدوة في سبيل الله، أو روحة، خير مما طلعت عليه الشمس وغربت» أخرجه مسلم.",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/397.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 398,
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ: «غدوة في سبيل الله، أو روحة، خير من الدنيا وما فيها» أخرجه البخاري.",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/398.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 399,
+              hadethText:
+                  "عن أبي قتادة الأنصاري رضي الله عنه قال: «خرجنا مع رسول الله ﷺ إلى حنين – وذكر قصة – فقال رسول الله ﷺ: من قتل قتيلاً له عليه بينة فله سلبه – قالها ثلاثاً»",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/399.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 400,
+              hadethText:
+                  "عن سلمة بن الأكوع رضي الله عنه قال: «أتى النبي ﷺ عينٌ من المشركين – وهو في سفر – فجلس عند أصحابه يتحدث، ثم انفتل، فقال النبي ﷺ: اطلبوه واقتلوه، فقتلته، فنفلني سلبه». وفي رواية: (فقال: من قتل الرجل؟ فقالوا: سلمة بن الأكوع. قال: له سلبه أجمع).",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/400.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 401,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: «بعث رسول الله ﷺ سريةً إلى نجد، فخرجتُ فيها، فأصبنا إبلاً وغنماً، فبلغت سهامنا اثني عشر بعيراً، ونفلنا رسول الله ﷺ بعيراً بعيراً».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/401.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 402,
+              hadethText:
+                  "وعنه رضي الله عنه، عن النبي ﷺ قال: «إذا جمع الله الأولين والآخرين، يُرفع لكل غادر لواء، فيقال: هذه غدرة فلان بن فلان».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/402.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 403,
+              hadethText:
+                  "وعنه رضي الله عنه: «أن امرأة وُجدت في بعض مغازي النبي ﷺ مقتولة، فأنكر رسول الله ﷺ قتل النساء والصبيان».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/403.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 404,
+              hadethText:
+                  "عن أنس بن مالك رضي الله عنه: «أن عبد الرحمن بن عوف، والزبير بن العوام رضي الله عنهما، شكيا القمل إلى النبي ﷺ في غزاة لهما؛ فرخّص لهما في قميص الحرير، ورأيته عليهما».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/404.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 405,
+              hadethText:
+                  "عن عمر بن الخطاب رضي الله عنه قال: «كانت أموال بني النضير مما أفاء الله على رسوله ﷺ مما لم يوجف المسلمون عليه بخيل ولا ركاب. وكانت لرسول الله ﷺ خالصة، فكان رسول الله ﷺ يعزل نفقة أهله سنة، ثم يجعل ما بقي في الكُرَاع والسلاح عُدَّةً في سبيل الله عز وجل».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/405.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 406,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما قال: «أجرى النبي ﷺ ما ضمِر من الخيل: من الحَفياء إلى ثَنِيَّة الوداع. وأجرى ما لم يُضْمَر: من الثَّنِيَّة إلى مسجد بني زُرَيق». قال ابن عمر: وكنت فيمَن أجرى.",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/406.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 407,
+              hadethText:
+                  "وعنه رضي الله عنه قال: «عُرِضتُ على النبي ﷺ يوم أُحد وأنا ابن أربع عشرة سنة فلم يُجزني، وعُرِضتُ عليه يوم الخندق وأنا ابن خمس عشرة فأجازني».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/407.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 408,
+              hadethText:
+                  "وعنه رضي الله عنه: «أن رسول الله ﷺ قسم في النفل: للفَرَس سهمين، وللرجل سهمًا».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/408.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 409,
+              hadethText:
+                  "وعنه رضي الله عنه: «أن رسول الله ﷺ كان ينفِّل بعض من يبعث من السرايا لأنفسهم خاصة، سوى قسم عامة الجيش».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/409.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 410,
+              hadethText:
+                  "عن أبي موسى عبد الله بن قيس رضي الله عنه عن النبي ﷺ قال: «من حمل علينا السلاح فليس منا».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/410.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 411,
+              hadethText:
+                  "عن أبي موسى رضي الله عنه قال: سئل رسول الله ﷺ عن الرجل يقاتل شجاعة، ويقاتل حمية، ويقاتل رياءً؛ أيُّ ذلك في سبيل الله؟ فقال رسول الله ﷺ: «من قاتل لتكون كلمة الله هي العليا فهو في سبيل الله».",
+              explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/411.ogg",
+            ),
+          ],
+        ),
+      ],
     ),
   ];
 }
