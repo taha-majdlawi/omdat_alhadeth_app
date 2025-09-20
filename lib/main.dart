@@ -26,14 +26,15 @@ class OmdatAlhadeth extends StatelessWidget {
         builder: (context, themeProvider, fontSizeProvider, child) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            theme: Styles.themeData(
-              isDarkTheme: themeProvider.getIsDarkTheme,
-              context: context,
-            ).copyWith(
-              textTheme: Theme.of(context).textTheme.apply(
+            theme:
+                Styles.themeData(
+                  isDarkTheme: themeProvider.getIsDarkTheme,
+                  context: context,
+                ).copyWith(
+                  textTheme: Theme.of(context).textTheme.apply(
                     fontSizeFactor: fontSizeProvider.fontSize / 16.0,
                   ),
-            ),
+                ),
             home: SplashScreen(),
           );
         },

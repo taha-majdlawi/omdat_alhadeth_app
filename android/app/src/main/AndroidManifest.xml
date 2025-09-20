@@ -1,6 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.omdat_alhadeth">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- السماح بالإنترنت -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- السماح بفتح واتساب و الروابط -->
@@ -32,6 +32,7 @@
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
 
+            <!-- Flutter splash screen -->
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
                 android:resource="@style/NormalTheme" />
