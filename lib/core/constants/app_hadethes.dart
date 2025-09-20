@@ -3902,7 +3902,7 @@ class Constants {
       ],
     ),
 
-    //book 17 كتاب الجهاد
+    //book 18 كتاب الجهاد
     Book(
       bookName: "كتاب الجهاد",
       doors: [
@@ -4064,6 +4064,12 @@ class Constants {
           ],
         ),
       ],
+    ),
+
+    //Book 19 كتاب العتق
+    Book(
+      bookName: 'كتاب العتق',
+      doors: [Door(doorName: "باب العتق",hadeths: []),],
     ),
   ];
 }
