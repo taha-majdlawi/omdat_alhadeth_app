@@ -10,14 +10,13 @@ class HomeDrawerWidget extends StatelessWidget {
   final ThemeProvider themeProvider;
 
   Future<void> _contactDev() async {
-  final Uri whatsappUri = Uri.parse("https://wa.me/972592345890");
-  if (await canLaunchUrl(whatsappUri)) {
-    await launchUrl(whatsappUri, mode: LaunchMode.externalApplication);
-  } else {
-    throw "Could not launch $whatsappUri";
+    final Uri whatsappUri = Uri.parse("https://wa.me/972592345890");
+    if (await canLaunchUrl(whatsappUri)) {
+      await launchUrl(whatsappUri, mode: LaunchMode.externalApplication);
+    } else {
+      throw "Could not launch $whatsappUri";
+    }
   }
-}
-
 
   @override
   Widget build(BuildContext context) {
@@ -35,19 +34,33 @@ class HomeDrawerWidget extends StatelessWidget {
                   ? AppColors.lightCardColor
                   : AppColors.darkScaffoldColor,
             ),
-            child: Text(
-              "اهلا وسهلا بكم في تطبيق عمدة الكتاب",
-              textAlign: TextAlign.right,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 24,
-                fontFamily: "Reem Kufi",
-              ),
+            child: Column(
+              children: [
+                Text(
+                  "اهلا وسهلا بكم في تطبيق عمدة الكتاب",
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                    fontFamily: "Reem Kufi",
+                  ),
+                ),
+                Text(
+                  "برعاية أخوكم في الله خالد بن سعيد العتيبي",
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    color: const Color.fromARGB(255, 0, 0, 0),
+                    fontSize: 18,
+                    fontFamily: "Reem Kufi",
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
             ),
           ),
           // Drawer Items
           ListTile(
-            leading: const Icon(Icons.text_fields),
+            trailing: const Icon(Icons.text_fields),
             title: const Text(
               "تغيير حجم الخط",
               style: TextStyle(fontFamily: 'Amiri'),
@@ -58,17 +71,20 @@ class HomeDrawerWidget extends StatelessWidget {
               style: TextStyle(fontFamily: 'Amiri'),
               textAlign: TextAlign.right,
             ),
-            trailing: const Icon(Icons.arrow_forward_ios),
+
+            leading: const Icon(Icons.arrow_back_ios),
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (_) =>  FontSizeScreen(themeProvider: themeProvider,)),
+                MaterialPageRoute(
+                  builder: (_) => FontSizeScreen(themeProvider: themeProvider),
+                ),
               );
             },
           ),
           const Divider(),
           ListTile(
-            leading: const Icon(Icons.phone),
+            trailing: const Icon(Icons.phone),
             title: const Text(
               textAlign: TextAlign.right,
               "التواصل مع المطور",
@@ -79,7 +95,7 @@ class HomeDrawerWidget extends StatelessWidget {
               textAlign: TextAlign.right,
               style: TextStyle(fontFamily: 'Amiri'),
             ),
-            trailing: const Icon(Icons.arrow_forward_ios),
+            leading: const Icon(Icons.arrow_back_ios),
             onTap: _contactDev,
           ),
           SwitchListTile(

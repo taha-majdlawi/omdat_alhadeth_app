@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
       themeProvider: themeProvider,
       child: Scaffold(
         backgroundColor: Colors.transparent,
-        drawer: HomeDrawerWidget(themeProvider: themeProvider),
+        endDrawer: HomeDrawerWidget(themeProvider: themeProvider),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           centerTitle: true,
