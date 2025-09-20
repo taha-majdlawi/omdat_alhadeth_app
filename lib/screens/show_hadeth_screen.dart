@@ -38,7 +38,7 @@ class ShowHadethScreen extends StatelessWidget {
           centerTitle: true,
           title: Text(
             'الحديث رقم $hadethNumber',
-            style: const TextStyle(fontFamily: 'Amiri'),
+            style: const TextStyle(fontFamily: 'Amiri', fontSize: 22),
           ),
         ),
 
@@ -49,7 +49,7 @@ class ShowHadethScreen extends StatelessWidget {
               hadeth.hadethText,
               textAlign: TextAlign.right,
               style: TextStyle(
-                fontSize: 24,
+              //  fontSize: 24,
                 fontFamily: 'Amiri',
 
                 color: themeProvider.getIsDarkTheme
@@ -115,9 +115,8 @@ class ShowHadethExplainBotton extends StatelessWidget {
       onPressed: () => Helpers.openYoutube(context, hadeth.explainUrl ?? ''),
       icon: const Icon(Icons.play_circle_fill, size: 24),
       label: Text(
-       
-           'مشاهدة شرح الحديث',
-           
+        'مشاهدة شرح الحديث',
+
         style: const TextStyle(
           fontFamily: 'Amiri',
           fontSize: 20,

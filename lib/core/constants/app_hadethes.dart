@@ -4069,7 +4069,37 @@ class Constants {
     //Book 19 كتاب العتق
     Book(
       bookName: 'كتاب العتق',
-      doors: [Door(doorName: "باب العتق",hadeths: []),],
+      doors: [
+        Door(
+          doorName: "باب العتق",
+          hadeths: [
+            Hadeth(
+              hadethNumber: 412,
+              hadethText:
+                  "عن عبد الله بن عمر رضي الله عنهما أن رسول الله ﷺ قال: «مَن أعتق شِرْكًا له في عبد، فكان له مال يبلغ ثمن العبد؛ قُوِّمَ عليه قيمة عدل، فأعطى شركاءه حصصهم، وعُتِقَ عليه العبد، وإلا فقد عَتَقَ منه ما عَتَقَ».",
+              explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/412.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 413,
+              hadethText:
+                  "عن أبي هريرة رضي الله عنه عن النبي ﷺ قال: «مَن أعتق شِقصًا له من مملوك؛ فَخَلاصُه في ماله، فإن لم يكن له مال قُوِّمَ المملوكُ قيمةَ عدل، ثم استُسعي غيرَ مشقوقٍ عليه».",
+              explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/413.ogg",
+            ),
+            Hadeth(
+              hadethNumber: 414,
+              hadethText:
+                  "عن جابر بن عبد الله رضي الله عنه قال: «دَبَّر رجلٌ من الأنصار غلامًا له»، وفي لفظ: «بَلَغَ النبي ﷺ أن رجلًا من أصحابه أعتق غلامًا له عن دُبُر – ولم يكن له مال غيره – فباعه بثَمانمائة درهم، ثم أرسل ثمنه إليه».",
+              explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
+              isOthimieen: false,
+              soundUrl: "assets/sounds/414.ogg",
+            ),
+          ],
+        ),
+      ],
     ),
   ];
 }

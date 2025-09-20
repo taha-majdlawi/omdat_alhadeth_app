@@ -39,7 +39,7 @@ class BookItemCard extends StatelessWidget {
             textAlign: TextAlign.right,
             bookName,
             style: TextStyle(
-              fontSize: 22,
+           //   fontSize: 22,
               fontFamily: "Reem Kufi",
               color: themeProvider.getIsDarkTheme ? Colors.black : Colors.white,
             ),

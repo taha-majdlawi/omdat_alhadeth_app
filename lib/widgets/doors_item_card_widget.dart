@@ -48,7 +48,7 @@ class DoorsItemCardWidget extends StatelessWidget {
             textAlign: TextAlign.right,
             Constants.books[bookNumber - 1].doors[doorNumber ].doorName,
             style: TextStyle(
-              fontSize: 22,
+             // fontSize: 22,
               fontFamily: "Reem Kufi",
               color: themeProvider.getIsDarkTheme ? Colors.black : Colors.white,
             ),

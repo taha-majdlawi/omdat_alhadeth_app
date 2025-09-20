@@ -52,7 +52,7 @@ final int doorNumber;
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              fontSize: 22,
+             // fontSize: 22,
               fontFamily: "Reem Kufi",
               color: themeProvider.getIsDarkTheme ? Colors.black : Colors.white,
             ),
