@@ -40,7 +40,9 @@ class HomeDrawerWidget extends StatelessWidget {
                   "اهلا وسهلا بكم في تطبيق عمدة الكتاب",
                   textAlign: TextAlign.right,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: themeProvider.getIsDarkTheme
+                        ? AppColors.darkScaffoldColor
+                        : AppColors.lightCardColor,
                     fontSize: 24,
                     fontFamily: "Reem Kufi",
                   ),
@@ -49,7 +51,9 @@ class HomeDrawerWidget extends StatelessWidget {
                   "برعاية أخوكم في الله خالد بن سعيد العتيبي",
                   textAlign: TextAlign.right,
                   style: TextStyle(
-                    color: const Color.fromARGB(255, 0, 0, 0),
+                    color: themeProvider.getIsDarkTheme
+                        ? AppColors.darkScaffoldColor
+                        : AppColors.lightCardColor,
                     fontSize: 18,
                     fontFamily: "Reem Kufi",
                     fontWeight: FontWeight.bold,
