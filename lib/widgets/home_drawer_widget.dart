@@ -10,11 +10,16 @@ class HomeDrawerWidget extends StatelessWidget {
   final ThemeProvider themeProvider;
 
   Future<void> _contactDev() async {
-    final Uri whatsappUri = Uri.parse("https://wa.me/972592345890");
+    final Uri whatsappUri = Uri.parse("whatsapp://send?phone=972592345890");
     if (await canLaunchUrl(whatsappUri)) {
-      await launchUrl(whatsappUri, mode: LaunchMode.externalApplication);
+      await launchUrl(whatsappUri);
     } else {
-      throw "Could not launch $whatsappUri";
+      final Uri fallback = Uri.parse("https://wa.me/972592345890");
+      if (await canLaunchUrl(fallback)) {
+        await launchUrl(fallback, mode: LaunchMode.externalApplication);
+      } else {
+        throw "لا يمكن فتح واتساب";
+      }
     }
   }
 
