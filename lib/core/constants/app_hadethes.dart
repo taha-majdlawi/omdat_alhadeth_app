@@ -1,6 +1,8 @@
 import 'package:omdat_alhadeth/models/hadeth_model.dart';
 
 class Constants {
+  static final soundFolderName = 'sounds-Copy';
+  static final fileExtention = 'mp3';
   static final List<Book> books = [
     //book 1 كتاب الطهارة
     Book(
@@ -13,21 +15,21 @@ class Constants {
               hadethText:
                   "\u202Bعن عمرَ بنِ الخطابِ رضي الله عنه قال: سمعتُ رسولَ الله ﷺ يقول: «إنما الأعمالُ بالنيَّاتِ – وفي روايةٍ: بالنيَّةِ – وإنما لكلِّ امرئٍ ما نوى. فمَن كانت هجرتُه إلى الله ورسولِه؛ فهجرتُه إلى الله ورسولِه. ومَن كانت هجرتُه إلى دنيا يُصيبُها أو امرأةٍ يتزوَّجُها؛ فهجرتُه إلى ما هاجرَ إليه».\u202C",
               hadethNumber: 1,
-              soundUrl: 'assets/sounds/1.ogg',
+              soundUrl: 'assets/$soundFolderName/1.$fileExtention',
               explainUrl: 'https://youtu.be/UecgSkzVn-M?si=_gUV1i1o8N8LYP0V',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه قال: قال رسولُ اللهِ ﷺ: «لا يَقبَلُ اللهُ صلاةَ أحدِكم إذا أَحدَثَ حتى يَتوضَّأَ». متفقٌ عليه.\u202C",
               hadethNumber: 2,
-              soundUrl: 'assets/sounds/2.ogg',
+              soundUrl: 'assets/$soundFolderName/2.$fileExtention',
               explainUrl: 'https://youtu.be/IBrOhe6qJB8?si=_buSz7w8iMUFMr_K',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عمرو بنِ العاصِ، وأبي هُرَيرةَ، وعائشةَ رضيَ اللهُ عنهم قالوا: قال رسولُ اللهِ ﷺ: «وَيْلٌ لِلأَعْقابِ مِنَ النَّارِ».\u202C",
               hadethNumber: 3,
-              soundUrl: 'assets/sounds/3.ogg',
+              soundUrl: 'assets/$soundFolderName/3.$fileExtention',
               explainUrl: 'https://youtu.be/PMkA3Z9tp90?si=RFteksH7lPV_unvm',
             ),
             Hadeth(
@@ -35,14 +37,14 @@ class Constants {
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال:\n«إذا توضَّأ أحدُكم فليجعلْ في أنفِه ماءً ثم لينتثِرْ. ومنِ استجمرَ فليوترْ. وإذا استيقظَ أحدُكم من نومِه فليغسِلْ يدَيْهِ قبلَ أن يُدخِلَهُما في الإناءِ ثلاثًا، فإنَّ أحدَكم لا يدري أين باتت يدُه».\nوفي لفظٍ لمسلم: «فليستنشقْ بمنخريهِ من الماء».\nوفي لفظٍ: «من توضأ فليستنشق».\u202C",
 
               hadethNumber: 4,
-              soundUrl: 'assets/sounds/4.ogg',
+              soundUrl: 'assets/$soundFolderName/4.$fileExtention',
               explainUrl: 'https://youtu.be/9Md9J2EZjco?si=Ulg5oynXsDh7bGdE',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال:\n«لا يَبولنَّ أحدُكم في الماءِ الدائمِ الذي لا يَجري، ثم يغتسلُ فيه».\nوفي روايةٍ لمسلم: «لا يغتسلُ أحدُكم في الماءِ الدائم وهو جُنُب».\nوهو صحيح.\u202C",
               hadethNumber: 5,
-              soundUrl: 'assets/sounds/5.ogg',
+              soundUrl: 'assets/$soundFolderName/5.$fileExtention',
               explainUrl: 'https://youtu.be/6Pb3Z7Cc9Bo?si=CTn4TmyYnyZQyW82',
             ),
             Hadeth(
@@ -53,7 +55,7 @@ class Constants {
                   "وفي حديثِ عبدِ اللهِ بنِ مُغفَّلٍ المُزَنيِّ قال: قال رسولُ اللهِ ﷺ:\n"
                   "\u2067\u00ABإذا ولغَ الكلبُ في الإناء فاغسلوهُ سبعًا، وعَفِّروهُ الثامنةَ بالتراب\u00BB\u2069.\u202C",
               hadethNumber: 6,
-              soundUrl: "assets/sounds/6.ogg",
+              soundUrl: "assets/$soundFolderName/6.$fileExtention",
               explainUrl: "https://youtu.be/56KwB_Almwc?si=NaztyLZ6BSBSFQge",
             ),
             Hadeth(
@@ -65,7 +67,7 @@ class Constants {
                   "ثم قال: رأيتُ النبيَّ ﷺ يتوضّأ نحوَ وُضوئي هذا.\n"
                   "وقال: \u2067\u00ABمن توضّأ نحوَ وُضوئي هذا، ثم صلّى ركعتين لا يُحدِّثُ فيهما نفسَه؛ غُفِر له ما تقدَّمَ من ذنبِه\u00BB\u2069.\u202C",
               hadethNumber: 7,
-              soundUrl: 'assets/sounds/7.ogg',
+              soundUrl: 'assets/$soundFolderName/7.$fileExtention',
               explainUrl: 'https://youtu.be/VJ59ZV2Xb2w?si=JjnBbnP6qzdk9srj',
             ),
             Hadeth(
@@ -80,7 +82,7 @@ class Constants {
                   "وفي روايةٍ: \u2067\u00ABبدأ بمُقدَّمِ رأسِه حتى ذهبَ بهما إلى قفاه، ثم رَدَّهما حتى رجع إلى المكانِ الذي بدأ منه\u00BB\u2069.\n"
                   "وفي روايةٍ: \u2067\u00ABأتانا رسولُ اللهِ ﷺ فأخرجْنا له ماءً في تَوْرٍ من صُفْرٍ\u00BB\u2069.\u202C",
               hadethNumber: 8,
-              soundUrl: 'assets/sounds/8.ogg',
+              soundUrl: 'assets/$soundFolderName/8.$fileExtention',
               explainUrl: 'https://youtu.be/YaFHBq39kYM?si=es0iS2QCRscA9r6g',
             ),
             Hadeth(
@@ -88,7 +90,7 @@ class Constants {
                   "\u202Bعن عائشةَ رضيَ اللهُ عنها قالت:\n"
                   "\u2067\u00ABكان النبيُّ ﷺ يُعجِبُه التَّيَمُّنُ في تَنَعُّلِهِ وتَرَجُّلِهِ وطُهورِهِ، وفي شأنِهِ كلِّهِ\u00BB\u2069.\u202C",
               hadethNumber: 9,
-              soundUrl: 'assets/sounds/9.ogg',
+              soundUrl: 'assets/$soundFolderName/9.$fileExtention',
               explainUrl: 'https://youtu.be/9hQv55pjFF8?si=56TJe4xNmqFj00vH',
             ),
 
@@ -101,14 +103,14 @@ class Constants {
                   "\u2067\u00ABتبلُغُ الحِلْيَةُ من المؤمنِ حيثُ يبلُغُ الوضوءُ\u00BB\u2069.\n"
                   "وفي لفظِ مسلم: \u2067\u00ABسمعتُ خَليلِي يقول: تبلُغُ الحِلْيَةُ من المؤمنِ حيثُ يبلُغُ الوضوءُ\u00BB\u2069.\u202C",
               hadethNumber: 10,
-              soundUrl: 'assets/sounds/10.ogg',
+              soundUrl: 'assets/$soundFolderName/10.$fileExtention',
               explainUrl: 'https://youtu.be/U8dRtBjqHA4?si=atKxLiRdg-cM0Wd_',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضيَ اللهُ عنه: أنَّ النبيَّ ﷺ كان إذا دخل الخلاء قال: \u2067\u00ABاللهم إني أعوذ بك من الخُبُثِ والخبائث\u00BB\u2069.\n\nالخُبُثُ: بضمِّ الخاءِ والباءِ؛ جمعُ خبيثٍ.\nوالخَبائِثُ: جمعُ خبيثة، والمرادُ بها ذُكورُ الشياطين وإناثُهم.\u202C",
               hadethNumber: 11,
-              soundUrl: 'assets/sounds/11.ogg',
+              soundUrl: 'assets/$soundFolderName/11.$fileExtention',
               explainUrl: 'https://youtu.be/xoMloPVla0c?si=O9uyOTfqln-LCQ3x',
             ),
 
@@ -116,35 +118,35 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي أيوبَ الأنصاريِّ رضيَ اللهُ عنه قال: قال رسولُ اللهِ ﷺ: «إذا أتيتم الغائطَ فلا تستقبلوا القِبلةَ ببولٍ ولا غائطٍ، ولا تستدبروها، ولكن شرِّقوا أو غرِّبوا».\n\nقال أبو أيوبَ: فقدمْنا الشامَ فوجدْنا مراحيضَ قد بُنيت نحو الكعبةِ، فننحرفُ عنها ونستغفرُ اللهَ تعالى.\n\nالغائط: المُطمئنُّ من الأرض، كانوا ينتابونه للحاجة، فكنّوا به عن نفس الحدث؛ كراهيةً لذكره بخاصِّ اسمِه.\nوالمِرْحاض: جمع المراحيض، وهو المُغتسَل، وهو أيضًا كِناية عن موضع الغائط.\u202C",
               hadethNumber: 12,
-              soundUrl: 'assets/sounds/12.ogg',
+              soundUrl: 'assets/$soundFolderName/12.$fileExtention',
               explainUrl: 'https://youtu.be/fXZHeVtOONM?si=C2yJ22L_A46MT91I',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عمرَ بنِ الخطابِ رضيَ اللهُ عنهما قال: «رقيتُ يومًا على بيتِ حفصةَ، فرأيتُ النبيَّ ﷺ يقضي حاجتَهُ مستقبِلَ الشامِ، مستدبِرَ الكعبةِ».\u202C",
               hadethNumber: 13,
-              soundUrl: 'assets/sounds/13.ogg',
+              soundUrl: 'assets/$soundFolderName/13.$fileExtention',
               explainUrl: 'https://youtu.be/LBf-FzQ2Xug?si=o-h76Pj0wl1phH75',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضيَ اللهُ عنه قال: «كان رسولُ اللهِ ﷺ يدخلُ الخلاءَ، فأحملُ أنا وغُلامٌ نحوي إداوةً من ماءٍ وعَنَزةً، فيستنجي بالماءِ».\n\nالعَنَزة: الحُرْبة الصغيرة.\u202C",
               hadethNumber: 14,
-              soundUrl: 'assets/sounds/14.ogg',
+              soundUrl: 'assets/$soundFolderName/14.$fileExtention',
               explainUrl: 'https://youtu.be/xHofKt-ySe4?si=aJ_C5SY7lxuFOQLz',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي قتادةَ الحارثِ بنِ ربعيٍّ الأنصاريِّ رضيَ اللهُ عنه أنَّ النبيَّ ﷺ قال: «لا يُمسِكَنَّ أحدُكم ذكرَهُ بيمينِه وهو يبولُ، ولا يتمسَّحْ من الخلاءِ بيمينِه، ولا يتنفَّسْ في الإناء».\u202C",
               hadethNumber: 15,
-              soundUrl: 'assets/sounds/15.ogg',
+              soundUrl: 'assets/$soundFolderName/15.$fileExtention',
               explainUrl: 'https://youtu.be/KsdqqnCWpVg?si=T2qOxFcgzUl4stHV',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنهما قال: «مرَّ النبيُّ ﷺ بقبرين، فقال: إنهما ليُعذَّبان، وما يُعذَّبان في كبير؛ أمَّا أحدُهما فكان لا يَستترُ من البول، وأما الآخر فكان يمشي بالنميمة».\nفأخذ جريدةً رطبةً فشقَّها نصفين، فغرز في كلِّ قبرٍ واحدةً.\nفقالوا: يا رسولَ اللهِ! لمَ فعلتَ هذا؟ فقال: «لعلَّه يُخفَّفُ عنهما ما لم يَيْبَسا».\u202C",
               hadethNumber: 16,
-              soundUrl: 'assets/sounds/16.ogg',
+              soundUrl: 'assets/$soundFolderName/16.$fileExtention',
               explainUrl: 'https://youtu.be/Yr-rGACWnPg?si=5ZQBJngF8bbCiJOC',
             ),
           ],
