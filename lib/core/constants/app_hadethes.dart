@@ -1,8 +1,8 @@
-import 'package:omdat_alhadeth/models/hadeth_model.dart';
+﻿import 'package:omdat_alhadeth/models/hadeth_model.dart';
 
 class Constants {
   static final soundFolderName = 'sounds-Copy';
-  static final fileExtention = 'mp3';
+  static final fileExtension = 'mp3';
   static final List<Book> books = [
     //book 1 كتاب الطهارة
     Book(
@@ -15,21 +15,21 @@ class Constants {
               hadethText:
                   "\u202Bعن عمرَ بنِ الخطابِ رضي الله عنه قال: سمعتُ رسولَ الله ﷺ يقول: «إنما الأعمالُ بالنيَّاتِ – وفي روايةٍ: بالنيَّةِ – وإنما لكلِّ امرئٍ ما نوى. فمَن كانت هجرتُه إلى الله ورسولِه؛ فهجرتُه إلى الله ورسولِه. ومَن كانت هجرتُه إلى دنيا يُصيبُها أو امرأةٍ يتزوَّجُها؛ فهجرتُه إلى ما هاجرَ إليه».\u202C",
               hadethNumber: 1,
-              soundUrl: 'assets/$soundFolderName/1.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/1.$fileExtension',
               explainUrl: 'https://youtu.be/UecgSkzVn-M?si=_gUV1i1o8N8LYP0V',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه قال: قال رسولُ اللهِ ﷺ: «لا يَقبَلُ اللهُ صلاةَ أحدِكم إذا أَحدَثَ حتى يَتوضَّأَ». متفقٌ عليه.\u202C",
               hadethNumber: 2,
-              soundUrl: 'assets/$soundFolderName/2.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/2.$fileExtension',
               explainUrl: 'https://youtu.be/IBrOhe6qJB8?si=_buSz7w8iMUFMr_K',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عمرو بنِ العاصِ، وأبي هُرَيرةَ، وعائشةَ رضيَ اللهُ عنهم قالوا: قال رسولُ اللهِ ﷺ: «وَيْلٌ لِلأَعْقابِ مِنَ النَّارِ».\u202C",
               hadethNumber: 3,
-              soundUrl: 'assets/$soundFolderName/3.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/3.$fileExtension',
               explainUrl: 'https://youtu.be/PMkA3Z9tp90?si=RFteksH7lPV_unvm',
             ),
             Hadeth(
@@ -37,14 +37,14 @@ class Constants {
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال:\n«إذا توضَّأ أحدُكم فليجعلْ في أنفِه ماءً ثم لينتثِرْ. ومنِ استجمرَ فليوترْ. وإذا استيقظَ أحدُكم من نومِه فليغسِلْ يدَيْهِ قبلَ أن يُدخِلَهُما في الإناءِ ثلاثًا، فإنَّ أحدَكم لا يدري أين باتت يدُه».\nوفي لفظٍ لمسلم: «فليستنشقْ بمنخريهِ من الماء».\nوفي لفظٍ: «من توضأ فليستنشق».\u202C",
 
               hadethNumber: 4,
-              soundUrl: 'assets/$soundFolderName/4.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/4.$fileExtension',
               explainUrl: 'https://youtu.be/9Md9J2EZjco?si=Ulg5oynXsDh7bGdE',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال:\n«لا يَبولنَّ أحدُكم في الماءِ الدائمِ الذي لا يَجري، ثم يغتسلُ فيه».\nوفي روايةٍ لمسلم: «لا يغتسلُ أحدُكم في الماءِ الدائم وهو جُنُب».\nوهو صحيح.\u202C",
               hadethNumber: 5,
-              soundUrl: 'assets/$soundFolderName/5.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/5.$fileExtension',
               explainUrl: 'https://youtu.be/6Pb3Z7Cc9Bo?si=CTn4TmyYnyZQyW82',
             ),
             Hadeth(
@@ -55,7 +55,7 @@ class Constants {
                   "وفي حديثِ عبدِ اللهِ بنِ مُغفَّلٍ المُزَنيِّ قال: قال رسولُ اللهِ ﷺ:\n"
                   "\u2067\u00ABإذا ولغَ الكلبُ في الإناء فاغسلوهُ سبعًا، وعَفِّروهُ الثامنةَ بالتراب\u00BB\u2069.\u202C",
               hadethNumber: 6,
-              soundUrl: "assets/$soundFolderName/6.$fileExtention",
+              soundUrl: "assets/$soundFolderName/6.$fileExtension",
               explainUrl: "https://youtu.be/56KwB_Almwc?si=NaztyLZ6BSBSFQge",
             ),
             Hadeth(
@@ -67,7 +67,7 @@ class Constants {
                   "ثم قال: رأيتُ النبيَّ ﷺ يتوضّأ نحوَ وُضوئي هذا.\n"
                   "وقال: \u2067\u00ABمن توضّأ نحوَ وُضوئي هذا، ثم صلّى ركعتين لا يُحدِّثُ فيهما نفسَه؛ غُفِر له ما تقدَّمَ من ذنبِه\u00BB\u2069.\u202C",
               hadethNumber: 7,
-              soundUrl: 'assets/$soundFolderName/7.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/7.$fileExtension',
               explainUrl: 'https://youtu.be/VJ59ZV2Xb2w?si=JjnBbnP6qzdk9srj',
             ),
             Hadeth(
@@ -82,7 +82,7 @@ class Constants {
                   "وفي روايةٍ: \u2067\u00ABبدأ بمُقدَّمِ رأسِه حتى ذهبَ بهما إلى قفاه، ثم رَدَّهما حتى رجع إلى المكانِ الذي بدأ منه\u00BB\u2069.\n"
                   "وفي روايةٍ: \u2067\u00ABأتانا رسولُ اللهِ ﷺ فأخرجْنا له ماءً في تَوْرٍ من صُفْرٍ\u00BB\u2069.\u202C",
               hadethNumber: 8,
-              soundUrl: 'assets/$soundFolderName/8.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/8.$fileExtension',
               explainUrl: 'https://youtu.be/YaFHBq39kYM?si=es0iS2QCRscA9r6g',
             ),
             Hadeth(
@@ -90,7 +90,7 @@ class Constants {
                   "\u202Bعن عائشةَ رضيَ اللهُ عنها قالت:\n"
                   "\u2067\u00ABكان النبيُّ ﷺ يُعجِبُه التَّيَمُّنُ في تَنَعُّلِهِ وتَرَجُّلِهِ وطُهورِهِ، وفي شأنِهِ كلِّهِ\u00BB\u2069.\u202C",
               hadethNumber: 9,
-              soundUrl: 'assets/$soundFolderName/9.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/9.$fileExtension',
               explainUrl: 'https://youtu.be/9hQv55pjFF8?si=56TJe4xNmqFj00vH',
             ),
 
@@ -103,14 +103,14 @@ class Constants {
                   "\u2067\u00ABتبلُغُ الحِلْيَةُ من المؤمنِ حيثُ يبلُغُ الوضوءُ\u00BB\u2069.\n"
                   "وفي لفظِ مسلم: \u2067\u00ABسمعتُ خَليلِي يقول: تبلُغُ الحِلْيَةُ من المؤمنِ حيثُ يبلُغُ الوضوءُ\u00BB\u2069.\u202C",
               hadethNumber: 10,
-              soundUrl: 'assets/$soundFolderName/10.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/10.$fileExtension',
               explainUrl: 'https://youtu.be/U8dRtBjqHA4?si=atKxLiRdg-cM0Wd_',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضيَ اللهُ عنه: أنَّ النبيَّ ﷺ كان إذا دخل الخلاء قال: \u2067\u00ABاللهم إني أعوذ بك من الخُبُثِ والخبائث\u00BB\u2069.\n\nالخُبُثُ: بضمِّ الخاءِ والباءِ؛ جمعُ خبيثٍ.\nوالخَبائِثُ: جمعُ خبيثة، والمرادُ بها ذُكورُ الشياطين وإناثُهم.\u202C",
               hadethNumber: 11,
-              soundUrl: 'assets/$soundFolderName/11.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/11.$fileExtension',
               explainUrl: 'https://youtu.be/xoMloPVla0c?si=O9uyOTfqln-LCQ3x',
             ),
 
@@ -118,35 +118,35 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي أيوبَ الأنصاريِّ رضيَ اللهُ عنه قال: قال رسولُ اللهِ ﷺ: «إذا أتيتم الغائطَ فلا تستقبلوا القِبلةَ ببولٍ ولا غائطٍ، ولا تستدبروها، ولكن شرِّقوا أو غرِّبوا».\n\nقال أبو أيوبَ: فقدمْنا الشامَ فوجدْنا مراحيضَ قد بُنيت نحو الكعبةِ، فننحرفُ عنها ونستغفرُ اللهَ تعالى.\n\nالغائط: المُطمئنُّ من الأرض، كانوا ينتابونه للحاجة، فكنّوا به عن نفس الحدث؛ كراهيةً لذكره بخاصِّ اسمِه.\nوالمِرْحاض: جمع المراحيض، وهو المُغتسَل، وهو أيضًا كِناية عن موضع الغائط.\u202C",
               hadethNumber: 12,
-              soundUrl: 'assets/$soundFolderName/12.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/12.$fileExtension',
               explainUrl: 'https://youtu.be/fXZHeVtOONM?si=C2yJ22L_A46MT91I',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عمرَ بنِ الخطابِ رضيَ اللهُ عنهما قال: «رقيتُ يومًا على بيتِ حفصةَ، فرأيتُ النبيَّ ﷺ يقضي حاجتَهُ مستقبِلَ الشامِ، مستدبِرَ الكعبةِ».\u202C",
               hadethNumber: 13,
-              soundUrl: 'assets/$soundFolderName/13.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/13.$fileExtension',
               explainUrl: 'https://youtu.be/LBf-FzQ2Xug?si=o-h76Pj0wl1phH75',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضيَ اللهُ عنه قال: «كان رسولُ اللهِ ﷺ يدخلُ الخلاءَ، فأحملُ أنا وغُلامٌ نحوي إداوةً من ماءٍ وعَنَزةً، فيستنجي بالماءِ».\n\nالعَنَزة: الحُرْبة الصغيرة.\u202C",
               hadethNumber: 14,
-              soundUrl: 'assets/$soundFolderName/14.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/14.$fileExtension',
               explainUrl: 'https://youtu.be/xHofKt-ySe4?si=aJ_C5SY7lxuFOQLz',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي قتادةَ الحارثِ بنِ ربعيٍّ الأنصاريِّ رضيَ اللهُ عنه أنَّ النبيَّ ﷺ قال: «لا يُمسِكَنَّ أحدُكم ذكرَهُ بيمينِه وهو يبولُ، ولا يتمسَّحْ من الخلاءِ بيمينِه، ولا يتنفَّسْ في الإناء».\u202C",
               hadethNumber: 15,
-              soundUrl: 'assets/$soundFolderName/15.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/15.$fileExtension',
               explainUrl: 'https://youtu.be/KsdqqnCWpVg?si=T2qOxFcgzUl4stHV',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنهما قال: «مرَّ النبيُّ ﷺ بقبرين، فقال: إنهما ليُعذَّبان، وما يُعذَّبان في كبير؛ أمَّا أحدُهما فكان لا يَستترُ من البول، وأما الآخر فكان يمشي بالنميمة».\nفأخذ جريدةً رطبةً فشقَّها نصفين، فغرز في كلِّ قبرٍ واحدةً.\nفقالوا: يا رسولَ اللهِ! لمَ فعلتَ هذا؟ فقال: «لعلَّه يُخفَّفُ عنهما ما لم يَيْبَسا».\u202C",
               hadethNumber: 16,
-              soundUrl: 'assets/$soundFolderName/16.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/16.$fileExtension',
               explainUrl: 'https://youtu.be/Yr-rGACWnPg?si=5ZQBJngF8bbCiJOC',
             ),
           ],
@@ -158,7 +158,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال: «لولا أن أشقَّ على أمَّتي لأمرتُهم بالسِّواكِ عندَ كلِّ صلاةٍ».\u202C",
               hadethNumber: 17,
-              soundUrl: 'assets/$soundFolderName/17.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/17.$fileExtension',
               explainUrl: 'https://youtu.be/bdKl1D0qACY?si=I5dbOWDTA52Q4l-R',
             ),
             Hadeth(
@@ -167,7 +167,7 @@ class Constants {
                   "«كانَ النبي ﷺ إذا قامَ منَ الليلِ يَشوصُ فاهُ بالسِّواكِ».\n\n"
                   "يَشوص: معناه: يَغسِل؛ يُقال: شاصه يشوصه، ومَاصه يَموصه: إذا غسله.\u202C",
               hadethNumber: 18,
-              soundUrl: 'assets/$soundFolderName/18.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/18.$fileExtension',
               explainUrl: 'https://youtu.be/8xcsnqDjDDU?si=J13Ghzvd4j735PFh',
             ),
             Hadeth(
@@ -177,14 +177,14 @@ class Constants {
                   "وفي لفظ: «رأيته ينظر إليه» – وعرفت أنه يحب السواك – فقلت: آخذه لك؟ فأشار برأسه أن نعم».\n\n"
                   "لفظ البخاري، ولمسلم: نحوه.\u202C",
               hadethNumber: 19,
-              soundUrl: 'assets/$soundFolderName/19.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/19.$fileExtension',
               explainUrl: 'https://youtu.be/yBGPSqmCQlg?si=gPIh-qvysI67-bes',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي موسى رضي الله عنه قال: أتيت النبي ﷺ وهو يستاك بسواك، قال: وطرف السواك على لسانه، يقول: أع أع والسواك في فيه، كأنه يتهوع.\u202C",
               hadethNumber: 20,
-              soundUrl: 'assets/$soundFolderName/20.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/20.$fileExtension',
               explainUrl: 'https://youtu.be/5PmcD-4tcfc?si=TIwXUdsKVHGFoP4a',
             ),
           ],
@@ -196,14 +196,14 @@ class Constants {
               hadethText:
                   "\u202Bعن المغيرة بن شعبة رضي الله عنه قال: كنت مع النبي ﷺ في سفر، فأهويت لأنزع خفيه، فقال: دعهما، فإني أدخلتهما طاهرتين، فمسح عليهما.\u202C",
               hadethNumber: 21,
-              soundUrl: 'assets/$soundFolderName/21.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/21.$fileExtension',
               explainUrl: 'https://youtu.be/NEwkpHznEog?si=CLpJqUA3ZmFMAZj4',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن حذيفة بن اليمان رضي الله عنه قال: كنت مع النبي ﷺ، فبال، وتوضأ، ومسح على خفيه. مختصر.\u202C",
               hadethNumber: 22,
-              soundUrl: 'assets/$soundFolderName/22.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/22.$fileExtension',
               explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=GLXLyGdOiijJVemp',
             ),
           ],
@@ -217,21 +217,21 @@ class Constants {
                   "وللبخاري: اغسل ذكرك وتوضأ.\n\n"
                   "ولمسلم: توضأ وانضح فرجك.\u202C",
               hadethNumber: 23,
-              soundUrl: 'assets/$soundFolderName/23.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/23.$fileExtension',
               explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=_XqVxfLQWrHwFvCU',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عباد بن تميم، عن عبد الله بن زيد بن عاصم المازني رضي الله عنه قال: شكي إلى النبي ﷺ الرجل يخيل إليه أنه يجد الشيء في الصلاة، قال: لا ينصرف حتى يسمع صوتاً، أو يجد ريحاً.\u202C",
               hadethNumber: 24,
-              soundUrl: 'assets/$soundFolderName/24.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/24.$fileExtension',
               explainUrl: 'https://youtu.be/hZux9eUg9QY?si=3VEQCuIJtB_tpLK9',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أم قيس بنت محصن الأسدية رضي الله عنها: أنها أتت بابن لها صغير لم يأكل الطعام إلى رسول الله ﷺ فأجلسه رسول الله ﷺ في حجره، فبال على ثوبه، فدعا بماء فنضحه ولم يغسله.\u202C",
               hadethNumber: 25,
-              soundUrl: 'assets/$soundFolderName/25.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/25.$fileExtension',
               explainUrl: 'https://youtu.be/B-CVsCgxWws?si=4P9y9t7JAr3tVzis',
             ),
             Hadeth(
@@ -239,21 +239,21 @@ class Constants {
                   "\u202Bعن عائشة – أم المؤمنين – رضي الله عنها قالت: أن النبي ﷺ بصبي فبال على ثوبه، فدعا بماء فأتبعه إياه.\n\n"
                   "ولمسلم: فأتبعه بوله ولم يغسله.\u202C",
               hadethNumber: 26,
-              soundUrl: 'assets/$soundFolderName/26.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/26.$fileExtension',
               explainUrl: 'https://youtu.be/KCea7UVzM8s?si=9P44PyrzzcXrpFSQ',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنس بن مالك رضي الله عنه قال: جاء أعرابي فبال في طائفة المسجد، فزجره الناس، فنهاهم النبي ﷺ، فلما قضى بوله أمر النبي ﷺ بذنوب من ماء فأهريق عليه.\u202C",
               hadethNumber: 27,
-              soundUrl: 'assets/$soundFolderName/27.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/27.$fileExtension',
               explainUrl: 'https://youtu.be/1h-wltVNivs?si=kfCmuKOY1B3qf8WT',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرة رضي الله عنه قال: سمعت النبي ﷺ يقول: الفطرة خمس: الختان، والاستحداد، وقص الشارب، وتقليم الأظفار، ونتف الإبط.\u202C",
               hadethNumber: 28,
-              soundUrl: 'assets/$soundFolderName/28.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/28.$fileExtension',
               explainUrl: 'https://youtu.be/ysPNgP1cqFU?si=pDZdeRbiKYCCyQm8',
             ),
           ],
@@ -266,7 +266,7 @@ class Constants {
                   "\u202Bعن أبي هريرة رضي الله عنه: أن النبي ﷺ لقيه في بعض طرق المدينة وهو جنب، فانخنست منه، فذهبت فاغتسلت، ثم جئت، فقال: أين كنت يا أبا هريرة؟ قال: كنت جنباً فكرهت أن أجالسك وأنا على غير طهارة، فقال: سبحان الله! إن المؤمن لا ينجس.\n\n"
                   "انخنست: انسلكت.\u202C",
               hadethNumber: 29,
-              soundUrl: 'assets/$soundFolderName/29.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/29.$fileExtension',
               explainUrl: 'https://youtu.be/ZnIUe8-1k8o?si=9lmEirFU4dqNwG4C',
             ),
             Hadeth(
@@ -276,7 +276,7 @@ class Constants {
                   "ثم غسل سائر جسده.\n\n"
                   "وكانت تقول: كنت أغتسل أنا ورسول الله ﷺ من إناء واحد، نغترف منه جميعاً.\u202C",
               hadethNumber: 30,
-              soundUrl: 'assets/$soundFolderName/30.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/30.$fileExtension',
               explainUrl: 'https://youtu.be/1mNTudMqK_Q?si=OZBtSNo4HRtBFJa1',
             ),
             Hadeth(
@@ -284,21 +284,21 @@ class Constants {
                   "\u202Bعن ميمونة بنت الحارث رضي الله عنها – زوج النبي ﷺ – قالت: توضأ رسول الله ﷺ وضوء الجنابة، فأكفأ بيمينه على يساره مرتين – أو ثلاثاً – ثم غسل فرجه، ثم ضرب يده بالأرض – أو الحائط – مرتين – أو ثلاثاً – ثم تمضمض واستنشق، وغسل وجهه وذراعيه، ثم أفاض على رأسه الماء، ثم غسل جسده.\n\n"
                   "ثم تنحى فغسل رجليه، فأتيته بخِرقة فلم يردها، فجعل ينفض الماء بيده.\u202C",
               hadethNumber: 31,
-              soundUrl: 'assets/$soundFolderName/31.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/31.$fileExtension',
               explainUrl: 'https://youtu.be/GBAF0Cx1IRY?si=jwuoKztqx_T-hvv_',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبد الله بن عمر أن عمر بن الخطاب رضي الله عنه قال: يا رسول الله! أيرقد أحدنا وهو جنب؟ قال: نعم، إذا توضأ أحدكم فليرقد.\u202C",
               hadethNumber: 32,
-              soundUrl: 'assets/$soundFolderName/32.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/32.$fileExtension',
               explainUrl: 'https://youtu.be/zgBmU4CPiG4?si=E6RxNZNNOfXGaaym',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أم سلمة رضي الله عنها – زوج النبي ﷺ – قالت: جاءت أم سليم – امرأة أبي طلحة – إلى رسول الله ﷺ فقالت: يا رسول الله! إن الله لا يستحيي من الحق، هل على المرأة من غسل إذا هي احتلمت؟ فقال رسول الله ﷺ: نعم، إذا رأت الماء.\u202C",
               hadethNumber: 33,
-              soundUrl: 'assets/$soundFolderName/33.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/33.$fileExtension',
               explainUrl: 'https://youtu.be/ChaRwNp0qh0?si=C6wQx8qX7sgqtXh4',
             ),
             Hadeth(
@@ -306,7 +306,7 @@ class Constants {
                   "\u202Bعن عائشة رضي الله عنها قالت: كنت أغسل الجنابة من ثوب رسول الله ﷺ، فيخرج إلى الصلاة وإن بقع الماء في ثوبه.\n\n"
                   "وفي لفظ لمسلم: لقد كنت أفركه من ثوب رسول الله ﷺ يابساً فيصلي فيه.\u202C",
               hadethNumber: 34,
-              soundUrl: 'assets/$soundFolderName/34.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/34.$fileExtension',
               explainUrl: 'https://youtu.be/qtyEtksfP_o?si=3ZOLIpSkne8ZG-Qj',
             ),
 
@@ -315,7 +315,7 @@ class Constants {
                   "\u202Bعن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: إذا جلس بين شعبها الأربع، ثم جهدها، فقد وجب الغسل.\n\n"
                   "وفي لفظ: وإن لم ينزل.\u202C",
               hadethNumber: 35,
-              soundUrl: 'assets/$soundFolderName/35.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/35.$fileExtension',
               explainUrl: 'https://youtu.be/Rmhb2d4tLKY?si=nZxxdG0VAPaTuKZ-',
             ),
             Hadeth(
@@ -324,7 +324,7 @@ class Constants {
                   "وفي لفظ: كان النبي ﷺ يفرغ على رأسه ثلاثاً.\n\n"
                   "الرجل الذي قال: ما يكفيني: هو الحسن بن محمد بن علي بن أبي طالب، أبوه: ابن الحنفية.\u202C",
               hadethNumber: 36,
-              soundUrl: 'assets/$soundFolderName/36.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/36.$fileExtension',
               explainUrl: 'https://youtu.be/j3sjvd7Vse8?si=efGlJJzruTYQLOXJ',
             ),
           ],
@@ -336,7 +336,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عمران بن حصين رضي الله عنه: أن رسول الله ﷺ رأى رجلاً معتزلاً لم يصل في القوم، فقال: يا فلان! ما منعك أن تصلي في القوم؟ فقال: يا رسول الله! أصابتني جنابة ولا ماء. قال: عليك بالصعيد، فإنه يكفيك.\u202C",
               hadethNumber: 37,
-              soundUrl: 'assets/$soundFolderName/37.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/37.$fileExtension',
               explainUrl: 'https://youtu.be/OUAhQ-mbRF0?si=zQOIeGzv-BULmF1F',
             ),
 
@@ -345,7 +345,7 @@ class Constants {
                   "\u202Bعن عمار بن ياسر رضي الله عنه قال: بعثني رسول الله ﷺ في حاجة فأجنبت، فلم أجد الماء، فتمرغت في الصعيد كما تمرغ الدابة، ثم أتيت النبي ﷺ فذكرت ذلك له.\n\n"
                   "فقال: إنما يكفيك أن تقول بيديك هكذا. ثم ضرب بيديه الأرض ضربة واحدة، ثم مسح الشمال على اليمين، وظاهر كفيه ووجهه.\u202C",
               hadethNumber: 38,
-              soundUrl: 'assets/$soundFolderName/38.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/38.$fileExtension',
               explainUrl: 'https://youtu.be/gsk41R87RgE?si=jfR66xHBd-a7UdaW',
             ),
             Hadeth(
@@ -353,7 +353,7 @@ class Constants {
                   "\u202Bعن جابر بن عبد الله رضي الله عنه أن النبي ﷺ قال: أعطيت خمساً لم يعطهن أحد من الأنبياء قبلي: نصرت بالرعب مسيرة شهر، وجعلت لي الأرض مسجداً وطهوراً، فأيما رجل من أمتي أدركته الصلاة فليصل.\n\n"
                   "وأحلت لي الغنائم، ولم تحل لأحد قبلي، وأعطيت الشفاعة، وكان النبي يبعث إلى قومه خاصة، وبعثت إلى الناس عامة.\u202C",
               hadethNumber: 39,
-              soundUrl: 'assets/$soundFolderName/39.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/39.$fileExtension',
               explainUrl: 'https://youtu.be/o9IYuyVlIHk?si=xc7Br875bZ_T8fZD',
             ),
           ],
@@ -366,7 +366,7 @@ class Constants {
                   "\u202Bعن عائشة رضي الله عنها: أن فاطمة بنت أبي حبيش سألت النبي ﷺ فقالت: إني أستحاض فلا أطهر، أفأدع الصلاة؟ فقال: لا، إن ذلك عرق، ولكن دعي الصلاة قدر الأيام التي كنت تحيضين فيها، ثم اغتسلي وصلي.\n\n"
                   "وفي رواية: وليست بالحيضة، فإذا أقبلت الحيضة فدعي الصلاة، فإذا ذهب قدرها فاغسلي عنك الدم وصلي.\u202C",
               hadethNumber: 40,
-              soundUrl: 'assets/$soundFolderName/40.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/40.$fileExtension',
               explainUrl: 'https://youtu.be/QMiyLJxsDpo?si=p15SD-0gt07ofSSX',
             ),
 
@@ -374,14 +374,14 @@ class Constants {
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها: أن أم حبيبة رضي الله عنها استحيضت سبع سنين، فسألت رسول الله ﷺ عن ذلك، فأمرها أن تغتسل، فكانت تغتسل لكل صلاة.\u202C",
               hadethNumber: 41,
-              soundUrl: 'assets/$soundFolderName/41.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/41.$fileExtension',
               explainUrl: 'https://youtu.be/UQTtQ1Xv4GU?si=_gHIAWrogbSaiNlK',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها قالت: كنت أغتسل أنا والنبي ﷺ من إناء واحد، كلانا جنب، وكان يأمرني فأتزر، فيباشرني وأنا حائض. وكان يخرج رأسه إلي وهو معتكف فأغسله وأنا حائض.\u202C",
               hadethNumber: 42,
-              soundUrl: 'assets/$soundFolderName/42.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/42.$fileExtension',
               explainUrl: 'https://youtu.be/lI33LKb2Pbo?si=hjUEBXHDodopUuLO',
             ),
 
@@ -389,7 +389,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها قالت: كان رسول الله ﷺ يتكئ في حجري وأنا حائض، ثم يقرأ القرآن.\u202C",
               hadethNumber: 43,
-              soundUrl: 'assets/$soundFolderName/43.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/43.$fileExtension',
               explainUrl: 'https://youtu.be/tfk1i_QSC6s?si=8zjHIWODQYWPc9bO',
             ),
 
@@ -397,7 +397,7 @@ class Constants {
               hadethText:
                   "\u202Bعن معاذة قالت: سألت عائشة رضي الله عنها فقلت: ما بال الحائض تقضي الصوم ولا تقضي الصلاة؟ فقالت: أحرورية أنت؟ فقلت: لست بحرورية، ولكني أسأل. قالت: كان يصيبنا ذلك، فنؤمر بقضاء الصوم، ولا نؤمر بقضاء الصلاة.\u202C",
               hadethNumber: 44,
-              soundUrl: 'assets/$soundFolderName/44.$fileExtention',
+              soundUrl: 'assets/$soundFolderName/44.$fileExtension',
               explainUrl: 'https://youtu.be/mBNEkDF6KTM?si=tsIG4gwY6VO2oEdH',
             ),
           ],
@@ -416,7 +416,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي عمرو الشيباني – واسمه: سعد بن إياس – قال: حدثني صاحب هذه الدار، وأشار بيده إلى دار عبد الله بن مسعود رضي الله عنه، قال: سألت النبي ﷺ: أي العمل أحب إلى الله؟ قال: الصلاة على وقتها. قلت: ثم أي؟ قال: بر الوالدين. قلت: ثم أي؟ قال: الجهاد في سبيل الله. قال: حدثني بهن رسول الله ﷺ، ولو استزدته لزادني.\u202C",
               hadethNumber: 45,
-              soundUrl: 'assets/sounds/45.ogg',
+              soundUrl: 'assets/$soundFolderName/45.$fileExtension',
               explainUrl: 'https://youtu.be/MKO_OsdxGGc?si=q3svjYurseXrU_Ke',
             ),
             Hadeth(
@@ -426,14 +426,14 @@ class Constants {
                   "ومتلفعات: ملتحفات.\n"
                   "والغلس: اختلاط ضياء الصبح بظلمة الليل.\u202C",
               hadethNumber: 46,
-              soundUrl: 'assets/sounds/46.ogg',
+              soundUrl: 'assets/$soundFolderName/46.$fileExtension',
               explainUrl: 'https://youtu.be/rDRRmnyQiD0?si=3pGsBLrzMlys5HCF',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن جابر بن عبد الله رضي الله عنه قال: كان النبي ﷺ يصلي الظهر بالهاجرة، والعصر والشمس نقية، والمغرب إذا وجبت، والعشاء أحياناً وأحياناً، إذا رآهم اجتمعوا عجل، وإذا رآهم أبطؤوا أخر، والصبح كان النبي ﷺ يصليها بغلس.\u202C",
               hadethNumber: 47,
-              soundUrl: 'assets/sounds/47.ogg',
+              soundUrl: 'assets/$soundFolderName/47.$fileExtension',
               explainUrl: 'https://youtu.be/X8IiKhd6Uio?si=79k3dFgyJ5P7Nsxu',
             ),
             Hadeth(
@@ -443,7 +443,7 @@ class Constants {
                   "وكان يستحب أن يؤخر من العشاء – التي تدعونها العتمة – وكان يكره النوم قبلها والحديث بعدها.\n\n"
                   "وكان ينفتل من صلاة الغداة حين يعرف الرجل جليسه، ويقرأ بالستين إلى المائة.\u202C",
               hadethNumber: 48,
-              soundUrl: 'assets/sounds/48.ogg',
+              soundUrl: 'assets/$soundFolderName/48.$fileExtension',
               explainUrl: 'https://youtu.be/RG-j1LdMcTw?si=qTzgTKoRbut3cLKx',
             ),
             Hadeth(
@@ -452,7 +452,7 @@ class Constants {
                   "وفي لفظ لمسلم: «شَغَلُونَا عَنِ الصَّلَاةِ الْوُسْطَى – صَلَاةِ الْعَصْرِ – ثُمَّ صَلَّاهَا بَيْنَ الْمَغْرِبِ وَالْعِشَاءِ».\n\n"
                   "وله عن عبد الله بن مسعود رضي الله عنه قال: «حَبَسَ الْمُشْرِكُونَ رَسُولَ اللَّهِ ﷺ عَنْ صَلَاةِ الْعَصْرِ حَتَّى احْمَرَّتِ الشَّمْسُ أَوِ اصْفَرَّتْ، فَقَالَ رَسُولُ اللَّهِ ﷺ: شَغَلُونَا عَنِ الصَّلَاةِ الْوُسْطَى – صَلَاةِ الْعَصْرِ – مَلأَ اللَّهُ أَجْوَافَهُمْ وَقُبُورَهُمْ نَارًا – أَوْ حَشَا اللَّهُ أَجْوَافَهُمْ وَقُبُورَهُمْ نَارًا –».\u202C",
               hadethNumber: 49,
-              soundUrl: 'assets/sounds/49.ogg',
+              soundUrl: 'assets/$soundFolderName/49.$fileExtension',
               explainUrl: 'https://youtu.be/nh4dRLLxfzQ?si=bZZbZtejlqTDSZ2-',
             ),
 
@@ -460,7 +460,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عبد الله بن عباس رضي الله عنهما قال: أعتم النبي ﷺ بالعشاء، فخرج عمر فقال: الصلاة يا رسول الله! رقد نام النساء والصبيان، فخرج ورأسه يقطر يقول: لولا أن أشق على أمتي – أو على الناس – لأمرتهم بهذه الصلاة هذه الساعة.\u202C",
               hadethNumber: 50,
-              soundUrl: 'assets/sounds/50.ogg',
+              soundUrl: 'assets/$soundFolderName/50.$fileExtension',
               explainUrl: 'https://youtu.be/iPOeL8j3Yuo?si=HLGPomYOTPurKH1Z',
             ),
 
@@ -470,7 +470,7 @@ class Constants {
                   "وعن ابن عمر رضي الله عنه نحوه.\n\n"
                   "ولمسلم عن عائشة رضي الله عنها قالت: سمعت رسول الله ﷺ يقول: لا صلاة بحضرة طعام، ولا وهو يدافعه الأخبثان.\u202C",
               hadethNumber: 51,
-              soundUrl: 'assets/sounds/51.ogg',
+              soundUrl: 'assets/$soundFolderName/51.$fileExtension',
               explainUrl: 'https://youtu.be/BZJfQMs-C4g?si=dDNf_btqpRXU7fUJ',
             ),
             Hadeth(
@@ -479,7 +479,7 @@ class Constants {
                   "شَرَقَت الشمس: إذا طلعت.\n"
                   "وأشرقت: إذا أضاءت وصفت.\u202C",
               hadethNumber: 52,
-              soundUrl: 'assets/sounds/52.ogg',
+              soundUrl: 'assets/$soundFolderName/52.$fileExtension',
               explainUrl: 'https://youtu.be/JZkcOZ__IIg?si=NOPP-z4Fw0FU2ate',
             ),
 
@@ -488,7 +488,7 @@ class Constants {
                   "\u202Bعن أبي سعيد الخدري رضي الله عنه، عن رسول الله ﷺ قال: «لا صلاة بعد الصبح حتى ترتفع الشمس، ولا صلاة بعد العصر حتى تغيب الشمس».\n\n"
                   "وفي الباب: عن علي بن أبي طالب، وعبد الله بن مسعود، وعبد الله بن عمر بن الخطاب، وعبد الله بن عمرو بن العاص، وأبي هريرة، وسمرة بن جندب، وسلمة بن الأكوع، وزيد بن ثابت، ومعاذ بن جبل، وعقبة بن عامر، وكعب بن مرة، وأبي أمامة الباهلي، وعمرو بن عبسة السلمي، وعائشة، والصنابحي – ولم يسمع من النبي ﷺ –.\u202C",
               hadethNumber: 53,
-              soundUrl: 'assets/sounds/53.ogg',
+              soundUrl: 'assets/$soundFolderName/53.$fileExtension',
               explainUrl: 'https://youtu.be/dtTOR10bqa8?si=9_jO3gYX6RsrGGO4',
             ),
 
@@ -496,7 +496,7 @@ class Constants {
               hadethText:
                   "\u202Bعن جابر بن عبد الله رضي الله عنهما، أن عمر بن الخطاب رضي الله عنه جاء يوم الخندق بعدما غربت الشمس، فجعل يسب كفار قريش، ويقول: يا رسول الله! ما كدت أصلي العصر حتى كادت الشمس تغرب. فقال النبي ﷺ: والله ما صليتها! قال: فقمنا إلى بطحان، فتوضأ للصلاة وتوضأنا لها، فصلى العصر بعدما غربت الشمس، ثم صلى بعدها المغرب.\u202C",
               hadethNumber: 54,
-              soundUrl: 'assets/sounds/54.ogg',
+              soundUrl: 'assets/$soundFolderName/54.$fileExtension',
               explainUrl: 'https://youtu.be/D8Ic4FNWFic?si=KFtjCT8boD9_thhQ',
             ),
           ],
@@ -508,7 +508,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما أنَّ رسولَ الله ﷺ قال: «صلاةُ الجماعةِ أفضلُ من صلاةِ الفَذِّ بسَبعٍ وعشرينَ درجةً».\u202C",
               hadethNumber: 55,
-              soundUrl: 'assets/sounds/55.ogg',
+              soundUrl: 'assets/$soundFolderName/55.$fileExtension',
               explainUrl: 'https://youtu.be/uxxDcgR70yk?si=81CwkZJbvf_dFxqA',
             ),
 
@@ -518,7 +518,7 @@ class Constants {
                   "وذلك أنَّه: إذا توضَّأ فأحسنَ الوضوءَ، ثم خرجَ إلى المسجدِ لا يُخرِجُه إلا الصلاةُ، لم يَخطُ خطوةً إلا رُفِعتْ له بها درجةٌ، وحُطَّ عنه بها خطيئةٌ.\n"
                   "فإذا صلَّى لم تَزَلِ الملائكةُ تُصلِّي عليه ما دامَ في مُصلَّاه: اللهم صلِّ عليه! اللهم ارحَمه! ولا يزالُ في صلاةٍ ما انتظر الصلاةَ».\u202C",
               hadethNumber: 56,
-              soundUrl: 'assets/sounds/56.ogg',
+              soundUrl: 'assets/$soundFolderName/56.$fileExtension',
               explainUrl: 'https://youtu.be/Sap7tHZYamw?si=4o2bIvyou2u5D1vT',
             ),
             Hadeth(
@@ -526,7 +526,7 @@ class Constants {
                   "\u202Bوعنه رضي الله عنه قال: قال رسول الله ﷺ: «أثقلُ الصلاةِ على المنافقينَ: صلاةُ العشاءِ، وصلاةُ الفجرِ، ولو يعلمونَ ما فيهما لأتوهما ولو حَبوًا.\n"
                   "ولقد هممتُ أن آمرَ بالصلاةِ فتقامَ، ثم آمرَ رجلًا يُصلِّي بالناسِ، ثم أنطلِقُ معي برجالٍ معهم حُزَمٌ من حطبٍ إلى قومٍ لا يشهدونَ الصلاةَ، فأحرِّقَ عليهم بيوتهم بالنار».\u202C",
               hadethNumber: 57,
-              soundUrl: 'assets/sounds/57.ogg',
+              soundUrl: 'assets/$soundFolderName/57.$fileExtension',
               explainUrl: 'https://youtu.be/qiGjlCzuQeo?si=CrS2VSMCcXC6wqkt',
             ),
 
@@ -537,7 +537,7 @@ class Constants {
                   "قال: فأقبلَ عليه عبدُ الله فسبَّه سبًّا سيِّئًا ما سمعتُه سبَّه مثلَه قطُّ، وقال: أُخبِرك عن رسولِ الله ﷺ وتقولُ: والله لنمنعهنَّ؟!\n\n"
                   "وفي لفظ: «لا تمنعوا إماءَ اللهِ مساجدَ الله».\u202C",
               hadethNumber: 58,
-              soundUrl: 'assets/sounds/58.ogg',
+              soundUrl: 'assets/$soundFolderName/58.$fileExtension',
               explainUrl: 'https://youtu.be/z6VhsTzdFjc?si=jUBFaRq_siExHXR9',
             ),
             Hadeth(
@@ -546,7 +546,7 @@ class Constants {
                   "وفي لفظٍ: «أمَّا المغربُ والعِشاءُ والجُمعةُ ففي بيتِهِ».\n\n"
                   "وفي لفظٍ: أنَّ ابنَ عمرَ رضيَ اللهُ عنهما قال: «حدَّثتني حفصةُ: أنَّ النبي ﷺ كان يُصلِّي ركعتَينِ خفيفتَينِ بعدما يطلُعُ الفجرُ، وكانت ساعةً لا أدخلُ على النبي ﷺ فيها».\u202C",
               hadethNumber: 59,
-              soundUrl: 'assets/sounds/59.ogg',
+              soundUrl: 'assets/$soundFolderName/59.$fileExtension',
               explainUrl: 'https://youtu.be/F68pVNT46nI?si=zzE5gTS0f8A2u6B5',
             ),
 
@@ -555,7 +555,7 @@ class Constants {
                   "\u202Bعن عائشةَ رضي الله عنها قالت: «لم يكنِ النبي ﷺ على شيءٍ من النوافلِ أشدَّ تعاهُدًا منه على ركعتَيِ الفجر».\n\n"
                   "وفي لفظٍ لمسلم: «ركعتا الفجرِ خيرٌ من الدنيا وما فيها».\u202C",
               hadethNumber: 60,
-              soundUrl: 'assets/sounds/60.ogg',
+              soundUrl: 'assets/$soundFolderName/60.$fileExtension',
               explainUrl: 'https://youtu.be/nzYvv9uSocM?si=Jw0uarmBmbpa8RuZ',
             ),
           ],
@@ -567,7 +567,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضي الله عنه قال: «أُمر بلالٌ أن يشفعَ الأذانَ، ويُوترَ الإقامةَ».\u202C",
               hadethNumber: 61,
-              soundUrl: 'assets/sounds/61.ogg',
+              soundUrl: 'assets/$soundFolderName/61.$fileExtension',
               explainUrl: 'https://youtu.be/5irgtO7kkCI?si=TjXUL52nxeoVznwG',
             ),
 
@@ -577,14 +577,14 @@ class Constants {
                   "قال: فتوضأ وأذَّن بلالٌ، قال: فجعلتُ أتتبَّعُ فاهُ هاهنا وهاهنا يقولُ: يمينًا وشِمالًا: حيَّ على الصلاة! حيَّ على الفلاح!\n"
                   "ثم ركزتُ له عنزةً، فتقدَّم فصلَّى الظُّهرَ ركعتَين، ثم لم يزل يُصلِّي ركعتَين ركعتَين حتى رجع إلى المدينة».\u202C",
               hadethNumber: 62,
-              soundUrl: 'assets/sounds/62.ogg',
+              soundUrl: 'assets/$soundFolderName/62.$fileExtension',
               explainUrl: 'https://youtu.be/lxxenUl1Nio?si=j1d3bXFG9ze3EoPn',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبد الله بن عمر رضي الله عنهما عن رسول الله ﷺ أنه قال: «إنَّ بلالًا يُؤذِّنُ بليلٍ، فكلوا واشربوا حتى تسمعوا أذانَ ابنِ أُمِّ مكتومٍ».\u202C",
               hadethNumber: 63,
-              soundUrl: 'assets/sounds/63.ogg',
+              soundUrl: 'assets/$soundFolderName/63.$fileExtension',
               explainUrl: 'https://youtu.be/NCrTOeXRzhw?si=-rEUYxqx82irhFwr',
             ),
 
@@ -592,7 +592,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي سعيدٍ الخدريِّ رضي الله عنه قال: قال رسول الله ﷺ: «إذا سمعتم المؤذِّنَ فقولوا مثلَ ما يقول».\u202C",
               hadethNumber: 64,
-              soundUrl: 'assets/sounds/64.ogg',
+              soundUrl: 'assets/$soundFolderName/64.$fileExtension',
               explainUrl: 'https://youtu.be/d3U87j45Rog?si=wJf0M4DErS90f4o0',
             ),
           ],
@@ -607,7 +607,7 @@ class Constants {
                   "ولمسلم: «غيرَ أنه لا يُصلِّي عليها المكتوبةَ».\n"
                   "وللبخاري: «إلا الفرائضَ».\u202C",
               hadethNumber: 65,
-              soundUrl: 'assets/sounds/65.ogg',
+              soundUrl: 'assets/$soundFolderName/65.$fileExtension',
               explainUrl: 'https://youtu.be/BYDbHIuqvyw?si=_M_J30QvoUwyVnu2',
             ),
 
@@ -615,7 +615,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عبد الله بن عمر رضي الله عنهما قال: «بينما الناسُ بقباءَ في صلاةِ الصبحِ إذ جاءهم آتٍ فقال: إن النبي ﷺ قد أُنزِل عليه الليلةَ قرآنٌ، وقد أُمِر أن يَستقبِلَ القبلةَ فاستَقبِلوها، وكانت وجوهُهم إلى الشام، فاستداروا إلى الكعبة».\u202C",
               hadethNumber: 66,
-              soundUrl: 'assets/sounds/66.ogg',
+              soundUrl: 'assets/$soundFolderName/66.$fileExtension',
               explainUrl: 'https://youtu.be/hGKY40wX4a4?si=5gYb_FZByfhiukW7',
             ),
             Hadeth(
@@ -624,7 +624,7 @@ class Constants {
                   "فقلتُ: رأيتُكَ تُصلِّي لغيرِ القبلة!\n"
                   "فقال: لولا أني رأيتُ رسولَ الله ﷺ يفعلُه لم أفعلْه».\u202C",
               hadethNumber: 67,
-              soundUrl: 'assets/sounds/67.ogg',
+              soundUrl: 'assets/$soundFolderName/67.$fileExtension',
               explainUrl: 'https://youtu.be/7-zfOLJdyPI?si=PNK-0JNBn19XUjQw',
             ),
           ],
@@ -636,7 +636,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أنسِ بنِ مالكٍ رضي الله عنه قال: قال رسولُ الله ﷺ: «سوُّوا صفوفَكم؛ فإنَّ تسويةَ الصفِّ من تمامِ الصلاة».\u202C",
               hadethNumber: 68,
-              soundUrl: 'assets/sounds/68.ogg',
+              soundUrl: 'assets/$soundFolderName/68.$fileExtension',
               explainUrl: 'https://youtu.be/N6ND_Y9m6kE?si=q4Cqk2TbRQHbZsDH',
             ),
 
@@ -646,7 +646,7 @@ class Constants {
                   "ولمسلم: «كان رسولُ الله ﷺ يُسوِّي صفوفَنا، حتى كأنما يُسوِّي بها القداح، حتى رأى أن قد عقلنا .\n\n"
                   "ثم خرج يومًا فقام حتى كاد يكبِّر، فرأى رجلًا بادِيًا صدرُه، فقال: «عبادَ الله! لتُسوُّنَّ صفوفَكم، أو ليُخالِفنَّ اللهُ بين وجوهِكم».\u202C",
               hadethNumber: 69,
-              soundUrl: 'assets/sounds/69.ogg',
+              soundUrl: 'assets/$soundFolderName/69.$fileExtension',
               explainUrl: 'https://youtu.be/xFX-3KVjmfY?si=3QWDZuhMhbuj3FJl',
             ),
 
@@ -657,7 +657,7 @@ class Constants {
                   "ولمسلم: «أن رسولَ الله ﷺ صلى به وبأُمِّه، فأقامني عن يمينِه، وأقام المرأةَ خلفَنا».\n\n"
                   "واليتيم: قيل هو: ضُميرةُ، جدُّ حُسَينِ بنِ عبدِ اللهِ بنِ ضُميرة».\u202C",
               hadethNumber: 70,
-              soundUrl: 'assets/sounds/70.ogg',
+              soundUrl: 'assets/$soundFolderName/70.$fileExtension',
               explainUrl: 'https://youtu.be/oqJgPzhkNMY?si=em9cdKrFme3v-Mpi',
             ),
 
@@ -665,7 +665,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «بِتُّ عند خالتي ميمونةَ رضي الله عنها، فقام النبي ﷺ يُصلِّي من الليل، فقمتُ عن يسارِه، فأخذ برأسي فأقامني عن يمينِه».\u202C",
               hadethNumber: 71,
-              soundUrl: 'assets/sounds/71.ogg',
+              soundUrl: 'assets/$soundFolderName/71.$fileExtension',
               explainUrl: 'https://youtu.be/4_hEmxo-oCw?si=j1yk9LU5MYtyuPxD',
             ),
           ],
@@ -677,7 +677,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي هريرةَ رضي الله عنه عن النبي ﷺ قال: «أما يخشى الذي يرفع رأسَه قبلَ الإمامِ أن يُحوِّلَ اللهُ رأسَه رأسَ حمارٍ! أو يجعلَ صورتَه صورةَ حمارٍ!».\u202C",
               hadethNumber: 72,
-              soundUrl: 'assets/sounds/72.ogg',
+              soundUrl: 'assets/$soundFolderName/72.$fileExtension',
               explainUrl: 'https://youtu.be/PgfyaynECbE?si=CC9vaWp1-BiTgpBP',
             ),
 
@@ -687,7 +687,7 @@ class Constants {
                   "فإذا كبَّر فكبِّروا، وإذا ركع فاركعوا، وإذا قال: سمع اللهُ لمن حمده، فقولوا: ربَّنا ولك الحمد.\n"
                   "وإذا سجد فاسجدوا، وإذا صلَّى جالسًا فصلُّوا جلوسًا أجمعون».\u202C",
               hadethNumber: 73,
-              soundUrl: 'assets/sounds/73.ogg',
+              soundUrl: 'assets/$soundFolderName/73.$fileExtension',
               explainUrl: 'https://youtu.be/LAWr3dycJA0?si=jKu2Yn7ez-VT5yVj',
             ),
             Hadeth(
@@ -696,14 +696,14 @@ class Constants {
                   "فإذا ركع فاركعوا، وإذا رفع فارفعوا، وإذا قال: سمع اللهُ لمن حمده، فقولوا: ربَّنا ولك الحمد.\n"
                   "وإذا سجد فاسجدوا، وإذا صلَّى جالسًا فصلُّوا جلوسًا أجمعون».\u202C",
               hadethNumber: 74,
-              soundUrl: 'assets/sounds/74.ogg',
+              soundUrl: 'assets/$soundFolderName/74.$fileExtension',
               explainUrl: 'https://youtu.be/kCE_mo2z55M?si=njsrXWVTwdkBROH2',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبدِ اللهِ بنِ يزيدَ الخطميِّ الأنصاريِّ قال: «حدَّثني البراءُ بنُ عازبٍ رضي الله عنهما – وهو غيرُ كذوبٍ – قال: كانوا إذا قال رسولُ الله ﷺ: سمع اللهُ لمن حمده، لم يحنِ أحدٌ منا ظهرَه حتى يقعَ رسولُ الله ﷺ ساجدًا، ثم نقعُ سجودًا بعده».\u202C",
               hadethNumber: 75,
-              soundUrl: 'assets/sounds/75.ogg',
+              soundUrl: 'assets/$soundFolderName/75.$fileExtension',
               explainUrl: 'https://youtu.be/kCE_mo2z55M?si=njsrXWVTwdkBROH2',
             ),
 
@@ -711,14 +711,14 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي هريرةَ رضي الله عنه أن رسولَ الله ﷺ قال: «إذا أمَّنَ الإمامُ فأمِّنوا، فإنه مَن وافق تأمينُه تأمينَ الملائكةِ غُفِر له ما تقدَّم من ذنبِه».\u202C",
               hadethNumber: 76,
-              soundUrl: 'assets/sounds/76.ogg',
+              soundUrl: 'assets/$soundFolderName/76.$fileExtension',
               explainUrl: 'https://youtu.be/ojmsG0ps7qM?si=ZAds6lfnWgdbRvQv',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرةَ رضي الله عنه أن رسولَ الله ﷺ قال: «إذا صلَّى أحدُكم للناسِ فليُخفِّفْ، فإنَّ فيهم الضَّعيفَ والسقيمَ وذا الحاجة، وإذا صلَّى أحدُكم لنفسِه فليُطوِّلْ ما شاء».\u202C",
               hadethNumber: 77,
-              soundUrl: 'assets/sounds/77.ogg',
+              soundUrl: 'assets/$soundFolderName/77.$fileExtension',
               explainUrl: 'https://youtu.be/1mrGgjtZoew?si=o7kRiZ2yWMHLcniN',
             ),
 
@@ -728,7 +728,7 @@ class Constants {
                   "فما رأيتُ النبي ﷺ غضب في موعظةٍ قطُّ أشدَّ مما غضب يومئذٍ، فقال: يا أيها الناسُ! إنَّ منكم منفِّرين.\n"
                   "فأيُّكم أمَّ الناسَ فليُوجِزْ، فإنَّ فيهم الكبيرَ والضعيفَ وذا الحاجة».\u202C",
               hadethNumber: 78,
-              soundUrl: 'assets/sounds/78.ogg',
+              soundUrl: 'assets/$soundFolderName/78.$fileExtension',
               explainUrl: 'https://youtu.be/l99WEAYioBE?si=PjAYbmW86jnc5yHz',
             ),
           ],
@@ -741,7 +741,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: (كان رسول الله ﷺ إذا كبَّر في الصلاة سكت هُنيَّةً قبل أن يقرأ، فقلتُ: يا رسول الله، بأبي أنت وأمي، أرأيتَ سكوتك بين التكبير والقراءة ما تقول؟\n"
                   "قال: أقول: اللهم باعِد بيني وبين خطاياي كما باعدتَ بين المشرق والمغرب، اللهم نقِّني من خطاياي كما يُنقَّى الثوبُ الأبيض من الدنس، اللهم اغسِلني من خطاياي بالثلج والماء والبَرَد).",
               hadethNumber: 79,
-              soundUrl: 'assets/sounds/79.ogg',
+              soundUrl: 'assets/$soundFolderName/79.$fileExtension',
               explainUrl: 'https://youtu.be/d0f1OX2aTws?si=_b3jPElXnor9iAqC',
             ),
             Hadeth(
@@ -754,7 +754,7 @@ class Constants {
                   "وكان ينهى عن عقبة الشيطان، وينهى أن يفترش الرجل ذراعيه افتراش السبع.\n"
                   "وكان يختم الصلاة بالتسليم». ",
               hadethNumber: 80,
-              soundUrl: 'assets/sounds/80.ogg',
+              soundUrl: 'assets/$soundFolderName/80.$fileExtension',
               explainUrl: 'https://youtu.be/KKRiXcGNfsQ?si=XfOFWW6SR941R0Cd',
             ),
             Hadeth(
@@ -763,14 +763,14 @@ class Constants {
                   "وإذا رفع رأسه من الركوع رفعهما كذلك، وقال: سمع الله لمن حمده، ربنا ولك الحمد.\n"
                   "وكان لا يفعل ذلك في السجود.",
               hadethNumber: 81,
-              soundUrl: 'assets/sounds/81.ogg',
+              soundUrl: 'assets/$soundFolderName/81.$fileExtension',
               explainUrl: 'https://youtu.be/q-WjFV2JSCs?si=HQeqDclUaxHCDZtl',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله ﷺ: أُمرت أن أسجد على سبعة أعظم: على الجبهة – وأشار بيده إلى أنفه – واليدين، والركبتين، وأطراف القدمين.",
               hadethNumber: 82,
-              soundUrl: 'assets/sounds/82.ogg',
+              soundUrl: 'assets/$soundFolderName/82.$fileExtension',
               explainUrl: 'https://youtu.be/qRQ_41-aX4M?si=quIO3otxqfu6n1sB',
             ),
 
@@ -779,7 +779,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: (كان رسول الله ﷺ إذا قام إلى الصلاة كبَّر حين يقوم، ثم يكبر حين يركع، ثم يقول: سمع الله لمن حمده، حين يرفع صُلبه من الركوع، ثم يقول وهو قائم: ربنا ولك الحمد.\n"
                   "ثم يكبر حين يهوي، ثم يكبر حين يرفع رأسه، ثم يكبر حين يسجد، ثم يكبر حين يرفع رأسه، ثم يفعل ذلك في صلاته كلها حتى يقضيها، ويكبر حين يقوم من الثنتين بعد الجلوس).",
               hadethNumber: 83,
-              soundUrl: 'assets/sounds/83.ogg',
+              soundUrl: 'assets/$soundFolderName/83.$fileExtension',
               explainUrl: 'https://youtu.be/cmexuz851Ug?si=4zkAkx5DHWyCAsHJ',
             ),
             Hadeth(
@@ -787,7 +787,7 @@ class Constants {
                   "عن مطرف بن عبد الله قال: صليتُ أنا وعمران بن حصين خلف علي بن أبي طالب رضي الله عنه، فكان إذا سجد كبَّر، وإذا رفع رأسه كبَّر، وإذا نهض من الركعتين كبَّر.\n"
                   "فلما قضى الصلاة أخذ بيدي عمران بن حصين فقال: قد ذكَّرني هذا صلاة محمد ﷺ، أو قال: صلى بنا صلاة محمد ﷺ.",
               hadethNumber: 84,
-              soundUrl: 'assets/sounds/84.ogg',
+              soundUrl: 'assets/$soundFolderName/84.$fileExtension',
               explainUrl: 'https://youtu.be/KCQ6ph4eCKs?si=Q8SOHxx8faRhodJH',
             ),
 
@@ -796,7 +796,7 @@ class Constants {
                   "عن البراء بن عازب رضي الله عنه قال: (رمقتُ الصلاة مع محمد ﷺ فوجدت قيامه، فركعته، فاعتداله بعد ركوعه، فسجدته، فجلس بين السجدتين، فسجدته، فجلسة ما بين التسليم والانصراف، قريبًا من السواء).\n"
                   "وفي رواية البخاري: (ما خلا القيام والقعود قريبًا من السواء).",
               hadethNumber: 85,
-              soundUrl: 'assets/sounds/85.ogg',
+              soundUrl: 'assets/$soundFolderName/85.$fileExtension',
               explainUrl: 'https://youtu.be/vih3AH6QQ3w?si=Z7c1cKdWqiKMd4Ax',
             ),
             Hadeth(
@@ -804,14 +804,14 @@ class Constants {
                   "عن ثابت البناني، عن أنس بن مالك رضي الله عنه قال: (إني لا آلُو أن أُصلي بكم كما رأيت رسول الله ﷺ يصلي بنا).\n"
                   "قال ثابت: فكان أنس يصنع شيئًا لا أراكم تصنعونه: كان إذا رفع رأسه من الركوع انتصب قائمًا حتى يقول القائل: قد نسي، وإذا رفع من السجدة مكث حتى يقول القائل: قد نسي).",
               hadethNumber: 86,
-              soundUrl: 'assets/sounds/86.ogg',
+              soundUrl: 'assets/$soundFolderName/86.$fileExtension',
               explainUrl: 'https://youtu.be/mU1eVBPjED8?si=mIkVTIh6csnQLpRY',
             ),
             Hadeth(
               hadethText:
                   "عن أنس بن مالك رضي الله عنه قال: (ما صليت وراء إمامٍ قط أخفَّ صلاة، ولا أتمَّ صلاةً من النبي ﷺ).",
               hadethNumber: 87,
-              soundUrl: 'assets/sounds/87.ogg',
+              soundUrl: 'assets/$soundFolderName/87.$fileExtension',
               explainUrl: 'https://youtu.be/fwN-JEK0MJc?si=WvnUSlrw4Afu4FU7',
             ),
             Hadeth(
@@ -821,14 +821,14 @@ class Constants {
                   "قال: مثل صلاة شيخنا هذا – وكان يجلس إذا رفع رأسه من السجود قبل أن ينهض –.\n"
                   "أراد شيبهم: أبا بريد عمرو بن سلمة الجرمي.",
               hadethNumber: 88,
-              soundUrl: 'assets/sounds/88.ogg',
+              soundUrl: 'assets/$soundFolderName/88.$fileExtension',
               explainUrl: 'https://youtu.be/cKDGDC5vVi8?si=tDLGmKd8tKPpNnEO',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن مالك بن بحينة رضي الله عنه: أن النبي ﷺ كان إذا صلى فرج بين يديه حتى يبدو بياض إبطيه.",
               hadethNumber: 89,
-              soundUrl: 'assets/sounds/89.ogg',
+              soundUrl: 'assets/$soundFolderName/89.$fileExtension',
               explainUrl: 'https://youtu.be/rQeFdzL1sDE?si=ghQ1CAcbFircyBbX',
             ),
 
@@ -836,7 +836,7 @@ class Constants {
               hadethText:
                   "عن أبي سلمة سعيد بن يزيد قال: (سألت أنس بن مالك رضي الله عنه: أكان النبي ﷺ يصلي في نعليه؟ قال: نعم).",
               hadethNumber: 90,
-              soundUrl: 'assets/sounds/90.ogg',
+              soundUrl: 'assets/$soundFolderName/90.$fileExtension',
               explainUrl: 'https://youtu.be/TVupLoBYV4w?si=TKQblML1FwKfp5-d',
             ),
 
@@ -844,14 +844,14 @@ class Constants {
               hadethText:
                   "عن أبي قتادة الأنصاري رضي الله عنه: أن رسول الله ﷺ كان يصلي وهو حامل أمامة بنت زينب بنت رسول الله ﷺ، ولأبي العاص بن الربيع بن عبد شمس، فإذا سجد وضعها، وإذا قام حملها.",
               hadethNumber: 91,
-              soundUrl: 'assets/sounds/91.ogg',
+              soundUrl: 'assets/$soundFolderName/91.$fileExtension',
               explainUrl: 'https://youtu.be/Yor6TFLTkUg?si=nOZNcfX8HjkbjlGA',
             ),
             Hadeth(
               hadethText:
                   "عن أنس بن مالك رضي الله عنه، عن النبي ﷺ قال: «اعْتَدِلوا في السجود، ولا يَبْسُط أحدكم ذراعيه انبساط الكلب».",
               hadethNumber: 92,
-              soundUrl: 'assets/sounds/92.ogg',
+              soundUrl: 'assets/$soundFolderName/92.$fileExtension',
               explainUrl: 'https://youtu.be/TjFditwM2-U?si=aOqJOoqnFjVYDt0z',
             ),
           ],
@@ -863,7 +863,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ دخل المسجد، فدخل رجل فصلى، ثم جاء فسلَّم على النبي ﷺ، فقال له: ارجع فصلِّ فإنك لم تصلِّ. فرجع فصلى كما صلى، ثم جاء فسلَّم على النبي ﷺ، فقال: ارجع فصلِّ فإنك لم تصلِّ – ثلاثًا – فقال: والذي بعثك بالحق، ما أُحسن غير هذا، فعلِّمني. فقال: إذا قمت إلى الصلاة فكبِّر، ثم اقرأ ما تيسر معك من القرآن، ثم اركع حتى تطمئن راكعًا، ثم ارفع حتى تطمئن قائمًا، ثم اسجد حتى تطمئن ساجدًا، ثم ارفع حتى تطمئن جالسًا، ثم افعل ذلك في صلاتك كلها.",
               hadethNumber: 93,
-              soundUrl: 'assets/sounds/93.ogg',
+              soundUrl: 'assets/$soundFolderName/93.$fileExtension',
               explainUrl: 'https://youtu.be/fsgfHJOptMM?si=-2uaduK5DZqXF8Sc',
             ),
           ],
@@ -875,7 +875,7 @@ class Constants {
               hadethText:
                   "عن عبادة بن الصامت رضي الله عنه: أن رسول الله ﷺ قال: «لا صلاة لمن لم يقرأ بفاتحة الكتاب».",
               hadethNumber: 94,
-              soundUrl: 'assets/sounds/94.ogg',
+              soundUrl: 'assets/$soundFolderName/94.$fileExtension',
               explainUrl: 'https://youtu.be/7htSF7iEUvE?si=MO-AHBxarH6lyoir',
             ),
 
@@ -886,14 +886,14 @@ class Constants {
                   "وكان يطوِّل في الركعة الأولى من صلاة الصبح ويقصِّر في الثانية).\n"
                   "وفي الركعتين الأخيرتين بأم الكتاب.",
               hadethNumber: 95,
-              soundUrl: 'assets/sounds/95.ogg',
+              soundUrl: 'assets/$soundFolderName/95.$fileExtension',
               explainUrl: 'https://youtu.be/YxPwG9LyTw8?si=d8SwzFtWDzsQ9G58',
             ),
             Hadeth(
               hadethText:
                   "عن جبير بن مطعم رضي الله عنه قال: (سمعت النبي ﷺ يقرأ في المغرب بالطور).",
               hadethNumber: 96,
-              soundUrl: 'assets/sounds/96.ogg',
+              soundUrl: 'assets/$soundFolderName/96.$fileExtension',
               explainUrl: 'https://youtu.be/TpKnA9uNoMI?si=Vgz3WiuzRkq_MrCW',
             ),
 
@@ -901,14 +901,14 @@ class Constants {
               hadethText:
                   "عن البراء بن عازب رضي الله عنه: أن النبي ﷺ كان في سفر، فصلى العشاء الآخرة، فقرأ في إحدى الركعتين بالتين والزيتون، فما سمعت أحدًا أحسن صوتًا أو قراءة منه.",
               hadethNumber: 97,
-              soundUrl: 'assets/sounds/97.ogg',
+              soundUrl: 'assets/$soundFolderName/97.$fileExtension',
               explainUrl: 'https://youtu.be/F_VzMyoXzVI?si=SB5GlMZtddx0L-5F',
             ),
             Hadeth(
               hadethText:
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ بعث رجلًا على سرية، فكان يقرأ لأصحابه في صلاتهم فيختم بـ (قل هو الله أحد). فلما رجعوا ذكروا ذلك لرسول الله ﷺ فقال: سلوه لأي شيء يصنع ذلك؟ فسألوه فقال: لأنها صفة الرحمن، فأنا أحب أن أقرأ بها. فقال رسول الله ﷺ: أخبروه أن الله تعالى يحبه.",
               hadethNumber: 98,
-              soundUrl: 'assets/sounds/98.ogg',
+              soundUrl: 'assets/$soundFolderName/98.$fileExtension',
               explainUrl: 'https://youtu.be/lDWbpHc391o?si=btih2UZAMSDXwNNt',
             ),
 
@@ -916,7 +916,7 @@ class Constants {
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنهما: أن النبي ﷺ قال لمعاذ: (أفتان أنت يا معاذ؟) – حين قرأ بسورة طويلة في صلاة العشاء – وقال: (فلولا صليت بـ سبح اسم ربك الأعلى، والشمس وضحاها، والليل إذا يغشى، فإنه يصلي وراءك الكبير والضعيف وذو الحاجة).",
               hadethNumber: 99,
-              soundUrl: 'assets/sounds/99.ogg',
+              soundUrl: 'assets/$soundFolderName/99.$fileExtension',
               explainUrl: 'https://youtu.be/r7K4g4sHFn0?si=fdN7kqW5F4fxTqIj',
             ),
           ],
@@ -930,7 +930,7 @@ class Constants {
                   "وفي رواية: (صليت مع أبي بكر وعمر وعثمان رضي الله عنهم، فلم أسمع أحدًا منهم يقرأ بـ ﴿بسم الله الرحمن الرحيم﴾).\n"
                   "ولمسلم: (صليت خلف النبي ﷺ وأبي بكر وعمر وعثمان، فكانوا يستفتحون بـ ﴿الحمد لله رب العالمين﴾، لا يذكرون ﴿بسم الله الرحمن الرحيم﴾ في أول قراءة ولا في آخرها).",
               hadethNumber: 100,
-              soundUrl: 'assets/sounds/100.ogg',
+              soundUrl: 'assets/$soundFolderName/100.$fileExtension',
               explainUrl: 'https://youtu.be/ltxxkug_3Gs?si=Wlu8J14MrHVkp-86',
             ),
           ],
@@ -945,14 +945,14 @@ class Constants {
                   "فقال: أكما يقول ذو اليدين؟ قالوا: نعم. فتقدَّم فصلى ما تركه ثم سلم، ثم كبَّر وسجد مثل سجوده أو أطول، ثم رفع، ثم كبَّر وسجد مثل سجوده أو أطول، ثم رفع.\n"
                   "قال: فكان ذلك سهوًا). قال ابن سيرين: قال: نبئت أن عمران بن حصين قال: ثم سلم.",
               hadethNumber: 101,
-              soundUrl: 'assets/sounds/101.ogg',
+              soundUrl: 'assets/$soundFolderName/101.$fileExtension',
               explainUrl: 'https://youtu.be/8UjvovmI0QU?si=zRsmKQT68YPdsPgo',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن بحينة رضي الله عنه – وكان من أصحاب النبي ﷺ – أن النبي ﷺ صلى بهم الظهر، فقام في الركعتين الأوليين ولم يجلس، فقام الناس معه، حتى إذا قضى الصلاة وانتظر الناس تسليمه، كبَّر وهو جالس، فسجد سجدتين قبل أن يسلِّم، ثم سلَّم.",
               hadethNumber: 102,
-              soundUrl: 'assets/sounds/102.ogg',
+              soundUrl: 'assets/$soundFolderName/102.$fileExtension',
               explainUrl: 'https://youtu.be/csfr07RYr5s?si=VM6eAXBtalOYsZRB',
             ),
           ],
@@ -964,7 +964,7 @@ class Constants {
               hadethText:
                   "عن أبي جهيم بن الحارث بن الصمة الأنصاري رضي الله عنه قال: قال رسول الله ﷺ: «لو يعلم المار بين يدي المصلي ماذا عليه من الإثم، لكان أن يقف أربعين خيرًا له من أن يمر بين يديه». قال أبو النضر: لا أدري، قال: أربعين يومًا، أو شهرًا، أو سنةً.",
               hadethNumber: 103,
-              soundUrl: 'assets/sounds/103.ogg',
+              soundUrl: 'assets/$soundFolderName/103.$fileExtension',
               explainUrl: 'https://youtu.be/mHydE5kx1h8?si=VoAhiVfJFgdUUyrU',
             ),
 
@@ -972,21 +972,21 @@ class Constants {
               hadethText:
                   "عن أبي سعيد الخدري رضي الله عنه قال: سمعت النبي ﷺ يقول: «إذا صلى أحدكم إلى شيء يستره من الناس، فأراد أحد أن يجتاز بين يديه فليدفعه، فإن أبى فليقاتله، فإنما هو شيطان».",
               hadethNumber: 104,
-              soundUrl: 'assets/sounds/104.ogg',
+              soundUrl: 'assets/$soundFolderName/104.$fileExtension',
               explainUrl: 'https://youtu.be/vBe2j0jD0LM?si=g_dx_1rosISBXD9J',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: أقبلتُ راكبًا على حمار أتان، وأنا يومئذ قد ناهزتُ الاحتلام، ورسول الله ﷺ يصلي بالناس بمنى إلى غير جدار، فمررت بين يدي بعض الصف، فنزلت، فأرسلت الأتان ترتع، فدخلت في الصف، فلم ينكر ذلك علي أحد.",
               hadethNumber: 105,
-              soundUrl: 'assets/sounds/105.ogg',
+              soundUrl: 'assets/$soundFolderName/105.$fileExtension',
               explainUrl: 'https://youtu.be/t2ch2Q1AvnM?si=nAt7d2B1JnOoy8gm',
             ),
             Hadeth(
               hadethText:
                   "عن عائشة رضي الله عنها قالت: «كنت أنام بين يدي رسول الله ﷺ ورجلاي في قبلته، فإذا سجد غمزني فقَبَضتُ رجلي، وإذا قام بسطتُهما، والبيوت يومئذ ليس فيها مصابيح».",
               hadethNumber: 106,
-              soundUrl: 'assets/sounds/106.ogg',
+              soundUrl: 'assets/$soundFolderName/106.$fileExtension',
               explainUrl: 'https://youtu.be/PHptyzLTUsY?si=ir4M2LT8xPfhH3Qd',
             ),
           ],
@@ -998,7 +998,7 @@ class Constants {
               hadethText:
                   "عن أبي قتادة بن رِبعِي الأنصاري رضي الله عنه قال: قال النبي ﷺ: «إذا دخل أحدكم المسجد، فلا يجلس حتى يصلي ركعتين».",
               hadethNumber: 107,
-              soundUrl: 'assets/sounds/107.ogg',
+              soundUrl: 'assets/$soundFolderName/107.$fileExtension',
               explainUrl: 'https://youtu.be/SDWQyATGlQM?si=fNlNbmPwJZ-wr4E_',
             ),
 
@@ -1006,7 +1006,7 @@ class Constants {
               hadethText:
                   "عن زيد بن أرقم رضي الله عنه قال: كنا نتكلم في الصلاة، يكلم الرجل صاحبه وهو إلى جنبه في الصلاة، حتى نزلت ﴿وَقُومُوا لِلَّهِ قَانِتِينَ﴾، فأُمرنا بالسكوت ونهينا عن الكلام.",
               hadethNumber: 108,
-              soundUrl: 'assets/sounds/108.ogg',
+              soundUrl: 'assets/$soundFolderName/108.$fileExtension',
               explainUrl: 'https://youtu.be/LErkCj_ofCE?si=MKSB4PWYQNZU3go5',
             ),
 
@@ -1014,7 +1014,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما، عن رسول الله ﷺ أنه قال: «إذا اشتد الحر فأبردوا عن الصلاة؛ فإن شدة الحر من فيح جهنم».",
               hadethNumber: 109,
-              soundUrl: 'assets/sounds/109.ogg',
+              soundUrl: 'assets/$soundFolderName/109.$fileExtension',
               explainUrl: 'https://youtu.be/BgYC9xkWox8?si=LoIlG5qkFZSabmum',
             ),
             Hadeth(
@@ -1022,14 +1022,14 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه، عن النبي ﷺ قال: «من نسي صلاة فليصلها إذا ذكرها، لا كفارة لها إلا ذلك: ﴿أقم الصلاة لذكري﴾».\n"
                   "ولمسلم: «من نسي صلاة أو نام عنها، فكفارتها أن يصليها إذا ذكرها».",
               hadethNumber: 110,
-              soundUrl: 'assets/sounds/110.ogg',
+              soundUrl: 'assets/$soundFolderName/110.$fileExtension',
               explainUrl: 'https://youtu.be/T5p2p6d6foc?si=q-gS-ObNWUe70jd5',
             ),
             Hadeth(
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنهما: أن معاذ بن جبل رضي الله عنه كان يصلي مع رسول الله ﷺ عشاء الآخرة، ثم يرجع إلى قومه فيصلي بهم تلك الصلاة.",
               hadethNumber: 111,
-              soundUrl: 'assets/sounds/111.ogg',
+              soundUrl: 'assets/$soundFolderName/111.$fileExtension',
               explainUrl: 'https://youtu.be/AebbQgGxMNI?si=RxfsYIEP8v4oRVBk',
             ),
 
@@ -1037,7 +1037,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك رضي الله عنه قال: (كنا نصلي مع رسول الله ﷺ في شدة الحر، فإذا لم يستطع أحدنا أن يمكن جبهته من الأرض بسط ثوبه فسجد عليه).",
               hadethNumber: 112,
-              soundUrl: 'assets/sounds/112.ogg',
+              soundUrl: 'assets/$soundFolderName/112.$fileExtension',
               explainUrl: 'https://youtu.be/V63TZEA-8wQ?si=G3-JZV-CT-hVcs-e',
             ),
 
@@ -1045,7 +1045,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «لا يصلي أحدكم في الثوب الواحد ليس على عاتقه منه شيء».",
               hadethNumber: 113,
-              soundUrl: 'assets/sounds/113.ogg',
+              soundUrl: 'assets/$soundFolderName/113.$fileExtension',
               explainUrl: 'https://youtu.be/BkcNwn0sEPU?si=_-cZlkOg6b4u-Uav',
             ),
             Hadeth(
@@ -1053,7 +1053,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنهما، عن النبي ﷺ قال: «من أكل ثومًا أو بصلاً فليعتزلنا – أو قال: فليعتزل مسجدنا – وليقعد في بيته».\n"
                   "وأُتي بقدر فيه خضرات من بقول، فوجد لها ريحًا، فسأل فأُخبر بما فيها من البقول، فقال: قربوها – إلى بعض أصحابه – فقال: كل، فإني أناجي من لا تناجي.",
               hadethNumber: 114,
-              soundUrl: 'assets/sounds/114.ogg',
+              soundUrl: 'assets/$soundFolderName/114.$fileExtension',
               explainUrl: 'https://youtu.be/Tl1DIfgQXX8?si=h4O-ulnDX3TEZPpi',
             ),
 
@@ -1061,7 +1061,7 @@ class Constants {
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنهما أن النبي ﷺ قال: «من أكل البصل والثوم والكراث فلا يقربن مسجدنا؛ فإن الملائكة تتأذى مما يتأذى منه بنو آدم».",
               hadethNumber: 115,
-              soundUrl: 'assets/sounds/115.ogg',
+              soundUrl: 'assets/$soundFolderName/115.$fileExtension',
               explainUrl: 'https://youtu.be/q2dcszr85LY?si=w2fjCJoQkuFlXitu',
             ),
           ],
@@ -1077,7 +1077,7 @@ class Constants {
                   "وفيه: «فإنكم إذا فعلتم ذلك، فقد سلمتم على كل عبدٍ لله صالحٍ في السماء والأرض».\n\n"
                   "وفيه: «ثم ليتخيّر من المسألة ما شاء». ",
               hadethNumber: 116,
-              soundUrl: 'assets/sounds/116.ogg',
+              soundUrl: 'assets/$soundFolderName/116.$fileExtension',
               explainUrl: 'https://youtu.be/ZzZDa370zkQ?si=FQL3xyjOoowvSvil',
             ),
             Hadeth(
@@ -1085,7 +1085,7 @@ class Constants {
                   "عن عبد الرحمن بن أبي ليلى قال: لقيَني كعب بن عُجرة رضي الله عنه فقال: ألا أهدي لك هديةً؟ إن النبي ﷺ خرج علينا فقلنا: يا رسول الله، قد علمنا كيف نسلِّم عليك، فكيف نصلِّي عليك؟\n"
                   "قال: قولوا: اللهم صلِّ على محمدٍ وعلى آل محمدٍ، كما صليت على آل إبراهيم، إنك حميد مجيد، اللهم بارك على محمدٍ وعلى آل محمدٍ، كما باركت على آل إبراهيم، إنك حميد مجيد.",
               hadethNumber: 117,
-              soundUrl: 'assets/sounds/117.ogg',
+              soundUrl: 'assets/$soundFolderName/117.$fileExtension',
               explainUrl: 'https://youtu.be/Tm3-BK7-w2A?si=4Qg23B12CulYs75f',
             ),
 
@@ -1094,14 +1094,14 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: (كان رسول الله ﷺ يتعوذ بالله من عذاب القبر، ومن عذاب النار، ومن فتنة المحيا والممات، ومن فتنة المسيح الدجال).\n\n"
                   "وفي لفظ لمسلم: «إذا تشهّد أحدكم فليستعذ بالله من أربع، يقول: اللهم إني أعوذ بك من عذاب جهنم ...» ثم ذكر نحوه.",
               hadethNumber: 118,
-              soundUrl: 'assets/sounds/118.ogg',
+              soundUrl: 'assets/$soundFolderName/118.$fileExtension',
               explainUrl: 'https://youtu.be/ZcrB-jBmFZs?si=Aovr-oENczAPl2yt',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن عمرو بن العاص، عن أبي بكر الصديق رضي الله عنهما، أنه قال لرسول الله ﷺ: علّمني دعاءً أدعو به في صلاتي، قال: قل: «اللهم إني ظلمت نفسي ظلمًا كثيرًا، ولا يغفر الذنوب إلا أنت، فاغفر لي مغفرةً من عندك، وارحمني، إنك أنت الغفور الرحيم».",
               hadethNumber: 119,
-              soundUrl: 'assets/sounds/119.ogg',
+              soundUrl: 'assets/$soundFolderName/119.$fileExtension',
               explainUrl: 'https://youtu.be/Rlr_6UntfBY?si=emhGAxInzZ5Z2nVh',
             ),
 
@@ -1110,7 +1110,7 @@ class Constants {
                   "عن عائشة رضي الله عنها قالت: (ما صلى النبي ﷺ صلاةً بعد أن نزلت عليه ﴿إذا جاء نصر الله والفتح﴾ إلا يقول فيها: سبحانك ربنا وبحمدك، اللهم اغفر لي).\n"
                   "وفي لفظ: (كان رسول الله ﷺ يكثر أن يقول في ركوعه وسجوده: سبحانك اللهم ربنا وبحمدك، اللهم اغفر لي).",
               hadethNumber: 120,
-              soundUrl: 'assets/sounds/120.ogg',
+              soundUrl: 'assets/$soundFolderName/120.$fileExtension',
               explainUrl: 'https://youtu.be/8PgTz4KDU6s?si=zIDixpVkWRkV0MNv',
             ),
           ],
@@ -1123,7 +1123,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما قال: (سأل رجلٌ النبي ﷺ وهو على المنبر: ما ترى في صلاة الليل؟ قال: مثنى مثنى، فإذا خشي أحدكم الصبح صلى واحدةً، فأوترت له ما صلى).\n"
                   "وإنه كان يقول: «اجعلوا آخر صلاتكم بالليل وترًا».",
               hadethNumber: 121,
-              soundUrl: 'assets/sounds/121.ogg',
+              soundUrl: 'assets/$soundFolderName/121.$fileExtension',
               explainUrl: 'https://youtu.be/TD4VMO6nauA?si=-madTBDlg86Lv0KK',
             ),
 
@@ -1131,7 +1131,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها قالت: (من كل الليل قد أوتر رسول الله ﷺ، من أوله وأوسطه وآخره، فانتهى وتره إلى السحر).",
               hadethNumber: 122,
-              soundUrl: 'assets/sounds/122.ogg',
+              soundUrl: 'assets/$soundFolderName/122.$fileExtension',
               explainUrl: 'https://youtu.be/vDj1bCOyJb8?si=Ra9mhilJeySl3bsg',
             ),
 
@@ -1139,7 +1139,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها قالت: (كان رسول الله ﷺ يصلي من الليل ثلاث عشرة ركعة، يوتر من ذلك بخمس، لا يجلس في شيء إلا في آخرها).",
               hadethNumber: 123,
-              soundUrl: 'assets/sounds/123.ogg',
+              soundUrl: 'assets/$soundFolderName/123.$fileExtension',
               explainUrl: 'https://youtu.be/DoNFM0I-YQM?si=vQcaoiWxFrnr59ra',
             ),
           ],
@@ -1153,7 +1153,7 @@ class Constants {
                   "قال ابن عباس رضي الله عنهما: كنت أعلم إذا انصرفوا بذلك إذا سمعته.\n"
                   "وفي لفظ: (ما كنا نعرف انقضاء صلاة رسول الله ﷺ إلا بالتكبير).",
               hadethNumber: 124,
-              soundUrl: 'assets/sounds/124.ogg',
+              soundUrl: 'assets/$soundFolderName/124.$fileExtension',
               explainUrl: 'https://youtu.be/M3OSxvRxCes?si=tMCphl6axfIikBgs',
             ),
             Hadeth(
@@ -1164,7 +1164,7 @@ class Constants {
                   "ثم وُفدت بعد على معاوية فسمعته يأمر الناس بذلك.\n"
                   "وفي لفظ: (وكان ينهى عن قيل وقال، وإضاعة المال، وكثرة السؤال، وكان ينهى عن عقوق الأمهات، ووأد البنات، ومنع وهات).",
               hadethNumber: 125,
-              soundUrl: 'assets/sounds/125.ogg',
+              soundUrl: 'assets/$soundFolderName/125.$fileExtension',
               explainUrl: 'https://youtu.be/CycWXDSxJno?si=zYFoeNhNyE8TauvW',
             ),
             Hadeth(
@@ -1174,7 +1174,7 @@ class Constants {
                   "قال أبو صالح: فرجع فقراء المهاجرين فقالوا: سمع إخواننا أهل الأموال بما فعلنا ففعلوا مثله. فقال رسول الله ﷺ: «ذلك فضل الله يؤتيه من يشاء».\n\n"
                   "قال سُمي: فحدثت بعض أهلي هذا الحديث، فقال: وهمت، إنما قال لك: تسبح الله ثلاثًا وثلاثين، وتحمد الله ثلاثًا وثلاثين، وتكبر الله ثلاثًا وثلاثين، حتى تبلغ من جميعهن ثلاثًا وثلاثين.",
               hadethNumber: 126,
-              soundUrl: 'assets/sounds/126.ogg',
+              soundUrl: 'assets/$soundFolderName/126.$fileExtension',
               explainUrl: 'https://youtu.be/ZqvKEJZlCug?si=e6UYkj7rvbrdw9dw',
             ),
 
@@ -1182,7 +1182,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها: أن النبي ﷺ صلى في خميصة لها أعلام، فنظر إلى أعلامها نظرة، فلما انصرف قال: اذهبوا بخميصتي هذه إلى أبي جهم، وأتوني بأنبجانية أبي جهم، فإنها ألهتني آنفًا عن صلاتي.",
               hadethNumber: 127,
-              soundUrl: 'assets/sounds/127.ogg',
+              soundUrl: 'assets/$soundFolderName/127.$fileExtension',
               explainUrl: 'https://youtu.be/6sesAQkrViI?si=PPKV_704i8j3yfpw',
             ),
           ],
@@ -1194,7 +1194,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: «كان رسول الله ﷺ يجمع بين صلاة الظهر والعصر إذا كان على ظهر سير، ويجمع بين المغرب والعشاء».",
               hadethNumber: 128,
-              soundUrl: 'assets/sounds/128.ogg',
+              soundUrl: 'assets/$soundFolderName/128.$fileExtension',
               explainUrl: 'https://youtu.be/aQosvM04_xs?si=ozL3utO8ZPy4Qhnz',
             ),
           ],
@@ -1208,7 +1208,7 @@ class Constants {
                   "هذا هو لفظ رواية البخاري في الحديث.\n"
                   "وفي لفظ رواية مسلم: «أكثر وأزيد». ",
               hadethNumber: 129,
-              soundUrl: 'assets/sounds/129.ogg',
+              soundUrl: 'assets/$soundFolderName/129.$fileExtension',
               explainUrl: 'https://youtu.be/jjH39RYRptw?si=EChVgFkJeWLbk9_C',
             ),
           ],
@@ -1221,7 +1221,7 @@ class Constants {
                   "عن سهل بن سعد الساعدي رضي الله عنه قال: (رأيت رسول الله ﷺ قام عليه، فكبر وكبر الناس وراءه، وهو على المنبر، ثم رفع، فنزل القهقري حتى سجد في أصل المنبر، ثم عاد حتى فرغ من آخر صلاته، ثم أقبل على الناس فقال: أيها الناس، إنما صنعت هذا لتأتموا بي، ولتتعلموا صلاتي).\n\n"
                   "وفي لفظ: (صلى عليها، ثم كبر عليها، ثم ركع وهو عليها، ثم نزل القهقري).",
               hadethNumber: 130,
-              soundUrl: 'assets/sounds/130.ogg',
+              soundUrl: 'assets/$soundFolderName/130.$fileExtension',
               explainUrl: 'https://youtu.be/4gQMT5Ouq50?si=Yq3RHYYI9oZIPItl',
             ),
 
@@ -1229,7 +1229,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما: أن رسول الله ﷺ قال: «من جاء منكم الجمعة فليغتسل».",
               hadethNumber: 131,
-              soundUrl: 'assets/sounds/131.ogg',
+              soundUrl: 'assets/$soundFolderName/131.$fileExtension',
               explainUrl: 'https://youtu.be/dpa8y0p1kYA?si=V0xif1NxQZOEVab4',
             ),
 
@@ -1237,14 +1237,14 @@ class Constants {
               hadethText:
                   "وعنه رضي الله عنه قال: (كان النبي ﷺ يخطب خطبتين، وهو قائم، يفصل بينهما بجلوس).",
               hadethNumber: 132,
-              soundUrl: 'assets/sounds/132.ogg',
+              soundUrl: 'assets/$soundFolderName/132.$fileExtension',
               explainUrl: 'https://youtu.be/4xFnNuMmrtk?si=6OhLlDXwKNJecbZK',
             ),
             Hadeth(
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنه قال: (جاء رجل والنبي ﷺ يخطب الناس يوم الجمعة، فقال: صليت يا فلان؟ قال: لا. قال: قم فاركع ركعتين). وفي رواية: (فصل ركعتين).",
               hadethNumber: 133,
-              soundUrl: 'assets/sounds/133.ogg',
+              soundUrl: 'assets/$soundFolderName/133.$fileExtension',
               explainUrl: 'https://youtu.be/oYdMHkq2nCA?si=csxOyvWRhajzyjVT',
             ),
 
@@ -1252,7 +1252,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «إذا قلتَ لصاحبك: أنصت يوم الجمعة والإمام يخطب، فقد لغوت».",
               hadethNumber: 134,
-              soundUrl: 'assets/sounds/134.ogg',
+              soundUrl: 'assets/$soundFolderName/134.$fileExtension',
               explainUrl: 'https://youtu.be/2MQ5NfMZVwI?si=qx_Su0Py_H8FbhQT',
             ),
 
@@ -1260,7 +1260,7 @@ class Constants {
               hadethText:
                   "وعنه رضي الله عنه أن رسول الله ﷺ قال: «من اغتسل يوم الجمعة ثم راح، فكأنما قرب بدنة، ومن راح في الساعة الثانية فكأنما قرب بقرة، ومن راح في الساعة الثالثة فكأنما قرب كبشًا أقرن، ومن راح في الساعة الرابعة فكأنما قرب دجاجة، ومن راح في الساعة الخامسة فكأنما قرب بيضة، فإذا خرج الإمام حضرت الملائكة يستمعون الذكر».",
               hadethNumber: 135,
-              soundUrl: 'assets/sounds/135.ogg',
+              soundUrl: 'assets/$soundFolderName/135.$fileExtension',
               explainUrl: 'https://youtu.be/0-NPgyM7_yU?si=3iB2OrFHP6pGfXR2',
             ),
             Hadeth(
@@ -1268,7 +1268,7 @@ class Constants {
                   "عن سلمة بن الأكوع رضي الله عنه – وكان من أصحاب الشجرة – قال: (كنا نصلي مع النبي ﷺ الجمعة، ثم ننصرف وليس للحيطان ظل نستظل به).\n"
                   "وفي لفظ: (كنا نجمع مع رسول الله ﷺ إذا زالت الشمس، ثم نرجع نتتبع الفيء).",
               hadethNumber: 136,
-              soundUrl: 'assets/sounds/136.ogg',
+              soundUrl: 'assets/$soundFolderName/136.$fileExtension',
               explainUrl: 'https://youtu.be/PbOMg8QEmyo?si=mGB0qf9mS7elrRcD',
             ),
 
@@ -1276,7 +1276,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: (كان النبي ﷺ يقرأ في صلاة الفجر يوم الجمعة: ﴿الم تنزيل﴾ السجدة، و ﴿هل أتى على الإنسان﴾).",
               hadethNumber: 137,
-              soundUrl: 'assets/sounds/137.ogg',
+              soundUrl: 'assets/$soundFolderName/137.$fileExtension',
               explainUrl: 'https://youtu.be/JAb8vwAwPm4?si=twgE0TzjOcQGPi58',
             ),
           ],
@@ -1288,7 +1288,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما قال: «كان النبي ﷺ وأبو بكر وعمر رضي الله عنهما يصلون العيدين قبل الخطبة».",
               hadethNumber: 138,
-              soundUrl: 'assets/sounds/138.ogg',
+              soundUrl: 'assets/$soundFolderName/138.$fileExtension',
               explainUrl: 'https://youtu.be/61cRs08OAgo?si=enVLZHKy3ieq3t7W',
             ),
             Hadeth(
@@ -1297,14 +1297,14 @@ class Constants {
                   "فقال أبو بردة بن نيار – خال البراء بن عازب رضي الله عنه –: يا رسول الله، إني نسكت شاتي قبل الصلاة، وعرفت أن اليوم يوم أكل وشرب، وأحببت أن تكون شاتي أول ما يذبح في بيتي، فذبحت شاتي وتغديت قبل أن آتي الصلاة. فقال: شاتك شاة لحم.\n\n"
                   "قال: يا رسول الله، فإن عندي عناقًا هي أحب إلي من شاتين، أفتجزئ عني؟ قال: نعم، ولن تجزئ عن أحد بعدك.",
               hadethNumber: 139,
-              soundUrl: 'assets/sounds/139.ogg',
+              soundUrl: 'assets/$soundFolderName/139.$fileExtension',
               explainUrl: 'https://youtu.be/p8An0oZrq1E?si=khaMoWIIVgByouKr',
             ),
             Hadeth(
               hadethText:
                   "عن جندب بن عبد الله البجلي رضي الله عنه قال: «صلى النبي ﷺ يوم النحر، ثم خطب، ثم ذبح، وقال: من ذبح قبل أن يصلي، فليذبح أخرى مكانها، ومن لم يذبح، فليذبح باسم الله».",
               hadethNumber: 140,
-              soundUrl: 'assets/sounds/140.ogg',
+              soundUrl: 'assets/$soundFolderName/140.$fileExtension',
               explainUrl: 'https://youtu.be/dRZKg699MnM?si=LW5S3gqRGuKJPi0O',
             ),
             Hadeth(
@@ -1313,7 +1313,7 @@ class Constants {
                   "فقامت امرأة من سِطَة النساء سفعاء الخدين، فقالت: لِمَ يا رسول الله؟!\n"
                   "قال: «لأنكن تكثرن الشكاة، وتكفرن العشير». قال: فجعلن يتصدقن من حليهن، يلقين في ثوب بلال من أقرطتهن وخواتمهن.",
               hadethNumber: 141,
-              soundUrl: 'assets/sounds/141.ogg',
+              soundUrl: 'assets/$soundFolderName/141.$fileExtension',
               explainUrl: 'https://youtu.be/GQGEbSsYz9I?si=jgHqhv57QZplMTtK',
             ),
             Hadeth(
@@ -1321,7 +1321,7 @@ class Constants {
                   "عن أم عطية نسيبة الأنصارية رضي الله عنها قالت: «أمرنا – تعني النبي ﷺ – أن نخرج في العيدين العواتق وذوات الخدور، وأمر الحيض أن يعتزلن مصلى المسلمين».\n\n"
                   "وفي لفظ: «كنا نؤمر أن نخرج يوم العيد، حتى نخرج البكر من خدرها، حتى تخرج الحيض، فيكن خلف الناس، فيكبرن بتكبيرهم، ويدعون بدعائهم، يرجون بركة ذلك اليوم وطهرته».",
               hadethNumber: 142,
-              soundUrl: 'assets/sounds/142.ogg',
+              soundUrl: 'assets/$soundFolderName/142.$fileExtension',
               explainUrl: 'https://youtu.be/cnJZqsJc7lA?si=aetVoNvOOgtGUBUH',
             ),
           ],
@@ -1333,7 +1333,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها: أن الشمس خسفت على عهد رسول الله ﷺ، فبعث مناديًا ينادي: الصلاة جامعة، فاجتمعوا، وتقدم فكبر، وصلى أربع ركعات في ركعتين، وأربع سجدات.",
               hadethNumber: 143,
-              soundUrl: 'assets/sounds/143.ogg',
+              soundUrl: 'assets/$soundFolderName/143.$fileExtension',
               explainUrl: 'https://youtu.be/1fN_BdwCaFQ?si=Qvyk_ZXOkuOMNov1',
             ),
 
@@ -1341,7 +1341,7 @@ class Constants {
               hadethText:
                   "عن أبي مسعود عقبة بن عمرو الأنصاري البدري رضي الله عنه قال: قال رسول الله ﷺ: «إن الشمس والقمر آيتان من آيات الله، يخوف الله بهما عباده، وإنهما لا ينكسفان لموت أحد من الناس، فإذا رأيتم منها شيئًا فصلوا وادعوا حتى ينكشف ما بكم».",
               hadethNumber: 144,
-              soundUrl: 'assets/sounds/144.ogg',
+              soundUrl: 'assets/$soundFolderName/144.$fileExtension',
               explainUrl: 'https://youtu.be/03Rzy5GNPpA?si=6Okx7oJjbDAgS1AH',
             ),
             Hadeth(
@@ -1350,14 +1350,14 @@ class Constants {
                   "ثم قال: «يا أمة محمد! والله! ما من أحد أغير من الله أن يزني عبده، أو تزني أمته. يا أمة محمد! والله! لو تعلمون ما أعلم لضحكتم قليلًا ولبكيتم كثيرًا».\n\n"
                   "وفي لفظ: «فأستكمل أربع ركعات وأربع سجدات».",
               hadethNumber: 145,
-              soundUrl: 'assets/sounds/145.ogg',
+              soundUrl: 'assets/$soundFolderName/145.$fileExtension',
               explainUrl: 'https://youtu.be/2EZOfjSVbhA?si=fHRUtEJFfXB7xNk0',
             ),
             Hadeth(
               hadethText:
                   "عن أبي موسى رضي الله عنه قال: «خسفت الشمس في زمن رسول الله ﷺ، فقام فزعًا يخشى أن تكون الساعة، حتى أتى المسجد، فقام فصلى بأطول قيام وركوع وسجود، ما رأيته يفعله في صلاة قط. ثم قال: إن هذه الآيات التي يرسلها الله لا تكون لموت أحد ولا لحياته، ولكن الله ﷺ يرسلها يخوف بها عباده، فإذا رأيتم منها شيئًا فافزعوا إلى ذكره، ودعائه، واستغفاره».",
               hadethNumber: 146,
-              soundUrl: 'assets/sounds/146.ogg',
+              soundUrl: 'assets/$soundFolderName/146.$fileExtension',
               explainUrl: 'https://youtu.be/1zWVdpDOjy4?si=Dz-RlSGun-VpgHs7',
             ),
           ],
@@ -1369,7 +1369,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن زيد بن عاصم المازني رضي الله عنه قال: «خرج النبي ﷺ يستسقي، فتوجه إلى القبلة يدعو، وحول رداءه، ثم صلى ركعتين، جهر فيهما بالقراءة». وفي لفظ: «إلى المصلى».",
               hadethNumber: 147,
-              soundUrl: 'assets/sounds/147.ogg',
+              soundUrl: 'assets/$soundFolderName/147.$fileExtension',
               explainUrl: 'https://youtu.be/aRpdR0xCZeY?si=nQg2juRxheHHnqdf',
             ),
             Hadeth(
@@ -1378,7 +1378,7 @@ class Constants {
                   "قال: ثم دخل رجل من ذلك الباب في الجمعة المقبلة، ورسول الله ﷺ قائم يخطب، فاستقبله قائمًا، فقال: يا رسول الله! هلكت الأموال، وانقطعت السبل، فادع الله يمسكها عنا. قال: فرفع رسول الله ﷺ يديه ثم قال: اللهم حوالينا ولا علينا، اللهم على الآكام والظراب وبطون الأودية ومنابت الشجر. قال: فأقلعت، وخرجنا نمشي في الشمس.\n\n"
                   "قال شريك: فسألت أنس بن مالك: أهو الرجل الأول؟ قال: لا أدري. والظراب: الجبال الصغار.",
               hadethNumber: 148,
-              soundUrl: 'assets/sounds/148.ogg',
+              soundUrl: 'assets/$soundFolderName/148.$fileExtension',
               explainUrl: 'https://youtu.be/xj0vZHOc7lQ?si=KdLVy-DRto7dVxZD',
             ),
           ],
@@ -1390,21 +1390,21 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر بن الخطاب رضي الله عنهما قال: «صلى رسول الله ﷺ صلاة الخوف في بعض أيامه، فقامت طائفة معه، وطائفة بإزاء العدو، فصلى بالذين معه ركعة، ثم ذهبوا، وجاء الآخرون فصلى بهم ركعة، وقضت الطائفتان ركعة ركعة».",
               hadethNumber: 149,
-              soundUrl: 'assets/sounds/149.ogg',
+              soundUrl: 'assets/$soundFolderName/149.$fileExtension',
               explainUrl: 'https://youtu.be/5fkJBe64efQ?si=StgqEQls_T-VMGV8',
             ),
             Hadeth(
               hadethText:
                   "عن يزيد بن رومان، عن صالح بن خوات بن جبير، عمّن صلى مع رسول الله ﷺ صلاة ذات الرقاع؛ صلاة الخوف: «أن طائفة صفت معه، وطائفة وجاه العدو، فصلى بالذين معه ركعة، ثم ثبت قائمًا، وأتموا لأنفسهم، ثم انصرفوا فصفوا وجاه العدو، وجاءت الطائفة الأخرى، فصلى بهم الركعة التي بقيت، ثم ثبت جالسًا، وأتموا لأنفسهم، ثم سلم بهم». قال: الذي صلى مع رسول الله ﷺ هو سهل بن أبي حثمة.",
               hadethNumber: 150,
-              soundUrl: 'assets/sounds/150.ogg',
+              soundUrl: 'assets/$soundFolderName/150.$fileExtension',
               explainUrl: 'https://youtu.be/t_cldZfHd6o?si=xKd4jkghvSbtVZlo',
             ),
             Hadeth(
               hadethText:
                   "عن جابر بن عبد الله الأنصاري رضي الله عنه قال: «شهدت مع رسول الله ﷺ صلاة الخوف، فصففنا صفين خلف رسول الله ﷺ، والعدو بيننا وبين القبلة، فكبر النبي ﷺ وكبرنا جميعًا، ثم ركع وركعنا جميعًا، ثم رفع رأسه من الركوع ورفعنا جميعًا، ثم انحدر بالسجود والصف الذي يليه، وقام الصف المؤخر في نحر العدو، فلما قضى النبي ﷺ السجود، قام الصف الذي يليه، فانحدر الصف المؤخر بالسجود، وقاموا. ثم تقدم الصف المؤخر وتأخر الصف المقدم. ثم ركع النبي ﷺ وركعنا جميعًا، ثم رفع رأسه من الركوع ورفعنا جميعًا. ثم انحدر بالسجود والصف الذي يليه، والصف المؤخر الذي كان مؤخرًا في الركعة الأولى، فقام الصف المؤخر في نحر العدو، فلما قضى النبي ﷺ السجود والصف الذي يليه، انحدر الصف المؤخر بالسجود، فسجدوا. ثم سلم النبي ﷺ وسلمنا جميعًا». قال جابر: كما يصنع حرسكم هؤلاء بأمرائهم. ذكره مسلم بتمامه. وذكر البخاري طرفًا منه: «وأنه صلى صلاة الخوف مع النبي ﷺ في الغزوة السابعة، غزوة ذات الرقاع».",
               hadethNumber: 151,
-              soundUrl: 'assets/sounds/151.ogg',
+              soundUrl: 'assets/$soundFolderName/151.$fileExtension',
               explainUrl: 'https://youtu.be/v6lCrmaTtzo?si=JP27h8JljFRYTTmx',
             ),
           ],
@@ -1423,28 +1423,28 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: نعى النبي ﷺ النجاشي في اليوم الذي مات فيه، وخرج بهم إلى المصلى، فصف بهم، وكبر أربعًا.",
               hadethNumber: 152,
-              soundUrl: 'assets/sounds/152.ogg',
+              soundUrl: 'assets/$soundFolderName/152.$fileExtension',
               explainUrl: 'https://youtu.be/PaXnEjXEpZ8?si=s4_TUyCSnTJqSVCu',
             ),
             Hadeth(
               hadethText:
                   "عن جابر رضي الله عنه: أن النبي ﷺ صلى على النجاشي، فكنت في الصف الثاني أو الثالث.",
               hadethNumber: 153,
-              soundUrl: 'assets/sounds/153.ogg',
+              soundUrl: 'assets/$soundFolderName/153.$fileExtension',
               explainUrl: 'https://youtu.be/D1lb7MoCDW0?si=-akFaZ9P8JjFSulm',
             ),
             Hadeth(
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما: أن رسول الله ﷺ صلى على قبر بعدما دُفن، فكبر عليه أربعًا.",
               hadethNumber: 154,
-              soundUrl: 'assets/sounds/154.ogg',
+              soundUrl: 'assets/$soundFolderName/154.$fileExtension',
               explainUrl: 'https://youtu.be/EgSbBjfgxWM?si=85HbTEb6fSyGVlIK',
             ),
             Hadeth(
               hadethText:
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ كُفّن في ثلاثة أثواب بيض يمانية، ليس فيها قميص ولا عمامة.",
               hadethNumber: 155,
-              soundUrl: 'assets/sounds/155.ogg',
+              soundUrl: 'assets/$soundFolderName/155.$fileExtension',
               explainUrl: 'https://youtu.be/k3ZzrnYWc8I?si=xCycCZb5LS1iNY7g',
             ),
           ],
@@ -1457,7 +1457,7 @@ class Constants {
               hadethText:
                   "عن أم عطية الأنصارية رضي الله عنها قالت: دخل علينا رسول الله ﷺ حين تُوفيت ابنته، فقال: «اغسِلْنَها ثلاثًا أو خمسًا أو أكثر من ذلك إن رأيتن ذلك، بماءٍ وسِدر، واجعلن في الآخرة كافورًا أو شيئًا من كافور، فإذا فرغتن فآذنَّني». فلما فرغنا ألقى إلينا حِقوه فقال: «أشْعِرْنَها إياه». وفي رواية: «أو سبعًا». قالت: وقال: «ابدأنَ بميامنها ومواضع الوضوء منها». قالت أم عطية: (وجعلنا رأسها ثلاثة قرون) أو قالت: (ضفائر).",
               hadethNumber: 156,
-              soundUrl: 'assets/sounds/156.ogg',
+              soundUrl: 'assets/$soundFolderName/156.$fileExtension',
               explainUrl: 'https://youtu.be/TeUrMNrNiA0?si=XtM8mJsiLiSKsVuz',
             ),
 
@@ -1465,7 +1465,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: بينما رجل واقف بعرفة إذ وقع عن راحلته فوقصته – أو قال: فأوقصته – فقال رسول الله ﷺ: «اغسلوه بماءٍ وسِدر، وكفِّنوه في ثوبَيه، ولا تُحنِّطوه، ولا تُخمِّروا رأسه، فإنه يُبعث يوم القيامة مُلبِّيًا». وفي رواية: «ولا تُخمِّروا وجهه ولا رأسه».",
               hadethNumber: 157,
-              soundUrl: 'assets/sounds/157.ogg',
+              soundUrl: 'assets/$soundFolderName/157.$fileExtension',
               explainUrl: 'https://youtu.be/G8RbCV6ZYVQ?si=Tet30hFMEkF0GHV1',
             ),
           ],
@@ -1478,7 +1478,7 @@ class Constants {
               hadethText:
                   "عن أم عطية الأنصارية رضي الله عنها قالت: «نُهِينا عن اتباع الجنائز، ولم يُعزم علينا».",
               hadethNumber: 158,
-              soundUrl: 'assets/sounds/158.ogg',
+              soundUrl: 'assets/$soundFolderName/158.$fileExtension',
               explainUrl: 'https://youtu.be/aOs9XXWalY0?si=93sz3gwf6ROtG806',
             ),
 
@@ -1486,7 +1486,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «أَسْرِعوا بالجِنازة؛ فإن تَكُ صالحةً فخيرٌ تُقدَّمونها إليه، وإن تَكُ سوى ذلك فشرٌّ تضعونه عن رقابكم».",
               hadethNumber: 159,
-              soundUrl: 'assets/sounds/159.ogg',
+              soundUrl: 'assets/$soundFolderName/159.$fileExtension',
               explainUrl: 'https://youtu.be/6LaRMv7HW_U?si=1JHQjG-1gbka49YD',
             ),
 
@@ -1494,7 +1494,7 @@ class Constants {
               hadethText:
                   "عن سَمُرَة بن جندب رضي الله عنه قال: «صليتُ وراء النبي ﷺ على امرأة ماتت في نِفاسها، فقام وسطها».",
               hadethNumber: 160,
-              soundUrl: 'assets/sounds/160.ogg',
+              soundUrl: 'assets/$soundFolderName/160.$fileExtension',
               explainUrl: 'https://youtu.be/pwkLzoIQSbs?si=N4oZi8PfKt7WIGUb',
             ),
           ],
@@ -1507,7 +1507,7 @@ class Constants {
               hadethText:
                   "عن أبي موسى عبد الله بن قيس رضي الله عنه: أن رسول الله ﷺ بَرِئ من الصالِقَة والحالِقَة والشاقَّة. الصالِقَة: التي ترفع صوتها عند المصيبة.",
               hadethNumber: 161,
-              soundUrl: 'assets/sounds/161.ogg',
+              soundUrl: 'assets/$soundFolderName/161.$fileExtension',
               explainUrl: 'https://youtu.be/7qbcCrKUHTs?si=j7we_1HZiPmjUqds',
             ),
 
@@ -1515,7 +1515,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها قالت: لما شُكِي النبي ﷺ ذكر بعض نسائه كنيسة رأينها بأرض الحبشة يُقال لها: مارية، وكانت أم سلمة وأم حبيبة قد أتتا أرض الحبشة، فذكرتا من حسنها وتصاوير فيها. فرفع رأسه فقال: أولئك إذا مات فيهم الرجل الصالح بنوا على قبره مسجدًا، ثم صوروا فيه تلك الصور، أولئك شرار الخلق عند الله.",
               hadethNumber: 162,
-              soundUrl: 'assets/sounds/162.ogg',
+              soundUrl: 'assets/$soundFolderName/162.$fileExtension',
               explainUrl: 'https://youtu.be/pAsyV0vAbWc?si=LHAAufHpMGykcYF9',
             ),
 
@@ -1523,7 +1523,7 @@ class Constants {
               hadethText:
                   "وعنها رضي الله عنها قالت: قال رسول الله ﷺ في مرضه الذي لم يقم منه: لعن الله اليهود والنصارى اتخذوا قبور أنبيائهم مساجد. قالت: ولولا ذلك أُبرِز قبره غير أنه خشي أن يُتخذ مسجدًا.",
               hadethNumber: 163,
-              soundUrl: 'assets/sounds/163.ogg',
+              soundUrl: 'assets/$soundFolderName/163.$fileExtension',
               explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
               isOthimieen: false,
             ),
@@ -1532,7 +1532,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن مسعود رضي الله عنه، عن النبي ﷺ قال: ليس منا من ضرب الخدود، وشق الجيوب، ودعا بدعوى الجاهلية.",
               hadethNumber: 164,
-              soundUrl: 'assets/sounds/164.ogg',
+              soundUrl: 'assets/$soundFolderName/164.$fileExtension',
               explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
               isOthimieen: false,
             ),
@@ -1546,7 +1546,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: من شهد الجنازة حتى يُصلَّى عليها فله قيراط، ومن شهدها حتى تُدفن فله قيراطان. قيل: وما القيراطان؟ قال: مثل الجبلين العظيمين. ولِمسلم: أصغرهما مثل أُحُد.",
               hadethNumber: 165,
-              soundUrl: 'assets/sounds/165.ogg',
+              soundUrl: 'assets/$soundFolderName/165.$fileExtension',
               explainUrl: 'https://youtu.be/lvJDzJAkiG8?si=Lu5Ipr_AonYVsivr',
               isOthimieen: false,
             ),
@@ -1566,7 +1566,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله ﷺ لمعاذ بن جبل رضي الله عنه حين بعثه إلى اليمن: «إنك ستأتي قوماً أهل كتاب، فإذا جئتهم فادعهم إلى أن يشهدوا أن لا إله إلا الله، وأن محمداً رسول الله. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم خمس صلوات في كل يوم وليلة. فإن هم أطاعوك لذلك، فأعلمهم أن الله قد فرض عليهم صدقة تؤخذ من أغنيائهم فترد على فقرائهم. فإن هم أطاعوك لذلك، فإياك وكرائم أموالهم، واتق دعوة المظلوم؛ فإنها ليس بينها وبين الله حجاب».",
               hadethNumber: 166,
-              soundUrl: 'assets/sounds/166.ogg',
+              soundUrl: 'assets/$soundFolderName/166.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
@@ -1579,7 +1579,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيد الخدري رضي الله عنه قال: قال رسول الله ﷺ: «ليس فيما دون خمس أواق صدقة، وليس فيما دون خمس ذود صدقة، وليس فيما دون خمسة أوسق صدقة».",
               hadethNumber: 167,
-              soundUrl: 'assets/sounds/167.ogg',
+              soundUrl: 'assets/$soundFolderName/167.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
@@ -1587,7 +1587,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «ليس على المسلم في عبده ولا فرسه صدقة». وفي لفظ: «إلا زكاة الفطر في الرقيق».",
               hadethNumber: 168,
-              soundUrl: 'assets/sounds/168.ogg',
+              soundUrl: 'assets/$soundFolderName/168.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
@@ -1600,7 +1600,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «العجماء جُبار، والبئر جُبار، والمعدن جُبار، وفي الركاز الخمس». \n\nالجُبار: الهدر الذي لا شيء فيه. \nوالعجماء: الدابة.",
               hadethNumber: 169,
-              soundUrl: 'assets/sounds/169.ogg',
+              soundUrl: 'assets/$soundFolderName/169.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
@@ -1613,7 +1613,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: «بعث رسول الله ﷺ عمر رضي الله عنه على الصدقة، فقيل: منع ابن جميل وخالد بن الوليد والعباس عم رسول الله ﷺ. فقال رسول الله ﷺ: ما ينقم ابن جميل إلا أن كان فقيراً فأغناه الله؟ وأما خالد فإنكم تظلمون خالداً، فقد احتبس أدرَاعه وأعتاده في سبيل الله. وأما العباس فهي عليَّ ومثلها». ثم قال: «يا عمر! أما شعرت أن عم الرجل صنو أبيه؟».",
               hadethNumber: 170,
-              soundUrl: 'assets/sounds/170.ogg',
+              soundUrl: 'assets/$soundFolderName/170.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=K8aMh4tKc36X8B_V',
               isOthimieen: false,
             ),
@@ -1626,7 +1626,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن زيد بن عاصم رضي الله عنه قال: لما أفاء الله على رسوله ﷺ يوم حنين، قسم في الناس وفي المؤلفة قلوبهم، ولم يعطِ الأنصار شيئاً، فكأنهم وجدوا إذ لم يصبهم ما أصاب الناس، فخطبهم فقال: «يا معشر الأنصار! ألم أجدكم ضُلّالاً فهداكم الله بي؟ وكنتم متفرقين فألّفكم الله بي؟ وعالة فأغناكم الله بي؟». كلما قال شيئاً قالوا: الله ورسوله أمَنّ. قال: «ما يمنعكم أن تجيبوا رسول الله؟» قالوا: الله ورسوله أمَنّ. قال: «لو شئتم لقلتم: جئتنا كذا وكذا، ألا ترضون أن يذهب الناس بالشاة والبعير، وتذهبون بالنبي ﷺ إلى رحالكم؟ لولا الهجرة لكنت امرأً من الأنصار، ولو سلك الناس وادياً وشِعباً لسلكت وادي الأنصار وشِعبها. الأنصار شعار، والناس دِثار. إنكم ستلقون بعدي أثرة، فاصبروا حتى تلقوني على الحوض».",
               hadethNumber: 171,
-              soundUrl: 'assets/sounds/171.ogg',
+              soundUrl: 'assets/$soundFolderName/171.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=5UdehIIczKd7Eh2Q',
               isOthimieen: false,
             ),
@@ -1639,7 +1639,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما قال: «فرض النبي ﷺ صدقة الفطر – أو قال: رمضان – على الذكر والأنثى، والحر والمملوك، صاعاً من تمر، أو صاعاً من شعير. فعدل الناس به نصف صاع من بُرّ، على الصغير والكبير». \nوفي لفظ: «أن تؤدّى قبل خروج الناس إلى الصلاة».",
               hadethNumber: 172,
-              soundUrl: 'assets/sounds/172.ogg',
+              soundUrl: 'assets/$soundFolderName/172.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=EPzDPUStYrV2Sp3t',
               isOthimieen: false,
             ),
@@ -1647,7 +1647,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيد الخدري رضي الله عنه قال: «كنا نُعطيها في زمان النبي ﷺ صاعاً من طعام، أو صاعاً من تمر، أو صاعاً من شعير، أو صاعاً من أقط، أو صاعاً من زبيب. فلما جاء معاوية – وجاءت السمراء – قال: أرى مُداً من هذا يعدل مدّين». قال أبو سعيد: «أما أنا؛ فلا أزال أخرجه كما كنت أخرجه».",
               hadethNumber: 173,
-              soundUrl: 'assets/sounds/173.ogg',
+              soundUrl: 'assets/$soundFolderName/173.$fileExtension',
               explainUrl: 'https://youtu.be/ekn2RAEeFqs?si=EPzDPUStYrV2Sp3t',
               isOthimieen: false,
             ),
@@ -1667,7 +1667,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «لا تقدموا رمضان بصوم يوم ولا يومين، إلا رجلاً كان يصوم صوماً فليصمه».",
               hadethNumber: 174,
-              soundUrl: 'assets/sounds/174.ogg',
+              soundUrl: 'assets/$soundFolderName/174.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1681,7 +1681,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما قال: سمعت رسول الله ﷺ يقول: «إذا رأيتموه فصوموا، وإذا رأيتموه فأفطروا، فإن غمّ عليكم فاقدروا له».",
               hadethNumber: 175,
-              soundUrl: 'assets/sounds/175.ogg',
+              soundUrl: 'assets/$soundFolderName/175.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1695,7 +1695,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ: «تسحروا فإن في السحور بركة».",
               hadethNumber: 176,
-              soundUrl: 'assets/sounds/176.ogg',
+              soundUrl: 'assets/$soundFolderName/176.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1703,7 +1703,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك، عن زيد بن ثابت رضي الله عنه قال: «تسحرنا مع رسول الله ﷺ، ثم قام إلى الصلاة». قال أنس: قلت: كم كان بين الأذان والسحور؟ قال: «قدر خمسين آية».",
               hadethNumber: 177,
-              soundUrl: 'assets/sounds/177.ogg',
+              soundUrl: 'assets/$soundFolderName/177.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1717,7 +1717,7 @@ class Constants {
               hadethText:
                   "عن عائشة، وأم سلمة رضي الله عنهما: أن رسول الله ﷺ كان يدركه الفجر وهو جنب من أهله، ثم يغتسل ويصوم.",
               hadethNumber: 178,
-              soundUrl: 'assets/sounds/178.ogg',
+              soundUrl: 'assets/$soundFolderName/178.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1731,7 +1731,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «من نسي وهو صائم فأكل أو شرب، فليتم صومه، فإنما أطعمه الله وسقاه».",
               hadethNumber: 179,
-              soundUrl: 'assets/sounds/179.ogg',
+              soundUrl: 'assets/$soundFolderName/179.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1745,7 +1745,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: «بينما نحن جلوس عند النبي ﷺ إذ جاءه رجل، فقال: يا رسول الله، هلكت! قال: ما لك؟ قال: وقعت على امرأتي وأنا صائم – وفي رواية: أصبت أهلي في رمضان – فقال رسول الله ﷺ: هل تجد رقبة تعتقها؟ قال: لا. قال: فهل تستطيع أن تصوم شهرين متتابعين؟ قال: لا. قال: فهل تجد إطعام ستين مسكيناً؟ قال: لا. قال: فمكث النبي ﷺ، فبينما نحن على ذلك أُتي النبي ﷺ بعرق فيه تمر – والعرق: المكتل – قال: أين السائل؟ قال: أنا. قال: خذ هذا فتصدق به. فقال الرجل: على أفقر مني يا رسول الله؟ فوالله ما بين لابتيها أهل بيت أفقر من أهلي! فضحك النبي ﷺ حتى بدت أنيابه، ثم قال: أطعمه أهلك».",
               hadethNumber: 180,
-              soundUrl: 'assets/sounds/180.ogg',
+              soundUrl: 'assets/$soundFolderName/180.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=jS-2qOV2e0h-Ertk',
               isOthimieen: false,
             ),
@@ -1758,7 +1758,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها: أن حمزة بن عمرو الأسلمي رضي الله عنه قال للنبي ﷺ: أصوم في السفر؟ وكان كثير الصيام، فقال: «إن شئتَ فصُم، وإن شئتَ فأفطر».",
               hadethNumber: 181,
-              soundUrl: 'assets/sounds/181.ogg',
+              soundUrl: 'assets/$soundFolderName/181.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1767,7 +1767,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك رضي الله عنه قال: «كنا نسافر مع النبي ﷺ فلم يعب الصائم على المفطر، ولا المفطر على الصائم».",
               hadethNumber: 182,
-              soundUrl: 'assets/sounds/182.ogg',
+              soundUrl: 'assets/$soundFolderName/182.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1776,7 +1776,7 @@ class Constants {
               hadethText:
                   "عن أبي الدرداء رضي الله عنه قال: «خرجنا مع رسول الله ﷺ في شهر رمضان في حر شديد، حتى إن كان أحدنا ليضع يده على رأسه من شدة الحر، وما فينا صائم إلا رسول الله ﷺ وعبد الله بن رواحة».",
               hadethNumber: 183,
-              soundUrl: 'assets/sounds/183.ogg',
+              soundUrl: 'assets/$soundFolderName/183.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1785,7 +1785,7 @@ class Constants {
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنهما قال: «كان رسول الله ﷺ في سفر فرأى زحاماً ورجلاً قد ظلَّل عليه، فقال: ما هذا؟ قالوا: صائم. فقال: ليس من البر الصوم في السفر».",
               hadethNumber: 184,
-              soundUrl: 'assets/sounds/184.ogg',
+              soundUrl: 'assets/$soundFolderName/184.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1794,7 +1794,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك رضي الله عنه قال: «كنا مع النبي ﷺ في السفر فينا الصائم، وفينا المفطر، قال: فنزلنا منزلاً في يوم حار، وأكثرنا ظلاً صاحب الكساء، ومنا من يتقي الشمس بيده. قال: فسقط الصوم، وقام المفطرون فضربوا الأبنية وسقوا الركاب، فقال رسول الله ﷺ: «ذهب المفطرون اليوم بالأجر».",
               hadethNumber: 185,
-              soundUrl: 'assets/sounds/185.ogg',
+              soundUrl: 'assets/$soundFolderName/185.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1803,7 +1803,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها قالت: «كان يكون عليَّ الصوم من رمضان، فما أستطيع أن أقضيه إلا في شعبان».",
               hadethNumber: 186,
-              soundUrl: 'assets/sounds/186.ogg',
+              soundUrl: 'assets/$soundFolderName/186.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1812,7 +1812,7 @@ class Constants {
               hadethText:
                   "عن عائشة رضي الله عنها أن رسول الله ﷺ قال: «من مات وعليه صيام، صام عنه وليه». وأخرجه أبو داود وقال: «هذا في النذر»، وهو قول أحمد بن حنبل.",
               hadethNumber: 187,
-              soundUrl: 'assets/sounds/187.ogg',
+              soundUrl: 'assets/$soundFolderName/187.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1821,7 +1821,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: «جاء رجل إلى النبي ﷺ فقال: يا رسول الله! إن أمي ماتت وعليها صوم شهر، أفأقضيه عنها؟ فقال: لو كان على أمك دين أكنت قاضيه عنها؟ قال: نعم. قال: فدين الله أحق أن يُقضى». \nوفي رواية: «جاءت امرأة إلى رسول الله ﷺ فقالت: يا رسول الله! إن أمي ماتت وعليها صوم نذر، أفأصوم عنها؟ فقال: أرأيت لو كان على أمك دين فقضيتيه، أكان ذلك يؤدي عنها؟ قالت: نعم. قال: فصومي عن أمك».",
               hadethNumber: 188,
-              soundUrl: 'assets/sounds/188.ogg',
+              soundUrl: 'assets/$soundFolderName/188.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1830,7 +1830,7 @@ class Constants {
               hadethText:
                   "عن سهل بن سعد الساعدي رضي الله عنه: قال رسول الله ﷺ: «لا يزال الناس بخير ما عَجّلوا الفطر».",
               hadethNumber: 189,
-              soundUrl: 'assets/sounds/189.ogg',
+              soundUrl: 'assets/$soundFolderName/189.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1839,7 +1839,7 @@ class Constants {
               hadethText:
                   "عن عمر بن الخطاب رضي الله عنه: قال رسول الله ﷺ: «إذا أقبل الليل من هاهنا، وأدبر النهار من هاهنا، فقد أفطر الصائم».",
               hadethNumber: 190,
-              soundUrl: 'assets/sounds/190.ogg',
+              soundUrl: 'assets/$soundFolderName/190.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1848,7 +1848,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما: قال رسول الله ﷺ: «نَهَى رسول الله ﷺ عن الوصال: أن يتواصل فيه الإنسان طعامه وشرابه». رواه أبو هريرة، وعائشة، وأنس بن مالك، ولمسلم عن أبي سعيد الخدري: «فَإِن كتمتم أُرديتم إلى السَحَر».",
               hadethNumber: 191,
-              soundUrl: 'assets/sounds/191.ogg',
+              soundUrl: 'assets/$soundFolderName/191.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1861,7 +1861,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمروِ بنِ العاصِ رضي الله عنهما قال: أُخبرَ رسولُ اللهِ ﷺ أني أقول: واللهِ لأصومنَّ النهارَ، ولأقومنَّ الليلَ ما عشتُ. فقلتُ له: قد قلتُهُ بأبي أنتَ وأمي. \nقال: فإنك لا تستطيعُ ذلك، فصمْ وأفطِر، وقمْ ونَمْ، وصمْ من الشهرِ ثلاثةَ أيامٍ، فإن الحسنةَ بعشرِ أمثالِها، وذلكَ مثلُ صيامِ الدهرِ.\nقلتُ: فإني أطيقُ أفضلَ من ذلك.\nقال: فصمْ يومًا وأفطِرْ يومين.\nقلتُ: إني أُطيقُ أفضلَ من ذلك.\nقال: فصمْ يومًا وأفطِرْ يومًا، فذلكَ صيامُ داودَ عليهِ السلامُ، وهوَ أفضلُ الصيامِ.\nوفي روايةٍ: «لا صومَ فوقَ صومِ داودَ؛ شطرُ الدهرِ؛ صمْ يومًا وأفطِرْ يومًا».",
               hadethNumber: 192,
-              soundUrl: 'assets/sounds/192.ogg',
+              soundUrl: 'assets/$soundFolderName/192.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1870,7 +1870,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمرو رضي الله عنه قال: قال رسول الله ﷺ: «إن أحب الصيام إلى الله صيام داود، وأحب الصلاة إلى الله صلاة داود؛ كان ينام نصف الليل، ويقوم ثلثه، وينام سدسه. وكان يصوم يوماً ويفطر يوماً».",
               hadethNumber: 193,
-              soundUrl: 'assets/sounds/193.ogg',
+              soundUrl: 'assets/$soundFolderName/193.$fileExtension',
               explainUrl:
                   'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b', // You can update when ready
               isOthimieen: false,
@@ -1879,7 +1879,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: قال رسول الله ﷺ: «أوصاني خليلي بثلاث: صيام ثلاثة أيام من كل شهر، وركعتي الضحى، وأن أوتر قبل أن أنام».",
               hadethNumber: 194,
-              soundUrl: 'assets/sounds/194.ogg',
+              soundUrl: 'assets/$soundFolderName/194.$fileExtension',
               explainUrl:
                   'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b', // Use until you provide another
               isOthimieen: false,
@@ -1888,7 +1888,7 @@ class Constants {
               hadethText:
                   "عن محمد بن عباد بن جعفر قال: سألت جابر بن عبد الله رضي الله عنهما: «أنهى النبي ﷺ عن صوم يوم الجمعة؟» قال: «نعم». زاد مسلم: «ورب الكعبة!».",
               hadethNumber: 195,
-              soundUrl: 'assets/sounds/195.ogg',
+              soundUrl: 'assets/$soundFolderName/195.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1896,7 +1896,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه قال: سمعت النبي ﷺ يقول: «لا يصومن أحدكم يوم الجمعة؛ إلا أن يصوم يوماً قبله، أو يوماً بعده».",
               hadethNumber: 196,
-              soundUrl: 'assets/sounds/196.ogg',
+              soundUrl: 'assets/$soundFolderName/196.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1904,7 +1904,7 @@ class Constants {
               hadethText:
                   "عن أبي عبيد مولى ابن أزهر – واسمه: سعد بن عبيد – قال: «شهدتُ العيد مع عمر بن الخطاب، فقال: هذان يومان نهى رسول الله ﷺ عن صيامهما: يوم فطركم من صيامكم، واليوم الآخر تأكلون فيه من نسككم».",
               hadethNumber: 197,
-              soundUrl: 'assets/sounds/197.ogg',
+              soundUrl: 'assets/$soundFolderName/197.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1912,7 +1912,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيدٍ الخُدريِّ رضي الله عنه قال: «نهى رسولُ الله ﷺ عن صومِ يومَينِ: الفِطرِ والنَّحرِ، وعنِ الصَّماءِ، وأنْ يَختَصَّ الرَّجلُ في ثَوبٍ واحدٍ، وعنِ الصَّلاةِ بعدَ الصُّبحِ والعَصرِ».",
               hadethNumber: 198,
-              soundUrl: 'assets/sounds/198.ogg',
+              soundUrl: 'assets/$soundFolderName/198.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1920,7 +1920,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيدٍ الخُدريِّ رضي الله عنه قال: قال رسولُ اللهِ ﷺ: «مَن صَامَ يَومًا في سَبيلِ اللهِ؛ بَعَّدَ اللهُ وَجْهَهُ عَنِ النَّارِ سَبعينَ خَريفًا».",
               hadethNumber: 199,
-              soundUrl: 'assets/sounds/199.ogg',
+              soundUrl: 'assets/$soundFolderName/199.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1933,7 +1933,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ رجالًا من أصحابِ النبيِّ ﷺ أُرُوا ليلةَ القدرِ في المنامِ في السَّبعِ الأواخرِ، فقال رسولُ اللهِ ﷺ: أرى رُؤياكم قد تواطأتْ في السَّبعِ الأواخرِ، فمن كان متحرِّيَها، فليتحرَّها في السَّبعِ الأواخرِ».",
               hadethNumber: 200,
-              soundUrl: 'assets/sounds/200.ogg',
+              soundUrl: 'assets/$soundFolderName/200.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1941,7 +1941,7 @@ class Constants {
               hadethText:
                   "عن عائشةَ رضي الله عنها أنَّ رسولَ اللهِ ﷺ قال: «تَحرَّوا ليلةَ القَدرِ في الوِترِ من العَشرِ الأواخرِ».",
               hadethNumber: 201,
-              soundUrl: 'assets/sounds/201.ogg',
+              soundUrl: 'assets/$soundFolderName/201.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1949,7 +1949,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيدٍ الخُدريِّ رضي الله عنه: «أنَّ رسولَ اللهِ ﷺ كان يعتكفُ في العشرِ الأوسَطِ من رمضانَ، فاعتكَف عامًا، حتى إذا كانت ليلةُ إحدى وعشرينَ، وهي الليلةُ التي يخرجُ من صَبيحتِها من اعتكافِه، قال: من اعتكَفَ معي، فليعتكفِ العشرَ الأواخرَ، فقد أُريتُ هذهِ الليلةَ، ثم أُنسِيتُها، وقد رأيتُني أسجُدُ في ماءٍ وطينٍ من صَبيحتِها، فالتمِسوها في العشرِ الأواخرِ، والتمِسوها في كلِّ وِترٍ». \nفمطرتِ السماءُ تلكَ الليلةَ، وكان المسجدُ على عَريشٍ، فوكفَ المسجدُ، فأبصرتُ عَينايَ رسولَ اللهِ ﷺ على جبهتِه أثرُ الماءِ والطِّينِ من صُبحِ إحدى وعشرينَ.",
               hadethNumber: 202,
-              soundUrl: 'assets/sounds/202.ogg',
+              soundUrl: 'assets/$soundFolderName/202.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -1962,7 +1962,7 @@ class Constants {
               hadethText:
                   "عن عائشةَ رضي الله عنها: «أنَّ النبيَّ ﷺ كان يعتكفُ العشرَ الأواخرَ من رمضانَ حتى توفاهُ اللهُ عزَّ وجلَّ، ثم اعتكفَ أزواجُهُ بعدَهُ». \nوفي لفظٍ: «كان رسولُ اللهِ ﷺ يعتكفُ في كلِّ رمضانَ، فإذا صلَّى الغداةَ جاء مكانَه الذي اعتكفَ فيهِ».",
               hadethNumber: 203,
-              soundUrl: 'assets/sounds/203.ogg',
+              soundUrl: 'assets/$soundFolderName/203.$fileExtension',
               explainUrl: 'https://youtu.be/wmOmjK7269M?si=zhfZQ_9yHm56eHzJ',
               isOthimieen: false,
             ),
@@ -1970,7 +1970,7 @@ class Constants {
               hadethText:
                   "عن عائشةَ رضي الله عنها: «أنها كانت تُرَجِّلُ رأسَ النبيِّ ﷺ وهي حائضٌ، وهو معتكفٌ في المسجدِ، وهي في حجرتها، يناوِلُها رأسَهُ». \nوفي روايةٍ: «وكان لا يدخلُ البيتَ إلا لحاجةِ الإنسانِ». \nوفي روايةٍ: «أنَّ عائشةَ رضي الله عنها قالتْ: إن كنتُ لأدخلُ البيتَ للحاجةِ، والمريضُ فيه، فما أسألُ عنه إلا وأنا مارَّةٌ».",
               hadethNumber: 204,
-              soundUrl: 'assets/sounds/204.ogg',
+              soundUrl: 'assets/$soundFolderName/204.$fileExtension',
               explainUrl: 'https://youtu.be/wmOmjK7269M?si=zhfZQ_9yHm56eHzJ',
               isOthimieen: false,
             ),
@@ -1978,7 +1978,7 @@ class Constants {
               hadethText:
                   "عن عمرَ بنِ الخطابِ رضي الله عنه قال: «قلتُ: يا رسولَ اللهِ! إني كنتُ نذرتُ في الجاهليةِ أن أعتكفَ ليلةً – وفي روايةٍ: يومًا – في المسجدِ الحرامِ. قال: فأوفِ بنذرِك». \nولم يذكرْ بعضُ الرواةِ: (يومًا) ولا (ليلةً).",
               hadethNumber: 205,
-              soundUrl: 'assets/sounds/205.ogg',
+              soundUrl: 'assets/$soundFolderName/205.$fileExtension',
               explainUrl: 'https://youtu.be/wmOmjK7269M?si=zhfZQ_9yHm56eHzJ',
               isOthimieen: false,
             ),
@@ -1986,7 +1986,7 @@ class Constants {
               hadethText:
                   "عن صفيَّةَ بنتِ حُييٍّ رضي الله عنها قالتْ: «كان النبيُّ ﷺ معتكفًا، فأتيتُه أزورُه ليلًا، فحدَّثتُه، ثم قمتُ لأنقلبَ، فقام معي يُقلِّبُني، وكان مسكنُها في دارِ أسامةَ بنِ زيدٍ، فمرَّ رجلانِ من الأنصارِ، فلمَّا رأيا رسولَ اللهِ ﷺ أسرَعا. فقال النبيُّ ﷺ: على رِسلكما، إنَّها صفيةُ بنتُ حُييٍّ. فقالا: سبحانَ اللهِ يا رسولَ اللهِ! قال: إنَّ الشيطانَ يجري من ابنِ آدمَ مَجرى الدمِ، وإني خشيتُ أن يُلقيَ في قلوبِكما شرًّا – أو قال: شيئًا». \nوفي روايةٍ: «أنها جاءتْ تزورُه في اعتكافِه في المسجدِ في العشرِ الأواخرِ من رمضانَ، فتحدَّثتْ عنده ساعةً، ثم قامتْ تنقلبُ، فقام النبيُّ ﷺ معها يُقلِّبُها، حتى إذا بلغتْ بابَ المسجدِ عندَ بابِ أمِّ سلمةَ... ثم ذكره بمعناه».",
               hadethNumber: 206,
-              soundUrl: 'assets/sounds/206.ogg',
+              soundUrl: 'assets/$soundFolderName/206.$fileExtension',
               explainUrl: 'https://youtu.be/wmOmjK7269M?si=zhfZQ_9yHm56eHzJ',
               isOthimieen: false,
             ),
@@ -2006,7 +2006,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما: «أنَّ رسولَ اللهِ ﷺ وقَّتَ لأهلِ المدينةِ: ذا الحُليفةِ، ولأهلِ الشامِ: الجُحفةَ، ولأهلِ نجدٍ: قرنَ المنازلِ، ولأهلِ اليمنِ: يلملمَ. هنَّ لهنَّ، ولمن أتى عليهنَّ من غيرِهنَّ، ممن أراد الحجَّ والعمرةَ. ومن كان دونَ ذلكَ، فمن حيثُ أنشأَ، حتى أهلُ مكةَ من مكةَ».",
               hadethNumber: 207,
-              soundUrl: 'assets/sounds/207.ogg',
+              soundUrl: 'assets/$soundFolderName/207.$fileExtension',
               explainUrl: 'https://youtu.be/qWUZZTMnrBM?si=zok8LtHlJR0h7juh',
               isOthimieen: false,
             ),
@@ -2014,7 +2014,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أن رسولَ اللهِ ﷺ قال: يُهِلُّ أهلُ المدينةِ من ذي الحُليفةِ، وأهلُ الشامِ من الجُحفةِ، وأهلُ نجدٍ من قَرْنٍ. قال عبدُ اللهِ: وبلَّغني أن رسولَ اللهِ ﷺ قال: ويُهِلُّ أهلُ اليمنِ من يَلَمْلَمَ».",
               hadethNumber: 208,
-              soundUrl: 'assets/sounds/208.ogg',
+              soundUrl: 'assets/$soundFolderName/208.$fileExtension',
               explainUrl: 'https://youtu.be/qWUZZTMnrBM?si=zok8LtHlJR0h7juh',
               isOthimieen: false,
             ),
@@ -2027,7 +2027,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ رجلًا قال: يا رسولَ اللهِ! ما يلبَسُ المُحرِمُ من الثيابِ؟ قال رسولُ اللهِ ﷺ: لا يَلبَسُ القُمصَ، ولا العمائمَ، ولا السراويلاتِ، ولا البُرنسَ، ولا الخِفافَ، إلا أحدٌ لا يجدُ نعلينِ، فليلبَسِ الخفَّينِ، وليقطَعْهما أسفلَ من الكعبينِ، ولا يَلبَسْ من الثيابِ شيئًا مَسَّه زعفرانٌ أو وَرسٌ». \nوللبخاري: «ولا تَنتقِبِ المرأةُ، ولا تَلبسِ القفازينِ».",
               hadethNumber: 209,
-              soundUrl: 'assets/sounds/209.ogg',
+              soundUrl: 'assets/$soundFolderName/209.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2035,7 +2035,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «سمعتُ النبيَّ ﷺ يخطبُ بعرفاتٍ: مَن لم يجدْ نعلينِ فليلبَسِ الخُفَّينِ، ومن لم يجدْ إزارًا فليلبَسِ السراويلَ – للمحرِمِ –».",
               hadethNumber: 210,
-              soundUrl: 'assets/sounds/210.ogg',
+              soundUrl: 'assets/$soundFolderName/210.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2043,7 +2043,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ تلبيةَ رسولِ اللهِ ﷺ: لبيك اللهم لبيك! لبيك لا شريكَ لك لبيك! إن الحمدَ والنعمةَ لكَ والملك، لا شريكَ لكَ». \nقال: وكان عبدُ اللهِ بنُ عمرَ رضي الله عنهما يزيدُ فيها: لبيك وسَعْديك، والخيرُ بيديك، والرغباءُ إليك والعملُ.",
               hadethNumber: 211,
-              soundUrl: 'assets/sounds/211.ogg',
+              soundUrl: 'assets/$soundFolderName/211.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2051,7 +2051,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرةَ رضي الله عنه قال: قال النبيُّ ﷺ: «لا يَحلُّ لامرأةٍ تؤمنُ باللهِ واليومِ الآخرِ أن تُسافِرَ مسيرةَ يومٍ وليلةٍ، إلا ومعَها حرمةٌ». \nوفي لفظٍ للبخاري: «تُسافِرُ مسيرةَ يومٍ إلا مع ذي مَحرَمٍ».",
               hadethNumber: 212,
-              soundUrl: 'assets/sounds/212.ogg',
+              soundUrl: 'assets/$soundFolderName/212.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2064,7 +2064,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ مُعقِلٍ قال: «جلستُ إلى كعبِ بنِ عُجرةَ رضي الله عنه، فسألتُه عن الفديةِ، فقال: نزلتْ فيَّ خاصةً، وهي لكم عامةٌ، حملتُ إلى رسولِ اللهِ ﷺ والقملُ يتناثرُ على وجهي. فقال: ما كنتُ أرى الوجعَ بلغَ بكَ ما أرى – أو ما كنتُ أرى الجهدَ بلغَ بكَ ما أرى – أتجِدُ شاةً؟ فقلتُ: لا. فقال: فصُم ثلاثةَ أيامٍ، أو أطعمْ ستةَ مساكينَ، لكلِّ مسكينٍ نصفَ صاعٍ». \nوفي روايةٍ: «فأمرَه رسولُ اللهِ ﷺ أن يطعمَ فرقًا بينَ ستةٍ، أو يهديَ شاةً، أو يصومَ ثلاثةَ أيامٍ».",
               hadethNumber: 213,
-              soundUrl: 'assets/sounds/213.ogg',
+              soundUrl: 'assets/$soundFolderName/213.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2077,7 +2077,7 @@ class Constants {
               hadethText:
                   "عن أبي شُرَيحٍ خُوَيلِدِ بنِ عمروٍ الخُزاعيِّ العدويِّ رضي الله عنه: أنَّه قال لعمروِ بنِ سعيدٍ بنِ العاصي – وهو يبعثُ البعوثَ إلى مكةَ –: ائذنْ لي أيها الأميرُ أن أُحدِّثَك قولًا قامَ بهِ رسولُ اللهِ ﷺ الغدَ من يومِ الفتحِ، سمعتهُ أذناي، ووعاهُ قلبي، وأبصرتْهُ عيناي حين تكلَّمَ به: أنه حمدَ اللهَ، وأثنى عليهِ، ثم قال: «إنَّ مكةَ حرَّمَها اللهُ، ولم يُحرِّمْها الناسُ، فلا يحلُّ لامرئٍ يؤمنُ باللهِ واليومِ الآخرِ أن يُسفِكَ بها دمًا، ولا يعضدَ بها شجرةً، فإنْ أحدٌ ترخَّصَ لقتالِ رسولِ اللهِ ﷺ، فقولوا: إنَّ اللهَ أذِنَ لرسولِهِ ولم يأذنْ لكم، وإنَّما أذِنَ لي ساعةً من نهارٍ، وقد عادتْ حرمتُها اليومَ كحرمتِها بالأمسِ، فليبلِّغِ الشاهدُ الغائبَ». \nفقيلَ لأبي شُرَيحٍ: ما قالَ لكَ؟ قال: أنا أعلمُ بذلكَ منكَ يا أبا شُرَيحٍ! إنَّ الحرمَ لا يُعيذُ عاصيًا، ولا فارًّا بدمٍ، ولا فارًّا بخَرْبَةٍ».",
               hadethNumber: 214,
-              soundUrl: 'assets/sounds/214.ogg',
+              soundUrl: 'assets/$soundFolderName/214.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2085,7 +2085,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: قال رسولُ اللهِ ﷺ يومَ فتحِ مكةَ: «لا هجرةَ، ولكنْ جهادٌ ونيَّةٌ، وإذا استُنفِرتم فانفِروا». \nوقال – يومَ فتحِ مكةَ –: «إنَّ هذا البلدَ حرَّمه اللهُ يومَ خلقَ السمواتِ والأرضَ، فهو حرامٌ بحرمةِ اللهِ إلى يومِ القيامةِ، وإنه لم يَحِلَّ القتالُ فيه لأحدٍ قبلي، ولم يَحِلَّ لي إلا ساعةً من نهارٍ، فهو حرامٌ بحرمةِ اللهِ إلى يومِ القيامةِ، لا يُعضَدُ شوكُه، ولا يُنفَّرُ صيدُه، ولا يُلتقطُ لقطتُه إلا مَن عرَّفَها، ولا يُختلى خَلَاه». \nفقال العباسُ رضي الله عنه: يا رسولَ اللهِ! إلا الإذخرَ، فإنه لقينِهم وبيوتِهم. فقال: «إلا الإذخرَ». \nقال المُعينُ: الحَدَّادُ.",
               hadethNumber: 215,
-              soundUrl: 'assets/sounds/215.ogg',
+              soundUrl: 'assets/$soundFolderName/215.$fileExtension',
               explainUrl: 'https://youtu.be/J17T9fvmNvs?si=PTyJobpLtWoyv3uE',
               isOthimieen: false,
             ),
@@ -2098,7 +2098,7 @@ class Constants {
               hadethText:
                   "عن عائشةَ رضي الله عنها أن رسولَ اللهِ ﷺ قال: «خَمسٌ من الدوابِّ كُلُّهُنَّ فَواسقُ، يُقتَلْنَ في الحرمِ: الغرابُ، والحدأةُ، والعقربُ، والفأرةُ، والكلبُ العقورُ». \nولمسلم: «تُقتَلُ خمسُ فواسقَ في الحلِّ والحرمِ». \nالحدأةُ: بكسرِ الحاءِ، وفتحِ الدالِ.",
               hadethNumber: 216,
-              soundUrl: 'assets/sounds/216.ogg',
+              soundUrl: 'assets/$soundFolderName/216.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2111,7 +2111,7 @@ class Constants {
               hadethText:
                   "عن أنسِ بنِ مالكٍ رضي الله عنه: «أنَّ رسولَ اللهِ ﷺ دخلَ مكةَ عامَ الفتحِ، وعلى رأسِه المغفرُ، فلمَّا نزعهُ جاءَه رجلٌ فقال: ابنُ خَطَلٍ مُتعلِّقٌ بأستارِ الكعبةِ، فقال: اقتلوهُ».",
               hadethNumber: 217,
-              soundUrl: 'assets/sounds/217.ogg',
+              soundUrl: 'assets/$soundFolderName/217.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2119,7 +2119,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما: «أنَّ رسولَ اللهِ ﷺ دخلَ مكةَ من كَداءَ، من الثنيةِ العُليا التي بالبَطحاء، وخرجَ من الثنيةِ السُّفلى».",
               hadethNumber: 218,
-              soundUrl: 'assets/sounds/218.ogg',
+              soundUrl: 'assets/$soundFolderName/218.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2127,7 +2127,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «دخلَ رسولُ اللهِ ﷺ البيتَ، وأُسامةُ بنُ زيدٍ، وبلالٌ، وعثمانُ بنُ طلحةَ، فأغلقوا عليهمُ البابَ، فلمَّا فتحوا، كنتُ أوَّلَ من ولجَ، فلقيتُ بلالًا، فسألتُه: هل صلَّى فيهِ رسولُ اللهِ ﷺ؟ قال: نعم، بين العمودَينِ اليمانيَّينِ».",
               hadethNumber: 219,
-              soundUrl: 'assets/sounds/219.ogg',
+              soundUrl: 'assets/$soundFolderName/219.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2135,7 +2135,7 @@ class Constants {
               hadethText:
                   "عن عمرَ رضي الله عنه: «أنه جاء إلى الحَجَرِ الأسودِ فقبَّله، وقال: إني لأعلمُ أنكَ حَجَرٌ لا تضرُّ ولا تنفعُ، ولولا أني رأيتُ النبيَّ ﷺ يُقبِّلُكَ ما قبَّلتُكَ».",
               hadethNumber: 220,
-              soundUrl: 'assets/sounds/220.ogg',
+              soundUrl: 'assets/$soundFolderName/220.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2143,7 +2143,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «قَدِمَ رسولُ اللهِ ﷺ وأصحابُهُ، فقال المشركون: إنه يَقدُمُ عليكم وفدٌ وقد وَهَنَتْهُم حُمَّى يثربَ. فأمرَهمُ النبيُّ ﷺ أن يَرمُلُوا الأشواطَ الثلاثةَ، وأن يَمشُوا ما بينَ الرُّكنَينِ، ولم يمنعْهم أن يَرمُلُوا الأشواطَ كلَّها إلا الإبقاءَ عليهم».",
               hadethNumber: 221,
-              soundUrl: 'assets/sounds/221.ogg',
+              soundUrl: 'assets/$soundFolderName/221.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2151,7 +2151,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «رأيتُ رسولَ اللهِ ﷺ حينَ يَقدُمُ مكةَ: إذا استَلَمَ الركنَ الأسودَ أولَ ما يَطوفُ، يَخبُّ ثلاثةَ أشواطٍ».",
               hadethNumber: 222,
-              soundUrl: 'assets/sounds/222.ogg',
+              soundUrl: 'assets/$soundFolderName/222.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2159,7 +2159,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضي الله عنهما قال: «طافَ النبيُّ ﷺ في حَجَّةِ الوداعِ على بعيرٍ، يَستَلِمُ الرُّكنَ بمحجَنٍ». \nالمِحْجَنُ: عصًا محنيَّةُ الرأسِ.",
               hadethNumber: 223,
-              soundUrl: 'assets/sounds/223.ogg',
+              soundUrl: 'assets/$soundFolderName/223.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2167,7 +2167,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضي الله عنهما قال: «ألمْ أرَ النبيَّ ﷺ يَستَلِمُ من البيتِ إلا الرُّكنَينِ اليمانيَّينِ؟».",
               hadethNumber: 224,
-              soundUrl: 'assets/sounds/224.ogg',
+              soundUrl: 'assets/$soundFolderName/224.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=nc9QwSxH45Mq0Tql',
               isOthimieen: false,
             ),
@@ -2180,7 +2180,7 @@ class Constants {
               hadethText:
                   "عن أبي جَمْرَةَ نَصْرِ بنِ عِمْرانَ الضُّبَعِيِّ، قالَ: سَأَلْتُ ابنَ عَبَّاسٍ رضي الله عنهما عنِ المُتْعَةِ، فأمَرَنِي بها، وسَأَلْتُه عن الهَدْيِ، فقالَ: فيها جَذَعٌ، أوْ ضَأْنَةٌ، أوْ بَقَرَةٌ، أوْ شاةٌ، أوْ شِرْكٌ في دَمٍ. قالَ: وكانَ ناسٌ كَرِهُوها، فَنِمْتُ فَرَأَيْتُ في المَنامِ كَأنَّ إنْسانًا يُنادِي: حَجٌّ مَبْرُورٌ، ومُتْعَةٌ مُتَقَبَّلَةٌ. فأتَيْتُ ابنَ عَبَّاسٍ رضي الله عنهما، فَحَدَّثْتُه، فقالَ: اللَّهُ أكْبَرُ، سُنَّةُ أَبِي القاسِمِ ﷺ.",
               hadethNumber: 225,
-              soundUrl: 'assets/sounds/225.ogg',
+              soundUrl: 'assets/$soundFolderName/225.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2188,7 +2188,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عُمَرَ رضي اللهُ عنهما قالَ: تَمَتَّعَ رسولُ اللهِ ﷺ في حَجَّةِ الوَداعِ بالعُمرَةِ إلى الحجِّ، وأَهْدَى، فَساقَ معه الهَدْيَ من ذِي الحُلَيْفَةِ. وبدأ رسولُ اللهِ ﷺ فأهَلَّ بالعُمرَةِ، ثم أهَلَّ بالحجِّ، فتمتَّعَ الناسُ مع رسولِ اللهِ ﷺ بالعُمرَةِ إلى الحجِّ، فكانَ من الناسِ مَن أَهْدَى فَساقَ الهَدْيَ من ذِي الحُلَيْفَةِ، ومنهم مَن لَمْ يُهْدِ. فلمّا قَدِمَ النبيُّ ﷺ قالَ للناسِ: مَن كانَ منكم أَهْدَى فإنَّه لا يَحِلُّ من شيءٍ حَرُمَ منه حتّى يَقْضِيَ حَجَّه، ومَن لم يَكُنْ أَهْدَى فَلْيَطُفْ بالبيتِ وبالصَّفا والمَرْوَةِ، ولْيُقَصِّرْ ولْيَتَحَلَّلْ، ثم لِيُهِلَّ بالحجِّ ويُهْدِ. فمَن لم يَجِدْ هَدْيًا فَلْيَصُمْ ثلاثةَ أيّامٍ في الحجِّ وسبعةً إذا رَجَعَ إلى أهلِهِ.\n\nفطافَ رسولُ اللهِ ﷺ حينَ قَدِمَ مَكَّةَ، واستَلَمَ الرُّكْنَ أوّلَ شيءٍ، ثم خَبَّ ثلاثةَ أطوافٍ من السَّبْعِ، ومَشَى أربعةً، ورَكَعَ حين قَضَى طوافَه بالبيتِ عندَ المقامِ ركعتينِ، ثم سلَّم فانصرفَ. فأتى الصَّفا، فطافَ بالصَّفا والمَروَةِ سبعةَ أطوافٍ. ثم لم يَحِلَّ من شيءٍ حَرُمَ منه حتّى قَضَى حَجَّه، ونَحَرَ هَدْيَه يومَ النَّحرِ، وأفاضَ فطافَ بالبيتِ، ثم حَلَّ من كلِّ شيءٍ حَرُمَ منه. وفَعَلَ مِثلَ ما فَعَلَ رسولُ اللهِ ﷺ من أَهْدَى فَساقَ الهَدْيَ من الناسِ.",
               hadethNumber: 226,
-              soundUrl: 'assets/sounds/226.ogg',
+              soundUrl: 'assets/$soundFolderName/226.$fileExtension',
               explainUrl: 'https://youtu.be/5Cat81GtYVk?si=sqlYIvAXYroDro8B',
               isOthimieen: false,
             ),
@@ -2196,7 +2196,7 @@ class Constants {
               hadethText:
                   "عن حَفْصَةَ رضي اللهُ عنها - زَوْجِ النبيِّ ﷺ - أنَّها قالَتْ: يا رسولَ اللهِ، ما شَأْنُ الناسِ حَلُّوا من العُمْرَةِ، ولَم تَحْلِلْ أنتَ من عُمْرَتِكَ؟ فقالَ: إنِّي لَبَّدْتُ رَأْسِي، وقَلَّدْتُ هَدْيِي، فلا أَحِلُّ حتّى أَنْحَرَ.",
               hadethNumber: 227,
-              soundUrl: 'assets/sounds/227.ogg',
+              soundUrl: 'assets/$soundFolderName/227.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2204,7 +2204,7 @@ class Constants {
               hadethText:
                   "عن عِمْرانَ بنِ حُصَيْنٍ رضي اللهُ عنه قالَ: أُنْزِلَتْ آيَةُ المُتْعَةِ في كِتابِ اللهِ، فَعَمِلْناها مع رسولِ اللهِ ﷺ، ولَمْ يَنْزِلْ قُرآنٌ يُحَرِّمُه، ولَمْ يَنْهَ عنها حتّى ماتَ، قالَ رَجُلٌ برَأْيِهِ ما شاءَ.\n\nقال البخاري: (يُقال: إنَّه عُمر). ولِمسلم: «نَزَلَتْ آيَةُ المُتْعَةِ – يعني: مُتْعَةَ الحَجِّ – وأَمَرَنا بها رسولُ اللهِ ﷺ، ثُمَّ لَمْ يَنْزِلْ آيَةٌ تَنْسَخُ آيَةَ مُتْعَةِ الحَجِّ، ولَمْ يَنْهَ عنها رسولُ اللهِ ﷺ حتّى ماتَ»، قال: «بِمَعْناها».",
               hadethNumber: 228,
-              soundUrl: 'assets/sounds/228.ogg',
+              soundUrl: 'assets/$soundFolderName/228.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2217,7 +2217,7 @@ class Constants {
               hadethText:
                   "عن عائِشَةَ رضي اللهُ عنها قالتْ: اقْتَلْتُ قَلاَئِدَ هَدْيِ النبيِّ ﷺ، ثُمَّ أَشْعَرْنَاها وقَلَّدْنَاها – أو قَلَّدْتُها – ثُمَّ بَعَثَ بها إلى البَيْتِ وأقامَ بالمدينةِ، فما حَرُمَ عليه شيءٌ كانَ له حِلًّا.",
               hadethNumber: 229,
-              soundUrl: 'assets/sounds/229.ogg',
+              soundUrl: 'assets/$soundFolderName/229.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2225,7 +2225,7 @@ class Constants {
               hadethText:
                   "عن عائِشَةَ رضي اللهُ عنها قالتْ: أَهْدَى النبيُّ ﷺ مرّةً غَنَمًا.",
               hadethNumber: 230,
-              soundUrl: 'assets/sounds/230.ogg',
+              soundUrl: 'assets/$soundFolderName/230.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2233,7 +2233,7 @@ class Constants {
               hadethText:
                   "عن أبي هُرَيْرَةَ رضي اللهُ عنه: أنَّ نَبِيَّ اللهِ ﷺ رَأى رَجُلًا يَسُوقُ بَدَنَةً، فقالَ: ارْكَبْها. قالَ: إنَّها بَدَنَةٌ. قالَ: ارْكَبْها. فرَأَيْتُه راكِبَها، يَسِيرُ مع النبيِّ ﷺ.\nوفي لَفْظٍ: (قالَ في الثَّانِيَةِ – أوِ الثَّالِثَةِ –: ارْكَبْها وَيْلَكَ! – أو وَيْحَكَ!).",
               hadethNumber: 231,
-              soundUrl: 'assets/sounds/231.ogg',
+              soundUrl: 'assets/$soundFolderName/231.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2241,7 +2241,7 @@ class Constants {
               hadethText:
                   "عن عَلِيٍّ بنِ أبي طالبٍ رضي اللهُ عنه قالَ: أَمَرَني النبيُّ ﷺ أنْ أقُومَ على بُدْنِهِ، وأنْ أَتَصَدَّقَ بلُحومِها وجُلُودِها وأَجِلَّتِها، وأنْ لا أُعْطِيَ الجَزَّارَ منها شيئًا، وقالَ: نحنُ نُعْطِيهِ مِن عِندِنا.",
               hadethNumber: 232,
-              soundUrl: 'assets/sounds/232.ogg',
+              soundUrl: 'assets/$soundFolderName/232.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2249,7 +2249,7 @@ class Constants {
               hadethText:
                   "عن زيادِ بنِ جُبَيْرٍ قالَ: رَأَيْتُ ابنَ عُمَرَ رضي اللهُ عنه أتى على رَجُلٍ قد أناخَ بُدْنَتَه فنَحَرَها، فقالَ: ابْعَثْها قِيامًا مُقَيَّدَةً؛ سُنَّةَ مُحَمَّدٍ ﷺ.",
               hadethNumber: 233,
-              soundUrl: 'assets/sounds/233.ogg',
+              soundUrl: 'assets/$soundFolderName/233.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2262,7 +2262,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ حُنَيْنٍ: أنَّ عبدَ اللهِ بنَ عبَّاسٍ والمِسْوَرَ بنَ مَخْرَمَةَ اخْتَلَفا بالأَبْوَاءِ، فقالَ ابنُ عبَّاسٍ: يَغْسِلُ المُحْرِمُ رأسَهُ. وقالَ المِسْوَرُ: لا يَغْسِلُ المُحْرِمُ رأسَهُ. قالَ: فأرْسَلَني ابنُ عبَّاسٍ إلى أبي أَيُّوبَ الأنصاريِّ رضي اللهُ عنه، فَوَجَدْتُه يَغْتَسِلُ بَيْنَ القَرْنَيْنِ وهو يَسْتُرُ بثوبٍ، فسلَّمْتُ عليه فقالَ: مَن هذا؟ قلتُ: أنا عبدُ اللهِ بنُ حُنَيْنٍ، أرسَلَني إليكَ ابنُ عبَّاسٍ يَسألك: كيفَ كانَ رسولُ اللهِ ﷺ يَغْسِلُ رأسَهُ وهو مُحْرِمٌ؟ فوَضَعَ أبو أَيُّوبَ يدَهُ على الثوبِ فَطَأْطَأَهُ حتى بَدا لي رأسُهُ، ثم قالَ لِلإنسانِ: صُبَّ عليَّ الماءَ. فصبَّ على رأسِه، ثم حرَّكَ رأسَهُ بيدَيْهِ فأقْبَلَ بهما وأَدْبَرَ، ثم قالَ: هكذا رأيْتُه ﷺ يَفْعَلُ. وفي رِوايةٍ: فقالَ المِسْوَرُ لابنِ عبَّاسٍ: لا أُمارِيكَ أبدًا.",
               hadethNumber: 234,
-              soundUrl: 'assets/sounds/234.ogg',
+              soundUrl: 'assets/$soundFolderName/234.$fileExtension',
               explainUrl: 'https://youtu.be/HsVzuo7Z694?si=QdmFp5hNgCWiCQjM',
               isOthimieen: false,
             ),
@@ -2275,7 +2275,7 @@ class Constants {
               hadethText:
                   "عن جابرِ بنِ عبدِ اللهِ رضي اللهُ عنه قالَ: أهلَّ النبيُّ ﷺ وأصحابُه بالحجِّ، وليس مع أحدٍ منهم هَدْيٌ غيرَ النبيِّ ﷺ وطَلْحةَ. وقَدِمَ عليٌّ رضي اللهُ عنه من اليمنِ، فقالَ: أَهْلَلْتُ بما أهلَّ به النبيُّ ﷺ، فأمَرَ النبيُّ ﷺ أصحابَه أن يجعلوها عُمْرَةً، يَطُوفوا ثم يُقَصِّروا ويَحِلُّوا، إلَّا مَن كانَ معه الهَدْيُ. فقالوا: نَنْطَلِقُ إلى مِنى ومَذَاكَ أحَدُنا يَقطُر؟! فبَلَغَ ذلك النبيَّ ﷺ فقال: لوِ استَقبَلْتُ مِن أمري ما استَدبَرْتُ ما أَهدَيْتُ، ولَولا أنَّ معي الهَدْيَ لأَحْلَلْتُ. وحاضَتْ عائشةُ رضي اللهُ عنها فنسَكَتْ المناسِكَ كلَّها غيرَ أنَّها لم تَطُفْ بالبَيْتِ. فلمَّا طَهُرَتْ طافَتْ بالبَيْتِ. قالت: يا رسولَ اللهِ، تَنطَلِقونَ بحَجٍّ وعُمْرَةٍ وأَنطَلِقُ بحَجٍّ؟! فأمَرَ عبدَ الرحمنِ بنَ أبي بكرٍ رضي اللهُ عنه أن يُخْرِجَ معها إلى التنعيمِ، فاعتمرتْ بعد الحجِّ.",
               hadethNumber: 235,
-              soundUrl: 'assets/sounds/235.ogg',
+              soundUrl: 'assets/$soundFolderName/235.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2283,7 +2283,7 @@ class Constants {
               hadethText:
                   "عن جابرِ بنِ عبدِ اللهِ رضي اللهُ عنه قالَ: قَدِمْنا مع رسولِ اللهِ ﷺ ونحنُ نقولُ: لبَّيكَ بالحجِّ، فأمَرَنا رسولُ اللهِ ﷺ فجعلناها عُمرةً.",
               hadethNumber: 236,
-              soundUrl: 'assets/sounds/236.ogg',
+              soundUrl: 'assets/$soundFolderName/236.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2292,7 +2292,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عبَّاسٍ رضي اللهُ عنهما قالَ: قَدِمَ رسولُ اللهِ ﷺ وأصحابُه صَبيحَةَ رابعةٍ، فأمَرَهم أن يجعلوها عُمرةً، فقالوا: يا رسولَ اللهِ! أيَّ الحلِّ؟ قالَ: الحِلُّ كُلُّه.",
               hadethNumber: 237,
-              soundUrl: 'assets/sounds/237.ogg',
+              soundUrl: 'assets/$soundFolderName/237.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2301,7 +2301,7 @@ class Constants {
               hadethText:
                   "عن عُرْوَةَ بنِ الزُّبَيْرِ قالَ: سَأَلْتُ أُسامةَ بنَ زَيْدٍ رضي اللهُ عنهما – وأنا جالسٌ –: كيفَ كانَ رسولُ اللهِ ﷺ يَسيرُ حينَ دَفَعَ؟ قالَ: كانَ يَسيرُ العَنَقَ، فإذا وجَدَ فُجوةً نَصَّ.",
               hadethNumber: 238,
-              soundUrl: 'assets/sounds/238.ogg',
+              soundUrl: 'assets/$soundFolderName/238.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2309,7 +2309,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عَمروٍ رضي اللهُ عنهما: أنَّ رسولَ اللهِ ﷺ وقَفَ في حَجَّةِ الوَداعِ، فجَعَلوا يَسألونه، فقالَ رَجُلٌ: لم أشعُرْ فحلَقتُ قبلَ أن أذبَحَ؟ قالَ: اذْبَحْ ولا حَرَجَ. وجاءَ آخَرُ فقالَ: لم أشعُرْ فنحَرتُ قبلَ أن أرمِيَ؟ قالَ: ارْمِ ولا حَرَجَ. فما سُئِلَ يومئذٍ عن شيءٍ قُدِّمَ ولا أُخِّرَ إلَّا قالَ: افعَلْ ولا حَرَجَ.",
               hadethNumber: 239,
-              soundUrl: 'assets/sounds/239.ogg',
+              soundUrl: 'assets/$soundFolderName/239.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2318,7 +2318,7 @@ class Constants {
               hadethText:
                   "عن عبدِ الرَّحمنِ بنِ يَزيدَ النَّخَعيِّ قالَ: أنَّه حَجَّ مع ابنِ مَسعودٍ رضي اللهُ عنه، فرأى يَرْمِي الجَمرةَ الكُبرى بسبعِ حَصَياتٍ، فجَعَلَ البَيتَ عن يَسارِه ومِنىً عن يَمينِه، ثم قالَ: هذا مَقامُ الذي أُنزِلَتْ عليه سورةُ البَقَرةِ ﷺ.",
               hadethNumber: 240,
-              soundUrl: 'assets/sounds/240.ogg',
+              soundUrl: 'assets/$soundFolderName/240.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2327,7 +2327,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عُمرَ رضي اللهُ عنهما أنَّ رسولَ اللهِ ﷺ قالَ: اللَّهُمَّ ارْحَمِ المُحَلِّقينَ. قالوا: والمُقَصِّرينَ يا رسولَ اللهِ؟ قالَ: اللَّهُمَّ ارْحَمِ المُحَلِّقينَ. قالوا: والمُقَصِّرينَ يا رسولَ اللهِ؟ قالَ: والمُقَصِّرينَ.",
               hadethNumber: 241,
-              soundUrl: 'assets/sounds/241.ogg',
+              soundUrl: 'assets/$soundFolderName/241.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2335,7 +2335,7 @@ class Constants {
               hadethText:
                   "عن عائِشَةَ رضي اللهُ عنها قالتْ: حَجَجْنا مع النبيِّ ﷺ فأفَضْنا يومَ النَّحرِ، فحاضَتْ صَفيَّةُ، فأرادَ النبيُّ ﷺ منها ما يُريدُ الرَّجلُ من أهلِه، فقلتُ: يا رسولَ اللهِ! إنَّها حائِضٌ. قالَ: أَحابِسَتُنا هي؟ قالوا: يا رسولَ اللهِ! قد أفاضَتْ يومَ النَّحرِ. قالَ: فاخرُجوا. وفي لفظٍ: قالَ النبيُّ ﷺ: عَقْرَى حَلْقَى، أَطافَتْ يومَ النَّحرِ؟ قيلَ: نَعَمْ. قالَ: فانفِروا.",
               hadethNumber: 242,
-              soundUrl: 'assets/sounds/242.ogg',
+              soundUrl: 'assets/$soundFolderName/242.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2344,7 +2344,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عبَّاسٍ رضي اللهُ عنهما قالَ: أمَرَ الناسَ أن يكونَ آخِرُ عَهْدِهِم بالبيتِ، إلَّا أنَّه خَفَّفَ عن المرأةِ الحائضِ.",
               hadethNumber: 243,
-              soundUrl: 'assets/sounds/243.ogg',
+              soundUrl: 'assets/$soundFolderName/243.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2353,7 +2353,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عُمرَ رضي اللهُ عنهما قالَ: استأذَنَ العباسُ بنُ عبدِ المطَّلبِ رسولَ اللهِ ﷺ أن يَبيتَ بمكَّةَ لياليَ مِنًى، مِن أجلِ سِقايَتِه، فأذِنَ له.",
               hadethNumber: 244,
-              soundUrl: 'assets/sounds/244.ogg',
+              soundUrl: 'assets/$soundFolderName/244.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2362,7 +2362,7 @@ class Constants {
               hadethText:
                   "وعنه رضي اللهُ عنه قالَ: جمَعَ النبيُّ ﷺ بين المغربِ والعِشاءِ بجمعٍ، يُصلِّي لكلِّ واحدةٍ منهما بإقامةٍ، ولم يُسَبِّحْ بينهما، ولا على إثرِ واحدةٍ منهما.",
               hadethNumber: 245,
-              soundUrl: 'assets/sounds/245.ogg',
+              soundUrl: 'assets/$soundFolderName/245.$fileExtension',
               explainUrl: 'https://youtu.be/SycObM0xbdQ?si=OhwoS_C3eKDhzt7b',
               isOthimieen: false,
             ),
@@ -2379,7 +2379,7 @@ class Constants {
                   "قال: منكم أحدٌ أمَرَهُ أن يَحْمِلَ عليها أو أشارَ إليها؟ قالوا: لا، قال: فَكُلُوا ما بَقِيَ مِنْ لَحْمِهَا».\n\n"
                   "وفي روايةٍ: «فقال: هل معكم منه شيء؟ فقلت: نعم، فَنَاوَلْتُه العَضُدَ، فأكَلَهَا».",
               hadethNumber: 246,
-              soundUrl: 'assets/sounds/246.ogg',
+              soundUrl: 'assets/$soundFolderName/246.$fileExtension',
               explainUrl: 'https://youtu.be/HsVzuo7Z694?si=i-S6lP5zTqM9z14O',
               isOthimieen: false,
             ),
@@ -2391,7 +2391,7 @@ class Constants {
                   "وفي لفظ: «عَجُزُ حِمَارٍ».\n\n"
                   "وجهُ هذا الحديث: أنَّه ظنَّ أنَّه صِيدٌ لأجْله، والمُحرِمُ لا يأكُلُ ما صِيدَ لأجله.",
               hadethNumber: 247,
-              soundUrl: 'assets/sounds/247.ogg',
+              soundUrl: 'assets/$soundFolderName/247.$fileExtension',
               explainUrl: '',
               isOthimieen: false,
             ),
@@ -2411,7 +2411,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهُما، عن رسولِ اللهِ ﷺ أنَّه قال: «إذا تبايَعَ الرَّجلانِ فكُلُّ واحدٍ منهُما بالخِيارِ ما لم يتفرَّقا، وكانا جميعًا، أو يُخيِّرُ أحدُهما الآخرَ، فتبايَعا على ذلك، فقد وجب البيعُ».",
               hadethNumber: 248,
-              soundUrl: 'assets/sounds/248.ogg',
+              soundUrl: 'assets/$soundFolderName/248.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=_viEqQf7V4CdcdVI',
               isOthimieen: false,
             ),
@@ -2419,7 +2419,7 @@ class Constants {
               hadethText:
                   "عن حَكيمِ بنِ حِزامٍ رضيَ اللهُ عنهُ قال: قال رسولُ اللهِ ﷺ: «البيعانِ بالخِيارِ ما لم يتفرَّقا - أو قال: حتى يتفرَّقا -، فإن صدَقا وبيَّنا بُورِكَ لهما في بيعهما، وإن كتما وكذَبا مُحِقَتْ برَكةُ بيعهما».",
               hadethNumber: 249,
-              soundUrl: 'assets/sounds/249.ogg',
+              soundUrl: 'assets/$soundFolderName/249.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=_viEqQf7V4CdcdVI',
               isOthimieen: false,
             ),
@@ -2432,7 +2432,7 @@ class Constants {
               hadethText:
                   "عن أبي سعيدٍ الخُدْريِّ رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن المُنَابَذَةِ - وهي: طَرْحُ الرَّجُلِ ثَوْبَهُ بالبَيْعِ إلى الرَّجُلِ قبلَ أنْ يَقْلبَهُ، أوْ ينظرَ إليه -، ونهى عن المُلَامَسَةِ - والمُلامَسَةُ: لَمْسُ الثَّوْبِ لا يَنْظُرُ إليهِ».",
               hadethNumber: 250,
-              soundUrl: 'assets/sounds/250.ogg',
+              soundUrl: 'assets/$soundFolderName/250.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2440,7 +2440,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرةَ رضيَ اللهُ عنهُ أنَّ رسولَ اللهِ ﷺ قال: «لا تَلَقَّوُا الرُّكبانَ، ولا يَبِعْ بعضُكم على بيعِ بعضٍ، ولا تَنَاجَشوا، ولا يَبِعْ حاضِرٌ لبادٍ، ولا تَصُرُّوا النِّعَمَ، ومَنِ ابتاعَها فهو بخيرِ النَّظَرَيْنِ بعدَ أن يَحْلِبَها: إنْ رَضِيَها أمْسَكَها، وإنْ سَخِطَها رَدَّها وصَاعًا مِن تَمْرٍ». \n\nوفي لفظٍ: «وهو بالخِيارِ ثلاثةَ».",
               hadethNumber: 251,
-              soundUrl: 'assets/sounds/251.ogg',
+              soundUrl: 'assets/$soundFolderName/251.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2448,7 +2448,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهُ: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ حَبَلِ الحَبَلَةِ - وكان بيعًا يَتَبَايَعُهُ أهلُ الجاهليةِ، كان الرجلُ يبيعُ الجَزُورَ إلى أنْ تَنْتِجَ النَّاقةُ، ثم تَنْتِجَ التي في بَطنِها». \n\nقِيلَ: إنه كان يبيعُ الشَّارفَ - وهي الكبيرةُ المُسِنَّةُ - لِنِتَاجِ الجنينِ الذي في بَطنِ نَاقَتِهِ.",
               hadethNumber: 252,
-              soundUrl: 'assets/sounds/252.ogg',
+              soundUrl: 'assets/$soundFolderName/252.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2456,7 +2456,7 @@ class Constants {
               hadethText:
                   "وعنه رضيَ اللهُ عنهُ: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ الثَّمرِ حتَّى يَبْدُوَ صَلاحُهَا؛ نَهَى البائعَ والمُشتريَ».",
               hadethNumber: 253,
-              soundUrl: 'assets/sounds/253.ogg',
+              soundUrl: 'assets/$soundFolderName/253.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2464,7 +2464,7 @@ class Constants {
               hadethText:
                   "عن أنس بن مالك رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن بيعِ الثِّمارِ حتَّى تُزْهِىَ»، قيل: وما تُزْهِى؟ قال: «حتَّى تَحْمَرَّ»، قال: «أرأيتَ إذا مَنَعَ اللهُ الثَّمَرَةَ، بمَ يَسْتَحِلُّ أحدُكُم مالَ أخِيهِ؟».",
               hadethNumber: 254,
-              soundUrl: 'assets/sounds/254.ogg',
+              soundUrl: 'assets/$soundFolderName/254.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2472,7 +2472,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنه قال: «نهى رسولُ اللهِ ﷺ أنْ تُلَقَّى الركبانُ، وأنْ يبيعَ حاضرٌ لبادٍ»، قال: فقلتُ لابنِ عباسٍ: ما قولُهُ: حاضرٌ لبادٍ؟ قال: «لا يكونُ لهُ سِمسارًا».",
               hadethNumber: 255,
-              soundUrl: 'assets/sounds/255.ogg',
+              soundUrl: 'assets/$soundFolderName/255.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2481,7 +2481,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما قال: «نهى رسولُ اللهِ ﷺ عن المُزَابَنَةِ - أنْ يبيعَ ثمرَ حائطِهِ إنْ كانَ نخلًا بتمرٍ كيلًا، وإنْ كانَ كرمًا أنْ يبيعَهُ بزبيبٍ كيلًا، أوْ كانَ زَرْعًا أنْ يبيعَهُ بكيلِ طعامٍ، نهى عن ذلكَ كلِّهِ».",
               hadethNumber: 256,
-              soundUrl: 'assets/sounds/256.ogg',
+              soundUrl: 'assets/$soundFolderName/256.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2490,7 +2490,7 @@ class Constants {
               hadethText:
                   "عن جابرٍ بنِ عبدِ اللهِ رضيَ اللهُ عنه قال: «نهى النبيُّ ﷺ عن المُخَابَرَةِ والمُحَاقَلَةِ، وعن المُزَابَنَةِ، وعن بيعِ الثَّمَرِ حتى يَبدوَ صلاحُها، وأنْ لا تُباعَ إلا بالدنانيرِ والدراهمِ، إلا العَرَايَا». المحاقلة: بيع الحنطة في سُنبُلها بحنطة.",
               hadethNumber: 257,
-              soundUrl: 'assets/sounds/257.ogg',
+              soundUrl: 'assets/$soundFolderName/257.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2499,7 +2499,7 @@ class Constants {
               hadethText:
                   "عن أبي مسعودٍ الأنصاريِّ رضيَ اللهُ عنه: «أنَّ رسولَ اللهِ ﷺ نهى عن ثمنِ الكلبِ، ومَهْرِ البَغِيِّ، وحُلْوانِ الكاهنِ».",
               hadethNumber: 258,
-              soundUrl: 'assets/sounds/258.ogg',
+              soundUrl: 'assets/$soundFolderName/258.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2508,7 +2508,7 @@ class Constants {
               hadethText:
                   "عن رافعِ بنِ خديجٍ رضيَ اللهُ عنه: أنَّ رسولَ اللهِ ﷺ قال: «ثمنُ الكلبِ خَبِيثٌ، ومَهْرُ البَغِيِّ خَبِيثٌ، وكَسْبُ الحَجَّامِ خَبِيثٌ».",
               hadethNumber: 259,
-              soundUrl: 'assets/sounds/259.ogg',
+              soundUrl: 'assets/$soundFolderName/259.$fileExtension',
               explainUrl: 'https://youtu.be/eZHt2OiyYaE?si=gX42Nkc_jZ8YlGcD',
               isOthimieen: false,
             ),
@@ -2521,7 +2521,7 @@ class Constants {
               hadethText:
                   "عن زيد بن ثابت رضي الله عنه: «أن رسولَ اللهِ ﷺ رخَّص لصاحبِ العَرِيَّةِ أن يبيعَها بخُرْصِها». ولمسلم: «يخرُصُها تمرًا، يأكلونها رُطَبًا».",
               hadethNumber: 260,
-              soundUrl: 'assets/sounds/260.ogg',
+              soundUrl: 'assets/$soundFolderName/260.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2530,7 +2530,7 @@ class Constants {
               hadethText:
                   "عن أبي هريرة رضي الله عنه: «أن النبيَّ ﷺ رخَّص في بيعِ العَرَايَا في خمسةِ أوسُقٍ - أو دُون خمسةِ أوسقٍ».",
               hadethNumber: 261,
-              soundUrl: 'assets/sounds/261.ogg',
+              soundUrl: 'assets/$soundFolderName/261.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2539,7 +2539,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما: أن رسولَ اللهِ ﷺ قال: «من باعَ نخلًا قد أُبِّرت فثمرتُها للبائع، إلا أن يَشترطَ المُبتاع». ولمسلم: «ومن ابتاع عبدًا فماله للبائع، إلا أن يشترطَ المُبتاع».",
               hadethNumber: 262,
-              soundUrl: 'assets/sounds/262.ogg',
+              soundUrl: 'assets/$soundFolderName/262.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2548,7 +2548,7 @@ class Constants {
               hadethText:
                   "وعنه رضي الله عنه: أن رسولَ اللهِ ﷺ قال: «من ابتاع طعامًا فلا يَبِعْهُ حتى يَسْتَوفيه».",
               hadethNumber: 263,
-              soundUrl: 'assets/sounds/263.ogg',
+              soundUrl: 'assets/$soundFolderName/263.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2557,7 +2557,7 @@ class Constants {
               hadethText:
                   "عن جابر بن عبد الله رضي الله عنه: أنه سمع رسولَ اللهِ ﷺ يقول عامَ الفتح: «إن اللهَ ورسولَه حرَّم بيعَ الخمرِ والميتةِ والخنزيرِ والأصنامِ». فقيل: يا رسولَ الله! أرأيتَ شُحومَ الميتةِ، فإنه يُطلى بها السفن، ويُدْهَن بها الجلود، ويستصبح بها الناسُ؟ فقال: «لا، هو حرام»، ثم قال رسولُ اللهِ ﷺ عند ذلك: «قاتلَ اللهُ اليهودَ؛ إن اللهَ لمَّا حرَّم شُحومَها جَمَّلُوه، ثم باعوه، فأكلوا ثمنَه».",
               hadethNumber: 264,
-              soundUrl: 'assets/sounds/264.ogg',
+              soundUrl: 'assets/$soundFolderName/264.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2570,7 +2570,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما قال: «قدم النبي ﷺ المدينة وهم يُسلفون في الثمار: السنة والسنتين والثلاث»، فقال: «من أسلف في شيء فليُسلف في كيلٍ معلوم، ووزنٍ معلوم، إلى أجلٍ معلوم».",
               hadethNumber: 265,
-              soundUrl: 'assets/sounds/265.ogg',
+              soundUrl: 'assets/$soundFolderName/265.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2583,7 +2583,7 @@ class Constants {
               hadethNumber: 266,
               hadethText:
                   "عن عائشةَ رضيَ اللهُ عنها قالت: «جاءَتني بَريرةُ فقالت: كانَتْ أَهلي على تسعِ أواقٍ، في كلِّ عامٍ أوقيةٌ، فأعينيني، قالت: إنْ أَحبَّ أَهْلَكِ أن أَعُدَّها لهم ويكونَ ولاؤُكِ لي فَعَلْتُ، فذهبت بَريرةُ إلى أَهْلِها، فَقالتْ لهم، فأَبَوْا عليها، فجاءتْ من عندِهم - ورسولُ اللهِ ﷺ جالسٌ - فقالت: إنِّي عرَضْتُ ذلك عليهم فأَبَوْا إلا أنْ يكونَ لهم الولاءُ، فأخبرَتْ عائشةُ النَّبيَّ ﷺ، فقال: خُذِيها وأَشْرِطي لهم الولاءَ، فإنَّما الولاءُ لمَن أَعْتَقَ»، ففعَلَتْ عائشةُ، ثم قام رسولُ اللهِ ﷺ في الناس، فحمد اللهَ وأثنى عليه، ثم قال: «أمَّا بعدُ، ما بالُ رجالٍ يشترطونَ شُروطًا ليستْ في كتابِ اللهِ، ما كانَ من شَرْطٍ ليسَ في كتابِ اللهِ فهو باطلٌ وإنْ كانَ مئةَ شَرْطٍ، قضاءُ اللهِ أحقُّ، وشرْطُ اللهِ أوثقُ، وإنَّما الولاءُ لمَن أَعْتَقَ».",
-              soundUrl: 'assets/sounds/266.ogg',
+              soundUrl: 'assets/$soundFolderName/266.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2591,7 +2591,7 @@ class Constants {
               hadethNumber: 267,
               hadethText:
                   "عن جابرٍ بنِ عبدِ اللهِ رضيَ اللهُ عنهما: «أنَّه كانَ يَسِيرُ على جَمَلٍ فَأَعْيَا، فأرادَ أنْ يُسَيِّبَهُ، فلَحِقَهُ النَّبيُّ ﷺ فدَعاهُ وضَرَبَهُ، فَسارَ سَيرًا لمْ يَسِرْ مِثْلَهُ، قال: بِيعْنِيهِ بِأُوقِيَّةٍ، قلتُ: لا، ثم قال: بِيعْنِيهِ، فبِعْتُهُ بِأُوقِيَّةٍ، واستَثنَيْتُ حِمْلَانَهُ إلى أهلي، فلمَّا بَلَغْتُ أتيْتُ بالجَمَلِ فَنَقَدَنِي ثَمَنَهُ، ثم رجَعْتُ، فأرْسَلَ في أثَري، فقال: أتَرانِي ماكَسْتُكَ لِآخُذَ جَمَلَكَ؟ خُذْ جَمَلَكَ وَدَرَاهِمَكَ، فَهُوَ لَكَ».",
-              soundUrl: 'assets/sounds/267.ogg',
+              soundUrl: 'assets/$soundFolderName/267.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2599,7 +2599,7 @@ class Constants {
               hadethNumber: 268,
               hadethText:
                   "عن أبي هريرة رضي اللهُ عنه قال: «نهى رسولُ اللهِ ﷺ أنْ يَبيعَ حاضرٌ لبادٍ، ولا تناجشوا، ولا يَبيعَ الرَّجُلُ على بيعِ أخِيهِ، ولا يَخطُبْ على خطبَةِ أخِيهِ، ولا تَسألِ المرأةُ طلاقَ أُختِها لِتَكْفَأَ ما في إِنائِها».",
-              soundUrl: 'assets/sounds/268.ogg',
+              soundUrl: 'assets/$soundFolderName/268.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -2612,7 +2612,7 @@ class Constants {
               hadethNumber: 269,
               hadethText:
                   "عن عمرَ بنِ الخطابِ رضي اللهُ عنه قال: قال رسولُ اللهِ ﷺ: «الذَّهَبُ بالوَرِقِ رِبًا، إلَّا هَاءً وهَاءً، والبرُّ بالبُرِّ رِبًا، إلَّا هَاءً وهَاءً، والشَّعيرُ بالشَّعيرِ رِبًا، إلَّا هَاءً وهَاءً».",
-              soundUrl: 'assets/sounds/269.ogg',
+              soundUrl: 'assets/$soundFolderName/269.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=5P4VjIlkGRevNmZ2',
               isOthimieen: false,
             ),
@@ -2620,7 +2620,7 @@ class Constants {
               hadethNumber: 270,
               hadethText:
                   "عن أبي سعيدٍ الخُدْريِّ رضي الله عنه: أن رسولَ الله ﷺ قال: «لا تَبيعوا الذَّهَبَ بالذَّهَبِ إلَّا مِثْلًا بمِثْلٍ، ولا تُشِفُّوا بعضَهُ على بعضٍ، ولا تَبيعوا الوَرِقَ بالوَرِقِ إلَّا مِثْلًا بمِثْلٍ، ولا تُشِفُّوا بعضَهُ على بعضٍ، ولا تَبيعوا منها غائبًا بناجزٍ». \nوفي لفظ: «إلَّا يَدًا بِيَدٍ». \nوفي لفظ: «إلَّا وَزْنًا بوزنٍ، مِثْلًا بمِثْلٍ، سواءً بسواءٍ».",
-              soundUrl: 'assets/sounds/270.ogg',
+              soundUrl: 'assets/$soundFolderName/270.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=5P4VjIlkGRevNmZ2',
               isOthimieen: false,
             ),
@@ -2628,7 +2628,7 @@ class Constants {
               hadethNumber: 271,
               hadethText:
                   "وعنه رضي الله عنه قال: «جاءَ بلالٌ إلى النبي ﷺ بتمرٍ بَرنيٍّ، فقال له النبي ﷺ: من أين هذا؟ قال بلال: كان عندنا تمرٌ رديءٌ، فبعتُ منه صاعَين بصاعٍ ليُطْعِمَ النبي ﷺ، فقال النبي ﷺ عند ذلك: أوَّهْ! عينُ الربا، عينُ الربا، لا تفعلْ، ولكنْ إذا أردتَ أن تشتريَ فبعِ التمرَ ببيعٍ آخرَ، ثم اشترِ به».",
-              soundUrl: 'assets/sounds/271.ogg',
+              soundUrl: 'assets/$soundFolderName/271.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=5P4VjIlkGRevNmZ2',
               isOthimieen: false,
             ),
@@ -2636,7 +2636,7 @@ class Constants {
               hadethNumber: 272,
               hadethText:
                   "عن أبي المنهال قال: «سألتُ البَراءَ بنَ عازِبٍ وزيدَ بنَ أرقمَ رضي الله عنهما عن الصَّرْفِ، فكلُّ واحدٍ منهما يقول: هذا خيرٌ منِّي، وكلاهما يقول: نهى رسولُ اللهِ ﷺ عن بيعِ الذَّهَبِ بالوَرِقِ دَيْنًا».",
-              soundUrl: 'assets/sounds/272.ogg',
+              soundUrl: 'assets/$soundFolderName/272.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=5P4VjIlkGRevNmZ2',
               isOthimieen: false,
             ),
@@ -2645,7 +2645,7 @@ class Constants {
               hadethNumber: 273,
               hadethText:
                   "عن أبي بَكرةَ رضي الله عنه قال: «نهى رسولُ اللهِ ﷺ عن الفِضَّةِ بالفِضَّةِ، والذَّهَبِ بالذَّهَبِ، إلَّا سواءً بسواءٍ، وأمَرَنا أن نشتريَ الفِضَّةَ بالذَّهَبِ كيفَ شِئْنا، ونشتريَ الذَّهَبَ بالفِضَّةِ كيفَ شِئْنا». قال: فسأله رجلٌ، فقال: يدًا بيدٍ؟ فقال: هكذا سمِعتُ».",
-              soundUrl: 'assets/sounds/273.ogg',
+              soundUrl: 'assets/$soundFolderName/273.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=5P4VjIlkGRevNmZ2',
               isOthimieen: false,
             ),
@@ -2660,7 +2660,7 @@ class Constants {
                   "عن عائشة رضي الله عنها: أن رسول الله ﷺ اشترى طعامًا من يهودي، ورهنه درعًا من حديد.",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/274.ogg',
+              soundUrl: 'assets/$soundFolderName/274.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 275,
@@ -2668,7 +2668,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «مَطْلُ الغني ظلم، فإذا أُتْبِعَ أحدكم على مليء فليَتْبَعْ».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/275.ogg',
+              soundUrl: 'assets/$soundFolderName/275.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 276,
@@ -2676,7 +2676,7 @@ class Constants {
                   "«من أدرك ماله بعينه عند رجل قد أفلس فهو أحق به من غيره».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/276.ogg',
+              soundUrl: 'assets/$soundFolderName/276.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 277,
@@ -2684,7 +2684,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنه قال: «جعل – وفي لفظ: قضى – النبي ﷺ بالشُّفْعَةِ في كل مال لم يُقسم، فإذا وقعت الحدود، وصُرِّفت الطرق؛ فلا شُفعة».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/277.ogg',
+              soundUrl: 'assets/$soundFolderName/277.$fileExtension',
             ),
 
             Hadeth(
@@ -2693,7 +2693,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما قال: «أصاب عمر أرضًا بخيبر، فأتى النبي ﷺ يستأمره فيها، فقال: يا رسول الله! إني أصبت أرضًا بخيبر لم أُصب مالًا قط هو أنفس عندي منه، فما تأمرني به؟ قال: إن شئت حبستَ أصلَها، وتصدّقت بها. قال: فتصدّق بها، غير أنه لا يُباع أصلها، ولا يُورث، ولا يُوهب. قال: فتصدّق عمر في الفقراء، وفي القُربى، وفي الرقاب، وفي سبيل الله، وابن السبيل، والضيف، لا جناح على من وليها أن يأكل منها بالمعروف، أو يُطعم صديقًا، غير مُتَأثِّل فيه». وفي لفظ: «غير مُتَماوِل فيه».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/278.ogg',
+              soundUrl: 'assets/$soundFolderName/278.$fileExtension',
             ),
 
             Hadeth(
@@ -2702,7 +2702,7 @@ class Constants {
                   "عن عمر رضي الله عنه قال: «حملتُ على فرسٍ في سبيل الله، فأضاعه الذي كان عنده، فأردت أن أشتريه وظننتُ أنه يبيعه برخص، فسألت النبي ﷺ، فقال: لا تَشتره ولا تَعُدْ في صدقتك، وإن أعطاكه بدرهم، فإن العائد في هبته كالكلب يعود في قيئه». وفي لفظ: «إن الذي يعود في صدقته كالكلب يعود في قيئه».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/279.ogg',
+              soundUrl: 'assets/$soundFolderName/279.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 280,
@@ -2710,7 +2710,7 @@ class Constants {
                   "وعن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «العائد في هبته كالكلب يعود في قيئه».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/280.ogg',
+              soundUrl: 'assets/$soundFolderName/280.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 281,
@@ -2718,7 +2718,7 @@ class Constants {
                   "عن النعمان بن بشير رضي الله عنه قال: «تصدَّق عليَّ أبي ببعض ماله، فقالت أمي - عمرة بنت رواحة -: لا أرضى حتى تُشهد رسول الله ﷺ. فأتى أبي إلى رسول الله ﷺ ليشهده على صدقتي، فقال له رسول الله ﷺ: أكل ولدك نَحَلْتَ مثل هذا؟ قال: لا. قال: اتقوا الله، واعدلوا في أولادكم. فرجع أبي فردَّ تلك الصدقة». وفي لفظ: «فلا تُشهدني إذن، فإني لا أشهد على جور». وفي لفظ: «أَتشهد على هذا غيري».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/281.ogg',
+              soundUrl: 'assets/$soundFolderName/281.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 282,
@@ -2726,7 +2726,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما: «أن النبي ﷺ عامل أهل خيبر بشطر ما يخرج منها من ثمر أو زرع».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/282.ogg',
+              soundUrl: 'assets/$soundFolderName/282.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 283,
@@ -2734,7 +2734,7 @@ class Constants {
                   "عن رافع بن خديج رضي الله عنه قال: «كنا أكثر الأنصار حقلًا، فكنا نُكري الأرض على أن لنا هذه ولهم هذه، فربما أخرجت هذه ولم تخرج هذه، فنهينا عن ذلك. وأما الورِق فلم نُنهَ عنه». ولمسلم عن حنظلة بن قيس قال: «سألتُ رافع بن خديج عن كِراء الأرض بالذهب والورِق، فقال: لا بأس به، إنما كان الناس يؤاجرون على عهد النبي ﷺ بما على الماذيانات وأقبال الجداول وأشياء من الزرع، فيهلك هذا ويسلم هذا، ويهلك هذا ويسلم هذا، ولم يكن للناس كراء إلا هذا، فلذلك زُجر عنه. فأما شيء معلوم مضمون فلا بأس به».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/283.ogg',
+              soundUrl: 'assets/$soundFolderName/283.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 284,
@@ -2742,7 +2742,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنه قال: «قضى النبي ﷺ بالعُمْرَى لمن وُهِبت له». وفي لفظ: «من أُعمر عُمرى له ولعقِبه فإنه لا ترجع إلى الذي أعطاها، لأنه أعطى عطاءً وقعت فيه المواريث». وقال جابر رضي الله عنه: «إنما العُمْرَى التي أجاز رسول الله ﷺ أن يقول: هي لك ولعقبك. فأما إذا قال: هي لك ما عشتَ، فإنها ترجع إلى صاحبها». وفي لفظ لمسلم: «أمسكوا عليكم أموالكم ولا تفسدوها، فإنه من أُعمر عُمرى فهي للذي أُعمرها حيًّا وميتًا ولعقِبه».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/284.ogg',
+              soundUrl: 'assets/$soundFolderName/284.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 285,
@@ -2750,7 +2750,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «لا يمنعن جارٌ جارَه أن يغرز خشبةً في جداره». ثم يقول أبو هريرة: ما لي أراكم عنها معرضين؟ والله! لأرمين بها بين أكتافكم.",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/285.ogg',
+              soundUrl: 'assets/$soundFolderName/285.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 286,
@@ -2758,7 +2758,7 @@ class Constants {
                   "عن عائشة رضي الله عنها أن رسول الله ﷺ قال: «من ظلم قِيدَ شِبْرٍ من الأرض طوَّقه من سبع أرضين».",
               explainUrl: "https://youtu.be/n4Q6phIizLg?si=wRvyW3po-Dei8qty",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/286.ogg',
+              soundUrl: 'assets/$soundFolderName/286.$fileExtension',
             ),
           ],
         ),
@@ -2769,7 +2769,7 @@ class Constants {
               hadethText:
                   "عن زيدِ بنِ خالدٍ الجُهَنِيِّ رضيَ اللهُ عنه قال: سُئِلَ رسولُ اللهِ ﷺ عن اللُّقَطَةِ، الذَّهَبِ أوِ الورِقِ، فقال: «اعرِفْ وِكَاءَها وعِفَاصَها، ثم عرِّفْها سَنَةً، فإنْ لم تُعْرَفْ فاستَنفِقْها، ولْتَكُنْ وِدِيعَةً عندَك، فإنْ جاءَ طالِبُها يومًا مِن الدَّهْرِ، فأدِّها إليه». وسأله عن ضالَّةِ الإبلِ، فقال: «ما لكَ ولَها؟ معها حِذَاؤُها وسِقَاؤُها، تَرِدُ الماءَ، وتَأْكُلُ الشَّجَرَ، حتَّى يَجِدَها ربُّها». وسأله عن الشَّاةِ، فقال: «خُذْها، فإنَّما هي لكَ، أو لأخِيكَ، أو للذِّئْبِ».",
               hadethNumber: 287,
-              soundUrl: 'assets/sounds/287.ogg',
+              soundUrl: 'assets/$soundFolderName/287.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2782,7 +2782,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما أنَّ رسولَ اللهِ ﷺ قال: «ما حقُّ امرئٍ مسلمٍ له شيءٌ يُوصِي فيه، يَبيتُ ليلتينِ، إلَّا ووصيتُه مكتوبةٌ عنده».\n\nزاد مسلمٌ: (قال ابنُ عمرَ رضيَ اللهُ عنهما: ما مرَّتْ عَلَيَّ لَيلةٌ منذ سمعتُ رسولَ اللهِ ﷺ يقولُ ذلك، إلَّا وعندي وصيتي).",
               hadethNumber: 288,
-              soundUrl: 'assets/sounds/288.ogg',
+              soundUrl: 'assets/$soundFolderName/288.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2790,7 +2790,7 @@ class Constants {
               hadethText:
                   "عن سعدِ بنِ أبي وقاصٍ رضيَ اللهُ عنه قال: «جاءني رسولُ اللهِ ﷺ يعودُني عامَ حَجَّةِ الوَداعِ من وَجعٍ اشتدَّ بي، فقلتُ: يا رسولَ اللهِ! قد بلغ بي مِنَ الوجعِ ما تَرى، وأنا ذو مالٍ ولا يَرِثُني إلا ابنةٌ، أَفَأتَصَدَّقُ بثُلُثَي مالي؟ قال: لا. فقلتُ: فالشَّطرُ يا رسولَ اللهِ؟ قال: لا. قلتُ: فالثلثُ؟ قال: الثُّلثُ، والثُّلثُ كثيرٌ، إنَّك أنْ تَذَرَ ورثتَكَ أغنياءَ، خيرٌ من أنْ تَذَرَهم عالةً يَتَكفَّفُونَ الناسَ، وإنَّك لن تُنْفِقَ نَفَقَةً تبتغي بها وجهَ اللهِ إلا أُجِرْتَ بها، حتى ما تجعَلُ في امرأتِك». قال: فقلتُ: يا رسولَ اللهِ، أُخَلَّفُ بعدَ أصحابِي؟ قال: «إنَّك لن تُخَلَّفَ فتعملَ عملًا تبتغي به وجهَ اللهِ، إلَّا ازددتَ به دَرجةً ورِفعةً، ولعلَّك أنْ تُخَلَّفَ حتى يَنتفعَ بك أقوامٌ ويُضَرَّ بك آخرون. اللهمَّ أمضِ لأصحابي هجرتَهم، ولا تَرُدَّهُم على أعقابِهم». لكن البائسَ سعدُ بنُ خَولةَ، يرثي له رسولُ اللهِ ﷺ أنْ ماتَ بمكةَ.",
               hadethNumber: 289,
-              soundUrl: 'assets/sounds/289.ogg',
+              soundUrl: 'assets/$soundFolderName/289.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2798,7 +2798,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنهما قال: «لو أنَّ الناسَ غضُّوا من الثُّلثِ إلى الرُّبعِ؛ فإنَّ رسولَ اللهِ ﷺ قال: الثُّلثُ، والثُّلثُ كثيرٌ».",
               hadethNumber: 290,
-              soundUrl: 'assets/sounds/290.ogg',
+              soundUrl: 'assets/$soundFolderName/290.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2811,7 +2811,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عباسٍ رضيَ اللهُ عنهما، عنِ النبيِّ ﷺ قال: «ألحقوا الفَرائضَ بأهلِها، فما بَقِيَ فهو لأوْلى رجلٍ ذَكَرٍ».\n\nوفي روايةٍ: «اقسموا المالَ بينَ أهلِ الفَرائضِ على كتابِ اللهِ، فما تَرَكَتِ الفَرائضُ فلأوْلى رجلٍ ذَكَرٍ».",
               hadethNumber: 291,
-              soundUrl: 'assets/sounds/291.ogg',
+              soundUrl: 'assets/$soundFolderName/291.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2819,7 +2819,7 @@ class Constants {
               hadethText:
                   "عن أُسامةَ بنِ زيدٍ رضيَ اللهُ عنهما قال: «قلتُ: يا رسولَ اللهِ! أتنزلُ غدًا في دارِك بمكَّةَ؟ قال: وهل تَرَكَ لنا عَقيلٌ من رِبَاعٍ؟ ثم قال: لا يَرِثُ الكافرُ المسلمَ، ولا المسلمُ الكافرَ».",
               hadethNumber: 292,
-              soundUrl: 'assets/sounds/292.ogg',
+              soundUrl: 'assets/$soundFolderName/292.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2827,7 +2827,7 @@ class Constants {
               hadethText:
                   "عن عبدِ اللهِ بنِ عمرَ رضيَ اللهُ عنهما: «أنَّ النبيَّ ﷺ نهى عن بيعِ الولاءِ، وعن هِبَتِهِ».",
               hadethNumber: 293,
-              soundUrl: 'assets/sounds/293.ogg',
+              soundUrl: 'assets/$soundFolderName/293.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2835,7 +2835,7 @@ class Constants {
               hadethText:
                   "عن عائشةَ رضيَ اللهُ عنها قالت: «كانت في بَرِيرَةَ ثلاثُ سُنَنٍ، خُيِّرَتْ على زوجِها حين أُعتِقَتْ، وأُهْدِيَ لها لحمٌ، فدَخَلَ عليَّ رسولُ اللهِ ﷺ والبُرْمَةُ على النارِ، فدعا بطعامٍ، فأُتِيَ بخُبزٍ وأُدْمٍ من أُدْمِ البيتِ، فقال: ألم أرَ البُرْمَةَ على النارِ فيها لحمٌ؟ فَقُلتُ: بلى يا رسولَ اللهِ، ذاك لحمٌ تُصُدِّقَ به على بَرِيرَةَ، فَكَرِهْنا أن نُطْعِمَكَ منه، فقال: هو عليها صدقةٌ، وهو منها لنا هديةٌ».\n\nوقال النبيُّ ﷺ فيها: «إنما الوَلاءُ لمن أعتقَ».",
               hadethNumber: 294,
-              soundUrl: 'assets/sounds/294.ogg',
+              soundUrl: 'assets/$soundFolderName/294.$fileExtension',
               explainUrl: 'https://youtu.be/n4Q6phIizLg?si=X6WPOHzb2xhVj6-Y',
               isOthimieen: false,
             ),
@@ -2857,7 +2857,7 @@ class Constants {
                   "عن عبد الله بن مسعود رضي الله عنه، قال: قال لنا رسول الله ﷺ: «يا معشرَ الشبابِ! من استطاعَ منكم الباءةَ فليتزوجْ، فإنه أغضُّ للبصرِ، وأحصنُ للفرجِ، ومن لم يستطعْ فعليه بالصومِ، فإنه له وجاءٌ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/295.ogg',
+              soundUrl: 'assets/$soundFolderName/295.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 296,
@@ -2865,7 +2865,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه: أن نفرًا من أصحاب النبي ﷺ سألوا أزواج النبي ﷺ عن عمله في السرِّ، فقال بعضهم: لا أتزوج النساءَ، وقال بعضهم: لا آكل اللحمَ، وقال بعضهم: لا أنام على فراشٍ. فبلغ ذلك النبي ﷺ، فحمد الله وأثنى عليه، ثم قال: «ما بال أقوام قالوا كذا وكذا؟ لكني أصلي وأنام، وأصوم وأفطر، وأتزوج النساء، فمن رغب عن سنتي فليس مني».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/296.ogg',
+              soundUrl: 'assets/$soundFolderName/296.$fileExtension',
             ),
           ],
         ),
@@ -2879,7 +2879,7 @@ class Constants {
                   "عن سعد بن أبي وقاص رضي الله عنه قال: «رد رسولُ اللهِ ﷺ عثمانَ بنَ مظعونٍ عن التبتُّلِ، ولو أذِن له لاختصينا».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/297.ogg',
+              soundUrl: 'assets/$soundFolderName/297.$fileExtension',
             ),
           ],
         ),
@@ -2892,7 +2892,7 @@ class Constants {
               hadethText:
                   "عن أم حبيبة بنت أبي سفيان رضي الله عنها، أنها قالت: «يا رسولَ اللهِ! أنكِحْ أختي بنت أبي سفيان، فقال: أو تُحبين ذلك؟ فقلتُ: نعم، لستُ لك بِمُخلِيَةٍ، وأُحِبُّ من شاركني في خيرٍ أُخْتِي، فقال النبيُّ ﷺ: إنَّ ذلك لا يَحِلُّ لي، قالت: فإنا نُحدِّثُ أنك تُريدُ أن تَنْكِحَ بنتَ أبي سلمةَ، قال: بنت أم سلمة؟ قلتُ: نعم. قال: إنها لو لم تَكن ربيبتي في حَجْري ما حلَّت لي، إنها لابنة أخي من الرضاعة، أرضعَتني وأبا سلمةَ ثُوَيبةُ، فلا تَعرضْنَ عليَّ بناتِكنَّ ولا أخواتِكنَّ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
-              soundUrl: 'assets/sounds/298.ogg',
+              soundUrl: 'assets/$soundFolderName/298.$fileExtension',
               isOthimieen: false,
             ),
           ],
@@ -2907,7 +2907,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه: أن رسول الله ﷺ قال: «لا يُجمَع بين المرأةِ وعمتِها، ولا بين المرأةِ وخالتِها».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/299.ogg',
+              soundUrl: 'assets/$soundFolderName/299.$fileExtension',
             ),
           ],
         ),
@@ -2921,7 +2921,7 @@ class Constants {
                   "عن عقبة بن عامر رضي الله عنه قال: قال رسول الله ﷺ: «إن أحقَّ الشروطِ أن توفوا به ما استحلَلْتُم به الفروجَ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/300.ogg',
+              soundUrl: 'assets/$soundFolderName/300.$fileExtension',
             ),
           ],
         ),
@@ -2935,7 +2935,7 @@ class Constants {
                   "عن ابن عمر رضي الله عنهما: أن رسول الله ﷺ «نهى عن الشغارِ، والشغارُ أن يُزوِّجَ الرجلُ ابنتَه على أن يُزوِّجَه الآخرُ ابنتَه، وليس بينهما صداقٌ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/301.ogg',
+              soundUrl: 'assets/$soundFolderName/301.$fileExtension',
             ),
           ],
         ),
@@ -2949,7 +2949,7 @@ class Constants {
                   "عن علي بن أبي طالب رضي الله عنه: أن رسول الله ﷺ «نهى عن نكاحِ المتعةِ يوم خيبرَ، وعن لحومِ الحمرِ الأهليَّةِ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/302.ogg',
+              soundUrl: 'assets/$soundFolderName/302.$fileExtension',
             ),
           ],
         ),
@@ -2963,7 +2963,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه: أن النبي ﷺ قال: «لا تُنكَحُ الأيِّمُ حتى تُستأمَرَ، ولا تُنكَحُ البكرُ حتى تُستأذَنَ». قالوا: يا رسولَ اللهِ! فكيف إذنُها؟ قال: «أن تَسكُتَ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/303.ogg',
+              soundUrl: 'assets/$soundFolderName/303.$fileExtension',
             ),
           ],
         ),
@@ -2977,7 +2977,7 @@ class Constants {
                   "عن عائشة رضي الله عنها قالت: «جاءت امرأةُ رفاعةَ القرظيِّ إلى النبيِّ ﷺ، فقالت... حتى تذوقي عُسيلتَه، ويذوقَ عُسيلتَكِ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/304.ogg',
+              soundUrl: 'assets/$soundFolderName/304.$fileExtension',
             ),
           ],
         ),
@@ -2991,7 +2991,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه قال: «من السنة: إذا تزوج البكرَ على الثيبِ، أقام عندها سبعًا، وإذا تزوج الثيبَ أقام عندها ثلاثًا...»",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/305.ogg',
+              soundUrl: 'assets/$soundFolderName/305.$fileExtension',
             ),
           ],
         ),
@@ -3005,7 +3005,7 @@ class Constants {
                   "عن ابن عباس رضي الله عنهما: أن رسول الله ﷺ قال: «لو أن أحدَكم إذا أراد أن يأتيَ أهلَه، قال: بسم الله، اللهم جنِّبْنا الشيطان، وجنِّبِ الشيطانَ ما رزقتنا...»",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/306.ogg',
+              soundUrl: 'assets/$soundFolderName/306.$fileExtension',
             ),
           ],
         ),
@@ -3019,7 +3019,7 @@ class Constants {
                   "عن عقبة بن عامر رضي الله عنه، أن رسول الله ﷺ قال: «إياكم والدخولَ على النساء!» فقال رجلٌ من الأنصار: يا رسولَ الله! أفرأيت الحمو؟ قال: «الحموُ الموتُ».",
               explainUrl: "https://youtu.be/jRrK87mLcuQ?si=Q3ARu9g8Q8J_3U5V",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/307.ogg',
+              soundUrl: 'assets/$soundFolderName/307.$fileExtension',
             ),
           ],
         ),
@@ -3031,7 +3031,7 @@ class Constants {
               hadethText:
                   "\u202B٣٠٨ - عَنْ أَنَسِ بْنِ مَالِكٍ رضي الله عنه: «أَنَّ رَسُولَ اللَّهِ ﷺ أَعْتَقَ صَفِيَّةَ، وَجَعَلَ عِتْقَهَا صَدَاقَهَا».\u202C",
               hadethNumber: 308,
-              soundUrl: 'assets/sounds/308.ogg',
+              soundUrl: 'assets/$soundFolderName/308.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -3044,7 +3044,7 @@ class Constants {
                   "قَالَ: فَالْتَمِسْ وَلَوْ خَاتَمًا مِنْ حَدِيدٍ! فَالْتَمَسَ فَلَمْ يَجِدْ شَيْئًا.\n"
                   "فَقَالَ رَسُولُ اللَّهِ ﷺ: زَوَّجْتُكَهَا بِمَا مَعَكَ مِنَ الْقُرْآنِ».\u202C",
               hadethNumber: 309,
-              soundUrl: 'assets/sounds/309.ogg',
+              soundUrl: 'assets/$soundFolderName/309.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -3055,7 +3055,7 @@ class Constants {
                   "فَقَالَ: مَا أَصْدَقْتَهَا؟ قَالَ: وَزْنَ نَوَاةٍ مِنْ ذَهَبٍ.\n"
                   "قَالَ: فَبَارَكَ اللَّهُ لَكَ، أَوْلِمْ وَلَوْ بِشَاةٍ».\u202C",
               hadethNumber: 310,
-              soundUrl: 'assets/sounds/310.ogg',
+              soundUrl: 'assets/$soundFolderName/310.$fileExtension',
               explainUrl: 'https://youtu.be/uBPUEsG2sJk?si=ui09P-petwIvNuXG',
               isOthimieen: false,
             ),
@@ -3078,7 +3078,7 @@ class Constants {
                   "وفي لفظ: «حَتَّى تَحِيضَ حَيْضَةً مُسْتَقْبَلَةً، سِوَى الْحَيْضَةِ الَّتِي طَلَّقَهَا فِيهَا».\n"
                   "وفي لفظ: «فَحَسِبْتُ مِنْ طَلَاقِهَا، وَرَاجَعَهَا عَبْدُ اللَّهِ كَمَا أَمَرَ رَسُولُ اللَّهِ ﷺ».\u202C",
               hadethNumber: 311,
-              soundUrl: 'assets/sounds/311.ogg',
+              soundUrl: 'assets/$soundFolderName/311.$fileExtension',
               explainUrl: 'https://youtu.be/fiHFWp6FWik?si=ig-ZZ8GT74pGxep1',
               isOthimieen: false,
             ),
@@ -3092,7 +3092,7 @@ class Constants {
                   "فَكَرِهْتُهُ، ثُمَّ قَالَ: انْكِحِي أُسَامَةَ بْنَ زَيْدٍ، فَنَكَحْتُهُ، فَجَعَلَ اللَّهُ فِيهِ خَيْرًا وَاغْتَبَطْتُ».\u202C",
               hadethNumber: 312,
 
-              soundUrl: 'assets/sounds/312.ogg',
+              soundUrl: 'assets/$soundFolderName/312.$fileExtension',
               explainUrl: 'https://youtu.be/fiHFWp6FWik?si=ig-ZZ8GT74pGxep1',
               isOthimieen: false,
             ),
@@ -3108,7 +3108,7 @@ class Constants {
                   "قَالَتْ سُبَيْعَةُ: فَلَمَّا قَالَ لِي ذَلِكَ جَمَعْتُ عَلَيَّ ثِيَابِي حِينَ أَمْسَيْتُ، فَأَتَيْتُ النَّبِيَّ ﷺ فَسَأَلْتُهُ عَنْ ذَلِكَ، فَأَفْتَانِي بِأَنِّي قَدْ حَلَلْتُ حِينَ وَضَعْتُ حَمْلِي، وَأَمَرَنِي بِالتَّزْوِيجِ إِنْ بَدَا لِي.\n"
                   "قَالَ ابْنُ شِهَابٍ: وَلَا أَرَى بَأْسًا أَنْ تَتَزَوَّجَ حِينَ تَضَعُ، وَإِنْ كَانَتْ فِي دَمِهَا، غَيْرَ أَنَّهُ لَا يَقْرَبُهَا زَوْجُهَا حَتَّى تَطْهُرَ».\u202C",
               hadethNumber: 313,
-              soundUrl: 'assets/sounds/313.ogg',
+              soundUrl: 'assets/$soundFolderName/313.$fileExtension',
               explainUrl: 'https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-',
               isOthimieen: false,
             ),
@@ -3117,7 +3117,7 @@ class Constants {
                   "\u202B٣١٤ - عَنْ زَيْنَبَ بِنْتِ أُمِّ سَلَمَةَ رضي الله عنها: قَالَتْ: «تُوُفِّيَ حَمِيمٌ لِأُمِّ حَبِيبَةَ رضي الله عنها، فَدَعَتْ بِصُفْرَةٍ فَمَسَحَتْ بِذِرَاعَيْهَا، وَقَالَتْ: إِنَّمَا أَصْنَعُ هَذَا؛ لِأَنِّي سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: لَا يَحِلُّ لِامْرَأَةٍ تُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ أَنْ تُحِدَّ فَوْقَ ثَلَاثٍ؛ إِلَّا عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا».\n"
                   "الحديث في: القُرَابَةِ».\u202C",
               hadethNumber: 314,
-              soundUrl: 'assets/sounds/314.ogg',
+              soundUrl: 'assets/$soundFolderName/314.$fileExtension',
               explainUrl: 'https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-',
               isOthimieen: false,
             ),
@@ -3126,7 +3126,7 @@ class Constants {
               hadethText:
                   "عن أُمِّ عَطِيَّةَ رضي الله عنها: أَنَّ رَسُولَ اللَّهِ ﷺ قَالَ: «لَا تُحِدُّ امْرَأَةٌ عَلَى مَيِّتٍ فَوْقَ ثَلَاثٍ، إِلَّا عَلَى زَوْجٍ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا، وَلَا تَلْبَسْ ثَوْبًا مَصْبُوغًا إِلَّا ثَوْبَ عَصْبٍ، وَلَا تَكْتَحِلْ، وَلَا تَمَسَّ طِيبًا، وَلَا تَقُصَّ شَعْرَهَا، إِلَّا إِذَا طَهُرَتْ نُبْذَةً مِنْ قُسْطٍ أَوْ أَظْفَارٍ». العَصْبُ: ثِيَابٌ مِنَ الْيَمَنِ فِيهَا بَيَاضٌ وَسَوَادٌ.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
-              soundUrl: "assets/sounds/315.ogg",
+              soundUrl: "assets/$soundFolderName/315.$fileExtension",
               isOthimieen: false,
             ),
             Hadeth(
@@ -3134,7 +3134,7 @@ class Constants {
               hadethText:
                   "عن أمِّ سَلَمَةَ رضي الله عنها قالت: «جَاءَتِ امْرَأَةٌ إِلَى رَسُولِ اللَّهِ ﷺ، فَقَالَتْ: يَا رَسُولَ اللَّهِ، إِنَّ ابْنَتِي تُوُفِّيَ عَنْهَا زَوْجُهَا، وَقَدِ اشْتَكَتْ عَيْنُهَا، أَفَنَكْتَحِلُهَا؟ فَقَالَ رَسُولُ اللَّهِ ﷺ: لَا - مَرَّتَيْنِ أَوْ ثَلَاثًا -، كُلُّ ذَلِكَ يَقُولُ: لَا. ثُمَّ قَالَ: إِنَّمَا هِيَ أَرْبَعَةُ أَشْهُرٍ وَعَشْرٌ، وَقَدْ كَانَتْ إِحْدَاكُنَّ فِي الْجَاهِلِيَّةِ تَرْمِي بِالْبَعْرَةِ عَلَى رَأْسِ الْحَوْلِ. فَقَالَتْ زَيْنَبُ رضي الله عنها: كَانَتِ الْمَرْأَةُ إِذَا تُوُفِّيَ عَنْهَا زَوْجُهَا دَخَلَتْ حِشًّا، وَلَبِسَتْ شَرَّ ثِيَابِهَا، وَلَمْ تَمَسَّ طِيبًا وَلَا شَيْئًا حَتَّى تَمُرَّ بِهَا سَنَةٌ، ثُمَّ تُؤْتَى بِبَعْرَةٍ - حِمَارٍ، أَوْ شَاةٍ، أَوْ طَيْرٍ - فَتَمْسَحُ بِهِ، فَتَقْبِحُ بِهِ كُلَّ شَيْءٍ، إِلَّا مَا مَاتَ، ثُمَّ تَخْرُجُ فَتَقْطَطِعُ بَعْرَةً بِمِقْرَاضٍ، ثُمَّ تَرَاجِعُ بَعْدَ مَا شَاءَتْ مِنْ طِيبٍ أَوْ غَيْرِهِ». الحِشُّ: البَيْتُ الصَّغِير. تَنْفُضُ: تَذُلَّلُ بِهِ جَسَدَهَا.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
-              soundUrl: "assets/sounds/316.ogg",
+              soundUrl: "assets/$soundFolderName/316.$fileExtension",
               isOthimieen: false,
             ),
           ],
@@ -3158,7 +3158,7 @@ class Constants {
                   "فَقَالَتْ: لَا. وَالَّذِي بَعَثَكَ بِالْحَقِّ إِنَّهُ لَكَذَّابٌ». ثُمَّ نَبَّهَ بالرَّجُلِ فَشَهِدَ أَرْبَعَ شَهَادَاتٍ بِاللَّهِ إِنَّهُ لِمَنِ الصَّادِقِينَ، وَالْخَامِسَةُ أَنْ لَعْنَةَ اللَّهِ عَلَيْهِ إِنْ كَانَ مِنَ الْكَاذِبِينَ.\n"
                   "ثُمَّ شَهِدَتْ بِالْمَرْأَةِ: أَرْبَعَ شَهَادَاتٍ بِاللَّهِ إِنَّهُ لِمَنِ الْكَاذِبِينَ، وَالْخَامِسَةُ أَنْ غَضِبَ اللَّهُ عَلَيْهَا إِنْ كَانَ مِنَ الصَّادِقِينَ.\n"
                   "ثُمَّ فُرِّقَ بَيْنَهُمَا، ثُمَّ قَالَ: اللَّهُ يَعْلَمُ أَنْ أَحَدَكُمَا كَاذِبٌ؛ فَهَلْ مِنْكُمَا تَائِبٌ؟ ثَلَاثًا -»\u202C",
-              soundUrl: 'assets/sounds/317.ogg',
+              soundUrl: 'assets/$soundFolderName/317.$fileExtension',
               explainUrl: 'https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-',
               isOthimieen: false,
             ),
@@ -3166,7 +3166,7 @@ class Constants {
               hadethNumber: 318,
               hadethText:
                   "عن عبد الله رضي الله عنه: «أن رجلاً رمى امرأته وانتفى من ولدها، في زمان رسول الله ﷺ، فأمرهما رسول الله ﷺ فتلاعنا – كما قال الله ﷺ – ثم قضى بالولد للمرأة، وفرق بين المتلاعنين».",
-              soundUrl: 'assets/sounds/318.ogg',
+              soundUrl: 'assets/$soundFolderName/318.$fileExtension',
               explainUrl: 'https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-',
               isOthimieen: false,
             ),
@@ -3174,7 +3174,7 @@ class Constants {
               hadethText:
                   "٣١٩ - عَنْ أَبِي هُرَيْرَةَ رضي الله عنه، قَالَ: «جَاءَ رَجُلٌ مِنْ بَنِي فَزَارَةَ إِلَى النَّبِيِّ ﷺ، فَقَالَ: إِنَّ امْرَأَتِي وَلَدَتْ غُلَامًا أَسْوَدَ. فَقَالَ النَّبِيُّ ﷺ: هَلْ لَكَ إِبِلٌ؟ قَالَ: نَعَمْ. قَالَ: فَمَا أَلْوَانُهَا؟ قَالَ: حُمْرٌ. قَالَ: هَلْ فِيهَا مِنْ أَوْرَقَ؟ قَالَ: إِنَّ فِيهَا لَوُرْقًا. قَالَ: فَأَنَّى أَتَاهَا ذَلِكَ؟ قَالَ: عَسَى أَنْ يَكُونَ نَزَعَهُ عِرْقٌ. قَالَ: وَهَذَا عَسَى أَنْ يَكُونَ نَزَعَهُ عِرْقٌ».",
               hadethNumber: 319,
-              soundUrl: 'assets/sounds/319.ogg',
+              soundUrl: 'assets/$soundFolderName/319.$fileExtension',
               explainUrl: 'https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-',
               isOthimieen: false,
             ),
@@ -3184,7 +3184,7 @@ class Constants {
                   "عن عائشة رضي الله عنها قالت: اختصم سعد بن أبي وقاص وعبد بن زمعة في غلام، فقال سعد: يا رسول الله! هذا ابن أخي عتبة بن أبي وقاص، عهد إليّ أنه ابنه، انظر إلى شبهه. وقال عبد بن زمعة: هذا أخي يا رسول الله! ولد على فراش أبي من وليدته. فنظر رسول الله ﷺ إلى شبهه، فرأى شبهاً بيناً بعتبة، فقال: هو لك يا عبد بن زمعة، الولد للفراش، وللعاهر الحجر، واحتجبي منه يا سودة. فلم ير سودة قط.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/320.ogg',
+              soundUrl: 'assets/$soundFolderName/320.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 321,
@@ -3192,7 +3192,7 @@ class Constants {
                   "عن عائشة رضي الله عنها أنها قالت: إن رسول الله ﷺ دخل عليّ مسرورًا تبرق أسارير وجهه، فقال: ألم تري أن مجززًا نظر آنفًا إلى زيد بن حارثة وأسامة بن زيد، فقال: إن بعض هذه الأقدام لمن بعض.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/321.ogg',
+              soundUrl: 'assets/$soundFolderName/321.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 322,
@@ -3200,7 +3200,7 @@ class Constants {
                   "عن أبي سعيد الخدري رضي الله عنه قال: ذُكر العزل لرسول الله ﷺ، فقال: ولم يفعل ذلك أحدكم؟ ولم يقل: فلا يفعل ذلك أحدكم. فإنه ليست نفس مخلوقة إلا الله خالقها.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/322.ogg',
+              soundUrl: 'assets/$soundFolderName/322.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 323,
@@ -3208,7 +3208,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنه قال: كنا نعزل والقرآن ينزل. لو كان شيء ينهى عنه لنهانا عنه القرآن.",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/323.ogg',
+              soundUrl: 'assets/$soundFolderName/323.$fileExtension',
             ),
             Hadeth(
               hadethNumber: 324,
@@ -3216,7 +3216,7 @@ class Constants {
                   "عن أبي ذر رضي الله عنه: أنه سمع رسول الله ﷺ يقول: «ليس من رجل ادعى لغير أبيه وهو يعلمه إلا كفر. ومن ادعى ما ليس له فليس منا، وليتبوأ مقعده من النار. ومن دعا رجلاً بالكفر، أو قال: عدو الله، وليس كذلك، إلا حار عليه».",
               explainUrl: "https://youtu.be/Nid96sftqAw?si=a0fac7X5X1M0g-5-",
               isOthimieen: false,
-              soundUrl: 'assets/sounds/324.ogg',
+              soundUrl: 'assets/$soundFolderName/324.$fileExtension',
             ),
           ],
         ),
@@ -3236,7 +3236,7 @@ class Constants {
                   "عن ابن عباس رضيَ اللهُ عنهما قال: قال رسولُ اللهِ ﷺ في بنتِ حمزةَ: «لا تَحِلُّ لي، يَحرُمُ من الرَّضاعَةِ ما يَحرُمُ من النَّسَبِ، وهيَ ابنةُ أخي من الرَّضاعَةِ».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=0DQoOQvue29q302-",
               isOthimieen: false,
-              soundUrl: "assets/sounds/325.ogg",
+              soundUrl: "assets/$soundFolderName/325.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 326,
@@ -3244,7 +3244,7 @@ class Constants {
                   "عن عائشة رضي الله عنها قالت: قال رسول الله ﷺ: «إِنَّ الرَّضَاعَةَ تُحَرِّمُ مَا يُحَرِّمُ مِنَ الْوِلَادَةِ».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=0DQoOQvue29q302-",
               isOthimieen: false,
-              soundUrl: "assets/sounds/326.ogg",
+              soundUrl: "assets/$soundFolderName/326.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 327,
@@ -3252,7 +3252,7 @@ class Constants {
                   "وعنها رضي الله عنها قالت: «إن أفلح أخا أبي القعيس استأذن عليّ بعدما أنزل الحجاب، فقلت: والله لا آذن له حتى أستأذن رسول الله ﷺ؛ فإن أبا القعيس ليس هو أرضعني، ولكن أرضعتني امرأة أبي القعيس». فدخل عليّ رسول الله ﷺ فقلت: يا رسول الله! إن الرجل ليس هو أرضعني، ولكن أرضعتني امرأته. قال: «ائذني له، فإنه عمك تربت يمينك».\nقال عروة: فبذلك كانت عائشة رضي الله عنها تقول: حرّموا من الرضاعة ما يحرّم من النسب.\nوفي لفظ: «استأذن عليّ أفلح فلم آذن له، فقال: أتحجبين مني وأنا عمك؟ فقلت: كيف ذلك؟ قال: أرضعتك امرأة أخي بلبن أخي. فسألت رسول الله ﷺ فقال: صدق أفلح، ائذني له».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=106h7Ez99ccGyItz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/327.ogg",
+              soundUrl: "assets/$soundFolderName/327.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 328,
@@ -3260,7 +3260,7 @@ class Constants {
                   "وعنها رضي الله عنها قالت: «دخل عليّ النبي ﷺ وعندي رجل، فقال: يا عائشة! من هذا؟ قلت: أخي من الرضاعة، فقال: يا عائشة! انظرن من إخوانكن؛ فإنما الرضاعة من المجاعة».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=106h7Ez99ccGyItz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/328.ogg",
+              soundUrl: "assets/$soundFolderName/328.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 329,
@@ -3268,7 +3268,7 @@ class Constants {
                   "عن عقبة بن الحارث رضي الله عنه: «أنه تزوج أم يحيى بنت أبي إهاب، فجاءت أمة سوداء فقالت: قد أرضعتكما، فذكرت ذلك للنبي ﷺ، فأعرض عني، قال: فتنحيت فذكرت ذلك له، قال: وكيف وقد زعمت أن قد أرضعتكما؟».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=106h7Ez99ccGyItz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/329.ogg",
+              soundUrl: "assets/$soundFolderName/329.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 330,
@@ -3276,7 +3276,7 @@ class Constants {
                   "عن البراء بن عازب رضي الله عنه قال: «خرج رسول الله ﷺ - يعني من مكة -، فتبعتهم ابنة حمزة تنادي: يا عم! فتناولها عليّ فأخذ بيدها، وقال لفاطمة: دونك ابنة عمك فاحمليها. فاختصم فيها علي وزيد وجعفر. فقال علي: أنا أحق بها، وهي ابنة عمي. وقال جعفر: ابنة عمي، وخالتها تحتي. وقال زيد: ابنة أخي. فقضى بها النبي ﷺ لخالتها، وقال: الخالة بمنزلة الأم. وقال لعلي: أنت مني، وأنا منك. وقال لجعفر: أشبهت خلقي وخُلُقي. وقال لزيد: أنت أخونا ومولانا».",
               explainUrl: "https://youtu.be/5wgD_qBD_9k?si=106h7Ez99ccGyItz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/330.ogg",
+              soundUrl: "assets/$soundFolderName/330.$fileExtension",
             ),
           ],
         ),
@@ -3296,7 +3296,7 @@ class Constants {
                   "عن عبد الله بن مسعود رضي الله عنه قال: قال النبي ﷺ: «لا يحل دم امرئ مسلم يشهد أن لا إله إلا الله وأني رسول الله، إلا بإحدى ثلاث: الثيب الزاني، والنفس بالنفس، والتارك لدينه المفارق للجماعة».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/331.ogg",
+              soundUrl: "assets/$soundFolderName/331.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 332,
@@ -3304,7 +3304,7 @@ class Constants {
                   "عن عبد الله بن مسعود رضي الله عنه قال: قال رسول الله ﷺ: «أول ما يُقضى بين الناس يوم القيامة في الدماء».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/332.ogg",
+              soundUrl: "assets/$soundFolderName/332.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 333,
@@ -3312,7 +3312,7 @@ class Constants {
                   "عن سهل بن أبي حَثْمَة رضي الله عنه قال: «انطلق عبد الله بن سهل ومُحيِّصة بن مسعود إلى خيبر، وهي يومئذ صلح، فتفرقا. فأتى محيصة إلى عبد الله بن سهل وهو يتشحط في دمه قتيلاً، فدفنه، ثم قدم المدينة، فانطلق عبد الرحمن بن سهل ومحيصة وحويصة ابنا مسعود إلى النبي ﷺ، فذهب عبد الرحمن ليتكلم، فقال: كبر كبر، وهو أحدث القوم، فسكت، فتكلموا. فقال: أتحلفون وتستحقون قاتلكم؟ أو صاحبكم؟ قالوا: وكيف نحلف ولم نشهد، ولم نر؟ قال: فتبرئكم يهود بخمسين يميناً؟ قالوا: كيف نأخذ أيمان قوم كفار؟ فعقله النبي ﷺ من عنده». \nوفي حديث حماد بن زيد: «فقال رسول الله ﷺ: يقسم خمسون منكم على رجل منهم، فيدفع برمته». قالوا: أمر لم نشهد، كيف نحلف؟ قال: «فتبرئكم يهود بأيمان خمسين منهم؟» قالوا: يا رسول الله، قوم كفار. \nوفي حديث سعيد بن عبيد: «ففكر رسول الله ﷺ أن يُبطِل دمه، فقوّده من إبل الصدقة».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/333.ogg",
+              soundUrl: "assets/$soundFolderName/333.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 334,
@@ -3320,7 +3320,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه: «أن جارية وُجد رأسها مرضوخاً بين حجرين، فقيل: من فعل هذا بك؟ فلان؟ فلان؟ حتى ذكر يهودياً، فأومأت برأسها، فأخذ اليهودي فاعترف، فأمر رسول الله ﷺ أن يُرض رأسه بين حجرين». \nولمسلم، والنسائي عن أنس رضي الله عنه: «أن يهودياً قتل جارية على أوضاح، فقتله رسول الله ﷺ بها».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/334.ogg",
+              soundUrl: "assets/$soundFolderName/334.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 335,
@@ -3328,7 +3328,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: «لما فتح الله على رسوله ﷺ مكة، قتل هذيل رجلاً من بني ليث بقتيل كان لهم في الجاهلية. فقام النبي ﷺ فقال: إن الله قد حبس عن مكة الفيل، وسلط عليها رسوله والمؤمنين، وإنها لم تحلّ لأحد كان قبلي، ولا تحلّ لأحد بعدي، وإنما أحلّت لي ساعة من نهار، وإنها ساعتي هذه حرام، لا يعضد شجرها، ولا يُختلى خلاها، ولا ينفّر صيدها، ولا تلتقط ساقطتها إلا لمعرّف. ومن قُتل له قتيل فهو بخير النظرين: إما أن يُفدى، وإما أن يُقتل». \nفقام رجل من أهل اليمن يقال له: أبو شاه، فقال: يا رسول الله! اكتبوا لي. فقال رسول الله ﷺ: «اكتبوا لأبي شاه». ثم قام العباس رضي الله عنه فقال: يا رسول الله! إلا الإذخر، فإنا نجعله في بيوتنا وقبورنا. فقال رسول الله ﷺ: «إلا الإذخر».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/335.ogg",
+              soundUrl: "assets/$soundFolderName/335.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 336,
@@ -3336,7 +3336,7 @@ class Constants {
                   "عن عمر بن الخطاب رضي الله عنه: «أنه استشار الناس في إملاص المرأة، فقال المغيرة بن شعبة رضي الله عنه: شهدت النبي ﷺ قضى فيه بغرّة - عبد أو أمة -. فقال: لتأتين بمن يشهد معك. فشهد معه محمد بن مسلمة رضي الله عنه».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/336.ogg",
+              soundUrl: "assets/$soundFolderName/336.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 337,
@@ -3344,7 +3344,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: «اقتتلت امرأتان من هذيل، فرمت إحداهما الأخرى بحجر فقتلتها وما في بطنها. فاختصموا إلى رسول الله ﷺ، فقضى رسول الله ﷺ أن دية جنينها غُرّة - عبد أو وليدة -، وقضى بدية المرأة على عاقلتها، وورّثها ولدها ومن معهم. فقال حمل بن النابغة الهذلي: يا رسول الله! كيف أغرم من لا شرب ولا أكل، ولا نطق ولا استهل، فمثل ذلك يُطل؟ فقال رسول الله ﷺ: «إنما هو من إخوان الكهّان» من أجل سجعه الذي سجع».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/337.ogg",
+              soundUrl: "assets/$soundFolderName/337.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 338,
@@ -3352,7 +3352,7 @@ class Constants {
                   "عن عمران بن حصين رضي الله عنه: «أن رجلاً عضّ يد رجل، فنزع يده من فيه، فوقعت ثنيتاه، فاختصموا إلى النبي ﷺ، فقال: يعض أحدكم أخاه كما يعض الفحل!؟ لا دية لك».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/338.ogg",
+              soundUrl: "assets/$soundFolderName/338.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 339,
@@ -3360,7 +3360,7 @@ class Constants {
                   "عن الحسن بن أبي الحسن البصري قال: «حدثنا جندب رضي الله عنه في هذا المسجد، وما نسينا منه حديثاً، وما نخشى أن يكون جندب كذب على رسول الله ﷺ. قال: قال رسول الله ﷺ: كان فيمن كان قبلكم رجل به جرح فجَزِع، فأخذ سكيناً فحزّ بها يده، فما رقأ الدم حتى مات، قال الله ﷺ: عبدي بادرني بنفسه، حرّمت عليه الجنة».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/339.ogg",
+              soundUrl: "assets/$soundFolderName/339.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 340,
@@ -3368,7 +3368,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه قال: «قدم ناس من عُكْل - أو عُرَيْنَة - فاجتووا المدينة، فأمر لهم النبي ﷺ بلقاح، وأمرهم أن يشربوا من أبوالها وألبانها، فانطلقوا، فلما صحّوا قتلوا راعي النبي ﷺ واستاقوا النعم، فجاء الخبر في أول النهار، فبعث في آثارهم، فلما ارتفع النهار جيء بهم، فأمر بقطع أيديهم وأرجلهم، وسمرت أعينهم، وتركوا في الحرّة يستسقون فلا يسقون». \nقال أبو قِلابَة: «فهؤلاء سرقوا وقتلوا وكفروا بعد إيمانهم، وحاربوا الله ورسوله».",
               explainUrl: "https://youtu.be/xtV8O0Q0YvA?si=5IS2EEyfdeW_wOMe",
               isOthimieen: false,
-              soundUrl: "assets/sounds/340.ogg",
+              soundUrl: "assets/$soundFolderName/340.$fileExtension",
             ),
           ],
         ),
@@ -3388,7 +3388,7 @@ class Constants {
                   "عن عبيد الله بن عبد الله بن عتبة بن مسعود، عن أبي هريرة وزيد بن خالد رضي الله عنهما قالا: «إن رجلاً من الأعراب أتى رسول الله ﷺ فقال: يا رسول الله! أنشدك الله إلا قضيت لي بكتاب الله. فقال الخصم الآخر - وهو أفقه منه -: نعم، فاقض بيننا بكتاب الله، وأذن لي. فقال: قل. قال: إن ابني كان عسيفاً على هذا، فزنى بامرأته، وإني أخبرت أن على ابني الرجم، فافتديت منه بمائة شاة ووليدة، وسألت أهل العلم فأخبروني إنما على ابني جلد مائة وتغريب عام، وأن على امرأة هذا الرجم. فقال رسول الله ﷺ: والذي نفسي بيده! لأقضين بينكما بكتاب الله: الوليدة والنعم رد عليك، وعلى ابنك جلد مائة وتغريب عام، واغد يا أنس إلى امرأة هذا، فإن اعترفت فارجمها». قال: فغدا عليها فاعترفت، فأمر بها رسول الله ﷺ فرجمت».",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
-              soundUrl: "assets/sounds/341.ogg",
+              soundUrl: "assets/$soundFolderName/341.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 342,
@@ -3396,7 +3396,7 @@ class Constants {
                   "وعنهما رضي الله عنهما قالا: «سُئل النبي ﷺ عن الأمة إذا زنت ولم تُحصن، قال: إن زنت فاجلدوها، ثم إن زنت فاجلدوها، ثم إن زنت فاجلدوها، ثم بيعوها ولو بضفير». \nقال ابن شهاب: لا أدري أبعد الثالثة أو الرابعة. \nوالضفير: الحبل.",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
-              soundUrl: "assets/sounds/342.ogg",
+              soundUrl: "assets/$soundFolderName/342.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 343,
@@ -3404,7 +3404,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه قال: «أتى رجلٌ من المسلمين رسول الله ﷺ وهو في المسجد، فناداه فقال: يا رسول الله! إني زنيت، فأعرض عنه. فتنحى تلقاء وجهه، فقال: يا رسول الله! إني زنيت، فأعرض عنه، حتى ثنى ذلك عليه أربع مرات. فلما شهد على نفسه أربع شهادات دعاه رسول الله ﷺ فقال: أبك جنون؟ قال: لا. قال: فهل أحصنت؟ قال: نعم. فقال رسول الله ﷺ: اذهبوا به فارجموه». \nقال ابن شهاب: فأخبرني أبو سلمة بن عبدالرحمن أن جابر بن عبدالله قال: فكنت فيمن رجمه بالمصلى، فلما أذلقته الحجارة هرب، فأدركناه بالحرة فرجمناه. \nالرجل: هو ماعز بن مالك.",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
-              soundUrl: "assets/sounds/343.ogg",
+              soundUrl: "assets/$soundFolderName/343.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 344,
@@ -3414,7 +3414,7 @@ class Constants {
                   "الراوي الذي وضع يده على آية الرجم: عبد الله بن صوريا.",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
-              soundUrl: "assets/sounds/344.ogg",
+              soundUrl: "assets/$soundFolderName/344.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 345,
@@ -3422,7 +3422,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: «لو أن امرأ اطلع عليك بغير إذن، فخذفته بحصاة ففقأت عينه؛ ما كان عليك جناح».",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
-              soundUrl: "assets/sounds/345.ogg",
+              soundUrl: "assets/$soundFolderName/345.$fileExtension",
             ),
           ],
         ),
@@ -3435,7 +3435,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما: «أن النبي ﷺ قطع في مجنّ قيمته - وفي لفظ: ثمنه - ثلاثة دراهم».",
               explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
               isOthimieen: false,
-              soundUrl: "assets/sounds/346.ogg",
+              soundUrl: "assets/$soundFolderName/346.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 347,
@@ -3443,7 +3443,7 @@ class Constants {
                   "عن عائشة رضي الله عنها أنها سمعت رسول الله ﷺ يقول: «تُقطع اليد في ربع دينار فصاعدًا».",
               explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
               isOthimieen: false,
-              soundUrl: "assets/sounds/347.ogg",
+              soundUrl: "assets/$soundFolderName/347.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 348,
@@ -3451,7 +3451,7 @@ class Constants {
                   "عن عائشة رضي الله عنها: «أن قريشًا أهمّهم شأن المرأة المخزومية التي سرقت، فقالوا: من يكلم فيها رسول الله ﷺ؟ فقالوا: ومن يجترئ عليه إلا أسامة بن زيد، حب رسول الله ﷺ؟ فكلمه أسامة، فقال: أتشفع في حد من حدود الله؟ ثم قام فخطب فقال: إنما أهلك الذين من قبلكم: أنهم كانوا إذا سرق فيهم الشريف تركوه، وإذا سرق فيهم الضعيف أقاموا عليه الحد، وايم الله! لو أن فاطمة بنت محمد سرقت لقطعت يدها».\nوفي لفظ: «قالت: كانت امرأة تستعير المتاع وتجحده، فأمر النبي ﷺ بقطع يدها».",
               explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=b-OBc4qpZE-haGpm",
               isOthimieen: false,
-              soundUrl: "assets/sounds/348.ogg",
+              soundUrl: "assets/$soundFolderName/348.$fileExtension",
             ),
           ],
         ),
@@ -3464,7 +3464,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه: «أن النبي ﷺ أُتي برجل قد شرب الخمر، فجلده بجريد نحو أربعين». قال: «وفعله أبو بكر رضي الله عنه». «فلما كان عمر رضي الله عنه استشار الناس، فقال عبد الرحمن: أخفّ الحدود ثمانين، فأمر به عمر» رضي الله عنه.",
               explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=iaxGHkrBQFrjXrFz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/349.ogg",
+              soundUrl: "assets/$soundFolderName/349.$fileExtension",
             ),
 
             Hadeth(
@@ -3473,7 +3473,7 @@ class Constants {
                   "عن أبي بردة هانئ بن نيار البلوي رضي الله عنه: أنه سمع رسول الله ﷺ يقول: «لا يُجلَد فوق عشرة أسواط إلا في حد من حدود الله».",
               explainUrl: "https://youtu.be/Qc7N5_z17rQ?si=iaxGHkrBQFrjXrFz",
               isOthimieen: false,
-              soundUrl: "assets/sounds/350.ogg",
+              soundUrl: "assets/$soundFolderName/350.$fileExtension",
             ),
           ],
         ),
@@ -3493,7 +3493,7 @@ class Constants {
                   "عن عبد الرحمن بن سمرة رضي الله عنه، قال: قال رسول الله ﷺ: «يا عبد الرحمن بن سمرة! لا تسأل الإمارة؛ فإنك إن أُعطيتها عن مسألة وُكلت إليها، وإن أُعطيتها عن غير مسألة أُعنت عليها. وإذا حلفت على يمين فرأيت غيرها خيرًا منها، فكفِّر عن يمينك وأتِ الذي هو خير».",
               explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
               isOthimieen: false,
-              soundUrl: "assets/sounds/351.ogg",
+              soundUrl: "assets/$soundFolderName/351.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 352,
@@ -3501,7 +3501,7 @@ class Constants {
                   "عن أبي موسى رضي الله عنه، قال: قال رسول الله ﷺ: «إني والله – إن شاء الله – لا أحلف على يمين، فأرى غيرها خيرًا منها، إلا أتيت الذي هو خير، وتحللتها».",
               explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
               isOthimieen: false,
-              soundUrl: "assets/sounds/352.ogg",
+              soundUrl: "assets/$soundFolderName/352.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 353,
@@ -3509,13 +3509,13 @@ class Constants {
                   "عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله ﷺ: «إن الله ينهاكم أن تحلفوا بآبائكم».\nولمسلم: «مَن كان حالفًا، فليحلف بالله، أو ليصمت».\nوفي رواية: (قال عمر رضي الله عنه: فوالله! ما حلفت بها منذ سمعت رسول الله ﷺ نهى عنها، ذاكِرًا ولا آثرًا).",
               explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
               isOthimieen: false,
-              soundUrl: "assets/sounds/353.ogg",
+              soundUrl: "assets/$soundFolderName/353.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 354,
               hadethText:
                   "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «قال سليمان بن داود: لأطوفن الليلة على سبعين امرأة، تلد كل امرأة منهن غلامًا يقاتل في سبيل الله. فقيل له: قل إن شاء الله، فلم يقل، فلم تلد منهن إلا امرأة واحدة نصف إنسان. فقال رسول الله ﷺ: لو قال إن شاء الله لم يَخْلُف، وكان دَرَكًا لحاجته».",
-              soundUrl: "assets/sounds/354.ogg",
+              soundUrl: "assets/$soundFolderName/354.$fileExtension",
               explainUrl: "https://youtu.be/5Yr9eeD45xw?si=M-P83LYn_s3thPin",
               isOthimieen: false,
             ),
@@ -3523,7 +3523,7 @@ class Constants {
               hadethNumber: 355,
               hadethText:
                   "عن عبد الله بن مسعود رضي الله عنه قال: قال رسول الله ﷺ: «من حلف على يمين صبر يقتطع بها مال امرئ مسلم هو فيها فاجر، لقي الله وهو عليه غضبان»، ونزلت: ﴿إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلًا﴾ إلى آخر الآية.",
-              soundUrl: "assets/sounds/355.ogg",
+              soundUrl: "assets/$soundFolderName/355.$fileExtension",
               explainUrl: "https://youtu.be/Ld63gs2JRiQ?si=ntgYpboDU7F2ZTf3",
               isOthimieen: false,
             ),
@@ -3532,7 +3532,7 @@ class Constants {
                   "عن الأَشْعَثِ بنِ قَيْسٍ رضي الله عنه قال: «كان بيني وبين رجل خُصومةٌ في بئر، فاختصمنا إلى رسولِ الله ﷺ، فقال رسولُ الله ﷺ: شاهِدُكَ أو يَمينُه». قلت: إذاً يَحلِفُ ولا يُبالي!\n"
                   "فقال رسولُ الله ﷺ: «مَن حَلَفَ على يَمينٍ صَبْرٍ يَقتَطِعُ بها مالَ امرِئٍ مُسلِمٍ، هو فيها فاجِرٌ، لَقيَ اللهَ وهو عليه غَضبان».\n",
               hadethNumber: 356,
-              soundUrl: 'assets/sounds/356.ogg',
+              soundUrl: 'assets/$soundFolderName/356.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3542,7 +3542,7 @@ class Constants {
                   "وفي رواية: «ولعن المؤمن كقتله». \n"
                   "وفي رواية: «من ادَّعى دعوى كاذبة ليتكثر بها؛ لم يزده الله إلا قلة».\n",
               hadethNumber: 357,
-              soundUrl: 'assets/sounds/357.ogg',
+              soundUrl: 'assets/$soundFolderName/357.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3555,7 +3555,7 @@ class Constants {
               hadethText:
                   "عن عمر بن الخطاب رضي الله عنه قال: «قلت: يا رسول الله! إني كنت نذرت في الجاهلية أن أعتكف ليلة. وفي رواية: يومًا - في المسجد الحرام؟ قال: فأوفِ بنذرك».\n",
               hadethNumber: 358,
-              soundUrl: 'assets/sounds/358.ogg',
+              soundUrl: 'assets/$soundFolderName/358.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3563,7 +3563,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عمر رضي الله عنهما، عن النبي ﷺ: «أنه نهى عن النذر، وقال: إنه لا يأتي بخير، وإنما يُستخرج به من البخيل».\n",
               hadethNumber: 359,
-              soundUrl: 'assets/sounds/359.ogg',
+              soundUrl: 'assets/$soundFolderName/359.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3571,7 +3571,7 @@ class Constants {
               hadethText:
                   "عن عُقبة بن عامر رضي الله عنه قال: «نذرت أختي أن تمشي إلى بيت الله الحرام حافية، فأمرتني أن أستفتيَ لها رسول الله ﷺ، فاستفتيتُه فقال: لتمشِ ولتركب».\n",
               hadethNumber: 360,
-              soundUrl: 'assets/sounds/360.ogg',
+              soundUrl: 'assets/$soundFolderName/360.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3579,7 +3579,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن عباس رضي الله عنهما: «أن سعد بن عبادة استفتى رسول الله ﷺ في نذر كان على أمه، توفيت قبل أن تقضيه؛ قال رسول الله ﷺ: فاقضِه عنها».\n",
               hadethNumber: 361,
-              soundUrl: 'assets/sounds/361.ogg',
+              soundUrl: 'assets/$soundFolderName/361.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3587,7 +3587,7 @@ class Constants {
               hadethText:
                   "عن كعب بن مالك رضي الله عنه قال: «قلت: يا رسول الله! إن من توبتي أن أنخلع من مالي صدقة إلى الله ورسوله، فقال رسول الله ﷺ: أمسك عليك بعض مالك؛ فهو خير لك».\n",
               hadethNumber: 362,
-              soundUrl: 'assets/sounds/362.ogg',
+              soundUrl: 'assets/$soundFolderName/362.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3601,7 +3601,7 @@ class Constants {
                   "عن عائشة رضي الله عنها قالت: قال رسول الله ﷺ: «من أحدث في أمرنا هذا ما ليس منه؛ فهو رد». \n"
                   "وفي لفظ: «من عمل عملًا ليس عليه أمرنا؛ فهو رد».\n",
               hadethNumber: 363,
-              soundUrl: 'assets/sounds/363.ogg',
+              soundUrl: 'assets/$soundFolderName/363.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3609,7 +3609,7 @@ class Constants {
               hadethText:
                   "وعن عائشة رضي الله عنها قالت: «دخلت هند بنت عتبة - امرأة أبي سفيان - على رسول الله ﷺ فقالت: يا رسول الله! إن أبا سفيان رجل شحيح، لا يعطيني من النفقة ما يكفيني ويكفي بنيَّ، إلا ما أخذت من ماله بغير علمه؛ فهل عليَّ في ذلك من جناح؟ فقال رسول الله ﷺ: خذي من ماله بالمعروف ما يكفيك ويكفي بنيك».\n",
               hadethNumber: 364,
-              soundUrl: 'assets/sounds/364.ogg',
+              soundUrl: 'assets/$soundFolderName/364.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3617,7 +3617,7 @@ class Constants {
               hadethText:
                   "عن أم سلمة رضي الله عنها: «أن رسول الله ﷺ سمع جَلَبَةَ خصمٍ بباب حجرته، فخرج إليهم فقال: ألا إنما أنا بشر، وإنما يأتيني الخصم، فلعل بعضكم أن يكون أبلغ من بعض، فأحسب أنه صادق، فأقضي له! فمن قضيت له بحق مسلم، فإنما هي قطعة من نار، فليحملها أو يذرها».\n",
               hadethNumber: 365,
-              soundUrl: 'assets/sounds/365.ogg',
+              soundUrl: 'assets/$soundFolderName/365.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3626,7 +3626,7 @@ class Constants {
                   "عن عبد الرحمن بن أبي بكرة، عن أبيه رضي الله عنه قال: «كتب أبي – وكتبت له – إلى ابنه عبيد الله بن أبي بكرة – وهو قاضٍ بسجستان –: أن لا تحكم بين اثنين وأنت غضبان، فإني سمعت رسول الله ﷺ يقول: لا يحكم أحد بين اثنين وهو غضبان». \n"
                   "وفي رواية: «لا يقضيَنَّ حكمٌ بين اثنين وهو غضبان».\n",
               hadethNumber: 366,
-              soundUrl: 'assets/sounds/366.ogg',
+              soundUrl: 'assets/$soundFolderName/366.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3634,7 +3634,7 @@ class Constants {
               hadethText:
                   "عن أبي بكرة رضي الله عنه قال: قال رسول الله ﷺ: «ألا أنبئكم بأكبر الكبائر؟» ثلاثًا. قلنا: بلى يا رسول الله! قال: «الإشراك بالله، وعقوق الوالدين». وكان متكئًا فجلس، فقال: «ألا وقول الزور، وشهادة الزور». فما زال يكررها حتى قلنا: ليته سكت.\n",
               hadethNumber: 367,
-              soundUrl: 'assets/sounds/367.ogg',
+              soundUrl: 'assets/$soundFolderName/367.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3642,7 +3642,7 @@ class Constants {
               hadethText:
                   "عن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «لو يُعطى الناس بدعواهم؛ لادَّعى ناس دماء رجال وأموالهم، ولكن البينة على المدعي، واليمين على من أنكر».\n",
               hadethNumber: 368,
-              soundUrl: 'assets/sounds/368.ogg',
+              soundUrl: 'assets/$soundFolderName/368.$fileExtension',
               explainUrl: 'https://youtu.be/Ld63gs2JRiQ?si=cAlwgzGwYeqXMgaT',
               isOthimieen: false,
             ),
@@ -3662,7 +3662,7 @@ class Constants {
               hadethText:
                   "عن النعمان بن بشير رضي الله عنهما قال: سمعت رسول الله ﷺ يقول – وأهوى النعمان بإصبعيه إلى أذنيه –: «إن الحلال بيِّن، وإن الحرام بيِّن، وبينهما مشتبهات لا يعلمهن كثير من الناس. فمن اتقى الشبهات استبرأ لدينه وعرضه، ومن وقع في الشبهات وقع في الحرام، كالراعي يرعى حول الحمى يوشك أن يرتع فيه. ألا وإن لكل ملك حمى، ألا وإن حمى الله محارمه. ألا وإن في الجسد مضغة، إذا صلحت صلح الجسد كله، وإذا فسدت فسد الجسد كله، ألا وهي القلب».\n",
               hadethNumber: 369,
-              soundUrl: 'assets/sounds/369.ogg',
+              soundUrl: 'assets/$soundFolderName/369.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3671,7 +3671,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه قال: «أنفجنا أرنبًا بمر الظهران، فسعى القوم فلغبوا، وأدركتها فأخذتها، فأتيت بها أبا طلحة، فذبحها، وبعث بها إلى رسول الله ﷺ بوركها وفخذيها، فقبله».\n"
                   "لفظ: «فلغبوا: أعيا».\n",
               hadethNumber: 370,
-              soundUrl: 'assets/sounds/370.ogg',
+              soundUrl: 'assets/$soundFolderName/370.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3680,7 +3680,7 @@ class Constants {
                   "عن أسماء بنت أبي بكر رضي الله عنهما قالت: «نحرنا على عهد رسول الله ﷺ فرسًا فأكلناه». \n"
                   "وفي رواية: «ونحن بالمدينة».\n",
               hadethNumber: 371,
-              soundUrl: 'assets/sounds/371.ogg',
+              soundUrl: 'assets/$soundFolderName/371.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3689,7 +3689,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنهما: «أن رسول الله ﷺ نهى عن لحوم الحمر الأهلية، وأذن في لحوم الخيل». \n"
                   "ولمسلم وحده قال: «أكلنا زمن خيبر الخيل وحمر الوحش، ونهى النبي ﷺ عن الحمار الأهلي».\n",
               hadethNumber: 372,
-              soundUrl: 'assets/sounds/372.ogg',
+              soundUrl: 'assets/$soundFolderName/372.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3697,7 +3697,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن أبي أوفى رضي الله عنه قال: «أصبنا مجاعة ليالي خيبر، فلما كان يوم خيبر وقعنا في الحمر الأهلية فانتَحرناها، فلما غلت بها القدور نادى منادي رسول الله ﷺ: أن أكفئوا القدور، ولا تأكلوا من لحوم الحمر شيئًا».\n",
               hadethNumber: 373,
-              soundUrl: 'assets/sounds/373.ogg',
+              soundUrl: 'assets/$soundFolderName/373.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3705,7 +3705,7 @@ class Constants {
               hadethText:
                   "عن أبي ثعلبة رضي الله عنه قال: «حرَّم رسول الله ﷺ لحوم الحمر الأهلية».\n",
               hadethNumber: 374,
-              soundUrl: 'assets/sounds/374.ogg',
+              soundUrl: 'assets/$soundFolderName/374.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3715,7 +3715,7 @@ class Constants {
                   "قال خالد: فاجتررته فأكلته والنبي ﷺ ينظر.\n"
                   "المحنوذ: المشوي بالرصاف، وهي الحجارة المحماة.\n",
               hadethNumber: 375,
-              soundUrl: 'assets/sounds/375.ogg',
+              soundUrl: 'assets/$soundFolderName/375.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3723,7 +3723,7 @@ class Constants {
               hadethText:
                   "عن عبد الله بن أبي أوفى رضي الله عنهما قال: «غزونا مع رسول الله ﷺ سبع غزوات، نأكل الجراد».\n",
               hadethNumber: 376,
-              soundUrl: 'assets/sounds/376.ogg',
+              soundUrl: 'assets/$soundFolderName/376.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3731,7 +3731,7 @@ class Constants {
               hadethText:
                   "عن زُهدم بن مضرب الجرمي قال: «كنا عند أبي موسى رضي الله عنه، فدعا بمائدة، وعليها لحم دجاج، فدخل رجل من بني تيم الله أحمر شبيه بالمولى، فقال: هلم! فتنحى، فقال له: هلم! فإني قد رأيت رسول الله ﷺ يأكل منه».\n",
               hadethNumber: 377,
-              soundUrl: 'assets/sounds/377.ogg',
+              soundUrl: 'assets/$soundFolderName/377.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3739,7 +3739,7 @@ class Constants {
               hadethText:
                   "عن ابن عباس رضي الله عنهما أن النبي ﷺ قال: «إذا أكل أحدكم طعامًا، فلا يمسح يده حتى يلعقها أو يلعقها».\n",
               hadethNumber: 378,
-              soundUrl: 'assets/sounds/378.ogg',
+              soundUrl: 'assets/$soundFolderName/378.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=3AYQZtNqd74qloqd',
               isOthimieen: false,
             ),
@@ -3752,7 +3752,7 @@ class Constants {
               hadethText:
                   "عن أبي ثعلبة الخشني رضي الله عنه قال: «أتيت رسول الله ﷺ فقلت: يا رسول الله! إنا بأرض قوم أهل كتاب، أفنأكل في آنيتهم؟ وفي أرض صيد أصيد بقوسي، وبكلبي الذي ليس بمعلم، وبكلبي المعلَّم، فما يصلح لي؟ قال: أما ما ذكرت – يعني: من آنية أهل الكتاب – فإن وجدتم غيرها فلا تأكلوا فيها، وإن لم تجدوا فاغسلوها وكلوا فيها. وما صدت بقوسك فذكرت اسم الله عليه فكل. وما صدت بكلبك المعلَّم فذكرت اسم الله عليه فكل. وما صدت بكلبك غير المعلَّم فأدركت ذكاته فكل».\n",
               hadethNumber: 379,
-              soundUrl: 'assets/sounds/379.ogg',
+              soundUrl: 'assets/$soundFolderName/379.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=S7LsSNKHMnyBx4yG',
               isOthimieen: false,
             ),
@@ -3767,7 +3767,7 @@ class Constants {
                   "وفيه أيضًا: «إذا رميت بسهمك فاذكر اسم الله عليه».\n"
                   "وفيه: «فإن غاب عنك يومًا أو يومين - وفي رواية: اليومين والثلاثة - فلم تجد فيه إلا أثر سهمك، فكل إن شئت. فإن وجدته غريقًا في الماء فلا تأكل، فإنك لا تدري: الماء قتله أو سهمك؟».\n",
               hadethNumber: 380,
-              soundUrl: 'assets/sounds/380.ogg',
+              soundUrl: 'assets/$soundFolderName/380.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=S7LsSNKHMnyBx4yG',
               isOthimieen: false,
             ),
@@ -3776,7 +3776,7 @@ class Constants {
                   "عن سالم، عن عبد الله بن عمر رضي الله عنهما قال: سمعت رسول الله ﷺ يقول: «من اقتنى كلبًا إلا كلب صيد أو ماشية، فإنه ينقص من أجره كل يوم قيراطان».\n"
                   "قال سالم: وكان أبو هريرة رضي الله عنه يقول: «أو كلب حرث» - وكان صاحب حرث -.\n",
               hadethNumber: 381,
-              soundUrl: 'assets/sounds/381.ogg',
+              soundUrl: 'assets/$soundFolderName/381.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=S7LsSNKHMnyBx4yG',
               isOthimieen: false,
             ),
@@ -3786,7 +3786,7 @@ class Constants {
                   "فأمر النبي ﷺ بالقدور فأكفئت، ثم قسم فعدل عشرة من الغنم ببعير، فند منها بعير، فطلبوه فأعييهم، وكان في القوم خيل يسيرة، فأهوى رجل منهم بسهم فحبسه الله، فقال: إن لهذه البهائم أوابد كأوابد الوحش، فما غلبكم منها فاصنعوا به هكذا».\n"
                   "قال: قلت: يا رسول الله! إنا لاقو العدو غداً، وليست معنا مدى، أفنذبح بالقصب؟ قال: «ما أنهر الدم، وذكر اسم الله عليه فكلوه؛ ليس السن والظفر، وسأحدثكم عن ذلك: أما السن فعظم، وأما الظفر فمدى الحبشة».\n",
               hadethNumber: 382,
-              soundUrl: 'assets/sounds/382.ogg',
+              soundUrl: 'assets/$soundFolderName/382.$fileExtension',
               explainUrl: 'https://youtu.be/E-JeSKk4aR8?si=S7LsSNKHMnyBx4yG',
               isOthimieen: false,
             ),
@@ -3800,7 +3800,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه قال: «ضحى النبي ﷺ بكبشين أملحين أقرنين، ذبحهما بيده، وسمى وكبر، ووضع رجله على صفاحهما».\n"
                   "الأملح: الأغبر، وهو الذي فيه سواد وبياض.\n",
               hadethNumber: 383,
-              soundUrl: 'assets/sounds/383.ogg',
+              soundUrl: 'assets/$soundFolderName/383.$fileExtension',
               explainUrl: 'https://youtu.be/VaUSZD543GQ?si=dnXFg29azwfHtdAH',
               isOthimieen: false,
             ),
@@ -3821,7 +3821,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما قال: «أن عمر رضي الله عنه قال على منبر رسول الله ﷺ: أما بعد، أيها الناس! إنه نزل تحريم الخمر وهي من خمسة: من العنب، والتمر، والعسل، والحنطة، والشعير، والخمر: ما خامر العقل. ثلاث وددت أن رسول الله ﷺ كان عهد إلينا فيهن عهدًا ننتهي إليه: الجدّ، والكلالة، وأبواب من أبواب الربا».",
               explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/384.ogg",
+              soundUrl: "assets/$soundFolderName/384.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 385,
@@ -3829,7 +3829,7 @@ class Constants {
                   "عن عائشة رضي الله عنها، عن النبي ﷺ: «أنه سئل عن البتع؟ فقال: كل شراب أسكر فهو حرام». والبتع: نبيذ العسل.",
               explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/385.ogg",
+              soundUrl: "assets/$soundFolderName/385.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 386,
@@ -3837,7 +3837,7 @@ class Constants {
                   "عن عبد الله بن عباس رضي الله عنهما قال: «بلغ عمر رضي الله عنه أن فلاناً باع خمراً، فقال: قاتل الله فلاناً! ألم يعلم أن رسول الله ﷺ قال: قاتل الله اليهود؛ حُرِّمت عليهم الشحوم فجملوها فباعوها».",
               explainUrl: "https://youtu.be/U9e29kP49Ls?si=uUy4JGemTJKo-Cm5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/386.ogg",
+              soundUrl: "assets/$soundFolderName/386.$fileExtension",
             ),
           ],
         ),
@@ -3857,7 +3857,7 @@ class Constants {
                   "عن عمر بن الخطاب رضي الله عنه قال: قال رسول الله ﷺ: «لا تلبسوا الحرير؛ فإنه من لبسه في الدنيا لم يلبسه في الآخرة».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/387.ogg",
+              soundUrl: "assets/$soundFolderName/387.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 388,
@@ -3865,7 +3865,7 @@ class Constants {
                   "عن حذيفة رضي الله عنه قال: سمعت رسول الله ﷺ يقول: «لا تلبسوا الحرير ولا الديباج، ولا تشربوا في آنية الذهب والفضة، ولا تأكلوا في صحافها؛ فإنها لهم في الدنيا، ولكم في الآخرة».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/388.ogg",
+              soundUrl: "assets/$soundFolderName/388.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 389,
@@ -3873,7 +3873,7 @@ class Constants {
                   "عن البراء بن عازب رضي الله عنه قال: «ما رأيت من ذي لِمَّةٍ في حُلَّةٍ حمراءَ أحسنَ من رسول الله ﷺ، له شعرٌ يضرب منكبيه، بعيد ما بين المنكبين، ليس بالقصير ولا بالطويل».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/389.ogg",
+              soundUrl: "assets/$soundFolderName/389.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 390,
@@ -3881,7 +3881,7 @@ class Constants {
                   "عن البراء بن عازب رضي الله عنه قال: «أمرنا رسول الله ﷺ بسبع، ونهانا عن سبع: أمرنا بعيادة المريض، واتباع الجنائز، وتشميت العاطس، وإبرار القسم، ونصر المظلوم، وإجابة الداعي، وإفشاء السلام. ونهانا عن خواتيم الذهب، وعن شرب الفضة، وعن المياثر، وعن القسي، وعن لبس الحرير والإستبرق والديباج».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/390.ogg",
+              soundUrl: "assets/$soundFolderName/390.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 391,
@@ -3889,7 +3889,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما: «أن رسول الله ﷺ اصطنع خاتماً من ذهب، فكان يجعل فصه في باطن كفه إذا لبسه، فصنع الناس، ثم إنه جلس فنزعه، وقال: إني كنت ألبس هذا الخاتم، وأجعل فصه من داخل، فرمى به، ثم قال: والله لا ألبسه أبداً! فنبذ الناس خواتيمهم». وفي لفظ: «جعله في يده اليمنى».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/391.ogg",
+              soundUrl: "assets/$soundFolderName/391.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 392,
@@ -3897,7 +3897,7 @@ class Constants {
                   "عن عمر بن الخطاب رضي الله عنه: «أن رسول الله ﷺ نهى عن لبوس الحرير إلا هكذا؛ ورفع لنا رسول الله ﷺ إصبعيه السبابة والوسطى». ولـمسلم: «نهى نبي الله ﷺ عن لبس الحرير إلا موضع إصبعين، أو ثلاث، أو أربع».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/392.ogg",
+              soundUrl: "assets/$soundFolderName/392.$fileExtension",
             ),
           ],
         ),
@@ -3917,7 +3917,7 @@ class Constants {
                   "عن عبد الله بن أبي أوفى رضي الله عنه: «أن رسول الله ﷺ في بعض أيامه التي لقي فيها العدو انتظر حتى مالت الشمس قام فيهم فقال: يا أيها الناس! لا تتمنوا لقاء العدو، واسألوا الله العافية، فإذا لقيتموهم فاصبروا، واعلموا أن الجنة تحت ظلال السيوف. ثم قال النبي ﷺ: اللهم منزل الكتاب، ومجري السحاب، وهازم الأحزاب، اهزمهم وانصرنا عليهم».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/393.ogg",
+              soundUrl: "assets/$soundFolderName/393.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 394,
@@ -3925,7 +3925,7 @@ class Constants {
                   "عن سهل بن سعد الساعدي رضي الله عنه أن رسول الله ﷺ قال: «رباط يوم في سبيل الله، خير من الدنيا وما عليها. وموضع سوط أحدكم من الجنة خير من الدنيا وما عليها. والروحة يروحها العبد في سبيل الله، أو الغدوة، خير من الدنيا وما عليها».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/394.ogg",
+              soundUrl: "assets/$soundFolderName/394.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 395,
@@ -3933,7 +3933,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه، عن النبي ﷺ قال: «انتدب الله – وللمسلم: تضمن الله – لمن خرج في سبيله، لا يخرجه إلا جهاد في سبيلي، وإيمان بي، وتصديق برسلي، فهو علي ضامن: أن أدخله الجنة، أو أرجعه إلى مسكنه الذي خرج منه، نائلاً ما نال من أجر أو غنيمة». \nولمسلم: «مثل المجاهد في سبيل الله – والله أعلم بمن يجاهد في سبيله – كمثل الصائم القائم. وتوكل الله للمجاهد في سبيله بأن يتوفاه أن يدخله الجنة، أو يرجعه سالماً مع أجر أو غنيمة».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/395.ogg",
+              soundUrl: "assets/$soundFolderName/395.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 396,
@@ -3941,7 +3941,7 @@ class Constants {
                   "وعنه رضي الله عنه قال: قال رسول الله ﷺ: «ما من مكلوم يُكلم في سبيل الله، إلا جاء يوم القيامة وكَلْمُه يدمى؛ اللون لون الدم، والريح ريح المسك».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/396.ogg",
+              soundUrl: "assets/$soundFolderName/396.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 397,
@@ -3949,7 +3949,7 @@ class Constants {
                   "عن أبي أيوب الأنصاري رضي الله عنه قال: قال رسول الله ﷺ: «غدوة في سبيل الله، أو روحة، خير مما طلعت عليه الشمس وغربت» أخرجه مسلم.",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/397.ogg",
+              soundUrl: "assets/$soundFolderName/397.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 398,
@@ -3957,7 +3957,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ: «غدوة في سبيل الله، أو روحة، خير من الدنيا وما فيها» أخرجه البخاري.",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/398.ogg",
+              soundUrl: "assets/$soundFolderName/398.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 399,
@@ -3965,7 +3965,7 @@ class Constants {
                   "عن أبي قتادة الأنصاري رضي الله عنه قال: «خرجنا مع رسول الله ﷺ إلى حنين – وذكر قصة – فقال رسول الله ﷺ: من قتل قتيلاً له عليه بينة فله سلبه – قالها ثلاثاً»",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/399.ogg",
+              soundUrl: "assets/$soundFolderName/399.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 400,
@@ -3973,7 +3973,7 @@ class Constants {
                   "عن سلمة بن الأكوع رضي الله عنه قال: «أتى النبي ﷺ عينٌ من المشركين – وهو في سفر – فجلس عند أصحابه يتحدث، ثم انفتل، فقال النبي ﷺ: اطلبوه واقتلوه، فقتلته، فنفلني سلبه». وفي رواية: (فقال: من قتل الرجل؟ فقالوا: سلمة بن الأكوع. قال: له سلبه أجمع).",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/400.ogg",
+              soundUrl: "assets/$soundFolderName/400.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 401,
@@ -3981,7 +3981,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما قال: «بعث رسول الله ﷺ سريةً إلى نجد، فخرجتُ فيها، فأصبنا إبلاً وغنماً، فبلغت سهامنا اثني عشر بعيراً، ونفلنا رسول الله ﷺ بعيراً بعيراً».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/401.ogg",
+              soundUrl: "assets/$soundFolderName/401.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 402,
@@ -3989,7 +3989,7 @@ class Constants {
                   "وعنه رضي الله عنه، عن النبي ﷺ قال: «إذا جمع الله الأولين والآخرين، يُرفع لكل غادر لواء، فيقال: هذه غدرة فلان بن فلان».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/402.ogg",
+              soundUrl: "assets/$soundFolderName/402.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 403,
@@ -3997,7 +3997,7 @@ class Constants {
                   "وعنه رضي الله عنه: «أن امرأة وُجدت في بعض مغازي النبي ﷺ مقتولة، فأنكر رسول الله ﷺ قتل النساء والصبيان».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/403.ogg",
+              soundUrl: "assets/$soundFolderName/403.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 404,
@@ -4005,7 +4005,7 @@ class Constants {
                   "عن أنس بن مالك رضي الله عنه: «أن عبد الرحمن بن عوف، والزبير بن العوام رضي الله عنهما، شكيا القمل إلى النبي ﷺ في غزاة لهما؛ فرخّص لهما في قميص الحرير، ورأيته عليهما».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/404.ogg",
+              soundUrl: "assets/$soundFolderName/404.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 405,
@@ -4013,7 +4013,7 @@ class Constants {
                   "عن عمر بن الخطاب رضي الله عنه قال: «كانت أموال بني النضير مما أفاء الله على رسوله ﷺ مما لم يوجف المسلمون عليه بخيل ولا ركاب. وكانت لرسول الله ﷺ خالصة، فكان رسول الله ﷺ يعزل نفقة أهله سنة، ثم يجعل ما بقي في الكُرَاع والسلاح عُدَّةً في سبيل الله عز وجل».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/405.ogg",
+              soundUrl: "assets/$soundFolderName/405.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 406,
@@ -4021,7 +4021,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما قال: «أجرى النبي ﷺ ما ضمِر من الخيل: من الحَفياء إلى ثَنِيَّة الوداع. وأجرى ما لم يُضْمَر: من الثَّنِيَّة إلى مسجد بني زُرَيق». قال ابن عمر: وكنت فيمَن أجرى.",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/406.ogg",
+              soundUrl: "assets/$soundFolderName/406.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 407,
@@ -4029,7 +4029,7 @@ class Constants {
                   "وعنه رضي الله عنه قال: «عُرِضتُ على النبي ﷺ يوم أُحد وأنا ابن أربع عشرة سنة فلم يُجزني، وعُرِضتُ عليه يوم الخندق وأنا ابن خمس عشرة فأجازني».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/407.ogg",
+              soundUrl: "assets/$soundFolderName/407.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 408,
@@ -4037,7 +4037,7 @@ class Constants {
                   "وعنه رضي الله عنه: «أن رسول الله ﷺ قسم في النفل: للفَرَس سهمين، وللرجل سهمًا».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/408.ogg",
+              soundUrl: "assets/$soundFolderName/408.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 409,
@@ -4045,7 +4045,7 @@ class Constants {
                   "وعنه رضي الله عنه: «أن رسول الله ﷺ كان ينفِّل بعض من يبعث من السرايا لأنفسهم خاصة، سوى قسم عامة الجيش».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/409.ogg",
+              soundUrl: "assets/$soundFolderName/409.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 410,
@@ -4053,7 +4053,7 @@ class Constants {
                   "عن أبي موسى عبد الله بن قيس رضي الله عنه عن النبي ﷺ قال: «من حمل علينا السلاح فليس منا».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/410.ogg",
+              soundUrl: "assets/$soundFolderName/410.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 411,
@@ -4061,7 +4061,7 @@ class Constants {
                   "عن أبي موسى رضي الله عنه قال: سئل رسول الله ﷺ عن الرجل يقاتل شجاعة، ويقاتل حمية، ويقاتل رياءً؛ أيُّ ذلك في سبيل الله؟ فقال رسول الله ﷺ: «من قاتل لتكون كلمة الله هي العليا فهو في سبيل الله».",
               explainUrl: "https://youtu.be/HpTbvAjlcOc?si=nloyV_DQSKFp2It5",
               isOthimieen: false,
-              soundUrl: "assets/sounds/411.ogg",
+              soundUrl: "assets/$soundFolderName/411.$fileExtension",
             ),
           ],
         ),
@@ -4081,7 +4081,7 @@ class Constants {
                   "عن عبد الله بن عمر رضي الله عنهما أن رسول الله ﷺ قال: «مَن أعتق شِرْكًا له في عبد، فكان له مال يبلغ ثمن العبد؛ قُوِّمَ عليه قيمة عدل، فأعطى شركاءه حصصهم، وعُتِقَ عليه العبد، وإلا فقد عَتَقَ منه ما عَتَقَ».",
               explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
               isOthimieen: false,
-              soundUrl: "assets/sounds/412.ogg",
+              soundUrl: "assets/$soundFolderName/412.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 413,
@@ -4089,7 +4089,7 @@ class Constants {
                   "عن أبي هريرة رضي الله عنه عن النبي ﷺ قال: «مَن أعتق شِقصًا له من مملوك؛ فَخَلاصُه في ماله، فإن لم يكن له مال قُوِّمَ المملوكُ قيمةَ عدل، ثم استُسعي غيرَ مشقوقٍ عليه».",
               explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
               isOthimieen: false,
-              soundUrl: "assets/sounds/413.ogg",
+              soundUrl: "assets/$soundFolderName/413.$fileExtension",
             ),
             Hadeth(
               hadethNumber: 414,
@@ -4097,7 +4097,7 @@ class Constants {
                   "عن جابر بن عبد الله رضي الله عنه قال: «دَبَّر رجلٌ من الأنصار غلامًا له»، وفي لفظ: «بَلَغَ النبي ﷺ أن رجلًا من أصحابه أعتق غلامًا له عن دُبُر – ولم يكن له مال غيره – فباعه بثَمانمائة درهم، ثم أرسل ثمنه إليه».",
               explainUrl: "https://youtu.be/85p_NZVQiC0?si=DiqtTAV9eyPS2Ate",
               isOthimieen: false,
-              soundUrl: "assets/sounds/414.ogg",
+              soundUrl: "assets/$soundFolderName/414.$fileExtension",
             ),
           ],
         ),
