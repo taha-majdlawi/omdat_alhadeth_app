@@ -158,7 +158,7 @@ class Constants {
               hadethText:
                   "\u202Bعن أبي هريرةَ رضيَ اللهُ عنه أنَّ رسولَ اللهِ ﷺ قال: «لولا أن أشقَّ على أمَّتي لأمرتُهم بالسِّواكِ عندَ كلِّ صلاةٍ».\u202C",
               hadethNumber: 17,
-              soundUrl: 'assets/sounds/17.ogg',
+              soundUrl: 'assets/$soundFolderName/17.$fileExtention',
               explainUrl: 'https://youtu.be/bdKl1D0qACY?si=I5dbOWDTA52Q4l-R',
             ),
             Hadeth(
@@ -167,7 +167,7 @@ class Constants {
                   "«كانَ النبي ﷺ إذا قامَ منَ الليلِ يَشوصُ فاهُ بالسِّواكِ».\n\n"
                   "يَشوص: معناه: يَغسِل؛ يُقال: شاصه يشوصه، ومَاصه يَموصه: إذا غسله.\u202C",
               hadethNumber: 18,
-              soundUrl: 'assets/sounds/18.ogg',
+              soundUrl: 'assets/$soundFolderName/18.$fileExtention',
               explainUrl: 'https://youtu.be/8xcsnqDjDDU?si=J13Ghzvd4j735PFh',
             ),
             Hadeth(
@@ -177,14 +177,14 @@ class Constants {
                   "وفي لفظ: «رأيته ينظر إليه» – وعرفت أنه يحب السواك – فقلت: آخذه لك؟ فأشار برأسه أن نعم».\n\n"
                   "لفظ البخاري، ولمسلم: نحوه.\u202C",
               hadethNumber: 19,
-              soundUrl: 'assets/sounds/19.ogg',
+              soundUrl: 'assets/$soundFolderName/19.$fileExtention',
               explainUrl: 'https://youtu.be/yBGPSqmCQlg?si=gPIh-qvysI67-bes',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي موسى رضي الله عنه قال: أتيت النبي ﷺ وهو يستاك بسواك، قال: وطرف السواك على لسانه، يقول: أع أع والسواك في فيه، كأنه يتهوع.\u202C",
               hadethNumber: 20,
-              soundUrl: 'assets/sounds/20.ogg',
+              soundUrl: 'assets/$soundFolderName/20.$fileExtention',
               explainUrl: 'https://youtu.be/5PmcD-4tcfc?si=TIwXUdsKVHGFoP4a',
             ),
           ],
@@ -196,14 +196,14 @@ class Constants {
               hadethText:
                   "\u202Bعن المغيرة بن شعبة رضي الله عنه قال: كنت مع النبي ﷺ في سفر، فأهويت لأنزع خفيه، فقال: دعهما، فإني أدخلتهما طاهرتين، فمسح عليهما.\u202C",
               hadethNumber: 21,
-              soundUrl: 'assets/sounds/21.ogg',
+              soundUrl: 'assets/$soundFolderName/21.$fileExtention',
               explainUrl: 'https://youtu.be/NEwkpHznEog?si=CLpJqUA3ZmFMAZj4',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن حذيفة بن اليمان رضي الله عنه قال: كنت مع النبي ﷺ، فبال، وتوضأ، ومسح على خفيه. مختصر.\u202C",
               hadethNumber: 22,
-              soundUrl: 'assets/sounds/22.ogg',
+              soundUrl: 'assets/$soundFolderName/22.$fileExtention',
               explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=GLXLyGdOiijJVemp',
             ),
           ],
@@ -217,21 +217,21 @@ class Constants {
                   "وللبخاري: اغسل ذكرك وتوضأ.\n\n"
                   "ولمسلم: توضأ وانضح فرجك.\u202C",
               hadethNumber: 23,
-              soundUrl: 'assets/sounds/23.ogg',
+              soundUrl: 'assets/$soundFolderName/23.$fileExtention',
               explainUrl: 'https://youtu.be/dPrf1jy4hHU?si=_XqVxfLQWrHwFvCU',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عباد بن تميم، عن عبد الله بن زيد بن عاصم المازني رضي الله عنه قال: شكي إلى النبي ﷺ الرجل يخيل إليه أنه يجد الشيء في الصلاة، قال: لا ينصرف حتى يسمع صوتاً، أو يجد ريحاً.\u202C",
               hadethNumber: 24,
-              soundUrl: 'assets/sounds/24.ogg',
+              soundUrl: 'assets/$soundFolderName/24.$fileExtention',
               explainUrl: 'https://youtu.be/hZux9eUg9QY?si=3VEQCuIJtB_tpLK9',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أم قيس بنت محصن الأسدية رضي الله عنها: أنها أتت بابن لها صغير لم يأكل الطعام إلى رسول الله ﷺ فأجلسه رسول الله ﷺ في حجره، فبال على ثوبه، فدعا بماء فنضحه ولم يغسله.\u202C",
               hadethNumber: 25,
-              soundUrl: 'assets/sounds/25.ogg',
+              soundUrl: 'assets/$soundFolderName/25.$fileExtention',
               explainUrl: 'https://youtu.be/B-CVsCgxWws?si=4P9y9t7JAr3tVzis',
             ),
             Hadeth(
@@ -239,21 +239,21 @@ class Constants {
                   "\u202Bعن عائشة – أم المؤمنين – رضي الله عنها قالت: أن النبي ﷺ بصبي فبال على ثوبه، فدعا بماء فأتبعه إياه.\n\n"
                   "ولمسلم: فأتبعه بوله ولم يغسله.\u202C",
               hadethNumber: 26,
-              soundUrl: 'assets/sounds/26.ogg',
+              soundUrl: 'assets/$soundFolderName/26.$fileExtention',
               explainUrl: 'https://youtu.be/KCea7UVzM8s?si=9P44PyrzzcXrpFSQ',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أنس بن مالك رضي الله عنه قال: جاء أعرابي فبال في طائفة المسجد، فزجره الناس، فنهاهم النبي ﷺ، فلما قضى بوله أمر النبي ﷺ بذنوب من ماء فأهريق عليه.\u202C",
               hadethNumber: 27,
-              soundUrl: 'assets/sounds/27.ogg',
+              soundUrl: 'assets/$soundFolderName/27.$fileExtention',
               explainUrl: 'https://youtu.be/1h-wltVNivs?si=kfCmuKOY1B3qf8WT',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أبي هريرة رضي الله عنه قال: سمعت النبي ﷺ يقول: الفطرة خمس: الختان، والاستحداد، وقص الشارب، وتقليم الأظفار، ونتف الإبط.\u202C",
               hadethNumber: 28,
-              soundUrl: 'assets/sounds/28.ogg',
+              soundUrl: 'assets/$soundFolderName/28.$fileExtention',
               explainUrl: 'https://youtu.be/ysPNgP1cqFU?si=pDZdeRbiKYCCyQm8',
             ),
           ],
@@ -266,7 +266,7 @@ class Constants {
                   "\u202Bعن أبي هريرة رضي الله عنه: أن النبي ﷺ لقيه في بعض طرق المدينة وهو جنب، فانخنست منه، فذهبت فاغتسلت، ثم جئت، فقال: أين كنت يا أبا هريرة؟ قال: كنت جنباً فكرهت أن أجالسك وأنا على غير طهارة، فقال: سبحان الله! إن المؤمن لا ينجس.\n\n"
                   "انخنست: انسلكت.\u202C",
               hadethNumber: 29,
-              soundUrl: 'assets/sounds/29.ogg',
+              soundUrl: 'assets/$soundFolderName/29.$fileExtention',
               explainUrl: 'https://youtu.be/ZnIUe8-1k8o?si=9lmEirFU4dqNwG4C',
             ),
             Hadeth(
@@ -276,7 +276,7 @@ class Constants {
                   "ثم غسل سائر جسده.\n\n"
                   "وكانت تقول: كنت أغتسل أنا ورسول الله ﷺ من إناء واحد، نغترف منه جميعاً.\u202C",
               hadethNumber: 30,
-              soundUrl: 'assets/sounds/30.ogg',
+              soundUrl: 'assets/$soundFolderName/30.$fileExtention',
               explainUrl: 'https://youtu.be/1mNTudMqK_Q?si=OZBtSNo4HRtBFJa1',
             ),
             Hadeth(
@@ -284,21 +284,21 @@ class Constants {
                   "\u202Bعن ميمونة بنت الحارث رضي الله عنها – زوج النبي ﷺ – قالت: توضأ رسول الله ﷺ وضوء الجنابة، فأكفأ بيمينه على يساره مرتين – أو ثلاثاً – ثم غسل فرجه، ثم ضرب يده بالأرض – أو الحائط – مرتين – أو ثلاثاً – ثم تمضمض واستنشق، وغسل وجهه وذراعيه، ثم أفاض على رأسه الماء، ثم غسل جسده.\n\n"
                   "ثم تنحى فغسل رجليه، فأتيته بخِرقة فلم يردها، فجعل ينفض الماء بيده.\u202C",
               hadethNumber: 31,
-              soundUrl: 'assets/sounds/31.ogg',
+              soundUrl: 'assets/$soundFolderName/31.$fileExtention',
               explainUrl: 'https://youtu.be/GBAF0Cx1IRY?si=jwuoKztqx_T-hvv_',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عبد الله بن عمر أن عمر بن الخطاب رضي الله عنه قال: يا رسول الله! أيرقد أحدنا وهو جنب؟ قال: نعم، إذا توضأ أحدكم فليرقد.\u202C",
               hadethNumber: 32,
-              soundUrl: 'assets/sounds/32.ogg',
+              soundUrl: 'assets/$soundFolderName/32.$fileExtention',
               explainUrl: 'https://youtu.be/zgBmU4CPiG4?si=E6RxNZNNOfXGaaym',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن أم سلمة رضي الله عنها – زوج النبي ﷺ – قالت: جاءت أم سليم – امرأة أبي طلحة – إلى رسول الله ﷺ فقالت: يا رسول الله! إن الله لا يستحيي من الحق، هل على المرأة من غسل إذا هي احتلمت؟ فقال رسول الله ﷺ: نعم، إذا رأت الماء.\u202C",
               hadethNumber: 33,
-              soundUrl: 'assets/sounds/33.ogg',
+              soundUrl: 'assets/$soundFolderName/33.$fileExtention',
               explainUrl: 'https://youtu.be/ChaRwNp0qh0?si=C6wQx8qX7sgqtXh4',
             ),
             Hadeth(
@@ -306,7 +306,7 @@ class Constants {
                   "\u202Bعن عائشة رضي الله عنها قالت: كنت أغسل الجنابة من ثوب رسول الله ﷺ، فيخرج إلى الصلاة وإن بقع الماء في ثوبه.\n\n"
                   "وفي لفظ لمسلم: لقد كنت أفركه من ثوب رسول الله ﷺ يابساً فيصلي فيه.\u202C",
               hadethNumber: 34,
-              soundUrl: 'assets/sounds/34.ogg',
+              soundUrl: 'assets/$soundFolderName/34.$fileExtention',
               explainUrl: 'https://youtu.be/qtyEtksfP_o?si=3ZOLIpSkne8ZG-Qj',
             ),
 
@@ -315,7 +315,7 @@ class Constants {
                   "\u202Bعن أبي هريرة رضي الله عنه أن رسول الله ﷺ قال: إذا جلس بين شعبها الأربع، ثم جهدها، فقد وجب الغسل.\n\n"
                   "وفي لفظ: وإن لم ينزل.\u202C",
               hadethNumber: 35,
-              soundUrl: 'assets/sounds/35.ogg',
+              soundUrl: 'assets/$soundFolderName/35.$fileExtention',
               explainUrl: 'https://youtu.be/Rmhb2d4tLKY?si=nZxxdG0VAPaTuKZ-',
             ),
             Hadeth(
@@ -324,7 +324,7 @@ class Constants {
                   "وفي لفظ: كان النبي ﷺ يفرغ على رأسه ثلاثاً.\n\n"
                   "الرجل الذي قال: ما يكفيني: هو الحسن بن محمد بن علي بن أبي طالب، أبوه: ابن الحنفية.\u202C",
               hadethNumber: 36,
-              soundUrl: 'assets/sounds/36.ogg',
+              soundUrl: 'assets/$soundFolderName/36.$fileExtention',
               explainUrl: 'https://youtu.be/j3sjvd7Vse8?si=efGlJJzruTYQLOXJ',
             ),
           ],
@@ -336,7 +336,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عمران بن حصين رضي الله عنه: أن رسول الله ﷺ رأى رجلاً معتزلاً لم يصل في القوم، فقال: يا فلان! ما منعك أن تصلي في القوم؟ فقال: يا رسول الله! أصابتني جنابة ولا ماء. قال: عليك بالصعيد، فإنه يكفيك.\u202C",
               hadethNumber: 37,
-              soundUrl: 'assets/sounds/37.ogg',
+              soundUrl: 'assets/$soundFolderName/37.$fileExtention',
               explainUrl: 'https://youtu.be/OUAhQ-mbRF0?si=zQOIeGzv-BULmF1F',
             ),
 
@@ -345,7 +345,7 @@ class Constants {
                   "\u202Bعن عمار بن ياسر رضي الله عنه قال: بعثني رسول الله ﷺ في حاجة فأجنبت، فلم أجد الماء، فتمرغت في الصعيد كما تمرغ الدابة، ثم أتيت النبي ﷺ فذكرت ذلك له.\n\n"
                   "فقال: إنما يكفيك أن تقول بيديك هكذا. ثم ضرب بيديه الأرض ضربة واحدة، ثم مسح الشمال على اليمين، وظاهر كفيه ووجهه.\u202C",
               hadethNumber: 38,
-              soundUrl: 'assets/sounds/38.ogg',
+              soundUrl: 'assets/$soundFolderName/38.$fileExtention',
               explainUrl: 'https://youtu.be/gsk41R87RgE?si=jfR66xHBd-a7UdaW',
             ),
             Hadeth(
@@ -353,7 +353,7 @@ class Constants {
                   "\u202Bعن جابر بن عبد الله رضي الله عنه أن النبي ﷺ قال: أعطيت خمساً لم يعطهن أحد من الأنبياء قبلي: نصرت بالرعب مسيرة شهر، وجعلت لي الأرض مسجداً وطهوراً، فأيما رجل من أمتي أدركته الصلاة فليصل.\n\n"
                   "وأحلت لي الغنائم، ولم تحل لأحد قبلي، وأعطيت الشفاعة، وكان النبي يبعث إلى قومه خاصة، وبعثت إلى الناس عامة.\u202C",
               hadethNumber: 39,
-              soundUrl: 'assets/sounds/39.ogg',
+              soundUrl: 'assets/$soundFolderName/39.$fileExtention',
               explainUrl: 'https://youtu.be/o9IYuyVlIHk?si=xc7Br875bZ_T8fZD',
             ),
           ],
@@ -366,7 +366,7 @@ class Constants {
                   "\u202Bعن عائشة رضي الله عنها: أن فاطمة بنت أبي حبيش سألت النبي ﷺ فقالت: إني أستحاض فلا أطهر، أفأدع الصلاة؟ فقال: لا، إن ذلك عرق، ولكن دعي الصلاة قدر الأيام التي كنت تحيضين فيها، ثم اغتسلي وصلي.\n\n"
                   "وفي رواية: وليست بالحيضة، فإذا أقبلت الحيضة فدعي الصلاة، فإذا ذهب قدرها فاغسلي عنك الدم وصلي.\u202C",
               hadethNumber: 40,
-              soundUrl: 'assets/sounds/40.ogg',
+              soundUrl: 'assets/$soundFolderName/40.$fileExtention',
               explainUrl: 'https://youtu.be/QMiyLJxsDpo?si=p15SD-0gt07ofSSX',
             ),
 
@@ -374,14 +374,14 @@ class Constants {
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها: أن أم حبيبة رضي الله عنها استحيضت سبع سنين، فسألت رسول الله ﷺ عن ذلك، فأمرها أن تغتسل، فكانت تغتسل لكل صلاة.\u202C",
               hadethNumber: 41,
-              soundUrl: 'assets/sounds/41.ogg',
+              soundUrl: 'assets/$soundFolderName/41.$fileExtention',
               explainUrl: 'https://youtu.be/UQTtQ1Xv4GU?si=_gHIAWrogbSaiNlK',
             ),
             Hadeth(
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها قالت: كنت أغتسل أنا والنبي ﷺ من إناء واحد، كلانا جنب، وكان يأمرني فأتزر، فيباشرني وأنا حائض. وكان يخرج رأسه إلي وهو معتكف فأغسله وأنا حائض.\u202C",
               hadethNumber: 42,
-              soundUrl: 'assets/sounds/42.ogg',
+              soundUrl: 'assets/$soundFolderName/42.$fileExtention',
               explainUrl: 'https://youtu.be/lI33LKb2Pbo?si=hjUEBXHDodopUuLO',
             ),
 
@@ -389,7 +389,7 @@ class Constants {
               hadethText:
                   "\u202Bعن عائشة رضي الله عنها قالت: كان رسول الله ﷺ يتكئ في حجري وأنا حائض، ثم يقرأ القرآن.\u202C",
               hadethNumber: 43,
-              soundUrl: 'assets/sounds/43.ogg',
+              soundUrl: 'assets/$soundFolderName/43.$fileExtention',
               explainUrl: 'https://youtu.be/tfk1i_QSC6s?si=8zjHIWODQYWPc9bO',
             ),
 
@@ -397,7 +397,7 @@ class Constants {
               hadethText:
                   "\u202Bعن معاذة قالت: سألت عائشة رضي الله عنها فقلت: ما بال الحائض تقضي الصوم ولا تقضي الصلاة؟ فقالت: أحرورية أنت؟ فقلت: لست بحرورية، ولكني أسأل. قالت: كان يصيبنا ذلك، فنؤمر بقضاء الصوم، ولا نؤمر بقضاء الصلاة.\u202C",
               hadethNumber: 44,
-              soundUrl: 'assets/sounds/44.ogg',
+              soundUrl: 'assets/$soundFolderName/44.$fileExtention',
               explainUrl: 'https://youtu.be/mBNEkDF6KTM?si=tsIG4gwY6VO2oEdH',
             ),
           ],
