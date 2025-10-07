@@ -1,7 +1,7 @@
 ﻿import 'package:omdat_alhadeth/models/hadeth_model.dart';
 
 class Constants {
-  static final soundFolderName = 'sounds-Copy';
+  static final soundFolderName = 'sounds';
   static final fileExtension = 'mp3';
   static final List<Book> books = [
     //book 1 كتاب الطهارة

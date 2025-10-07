@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/core/constants/theme_data.dart';
 import 'package:omdat_alhadeth/providers/theme_provider.dart';
 import 'package:omdat_alhadeth/providers/font_size_provider.dart';
-import 'package:omdat_alhadeth/screens/home_screen.dart';
 import 'package:omdat_alhadeth/screens/splash_screen.dart';
 import 'package:provider/provider.dart';
 
