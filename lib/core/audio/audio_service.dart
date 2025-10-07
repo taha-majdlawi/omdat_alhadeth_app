@@ -16,9 +16,7 @@ class AudioService {
           ),
           iOS: AudioContextIOS(
             category: AVAudioSessionCategory.playback,
-            options: {
-              AVAudioSessionOptions.defaultToSpeaker,
-            },
+            options: {AVAudioSessionOptions.defaultToSpeaker},
           ),
         ),
       );

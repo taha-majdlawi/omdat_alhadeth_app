@@ -1,0 +1,32 @@
+workflows:
+  ios-build:
+    name: Build iOS Release
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        BUNDLE_ID: "com.tahamajdlawi.omdatalhadeth" # ✨ غيّر هذا حسب App Store Connect
+        APP_STORE_CONNECT_ISSUER_ID: Encrypted(<your_issuer_id>)
+        APP_STORE_CONNECT_KEY_IDENTIFIER: Encrypted(<your_key_id>)
+        APP_STORE_CONNECT_PRIVATE_KEY: Encrypted(<your_p8_key_contents>)
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+          source: true
+    scripts:
+      - name: Set up Flutter
+        script: |
+          flutter pub get
+      - name: Build iOS
+        script: |
+          flutter build ios --release --no-codesign
+    artifacts:
+      - build/ios/iphoneos/Runner.app
+    publishing:
+      app_store_connect:
+        auth: integration
