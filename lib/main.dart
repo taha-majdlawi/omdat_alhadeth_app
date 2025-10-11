@@ -9,7 +9,7 @@ main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   runApp(const OmdatAlhadeth());
-} 
+}
 
 class OmdatAlhadeth extends StatelessWidget {
   const OmdatAlhadeth({super.key});
