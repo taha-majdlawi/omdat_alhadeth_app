@@ -22,13 +22,13 @@ final List<IslamicBook> islamicBooks = [
   IslamicBook(
     title: 'رسائل من النبي',
     author: 'ادهم الشرقاوي',
-    image: 'assets/images/dark_background_image.png',
+    image: 'assets/images/msgsfromprofet.png',
     price: 19.50,
   ),
   IslamicBook(
     title: 'رسائل من الصحابة',
     author: 'ادهم الشرقاوي',
-    image: 'assets/images/dark_background_image.png',
+    image: 'assets/images/msegesfromsahaba.png',
     price: 8.99,
   ),
 ];

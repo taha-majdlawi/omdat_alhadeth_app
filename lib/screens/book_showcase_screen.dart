@@ -23,8 +23,9 @@ class _BookShowcaseScreenState extends State<BookShowcaseScreen> {
 
             // Title
             Text(
-              '📚 Islamic Book Collection',
+              '📚 مجموعة كتب اسلامية',
               style: TextStyle(
+                fontFamily: 'Reem Kufi',
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
                 color: Colors.teal[800],
@@ -70,16 +71,19 @@ class _BookShowcaseScreenState extends State<BookShowcaseScreen> {
                                   textAlign: TextAlign.center,
                                 ),
                                 Text(
-                                  'by ${book.author}',
+                                  'الكاتب : ${book.author}',
                                   style: TextStyle(
-                                    color: Colors.grey[700],
+                                    fontFamily: 'Reem Kufi',
                                     fontSize: 14,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.teal[800],
                                   ),
                                 ),
                                 const SizedBox(height: 10),
                                 Text(
                                   '\$${book.price.toStringAsFixed(2)}',
                                   style: TextStyle(
+                                    fontFamily: 'Reem Kufi',
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.teal[700],
@@ -91,12 +95,22 @@ class _BookShowcaseScreenState extends State<BookShowcaseScreen> {
                                     // Here you can integrate your payment/store link
                                     ScaffoldMessenger.of(context).showSnackBar(
                                       SnackBar(
-                                        content: Text('Book purchase link coming soon!'),
+                                        content: Text(
+                                          'Book purchase link coming soon!',
+                                        ),
                                       ),
                                     );
                                   },
                                   icon: Icon(Icons.shopping_cart),
-                                  label: Text('Buy Now'),
+                                  label: Text(
+                                    'أشترِ الآن',
+                                    style: TextStyle(
+                                      fontFamily: 'Reem Kufi',
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.bold,
+                                      color: const Color.fromARGB(255, 0, 0, 0),
+                                    ),
+                                  ),
                                   style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.teal,
                                     shape: RoundedRectangleBorder(
@@ -155,8 +169,13 @@ class _BookShowcaseScreenState extends State<BookShowcaseScreen> {
                 ),
                 child: const Center(
                   child: Text(
-                    'Enter the App',
-                    style: TextStyle(fontSize: 18, color: Colors.white),
+                    'الدخول إلى التطبيق',
+                    style: TextStyle(
+                      fontFamily: 'Reem Kufi',
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 255, 255, 255),
+                    ),
                   ),
                 ),
               ),

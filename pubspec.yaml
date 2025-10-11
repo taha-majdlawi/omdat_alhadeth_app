@@ -62,6 +62,7 @@ flutter:
     - assets/images/msegesfromsahaba.png
     - assets/images/msegsfromquran.png
     - assets/images/msgsfromprofet.png
+    - assets/images/
     - assets/sounds/
     - assets/icons/app_icon.png.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
