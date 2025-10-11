@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:omdat_alhadeth/models/book_model.dart';
+import 'package:omdat_alhadeth/screens/purchase_invoice_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'home_screen.dart'; // Main app screen
 
@@ -92,25 +93,20 @@ class _BookShowcaseScreenState extends State<BookShowcaseScreen> {
                                 const SizedBox(height: 10),
                                 ElevatedButton.icon(
                                   onPressed: () {
-                                    // Here you can integrate your payment/store link
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(
-                                        content: Text(
-                                          'Book purchase link coming soon!',
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (_) => PurchaseInvoiceScreen(
+                                          title: book.title,
+                                          author: book.author,
+                                          image: book.image,
+                                          price: book.price,
                                         ),
                                       ),
                                     );
                                   },
-                                  icon: Icon(Icons.shopping_cart),
-                                  label: Text(
-                                    'أشترِ الآن',
-                                    style: TextStyle(
-                                      fontFamily: 'Reem Kufi',
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                      color: const Color.fromARGB(255, 0, 0, 0),
-                                    ),
-                                  ),
+                                  icon: const Icon(Icons.shopping_cart),
+                                  label: const Text('اشترِ الآن'),
                                   style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.teal,
                                     shape: RoundedRectangleBorder(

@@ -42,7 +42,7 @@ class OmdatAlhadeth extends StatelessWidget {
                   ),
             ),
 
-            // 👇 Conditional home based on first launch
+            // Conditional home based on first launch
             home: seenBookShowcase
                 ?  SplashScreen()      // If seen before, go to your app
                 :  BookShowcaseScreen(), // Otherwise, show book showcase first
